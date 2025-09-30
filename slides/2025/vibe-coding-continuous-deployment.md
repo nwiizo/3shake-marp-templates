@@ -523,16 +523,16 @@ https://learning.oreilly.com/library/view/chaos-engineering/9781492043850/
 
 AI-Native DevOps 2.0 は<strong>自動化を超えた知的エージェント、エンドツーエンドの自動化、シンプルな開発者体験</strong>を約束した。しかし現実には<strong>新たな抽象化レイヤー（MCP/ACP などのプロトコル、テスト知性化、IaC）による複雑性の増大</strong>が生じている。
 
-ソフトウェア設計の原則が示すように、「<strong>複雑性は排除できない。ただ移動させることができるだけ</strong>」。複雑性を管理するツールが、新たな複雑性を生む。Knight Capitalの教訓—解決策が新たな問題の原因になる—は今も有効だ。
+ソフトウェア設計の原則が示すように、「<strong>複雑性は排除できない。ただ移動させることができるだけ</strong>」。複雑性を管理するツールが、新たな複雑性を生む。<strong>解決策が新たな問題の原因になる。結局は適切に管理するしかない</strong>。
 
 <strong>速度は上がったが、品質は向上していない</strong>。では何が問題なのか？
 
 </div>
 <div style="width: 25%;">
-<img src="../../assets/images/2025/vibe-coding-continuous-deployment/The Frugal Architect.png" alt="The Frugal Architect" style="width: 100%; height: auto;">
+<img src="../../assets/images/2025/vibe-coding-continuous-deployment/Architecture Modernization.jpeg" alt="Architecture Modernization" style="width: 100%; height: auto;">
 <div style="font-size: 0.45em; text-align: center; margin-top: 5px; line-height: 1.3;">
-出典: The Frugal Architect<br>
-https://thefrugalarchitect.com/laws/
+出典: Architecture Modernization<br>
+https://learning.oreilly.com/library/view/architecture-modernization/9781633438156/
 </div>
 </div>
 </div>
