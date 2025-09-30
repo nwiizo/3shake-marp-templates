@@ -147,11 +147,24 @@ AI時代のソフトウェアデリバリー</br>
 
 <div class="info-box">
 株式会社スリーシェイクで
-プロのソフトウェアエンジニアをやっているものです
-格闘技、読書、グラビアが趣味でよく本を紹介しています
+プロのソフトウェアエンジニアをやっています
 </div>
 
-<p style="margin-top: 30px !important;">人生を通して"<strong>運動、睡眠、読書</strong>"をきちんとやりたい</p>
+<p style="margin-top: 25px !important; font-size: 0.95em;">
+<strong>趣味:</strong> 格闘技、読書、グラビア<br>
+よく本を紹介しています
+</p>
+
+<p style="margin-top: 25px !important; font-size: 0.95em;">
+<strong>大切にしていること:</strong><br>
+"<strong>運動、睡眠、読書</strong>"を人生を通してきちんとやりたい
+</p>
+
+<p style="margin-top: 25px !important; font-size: 0.85em; line-height: 1.6;">
+<strong>SNS・ブログ:</strong><br>
+X: https://x.com/nwiizo<br>
+Blog: https://syu-m-5151.hatenablog.com/
+</p>
 
 ---
 
@@ -179,13 +192,37 @@ Mobility、FinTech、通信など大規模SREを存分に経験できます
 
 ## 本発表の目的
 
-### 約束と現実のギャップを知る
+### AI-Native時代の約束と現実を知る
 
-本発表は<strong>バイブコーディングと継続的デプロイメント</strong>の統合において、現場で何が起きているのかをお伝えします。
+本発表は<strong>バイブコーディングと継続的デプロイメント</strong>の統合において、AI-Native時代の約束と現実のギャップをお伝えします。
 
-<strong>簡単にアプリが作れる ≠ 簡単にソフトウェア運用が回る</strong>。よく検討されていないアプリケーションはビジネスを崩壊させる。アプリケーションは意外に簡単に壊れる。Knight Capitalは45分で4億6000万ドルを失った。
+<strong>簡単にアプリが作れる ≠ 簡単にソフトウェア運用が回る</strong>。
 
-<strong>複雑性は解決されたのか、それとも別の層へ移動しただけなのか？</strong>測定できないものは制御できない。速度は上がったが、品質は向上していない。本発表では、<strong>こういう課題もあるのだと知っていただければ</strong>と思います。
+AI-Nativeが生む新たな問題、測定されないコスト、そして複雑性の移動。これらの課題を知ることが、持続可能なソフトウェア開発への第一歩です。
+
+---
+
+## 現場で起きる可能性があること
+
+### 事例: Knight Capital
+
+よく検討されていないアプリケーションはビジネスを崩壊させる。アプリケーションは意外に簡単に壊れる。
+
+Knight Capitalは45分で4億6000万ドルを失った。フィーチャーフラグの誤設定により、レガシーコードが再活性化し、古い取引アルゴリズムが暴走した結果である。
+
+---
+
+## 本発表で伝えたいこと
+
+### 複雑性はどこへ行ったのか？
+
+<strong>AI-Nativeは約束を果たしたのか？複雑性は解決されたのか、それとも別の層へ移動しただけなのか？</strong>
+
+簡単にアプリが作れる時代になった。しかし、測定できないものは制御できない。速度は上がったが、品質は向上していない。
+
+<strong>AIが全てを担当するという約束の裏で、人間は制御を失いかけている</strong>。この現実を直視し、持続可能なソフトウェア開発のあり方を考える必要がある。
+
+本発表では、<strong>こういう課題もあるのだと知っていただければ</strong>と思います。
 
 ---
 
@@ -197,7 +234,7 @@ Andrej Karpathy氏が2025年2月に提唱した概念。「もはやコーディ
 
 <strong>HOW（実装詳細）からWHAT（意図）へのパラダイムシフト</strong>。自然言語で「何を作りたいか」を伝えるだけで、AIが実装を生成する。<strong>簡単にアプリが作れるようになった</strong>。
 
-AI-Native DevOps 2.0 は、自動化を超えた知的エージェント、エンドツーエンドの自動化、シンプルな開発者体験を約束する。
+これは<strong>AI-Native時代の到来</strong>とも言える。AI-Native DevOps 2.0 は、自動化を超えた知的エージェント、エンドツーエンドの自動化、シンプルな開発者体験を約束する。
 
 ---
 
@@ -235,13 +272,11 @@ https://www.oreilly.co.jp/books/9784873119823/
 <div style="display: flex; gap: 30px; align-items: flex-start;">
 <div style="flex: 1; font-size: 0.85em;">
 
-自然言語で指示するだけで機能が実装される。<strong>機能は少なければ少ないほどよい</strong>。しかし簡単に作れるため、機能はどんどん増える。
+自然言語で指示するだけで機能が実装される。しかし簡単に作れるため、機能はどんどん増える。
 
-機能が増えすぎると、<strong>何が作りたかったのか分からなくなる</strong>。本来の目的を見失い、機能を追加すること自体が目的になる。
+機能が増えすぎると、<strong>何が作りたかったのか分からなくなる</strong>。本来の目的を見失い、機能を追加すること自体が目的になってしまう。
 
-<strong>組み合わせ爆発</strong>: n個のフィーチャーフラグは 2^n 通りの状態を生む。10個で1024通り、20個で100万通り以上。機能が増えれば増えるほど、テスト不可能になる。
-
-<strong>何を作っているのか分からなくなり、テストするのは不可能になる</strong>。
+<strong>組み合わせ爆発の問題</strong>: n個のフィーチャーフラグは 2^n 通りの状態を生む。10個で1024通り、20個で100万通り以上。<strong>品質を保証することができなくなる</strong>。
 
 </div>
 <div style="width: 25%;">
@@ -262,11 +297,11 @@ https://learning.oreilly.com/library/view/beyond-vibe-coding/9798341634749/
 <div style="display: flex; gap: 30px; align-items: flex-start;">
 <div style="flex: 1; font-size: 0.85em;">
 
-<strong>説明可能性の欠如</strong>: AIは判断を行うが、<strong>なぜその判断をしたのか説明できない</strong>。理解するのは難しい。AIの判断ミスの責任は誰が負うのか？
+<strong>説明可能性の欠如</strong>: AIは判断を行うが、<strong>なぜその判断をしたのか説明できない</strong>。AIの判断ミスが発生した場合、その責任は誰が負うのか？
 
-<strong>McNamara Fallacy</strong>: 測定できるもの（クリック率、コンバージョン率）だけを重視し、測定できない害（ユーザーの不満、信頼の喪失、プライバシー侵害）を無視する。影響を測定するのは難しい。
+<strong>測定できない害の無視</strong>: 測定できるもの（クリック率、コンバージョン率）だけを重視し、測定できない害（ユーザーの不満、信頼の喪失、プライバシー侵害）を無視してしまう。
 
-<strong>ガバナンスの崩壊</strong>: 非エンジニアでも簡単にアプリが作れるため、管理されないまま公開される。レビュープロセスを経ずに本番環境に到達する。どこも対応に追われている。
+<strong>ガバナンスの崩壊</strong>: 非エンジニアでも簡単にアプリが作れるため、管理プロセスを経ずに本番環境に公開されるケースが増えている。レビュープロセスが形骸化し、どの組織も対応に追われている。
 
 <strong>理想は人間とAIの協調だった。しかし現実は、制御を失いかけている</strong>。
 
@@ -284,15 +319,19 @@ https://learning.oreilly.com/library/view/beyond-vibe-coding/9798341634749/
 
 ## AI-Native Software Deliveryとは
 
-<div style="display: flex; gap: 30px; align-items: center;">
-<div style="flex: 1;">
+### 約束: AIが全工程を自律的に支援
 
-<strong>開発からデプロイまでの全工程をAIが支援する新時代</strong>。従来のDevOps 1.0では手動デプロイの苦痛、ツールスプロール、不完全な自動化、10以上のツール統合が課題だった。
+<div style="display: flex; gap: 30px; align-items: flex-start;">
+<div style="flex: 1; font-size: 0.75em;">
+
+<strong>開発からデプロイまでの全工程をAIが支援する新時代</strong>。従来のDevOps 1.0では手動デプロイの苦痛、不完全な自動化、10以上のツール統合が課題だった。
 
 AI-Native DevOps 2.0は<strong>自律的AIエージェント、エンドツーエンド自動化、知的な意思決定、シンプルな開発者体験</strong>を約束する。<strong>単なる自動化から知的エージェントによる自律的最適化への質的飛躍</strong>を目指している。
 
+<strong>AIがすべてを担当する</strong>: コードレビュー、テスト生成、デプロイ判断、インシデント対応まで自律的に実行。<strong>開発者は本質的な問題解決に集中できる</strong>—これがAI-Native Software Deliveryの約束である。
+
 </div>
-<div style="width: 30%;">
+<div style="width: 25%;">
 <img src="../../assets/images/2025/vibe-coding-continuous-deployment/AI-Native Software Delivery.jpeg" alt="AI-Native Software Delivery" style="width: 100%; height: auto;">
 <div style="font-size: 0.45em; text-align: center; margin-top: 5px; line-height: 1.3;">
 出典: AI-Native Software Delivery<br>
@@ -305,21 +344,21 @@ https://learning.oreilly.com/library/view/ai-native-software-delivery/9781098171
 
 ## AI-Native Software Deliveryとは
 
-### 人間以外の能力が必要になる
+### 現実: 人間だけでは対応しきれない
 
 <div style="display: flex; gap: 30px; align-items: flex-start;">
 <div style="flex: 1; font-size: 0.75em;">
 
-バイブコーディングや生成AIにより、<strong>誰でも簡単にコードが書けるようになった</strong>。しかし、良い品質のソフトウェアを保つためには、人間だけでは対応しきれない。
+<strong>誰でも簡単にコードが書けるようになった。しかし現実は異なる</strong>。良い品質のソフトウェアを保つためには、人間だけでは対応しきれない。
 
-<strong>人間の限界</strong>: 機能が増え続けると、すべてをレビューし、テストすることは不可能になる。AIが生成したコードの意図を完全に理解することも難しい。制御を失いかけている現場では、<strong>人間以外の能力を持って品質を追加する必要がある</strong>。
+AIはコードレビュー、テスト生成、デプロイ判断を自律的に実行すると約束した。しかし機能が増え続けると、すべてをレビューし、テストすることは不可能になる。AIが生成したコードの意図を完全に理解することも難しい。
 
-<strong>AI-Native な品質管理</strong>: 自動テスト生成、AIによるコードレビュー、自動的な脆弱性検出、継続的な品質監視。人間の判断とAIの能力を組み合わせて、初めて持続可能な品質が実現できる。
+<strong>制御を失いかけている現場</strong>: ガバナンスの崩壊、説明できないAIの判断、測定できない害の無視。開発者は本質的な問題解決に集中するどころか、<strong>AIが生成したコードの品質管理に追われている</strong>。
 
-簡単に作れるようになったからこそ、<strong>作った後の品質管理が新たな課題</strong>となる。
+<strong>人間以外の能力を持って品質を追加する必要がある</strong>: 自動テスト生成、AIによるコードレビュー、自動的な脆弱性検出、継続的な品質監視。人間の判断とAIの能力を組み合わせて、初めて持続可能な品質が実現できる。
 
 </div>
-<div style="width: 30%;">
+<div style="width: 25%;">
 <img src="../../assets/images/2025/vibe-coding-continuous-deployment/AI-Native Software Delivery.jpeg" alt="AI-Native Software Delivery" style="width: 100%; height: auto;">
 <div style="font-size: 0.45em; text-align: center; margin-top: 5px; line-height: 1.3;">
 出典: AI-Native Software Delivery<br>
@@ -552,7 +591,7 @@ AI-Native DevOps 2.0 は<strong>自動化を超えた知的エージェント、
 
 ソフトウェア設計の原則が示すように、「<strong>複雑性は排除できない。ただ移動させることができるだけ</strong>」。複雑性を管理するツールが、新たな複雑性を生む。<strong>解決策が新たな問題の原因になる。結局は適切に管理するしかない</strong>。
 
-<strong>速度は上がったが、品質は向上していない</strong>。では何が問題なのか？
+<strong>速度は上がったが、品質は向上していない</strong>。
 
 </div>
 <div style="width: 25%;">
@@ -566,14 +605,24 @@ https://learning.oreilly.com/library/view/architecture-modernization/97816334381
 
 ---
 
+## なぜ品質が向上しないのか？
+
+### 測定されないものは管理できない
+
+<strong>速度は上がったが品質は向上していない。なぜか？</strong>
+
+簡単にアプリが作れるようになった結果、機能が無秩序に増え、コストが爆発的に増大している。しかし、運用コストを誰も測定していない。
+
+<strong>測定できなければ、管理できない</strong>。これが根本的な問題である。
+
+---
+
 ## The Frugal Architect についてちゃんと考える ①
 
-### 測定されないコストの問題
+### コストをアーキテクチャ特性にする
 
 <div style="display: flex; gap: 30px; align-items: flex-start;">
 <div style="flex: 1; font-size: 0.85em;">
-
-<strong>簡単にアプリが作れるようになった結果、機能が無秩序に増え、コストが爆発的に増大している</strong>。しかし、作るのは簡単だが運用コストを誰も測定していない。<strong>測定できなければ、管理できない</strong>。
 
 The Frugal Architect（倹約アーキテクチャ）の第1法則: <strong>「コストを非機能要件にせよ（Make Cost a Non-functional Requirement）」</strong>。非機能要件は現在、アーキテクチャ特性と呼ばれる。
 
