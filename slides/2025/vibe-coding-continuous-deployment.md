@@ -163,6 +163,7 @@ AI時代のソフトウェアデリバリー</br>
 <p style="margin-top: 25px !important; font-size: 0.85em; line-height: 1.6;">
 <strong>SNS・ブログ:</strong><br>
 X: https://x.com/nwiizo<br>
+GitHub: https://github.com/nwiizo<br>
 Blog: https://syu-m-5151.hatenablog.com/
 </p>
 
