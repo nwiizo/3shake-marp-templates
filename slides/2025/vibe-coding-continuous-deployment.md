@@ -533,16 +533,37 @@ https://learning.oreilly.com/library/view/ai-native-software-delivery/9781098171
 
 ## Infrastructure as Code (IaC) の理想と現実
 
-### 宣言的定義が約束したもの
+### 理想: 宣言的定義が約束したもの
 
 <div style="display: flex; gap: 30px; align-items: flex-start;">
 <div style="flex: 1; font-size: 0.9em;">
 
 IaCは<strong>再現性、バージョン管理、宣言的定義、自動化</strong>を約束した。Terraform / OpenTofu、AWS CloudFormation、Ansible、Puppet などのツールにより、インフラを手動設定から解放することを目指した。
 
-しかし現実には複雑性が存在する。非決定論的要素（ネットワーク遅延、リソース競合）、状態の乖離、コード化できない暗黙知、対応していない機能、そして新たな<strong>「IaCでは動いた」問題</strong>が発生する。
+<strong>コードとして定義すれば、すべてが制御可能になる</strong>。インフラの状態を宣言的に記述し、バージョン管理システムで管理することで、<strong>常に再現可能で予測可能なインフラ構築</strong>が実現できるはずだった。
 
-すべてをコード化することは、すべてを制御できることを意味しない。
+</div>
+<div style="width: 25%;">
+<img src="../../assets/images/2025/vibe-coding-continuous-deployment/IaC-3rd.jpeg" alt="Infrastructure as Code" style="width: 100%; height: auto;">
+<div style="font-size: 0.45em; text-align: center; margin-top: 5px; line-height: 1.3;">
+出典: Infrastructure as Code, 3rd Edition<br>
+https://learning.oreilly.com/library/view/infrastructure-as-code/9781098150341/
+</div>
+</div>
+</div>
+
+---
+
+## Infrastructure as Code (IaC) の理想と現実
+
+### 現実: コード化できない複雑性
+
+<div style="display: flex; gap: 30px; align-items: flex-start;">
+<div style="flex: 1; font-size: 0.9em;">
+
+しかし現実には複雑性が存在する。<strong>非決定論的要素</strong>（ネットワーク遅延、リソース競合）、<strong>状態の乖離</strong>、<strong>コード化できない暗黙知</strong>、対応していない機能、そして新たな<strong>「IaCでは動いた」問題</strong>が発生する。
+
+すべてをコード化することは、すべてを制御できることを意味しない。複雑性は消えず、別の層へ移動しただけである。
 
 </div>
 <div style="width: 25%;">
