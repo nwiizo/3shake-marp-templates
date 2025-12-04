@@ -128,13 +128,45 @@ _class: title dark
 
 <!-- _backgroundColor: white -->
 
-## アジェンダ
+## 今日お話しすること
 
-* <span class="highlight-blue">項目 1</span>
-* <span class="highlight-green">項目 2</span>
-* <span class="highlight-yellow">項目 3</span>
-* 項目 4
-* 項目 5
+1. **セクション 1** - 概要説明
+2. **セクション 2** - 詳細説明
+3. **セクション 3** - 実践編
+4. **まとめ**
+
+---
+
+## この発表で解決できること
+
+<div style="font-size: 0.8em;">
+
+<div style="display: flex; gap: 20px; margin-top: 15px;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+
+**こんな悩みを持っていませんか？**
+
+- 悩み 1
+- 悩み 2
+- 悩み 3
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+
+**この発表で持ち帰れるもの**
+
+- 得られること 1
+- 得られること 2
+- 得られること 3
+
+</div>
+</div>
+
+<div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">目標：〜できるようになる</span>
+</div>
+
+</div>
 
 ---
 
@@ -142,7 +174,7 @@ _class: title dark
 
 ## <span class="highlight-blue">セクション 1</span>
 
-<div class="info-box">
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 このセクションについての重要情報をここに記載します。
 </div>
 
@@ -156,11 +188,38 @@ _class: title dark
 
 ## <span class="highlight-green">セクション 2</span>
 
+<div style="font-size: 0.8em;">
+
 | 項目 | 説明 |
 |------|------|
 | 項目 1 | 説明文 |
 | 項目 2 | 説明文 |
 | 項目 3 | 説明文 |
+
+</div>
+
+---
+
+<!--
+_backgroundColor: #0a1929
+_color: white
+-->
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 80%; text-align: center;">
+
+<div style="font-size: 1.5em; font-weight: bold;">
+
+ここまでの内容を踏まえて、実践するには？
+
+</div>
+
+<div style="font-size: 0.9em; margin-top: 30px; color: #aaa;">
+
+→ 具体的な手順を紹介
+
+</div>
+
+</div>
 
 ---
 
@@ -178,9 +237,28 @@ _class: title dark
 
 ## まとめ
 
-* セクション 1のまとめ
-* セクション 2のまとめ
-* セクション 3のまとめ
+<div style="font-size: 0.8em;">
+
+<div style="display: flex; gap: 20px;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+
+**本発表の要点**
+
+- セクション 1のまとめ
+- セクション 2のまとめ
+- セクション 3のまとめ
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+
+**今後のアクション**
+
+- 次にやること
+
+</div>
+</div>
+
+</div>
 
 ---
 

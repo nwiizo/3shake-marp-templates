@@ -171,9 +171,53 @@ Mobility、FinTech、通信など大規模SREを存分に経験できます
 
 ---
 
+## 今日お話しすること
+
+1. **セクション 1** - 概要説明
+2. **セクション 2** - 詳細説明
+3. **セクション 3** - 実践編
+4. **まとめ**
+
+---
+
+## この発表で解決できること
+
+### サブタイトル（対象者や目的）
+
+<div style="font-size: 0.8em;">
+
+<div style="display: flex; gap: 20px; margin-top: 15px;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+
+**こんな悩みを持っていませんか？**
+
+- 悩み 1
+- 悩み 2
+- 悩み 3
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+
+**この発表で持ち帰れるもの**
+
+- 得られること 1
+- 得られること 2
+- 得られること 3
+
+</div>
+</div>
+
+<div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">目標：この発表を聞いた人が〜できるようになる</span>
+</div>
+
+</div>
+
+---
+
 ## <span class="highlight-blue">セクション 1</span>
 
-<div class="info-box">
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 このセクションについての重要情報をここに記載します。
 </div>
 
@@ -189,8 +233,10 @@ Mobility、FinTech、通信など大規模SREを存分に経験できます
 
 ### 2カラムレイアウト
 
-<div style="display: flex; gap: 40px;">
-<div style="flex: 1;">
+<div style="font-size: 0.8em;">
+
+<div style="display: flex; gap: 20px;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
 **左カラム**
 - 項目 1
@@ -198,7 +244,7 @@ Mobility、FinTech、通信など大規模SREを存分に経験できます
 - 項目 3
 
 </div>
-<div style="flex: 1;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
 **右カラム**
 - 項目 A
@@ -208,17 +254,51 @@ Mobility、FinTech、通信など大規模SREを存分に経験できます
 </div>
 </div>
 
+</div>
+
+---
+
+<!--
+_backgroundColor: #0a1929
+_color: white
+-->
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 80%; text-align: center;">
+
+<div style="font-size: 1.5em; font-weight: bold;">
+
+セクション2はわかった。では、実践するには？
+
+</div>
+
+<div style="font-size: 0.9em; margin-top: 30px; color: #aaa;">
+
+ここまでの内容を踏まえて<br/>
+→ 具体的な実践方法を紹介
+
+</div>
+
+</div>
+
 ---
 
 ## <span class="highlight-yellow">セクション 3</span>
 
-### テーブル
+### テーブル（3〜4行程度に収める）
+
+<div style="font-size: 0.8em;">
 
 | 項目 | 説明 | 備考 |
 |------|------|------|
 | 項目 1 | 説明文 | - |
 | 項目 2 | 説明文 | - |
 | 項目 3 | 説明文 | - |
+
+</div>
+
+<div style="position: absolute; bottom: 30px; right: 80px; font-size: 0.5em; color: #666;">
+<a href="https://example.com">参考: 出典元</a>
+</div>
 
 ---
 
@@ -259,14 +339,34 @@ fn main() {
 
 ## まとめ
 
-<div class="info-box">
-本発表の要点をまとめます。
+<div style="font-size: 0.8em;">
+
+<div style="display: flex; gap: 20px;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+
+**本発表の要点**
+
+- セクション 1のまとめ
+- セクション 2のまとめ
+- セクション 3のまとめ
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+
+**今後のアクション**
+
+- 次にやること 1
+- 次にやること 2
+- 今後の展望
+
+</div>
 </div>
 
-* セクション 1のまとめ
-* セクション 2のまとめ
-* セクション 3のまとめ
-* 今後の展望と課題
+<div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">最も伝えたいメッセージをここに</span>
+</div>
+
+</div>
 
 ---
 

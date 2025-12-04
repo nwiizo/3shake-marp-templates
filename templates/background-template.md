@@ -141,12 +141,38 @@ _class: title dark
 
 <!-- _backgroundColor: white -->
 
-## プレゼンテーションの概要
+## 今日お話しすること
 
-* 項目 1
-* 項目 2
-* 項目 3
-* 項目 4
+1. **項目 1** - 概要
+2. **項目 2** - 詳細
+3. **まとめ**
+
+---
+
+## この発表で解決できること
+
+<div style="font-size: 0.8em;">
+
+<div style="display: flex; gap: 20px; margin-top: 15px;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+
+**悩み**
+
+- 悩み 1
+- 悩み 2
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+
+**得られること**
+
+- 得られること 1
+- 得られること 2
+
+</div>
+</div>
+
+</div>
 
 ---
 
@@ -162,9 +188,21 @@ _class: title dark
 
 ## スライド 2
 
-* 箇条書き 1
-* 箇条書き 2
-* 箇条書き 3
+<div style="font-size: 0.8em;">
+
+<div style="display: flex; gap: 20px;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+
+**ポイント**
+
+- 箇条書き 1
+- 箇条書き 2
+- 箇条書き 3
+
+</div>
+</div>
+
+</div>
 
 ---
 

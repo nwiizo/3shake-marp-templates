@@ -1,49 +1,49 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+このファイルは、Claude Code (claude.ai/code) がこのリポジトリのコードを扱う際のガイダンスを提供します。
 
-## Repository Overview
+## リポジトリ概要
 
-This is a Marp-based presentation template repository for 3-SHAKE Inc. It provides branded templates, themes, and tools for creating consistent, professional presentations using Markdown.
+3-SHAKE Inc. 向けのMarpベースのプレゼンテーションテンプレートリポジトリです。Markdownを使用して一貫性のあるプロフェッショナルなプレゼンテーションを作成するためのブランドテンプレート、テーマ、ツールを提供します。
 
-## Common Development Commands
+## よく使う開発コマンド
 
-### Development Server
+### 開発サーバー
 ```bash
-# Start local server with live reload (default port 8080)
+# ライブリロード付きローカルサーバー起動（デフォルトポート8080）
 npm start
 
-# Start with preview mode
+# プレビューモードで起動
 npm run preview
 ```
 
-### Building Presentations
+### プレゼンテーションのビルド
 ```bash
-# Convert to PDF (if marp is installed locally)
+# PDFに変換（marpがローカルにインストールされている場合）
 marp slides/[presentation].md --pdf --allow-local-files
 
-# Convert to PDF (using npx)
+# PDFに変換（npxを使用）
 npx @marp-team/marp-cli@latest slides/[presentation].md --pdf --allow-local-files
 
-# Convert to PowerPoint
+# PowerPointに変換
 marp slides/[presentation].md --pptx --allow-local-files
 
-# Convert to HTML
+# HTMLに変換
 marp slides/[presentation].md --html --allow-local-files
 ```
 
-### Watch Mode (Live Reload)
+### ウォッチモード（ライブリロード）
 ```bash
-# Watch mode with automatic browser opening
+# ブラウザ自動起動付きウォッチモード
 marp slides/[presentation].md --html --allow-local-files --watch & open slides/[presentation].html
 
-# Example for specific presentation
+# 特定プレゼンテーションの例
 marp slides/2025/claude-code-beyond.md --html --allow-local-files --watch & open slides/2025/claude-code-beyond.html
 ```
 
-### Neovim Integration (marp.nvim)
+### Neovim連携（marp.nvim）
 ```bash
-# Setup marp.nvim plugin (lazy.nvim)
+# marp.nvimプラグインのセットアップ（lazy.nvim）
 {
   'nwiizo/marp.nvim',
   ft = "markdown",
@@ -55,94 +55,94 @@ marp slides/2025/claude-code-beyond.md --html --allow-local-files --watch & open
   end,
 }
 
-# Key commands within Neovim:
-# :MarpWatch - Start live preview
-# :MarpStop - Stop watching
-# :MarpExport [format] - Export to various formats
-# :MarpTheme [theme] - Switch themes
+# Neovim内の主要コマンド:
+# :MarpWatch - ライブプレビュー開始
+# :MarpStop - ウォッチ停止
+# :MarpExport [format] - 各種フォーマットにエクスポート
+# :MarpTheme [theme] - テーマ切り替え
 ```
 
-### Testing Mermaid Diagrams
+### Mermaidダイアグラムのテスト
 ```bash
-# Preview with Mermaid support
+# Mermaidサポート付きでプレビュー
 npm start -- --html
 ```
 
-## High-Level Architecture
+## アーキテクチャ概要
 
-### Directory Structure Purpose
-- **`templates/`**: Base presentation templates to copy when creating new presentations
-- **`themes/`**: CSS themes that define visual styling and layout rules
-- **`slides/`**: Actual presentations, organized by year
-- **`assets/images/`**: Shared images, organized by year and presentation
+### ディレクトリ構成の目的
+- **`templates/`**: 新しいプレゼンテーション作成時にコピーするベーステンプレート
+- **`themes/`**: ビジュアルスタイルとレイアウトルールを定義するCSSテーマ
+- **`slides/`**: 実際のプレゼンテーション（年別に整理）
+- **`assets/images/`**: 共有画像（年別・プレゼンテーション別に整理）
 
-### Template Overview
+### テンプレート概要
 
-| Template | Purpose | Features |
+| テンプレート | 用途 | 機能 |
 |----------|---------|----------|
-| **3shake-standard-template.md** | Full-featured | Self-intro, company intro, hiring, layout examples, code blocks |
-| **basic.md** | Simple | Agenda, sections, summary - basic structure |
-| **with-logo.md** | Standard + image layouts | Left/right image placement, 2-column layouts |
-| **background-template.md** | Minimal | Minimum structure for quick start |
+| **3shake-standard-template.md** | フル機能 | 自己紹介、会社紹介、採用情報、レイアウト例、コードブロック |
+| **basic.md** | シンプル | アジェンダ、セクション、まとめ - 基本構造 |
+| **with-logo.md** | スタンダード + 画像レイアウト | 左右画像配置、2カラムレイアウト |
+| **background-template.md** | 最小限 | クイックスタート用の最小構造 |
 
-### Common Template Features
+### 共通テンプレート機能
 
-All templates include:
-- **Frontmatter**: `math: mathjax`, `mermaid: true` enabled
-- **Auto logo display**: Logo automatically placed at bottom-left on content slides
-- **Title/ending slides**: Unified dark theme design
-- **CSS classes**:
-  - `.info-box` - Information box styling
-  - `.highlight-blue/.highlight-green/.highlight-yellow` - Text highlighting
-  - `.reference-right` - Right-aligned reference styling
-  - `.hidden` - Hidden elements
-  - `.author-info` - Author information styling
+すべてのテンプレートに含まれる機能:
+- **フロントマター**: `math: mathjax`, `mermaid: true` 有効
+- **自動ロゴ表示**: コンテンツスライドの左下にロゴを自動配置
+- **タイトル/終了スライド**: 統一されたダークテーマデザイン
+- **CSSクラス**:
+  - `.info-box` - 情報ボックスのスタイル
+  - `.highlight-blue/.highlight-green/.highlight-yellow` - テキストハイライト
+  - `.reference-right` - 右寄せ参照スタイル
+  - `.hidden` - 非表示要素
+  - `.author-info` - 著者情報スタイル
 
-### Theme System
-The theming system uses CSS custom properties and class-based styling:
-- `3shake-theme.css`: Primary theme with brand colors (#4AADDD, #0a1929, #ECBE30)
-- Auto-injects company logo via CSS `::before` pseudo-elements on `section:not(.title)`
-- Supports custom classes for different slide layouts (`title`, `dark`, etc.)
+### テーマシステム
+テーマシステムはCSSカスタムプロパティとクラスベースのスタイルを使用:
+- `3shake-theme.css`: ブランドカラー（#4AADDD, #0a1929, #ECBE30）を使用したプライマリテーマ
+- `section:not(.title)` に対してCSS `::before` 疑似要素で会社ロゴを自動挿入
+- 異なるスライドレイアウト用のカスタムクラス（`title`, `dark` など）をサポート
 
-### Mermaid Integration
-Mermaid diagrams are supported with responsive sizing through custom CSS classes:
-- `.mermaid-xs`: Extra small diagrams (200px max height)
-- `.mermaid-sm`: Small diagrams (300px max height)
-- `.mermaid-md`: Medium diagrams (500px max height)
-- `.mermaid-lg`: Large diagrams (700px max height)
-- `.mermaid-xl`: Extra large diagrams (900px max height)
+### Mermaid連携
+カスタムCSSクラスによるレスポンシブサイズ調整でMermaidダイアグラムをサポート:
+- `.mermaid-xs`: 超小型ダイアグラム（最大高さ200px）
+- `.mermaid-sm`: 小型ダイアグラム（最大高さ300px）
+- `.mermaid-md`: 中型ダイアグラム（最大高さ500px）
+- `.mermaid-lg`: 大型ダイアグラム（最大高さ700px）
+- `.mermaid-xl`: 超大型ダイアグラム（最大高さ900px）
 
-### Citation System
-Uses superscript notation with automatic formatting:
+### 引用システム
+上付き文字表記で自動フォーマット:
 ```markdown
-Important claim^[1]^
+重要な主張^[1]^
 ```
-Renders with proper styling for academic/professional citations.
+学術的/プロフェッショナルな引用用の適切なスタイルでレンダリングされます。
 
-## Key Technical Details
+## 主要な技術詳細
 
-### Marp Configuration
-- **HTML enabled**: Required for Mermaid diagrams and advanced formatting
-- **Local files allowed**: Necessary for accessing theme CSS and images
-- **Theme inheritance**: Custom themes extend Marp's default theme
+### Marp設定
+- **HTML有効**: Mermaidダイアグラムと高度なフォーマットに必須
+- **ローカルファイル許可**: テーマCSSと画像へのアクセスに必要
+- **テーマ継承**: カスタムテーマはMarpのデフォルトテーマを拡張
 
-### Editor Integration
-The repository supports multiple editors:
+### エディタ連携
+このリポジトリは複数のエディタをサポート:
 
-**VS Code Integration:**
-- Enable HTML in Markdown preview
-- Configure Marp preview settings
-- Set up proper file associations
+**VS Code連携:**
+- MarkdownプレビューでHTMLを有効化
+- Marpプレビュー設定を構成
+- 適切なファイル関連付けを設定
 
-**Neovim Integration (marp.nvim):**
-- Live preview with `:MarpWatch`
-- Export functionality with `:MarpExport [format]`
-- Theme switching with `:MarpTheme [theme]`
-- Auto-cleanup on buffer close
-- Support for HTML, PDF, PPTX, PNG, JPEG formats
+**Neovim連携（marp.nvim）:**
+- `:MarpWatch` でライブプレビュー
+- `:MarpExport [format]` でエクスポート機能
+- `:MarpTheme [theme]` でテーマ切り替え
+- バッファクローズ時の自動クリーンアップ
+- HTML, PDF, PPTX, PNG, JPEG形式をサポート
 
-### Asset Management
-Images are organized by year and presentation to maintain clarity:
+### アセット管理
+画像は明確性を保つため年別・プレゼンテーション別に整理:
 ```
 assets/images/2025/[presentation-name]/[image-name].png
 ```
@@ -172,29 +172,29 @@ Marpで画像を表示する際、`<div>` タグの中にMarkdown形式の画像
 2. 画像を配置: `mv /path/to/image.png assets/images/2025/[presentation-name]/`
 3. スライドで参照: `<img src="../../assets/images/2025/[presentation-name]/image.png" ...>`
 
-## Development Patterns
+## 開発パターン
 
-### Creating New Presentations
-1. Copy appropriate template from `templates/`
-2. Place in `slides/[year]/[presentation-name].md`
-3. Create corresponding image directory if needed: `assets/images/[year]/[presentation-name]/`
-4. Update theme path in frontmatter: `theme: ../../themes/3shake-theme.css`
-5. Customize required sections:
-   - Title slide (title, subtitle, event, author)
-   - Self-introduction (if using standard/with-logo template)
-   - Content slides
-   - Ending slide (author, contact)
+### 新しいプレゼンテーションの作成
+1. `templates/` から適切なテンプレートをコピー
+2. `slides/[year]/[presentation-name].md` に配置
+3. 必要に応じて対応する画像ディレクトリを作成: `assets/images/[year]/[presentation-name]/`
+4. フロントマターのテーマパスを更新: `theme: ../../themes/3shake-theme.css`
+5. 必要なセクションをカスタマイズ:
+   - タイトルスライド（タイトル、サブタイトル、イベント、著者）
+   - 自己紹介（standard/with-logoテンプレート使用時）
+   - コンテンツスライド
+   - 終了スライド（著者、連絡先）
 
-### Theme Customization
-When modifying themes:
-- Brand colors are defined as CSS variables in `:root`
-- Logo placement is handled by `section:not(.title)::before`
-- Custom slide layouts use class-based selectors
-- Title slides use `_class: title dark` directive
+### テーマのカスタマイズ
+テーマ修正時:
+- ブランドカラーは `:root` 内のCSS変数で定義
+- ロゴ配置は `section:not(.title)::before` で処理
+- カスタムスライドレイアウトはクラスベースのセレクタを使用
+- タイトルスライドは `_class: title dark` ディレクティブを使用
 
-### Standard Slide Layouts
+### 標準スライドレイアウト
 
-#### Title/Ending Slide Pattern
+#### タイトル/終了スライドパターン
 ```markdown
 <!--
 _backgroundColor: #0a1929
@@ -208,104 +208,116 @@ _class: title dark
 
 <div class="title" style="text-align: left; margin-top: 100px; margin-left: 20px; padding-left: 0; max-width: 70%;">
 
-# Title
+# タイトル
 
-### Subtitle
+### サブタイトル
 
 </div>
 
 <div class="author-info" style="text-align: left; padding-left: 0; text-indent: 0;">
-2025/XX/XX Event Name</br>
-@your_name Duration
+2025/XX/XX イベント名</br>
+@your_name 発表時間
 </div>
 ```
 
-#### 2-Column Layout
+#### 2カラムレイアウト
 ```markdown
-## Section Title
+## セクションタイトル
 
 <div style="display: flex; gap: 40px;">
 <div style="flex: 1;">
 
-**Left Column**
-- Item 1
-- Item 2
+**左カラム**
+- 項目1
+- 項目2
 
 </div>
 <div style="flex: 1;">
 
-**Right Column**
-- Item A
-- Item B
+**右カラム**
+- 項目A
+- 項目B
 
 </div>
 </div>
 ```
 
-#### Image + Text Layout
+#### 画像 + テキストレイアウト
 ```markdown
-## Title
+## タイトル
 
 <div style="display: flex; gap: 40px;">
 <div style="width: 35%;">
-<img src="path/to/image.png" alt="description" style="width: 100%; height: fit-content;">
+<img src="path/to/image.png" alt="説明" style="width: 100%; height: fit-content;">
 <div style="font-size: 0.7em; text-align: left; margin-top: 5px;">
-Image description or source
+画像の説明または出典
 </div>
 </div>
 
 <div style="flex: 1;">
-Main content</br></br>
+メインコンテンツ</br></br>
 
-1. **Point 1**
-2. **Point 2**
+1. **ポイント1**
+2. **ポイント2**
 </div>
 </div>
 ```
 
-#### Background Image (Left/Right)
+#### 背景画像（左/右）
 ```markdown
-<!-- Left background image -->
+<!-- 左側背景画像 -->
 ![bg left:30% fit](path/to/image.jpg)
-## Title
+## タイトル
 
-Content
+コンテンツ
 
-<!-- Right background image -->
+<!-- 右側背景画像 -->
 ![bg right:30% 80%](path/to/image.png)
-## Title
+## タイトル
 
-Content
+コンテンツ
 ```
 
-#### Reference Right-Aligned
+#### 右寄せ参照
 ```markdown
 <div class="reference-right">
-Reference: Source name or URL
+参照: 出典名またはURL
 </div>
 ```
 
-### Mermaid Diagram Best Practices
-- Always wrap diagrams in HTML divs with sizing classes
-- Use HTML comments to hide Marp directives from Mermaid
-- Test diagrams in preview mode before building
-- Consider using images instead for complex diagrams (better quality)
+#### 参考URL（スライド右下隅）
+スライド内で参考URLを表示する場合は、右下隅に小さく配置する：
+```markdown
+<div style="position: absolute; bottom: 30px; right: 80px; font-size: 0.5em; color: #666;">
+<a href="https://example.com/article">参考: 記事タイトル</a>
+</div>
+```
+- `bottom: 30px` でスライド下端から適切な距離
+- `right: 80px` でロゴと重ならない位置
+- `font-size: 0.5em` で控えめなサイズ
+- `color: #666` でグレー表示
 
-## Presentation Creation Best Practices
+### Mermaidダイアグラムのベストプラクティス
+- ダイアグラムは常にサイズ指定クラス付きのHTML divでラップする
+- HTMLコメントを使用してMarpディレクティブをMermaidから隠す
+- ビルド前にプレビューモードでダイアグラムをテストする
+- 複雑なダイアグラムは画像使用を検討（より高品質）
 
-### Content Strategy
-- **Follow the narrative arc**: Introduction -> Problem -> Solution -> Conclusion
-- **One message per slide**: Keep each slide focused on a single concept
-- **Use concrete examples**: Replace abstract concepts with specific data and real-world examples
-- **Audience-appropriate content**: Adjust technical depth based on audience expertise
+## プレゼンテーション作成のベストプラクティス
 
-### Visual Design Principles
-- **Leverage contrast**: Use color, size, and positioning to highlight key information
-- **Embrace white space**: Avoid cramming too much content; prioritize readability
-- **Maintain consistency**: Standardize fonts, colors, and layouts throughout
-- **Strategic image use**: Combine text with relevant visuals for better retention
+### コンテンツ戦略
+- **ストーリーアークに従う**: 導入 → 問題 → 解決策 → 結論
+- **1スライド1メッセージ**: 各スライドは1つの概念に集中
+- **具体例を使う**: 抽象的な概念を具体的なデータや実例に置き換える
+- **聴衆に適したコンテンツ**: 聴衆の専門知識に応じて技術的な深さを調整
 
-### Color Scheme for Slide Boxes
+### ビジュアルデザインの原則
+- **コントラストを活用**: 色、サイズ、位置で重要な情報を強調
+- **余白を大切に**: コンテンツを詰め込みすぎず、読みやすさを優先
+- **一貫性を保つ**: フォント、色、レイアウトを全体で統一
+- **戦略的な画像使用**: テキストと関連するビジュアルを組み合わせて記憶に残す
+
+### スライドボックスの配色
 カラフルな背景色は安っぽく見えるため、シンプルな階層構成を使用する：
 
 **3段階の強調レベル:**
@@ -335,31 +347,31 @@ Reference: Source name or URL
 - `#e3f2fd` (薄い青), `#fff3cd` (黄色) などの複数色の組み合わせ
 - 背景色で強調するのではなく、テキスト色で強調する
 
-### Highlight Usage
+### ハイライトの使用
 ```markdown
-<span class="highlight-blue">Important keywords</span>
-<span class="highlight-green">Positive content</span>
-<span class="highlight-yellow">Warnings/notes</span>
+<span class="highlight-blue">重要なキーワード</span>
+<span class="highlight-green">ポジティブなコンテンツ</span>
+<span class="highlight-yellow">警告/注意</span>
 ```
 
-### Performance and Organization
-- **Optimize image sizes**: Use appropriately sized images for web delivery
-- **Maintain file structure**: Follow `assets/images/year/presentation-name/` convention
-- **Choose appropriate themes**: Select themes that match presentation context
-- **Test across formats**: Verify appearance in HTML, PDF, and PPTX outputs
-- **HTML/CSS flexibility**: Leverage direct HTML and CSS for advanced layouts beyond standard Markdown
+### パフォーマンスと整理
+- **画像サイズを最適化**: Web配信に適したサイズの画像を使用
+- **ファイル構造を維持**: `assets/images/year/presentation-name/` 規則に従う
+- **適切なテーマを選択**: プレゼンテーションのコンテキストに合ったテーマを選択
+- **各フォーマットでテスト**: HTML、PDF、PPTX出力での見た目を確認
+- **HTML/CSSの柔軟性**: 標準Markdownを超えた高度なレイアウトには直接HTMLとCSSを活用
 
-### Time Management Guidelines
-- **1-2 minutes per slide**: Calculate total slides based on presentation duration
-- **Include buffer time**: Account for Q&A and potential technical issues
-- **Practice with timing**: Rehearse presentation to validate pacing
+### 時間管理ガイドライン
+- **1スライド1〜2分**: 発表時間に基づいて総スライド数を計算
+- **バッファ時間を含める**: Q&Aと潜在的な技術的問題を考慮
+- **タイミングを練習**: リハーサルでペースを確認
 
-### Engagement Strategies
-- **Repeat key messages**: Reinforce important points multiple times
-- **Interactive elements**: Include polls, questions, or discussion prompts
-- **Backup materials**: Prepare appendix slides for detailed Q&A responses
+### エンゲージメント戦略
+- **キーメッセージを繰り返す**: 重要なポイントを複数回強調
+- **インタラクティブ要素**: 投票、質問、ディスカッションプロンプトを含める
+- **バックアップ資料**: 詳細なQ&A対応用の補足スライドを準備
 
-## Presentation Flow and Transition Best Practices
+## プレゼンテーションの流れと遷移のベストプラクティス
 
 ### セクション間の繋ぎスライドを必ず入れる
 
@@ -473,6 +485,61 @@ _color: white
 2. **フォントサイズは0.75emを基準**に（コンパクトな場合は0.7em）
 3. **1スライド1メッセージ**を守る
 4. **繋ぎスライドは別カウント**として扱う（内容スライドではない）
+
+### スライド1枚あたりの容量制限
+
+Marpのスライドは画面サイズに制限があるため、以下の目安を守る：
+
+**font-size: 0.8em の場合の目安:**
+
+| 要素 | 収まる量 |
+|-----|---------|
+| 説明テキスト + 3カラムボックス | 各カラム2〜3行程度 |
+| 表（テーブル） | 3〜4行程度（ヘッダー含む） |
+| 2カラム + 下部ヒント | 各カラム3〜4項目 |
+| リスト単独 | 5〜6項目程度 |
+
+**収まらない場合の対処法:**
+
+1. **分割する**: 1スライドを2スライドに分ける（最も推奨）
+2. **フォントを小さくする**: 0.75em → 0.7em（限界あり）
+3. **余白を減らす**: padding: 15px → 12px、gap: 20px → 15px
+4. **項目を減らす**: 本当に必要な情報に絞る
+
+**コンパクト版テンプレート（font-size: 0.8em）:**
+```markdown
+<div style="font-size: 0.8em;">
+
+<div style="display: flex; gap: 15px;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**見出し**
+
+- 項目1
+- 項目2
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**見出し**
+
+- 項目1
+- 項目2
+
+</div>
+</div>
+
+</div>
+```
+
+**溢れやすいパターンと対策:**
+
+| パターン | 問題 | 対策 |
+|---------|-----|------|
+| 3カラム + 説明文 + ヒント | 縦に長すぎる | 説明文を削除 or 分割 |
+| 表が5行以上 | 下が切れる | 3行程度に絞る or 分割 |
+| 各カラム5項目以上 | 下が切れる | 2〜3項目に絞る or 分割 |
+| 上部説明 + 中央コンテンツ + 下部ヒント | 全部入らない | 上部説明を削除 |
 
 ### 「この発表で解決できること」スライドの重要性
 
