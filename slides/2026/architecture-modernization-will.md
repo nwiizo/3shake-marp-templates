@@ -1387,7 +1387,7 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 
 技術選定、リリース判断、優先順位付けをチームが決められる。上位承認を待たない。
 
-→ 意思決定速度の向上、オーナーシップ
+→ <span style="font-size: 0.85em;">"You build it, you run it"</span> — 責任が信頼性を生む
 
 </div>
 </div>
@@ -2089,6 +2089,8 @@ Alberto Brandoliniが考案した、ビジネスドメインを探索するた�
 
 参加者全員がドメインイベントを時系列で貼り出す。この段階では議論せず、とにかく可視化。
 
+<span style="color: #666; font-size: 0.85em;">"Chaos is a feature, not a bug"</span>
+
 </div>
 <div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
@@ -2289,6 +2291,9 @@ Alberto Brandoliniが考案した、ビジネスドメインを探索するた�
 ### 境界を定義する原則
 
 **「正しい」唯一の境界は存在しない。** 境界は組織の目標に奉仕するために存在する。
+
+<span style="font-size: 0.85em; color: #666; font-style: italic;">"Concepts that change together belong together"</span>
+（一緒に変更される概念は一緒にまとめる）
 
 ### 依存関係のコスト評価
 
@@ -2981,13 +2986,18 @@ DDDで発見したサブドメインの境界と、Team Topologiesで設計す�
 
 ## 認知負荷（Cognitive Load）とは
 
-<div style="font-size: 0.75em;">
+<div style="font-size: 0.72em;">
 
 <div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
 
 **人間の脳が同時に処理できる情報量には限界がある**
 
 John Swellerの認知負荷理論に基づく概念。Team Topologiesでは、チームが担当する範囲を「認知負荷の限界内」に収めることを重視する。
+
+<div style="margin-top: 10px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="font-size: 0.85em; font-style: italic;">"Cognitive load is the primary constraint"</span></br>
+<span style="color: #e65100; font-weight: bold;">認知負荷こそがチーム設計における最大の制約</span>
+</div>
 
 </div>
 
@@ -3064,8 +3074,8 @@ John Swellerの認知負荷理論に基づく概念。Team Topologiesでは、�
 </div>
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="font-size: 0.85em;">"Reduce blocking, reduce coordination, enable high velocity"</span></br>
-<span style="color: #e65100; font-weight: bold;">「会議」と「調整」と「待ち時間」を殺す——それがフロー効率の改善</span>
+<span style="font-size: 0.85em;">"Fast flow is the measure of organizational health, not velocity metrics"</span></br>
+<span style="color: #e65100; font-weight: bold;">高速フローは組織の健全性を測る物差し——ベロシティ指標ではなく</span>
 </div>
 
 </div>
@@ -3331,6 +3341,30 @@ _class: transition
 「現実のレガシーシステムをどうやって移行するのか？」
 
 → **段階的・継続的な進化**のアプローチへ
+
+</div>
+
+</div>
+
+---
+
+<!--
+_backgroundColor: #0a1929
+_color: white
+_class: transition
+-->
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 80%; text-align: center;">
+
+<div style="font-size: 1.2em; font-weight: bold; color: #fff; font-style: italic;">
+
+"Legacy architecture is a business liability, not merely a technical problem"
+
+</div>
+
+<div style="font-size: 0.9em; margin-top: 30px; color: #aaa;">
+
+レガシーアーキテクチャは単なる技術的問題ではない</br>**ビジネス上の負債**である
 
 </div>
 
