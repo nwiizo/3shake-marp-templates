@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+<meta name="format-detection" content="telephone=no, address=no, email=no">
+<meta name="facebook-domain-verification" content="c73z3atcxafivmhzn5p0a5vfzzo8eb" />
+
+<!-- stylesheet -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+<link href="https://common.3-shake.com/assets/css/3-shake_icons.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://sreake.com/wp-content/themes/sreake/assets/images/common/favicon.ico">
+<link href="https://sreake.com/wp-content/themes/sreake/assets/css/app.css?v=1769887405" rel="stylesheet">
+<link href="https://sreake.com/wp-content/themes/sreake/assets/css/sreake.css?v=000054" rel="stylesheet">
+<link href="https://sreake.com/wp-content/themes/sreake/assets/css/lazy_blocks_frontend.css?v=test193" rel="stylesheet">
+<link href="https://sreake.com/wp-content/themes/sreake/assets/css/sreake_customiz.css?v=00001" rel="stylesheet">
+
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+		<!-- All in One SEO 4.8.4.1 - aioseo.com -->
+		<title></title>
+	<meta name="robots" content="noindex" />
+	<meta name="generator" content="All in One SEO (AIOSEO) 4.8.4.1" />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/sreake.com\/404.html\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/sreake.com#listItem","position":1,"name":"\u30db\u30fc\u30e0","item":"https:\/\/sreake.com","nextItem":{"@type":"ListItem","@id":"#listItem","name":"404\u30a8\u30e9\u30fc: \u30da\u30fc\u30b8\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093"}}]},{"@type":"Organization","@id":"https:\/\/sreake.com\/#organization","name":"sreake.com","description":"Just another WordPress site","url":"https:\/\/sreake.com\/"},{"@type":"WebPage","@id":"https:\/\/sreake.com\/404.html\/#webpage","url":"https:\/\/sreake.com\/404.html\/","inLanguage":"ja","isPartOf":{"@id":"https:\/\/sreake.com\/#website"},"breadcrumb":{"@id":"https:\/\/sreake.com\/404.html\/#breadcrumblist"}},{"@type":"WebSite","@id":"https:\/\/sreake.com\/#website","url":"https:\/\/sreake.com\/","name":"sreake.com | \u682a\u5f0f\u4f1a\u793e\u30b9\u30ea\u30fc\u30b7\u30a7\u30a4\u30af","description":"Just another WordPress site","inLanguage":"ja","publisher":{"@id":"https:\/\/sreake.com\/#organization"}}]}
+		</script>
+		<!-- All in One SEO -->
+
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/sreake.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.2"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://sreake.com/wp-includes/css/dist/block-library/style.min.css?ver=6.8.2' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--gray-0: #ffffff;--wp--preset--color--gray-100: #f4f6f8;--wp--preset--color--gray-200: #e9edf1;--wp--preset--color--gray-300: #d3dae2;--wp--preset--color--gray-400: #b9c1d1;--wp--preset--color--gray-500: #979eb4;--wp--preset--color--gray-600: #5d647d;--wp--preset--color--gray-700: #41475d;--wp--preset--color--gray-800: #272c41;--wp--preset--color--gray-900: #011120;--wp--preset--color--orange: #ef7133;--wp--preset--color--orange-light: #ffb353;--wp--preset--color--beige: #fff9f3;--wp--preset--color--water: #45cfff;--wp--preset--color--water-dark: #13b1e7;--wp--preset--color--water-light: #83dfff;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='bogo-css' href='https://sreake.com/wp-content/plugins/bogo/includes/css/style.css?ver=3.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='katex-css' href='https://sreake.com/wp-content/plugins/katex/assets/katex-0.16.22/katex.min.css?ver=2.2.5' type='text/css' media='all' />
+<!--n2css--><!--n2js-->
+<!-- Site Kit によって追加された Google タグ（gtag.js）スニペット -->
+<!-- Google アナリティクス スニペット (Site Kit が追加) -->
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=GT-KT4HWH5" id="google_gtagjs-js" async></script>
+<script type="text/javascript" id="google_gtagjs-js-after">
+/* <![CDATA[ */
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["sreake.com"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-KT4HWH5");
+ window._googlesitekit = window._googlesitekit || {}; window._googlesitekit.throttledEvents = []; window._googlesitekit.gtagEvent = (name, data) => { var key = JSON.stringify( { name, data } ); if ( !! window._googlesitekit.throttledEvents[ key ] ) { return; } window._googlesitekit.throttledEvents[ key ] = true; setTimeout( () => { delete window._googlesitekit.throttledEvents[ key ]; }, 5 ); gtag( "event", name, { ...data, event_source: "site-kit" } ); }; 
+/* ]]> */
+</script>
+<link rel="https://api.w.org/" href="https://sreake.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://sreake.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.2" />
+<link rel="alternate" hreflang="ja" href="https://sreake.com/404.html" />
+<link rel="alternate" hreflang="en-US" href="https://sreake.com/en/404.html" />
+<meta name="generator" content="Site Kit by Google 1.171.0" />                <script>
+                    var ajaxUrl = 'https://sreake.com/wp-admin/admin-ajax.php';
+                </script>
+        
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- GTM Container placement set to footer -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+	var dataLayer_content = {"pagePostType":"404-error"};
+	dataLayer.push( dataLayer_content );
+</script>
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P22TGTB');
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><link rel="canonical" href="https://sreake.com">
+		<style type="text/css" id="wp-custom-css">
+			pre.code-block {
+  background-color: #f4f6f8;
+  border: 1px solid #ccc;
+}
+
+.table__header--gray thead{
+	background: #999;
+	color:#fff;
+}
+
+.table__border table, .table__border th, .table__border td{
+	border-collapse: collapse;
+  border:1px solid #333;
+}
+		</style>
+		
+
+</head>
+
+<body class="page-home">
+
+<!-- l-app -->
+<div class="l-app">
+
+<!-- #contents -->
+<div id="contents" class="l-contents">
+
+<!-- #header -->
+<header id="header" class="c-header c-header--nega">
+    <div class="c-header__inner">
+		<div class="c-header__box">
+			<p class="c-header__logo">
+	            <a href="https://sreake.com/">
+	                <svg class="c-svg--logo" viewBox="0 0 62 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Sreake</title>
+    <defs>
+        <path d="M53.087,2.692 L37.821,12.551 C36.655,13.29 35.108,13.803 33.969,13.803 L33.969,13.803 C33.456,13.803 32.891,13.603 32.368,13.247 L32.368,13.247 L16.232,2.822 L0,13.316 L30.482,33 L53.087,18.402 C58.721,14.751 61.104,10.49 61.104,5.343 L61.104,5.343 C61.104,3.404 60.182,2.1 59.173,1.449 L59.173,1.449 C58.678,1.135 58.165,0.979 57.721,0.979 L57.721,0.979 C56.165,0.979 54.496,1.805 53.087,2.692" id="path-1"></path>
+        <linearGradient x1="28.5149339%" y1="56.2293038%" x2="80.0171583%" y2="32.0146265%" id="linearGradient-3">
+            <stop stop-color="#F7D32D" offset="0%"></stop>
+            <stop stop-color="#EF7033" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo" transform="translate(0.000000, -1.000000)">
+            <g id="Group-22" transform="translate(0.000000, 1.000000)">
+                <g id="Group" transform="translate(0.000000, 0.000100)">
+                    <g id="Group-19" transform="translate(0.000000, 37.797700)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-18"></g>
+                        <path d="M53.087,2.692 L37.821,12.551 C36.655,13.29 35.108,13.803 33.969,13.803 L33.969,13.803 C33.456,13.803 32.891,13.603 32.368,13.247 L32.368,13.247 L16.232,2.822 L0,13.316 L30.482,33 L53.087,18.402 C58.721,14.751 61.104,10.49 61.104,5.343 L61.104,5.343 C61.104,3.404 60.182,2.1 59.173,1.449 L59.173,1.449 C58.678,1.135 58.165,0.979 57.721,0.979 L57.721,0.979 C56.165,0.979 54.496,1.805 53.087,2.692" id="Fill-17" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+                    </g>
+                    <path d="M60.973,19.684 L44.932,30.047 L28.683,19.562 C28.196,19.249 27.683,19.084 27.24,19.084 C25.683,19.084 24.005,19.919 22.605,20.797 L7.338,30.656 C6.173,31.395 4.625,31.908 3.478,31.908 C3.026,31.908 2.53,31.751 2.061,31.465 C0.965,30.795 -2.13162821e-14,29.395 -2.13162821e-14,27.561 C-2.13162821e-14,22.727 2.696,17.997 7.877,14.598 L30.482,0 L60.973,19.684 Z" id="Fill-14" fill="#094296"></path>
+                    <path d="M28.683,19.5619 C28.196,19.2489 27.683,19.0839 27.24,19.0839 C25.683,19.0839 24.005,19.9179 22.605,20.7969 L7.338,30.6559 C6.173,31.3949 4.625,31.9079 3.478,31.9079 C3.026,31.9079 2.53,31.7509 2.061,31.4649 L32.369,51.0439 C31.343,50.3319 30.482,48.9839 30.482,47.2529 C30.482,42.4189 33.177,37.6899 38.368,34.2909 L44.932,30.0469 L28.683,19.5619 Z" id="Fill-20" fill="#EF7133"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+	                <svg class="c-svg--name" viewBox="0 0 148 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Sreake</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="name" transform="translate(-81.000000, -17.000000)">
+            <g id="Group-22" transform="translate(0.000000, 1.000000)">
+                <g id="Group-16" transform="translate(81.000000, 15.797800)">
+                    <path d="M11.7394,2.629 C14.8844,2.629 18.0144,3.318 21.1284,4.696 L19.4214,9.076 C16.5014,7.848 13.8954,7.234 11.6044,7.234 C9.8674,7.234 8.5504,7.612 7.6514,8.369 C6.7534,9.125 6.3044,10.124 6.3044,11.367 C6.3044,12.22 6.4834,12.951 6.8434,13.556 C7.2024,14.164 7.7944,14.736 8.6174,15.275 C9.4404,15.814 10.9234,16.525 13.0644,17.409 C15.4764,18.412 17.2424,19.348 18.3654,20.216 C19.4884,21.085 20.3114,22.066 20.8364,23.159 C21.3604,24.251 21.6224,25.54 21.6224,27.022 C21.6224,29.942 20.5664,32.233 18.4554,33.895 C16.3444,35.557 13.4324,36.388 9.7184,36.388 C6.0044,36.388 2.9654,35.812 0.5994,34.659 L0.5994,29.583 C2.0964,30.287 3.6864,30.84 5.3724,31.245 C7.0564,31.649 8.6254,31.851 10.0774,31.851 C12.2034,31.851 13.7724,31.447 14.7824,30.638 C15.7944,29.83 16.2994,28.744 16.2994,27.381 C16.2994,26.154 15.8354,25.113 14.9064,24.259 C13.9774,23.406 12.0614,22.395 9.1564,21.227 C6.1614,20.014 4.0504,18.629 2.8224,17.072 C1.5954,15.514 0.9804,13.643 0.9804,11.457 C0.9804,8.716 1.9544,6.56 3.9004,4.988 C5.8474,3.416 8.4604,2.629 11.7394,2.629 Z M57.1332,10.648 C60.4122,10.648 63.0032,11.644 64.9042,13.635 C66.8062,15.626 67.7572,18.367 67.7572,21.856 L67.7572,24.709 L51.2032,24.709 C51.2792,27.12 51.9302,28.972 53.1572,30.267 C54.3852,31.563 56.1142,32.21 58.3462,32.21 C59.8142,32.21 61.1802,32.072 62.4452,31.794 C63.7102,31.518 65.0702,31.057 66.5222,30.414 L66.5222,34.704 C65.2342,35.318 63.9312,35.751 62.6132,36.006 C61.2962,36.261 59.7912,36.388 58.0992,36.388 C54.2362,36.388 51.2152,35.261 49.0352,33.007 C46.8582,30.754 45.7682,27.651 45.7682,23.698 C45.7682,19.64 46.7792,16.451 48.8002,14.129 C50.8212,11.808 53.5992,10.648 57.1332,10.648 Z M84.0693,10.6482 C87.2293,10.6482 89.6133,11.3362 91.2243,12.7142 C92.8333,14.0922 93.6383,16.2552 93.6383,19.2052 L93.6383,35.9392 L89.3993,35.9392 L88.8093,32.4802 L88.6293,32.4802 C87.4313,33.9922 86.2263,35.0222 85.0133,35.5682 C83.8003,36.1152 82.2423,36.3882 80.3413,36.3882 C77.9003,36.3882 75.9953,35.7292 74.6243,34.4112 C73.2553,33.0942 72.5693,31.2302 72.5693,28.8192 C72.5693,26.2582 73.5213,24.3262 75.4223,23.0242 C77.3233,21.7212 80.2213,21.0102 84.1143,20.8902 L88.4043,20.7552 L88.4043,19.4302 C88.4043,17.8432 88.0343,16.6562 87.2923,15.8702 C86.5523,15.0832 85.4023,14.6912 83.8453,14.6912 C81.1593,14.6912 77.3473,15.7682 75.3053,16.8312 L74.3093,12.6322 C76.7423,11.4772 80.7223,10.6482 84.0693,10.6482 Z M136.9066,10.648 C140.1856,10.648 142.7766,11.644 144.6776,13.635 C146.5796,15.626 147.5306,18.367 147.5306,21.856 L147.5306,24.709 L130.9766,24.709 C131.0526,27.12 131.7036,28.972 132.9306,30.267 C134.1586,31.563 135.8876,32.21 138.1196,32.21 C139.5876,32.21 140.9536,32.072 142.2186,31.794 C143.4836,31.518 144.8436,31.057 146.2956,30.414 L146.2956,34.704 C145.0076,35.318 143.7046,35.751 142.3866,36.006 C141.0696,36.261 139.5646,36.388 137.8726,36.388 C134.0096,36.388 130.9886,35.261 128.8086,33.007 C126.6316,30.754 125.5416,27.651 125.5416,23.698 C125.5416,19.64 126.5526,16.451 128.5736,14.129 C130.5946,11.808 133.3726,10.648 136.9066,10.648 Z M40.0179,10.648 C41.0809,10.648 41.9569,10.723 42.6459,10.873 L42.1289,15.792 C41.3799,15.612 40.6019,15.522 39.7929,15.522 C37.6819,15.522 35.9709,16.21 34.6619,17.588 C33.3509,18.966 32.6959,20.755 32.6959,22.957 L32.6959,35.939 L27.4169,35.939 L27.4169,11.097 L31.5499,11.097 L32.2469,15.477 L32.5159,15.477 C33.3389,13.995 34.4139,12.819 35.7399,11.951 C37.0639,11.083 38.4909,10.648 40.0179,10.648 Z M105.9557,0.9898 L105.9557,18.0378 L105.6857,22.8218 L105.8207,22.8218 L108.8077,19.0928 L116.3097,11.0968 L122.3967,11.0968 L112.4017,21.7658 L123.0257,35.9388 L116.8267,35.9388 L108.8527,25.0458 L105.9557,27.4258 L105.9557,35.9388 L100.7217,35.9388 L100.7217,0.9898 L105.9557,0.9898 Z M88.3593,24.0792 L85.1703,24.2142 C82.6853,24.3042 80.8763,24.7202 79.7453,25.4602 C78.6153,26.2022 78.0503,27.3362 78.0503,28.8642 C78.0503,29.9722 78.3793,30.8292 79.0383,31.4352 C79.6973,32.0422 80.6863,32.3452 82.0033,32.3452 C83.9203,32.3452 85.4583,31.8102 86.6183,30.7402 C87.7793,29.6682 88.3593,28.1672 88.3593,26.2362 L88.3593,24.0792 Z M57.1332,14.646 C55.4562,14.646 54.1122,15.177 53.1022,16.241 C52.0902,17.304 51.4872,18.854 51.2932,20.89 L62.5692,20.89 C62.5382,18.838 62.0442,17.285 61.0862,16.23 C60.1282,15.173 58.8102,14.646 57.1332,14.646 Z M136.9066,14.646 C135.2296,14.646 133.8856,15.177 132.8756,16.241 C131.8636,17.304 131.2606,18.854 131.0666,20.89 L142.3426,20.89 C142.3116,18.838 141.8176,17.285 140.8596,16.23 C139.9016,15.173 138.5836,14.646 136.9066,14.646 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+	            </a>
+	        </p>
+			<div class="c-header__switch">
+				<i class="p-icon-language"></i>
+				<ul class="bogo-language-switcher list-view"><li class="en-US en first"><span class="bogo-language-name"><a rel="alternate" hreflang="en-US" href="https://sreake.com/en/404.html" title="EN">EN</a></span></li>
+<li class="ja current last"><span class="bogo-language-name"><a rel="alternate" hreflang="ja" href="https://sreake.com/404.html" title="JP" class="current" aria-current="page">JP</a></span></li>
+</ul>			</div>
+		</div>
+					<div class="c-header__pcmenu">
+				<div class="c-header__menu">
+					<ul class="c-header__list"><li id="menu-item-10738" class="disable menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10738"><a href="#">サービス紹介</a>
+<ul class="sub-menu">
+	<li id="menu-item-11233" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11233"><a href="#">SRE総合支援</a>
+	<ul class="sub-menu">
+		<li id="menu-item-11239" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11239"><a href="https://sreake.com/devops/">インフラ・SRE / DevOps支援</a></li>
+		<li id="menu-item-11232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11232"><a href="https://sreake.com/k8s/">Kubernetes構築・運用支援</a></li>
+		<li id="menu-item-11234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11234"><a href="https://sreake.com/security/">セキュリティ支援</a></li>
+		<li id="menu-item-13024" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13024"><a href="https://sreake.com/service-sre/googlecloudsupport/">Google Cloud 総合支援サービス</a></li>
+		<li id="menu-item-13025" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13025"><a href="https://sreake.com/service-sre/googlecloud/">Google Cloud支払い代行サービス</a></li>
+		<li id="menu-item-13020" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13020"><a href="https://sreake.com/service-sre/awssupport/">AWS総合支援サービス</a></li>
+		<li id="menu-item-13022" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13022"><a href="https://sreake.com/service-sre/datadog/">Datadog導入支援</a></li>
+		<li id="menu-item-13026" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13026"><a href="https://sreake.com/service-sre/pagerduty/">Pagerduty</a></li>
+		<li id="menu-item-11238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11238"><a href="https://sreake.com/app/">アプリケージョンモダナイゼーション支援</a></li>
+		<li id="menu-item-11237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11237"><a href="https://sreake.com/ai/">AI活用推進支援</a></li>
+		<li id="menu-item-11236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11236"><a href="https://sreake.com/data/">データ分析内製化支援</a></li>
+		<li id="menu-item-11235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11235"><a href="https://sreake.com/db/">データベース移行・改善支援</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-13029" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13029"><a href="https://sreake.com/category/case/">活用事例</a></li>
+<li id="menu-item-13030" class="menu-item menu-item-type-post_type_archive menu-item-object-event-seminar menu-item-13030"><a href="https://sreake.com/event-seminar/">イベント・セミナー一覧</a></li>
+<li id="menu-item-11240" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11240"><a href="https://sreake.com/category/news/">新着情報</a></li>
+<li id="menu-item-13028" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13028"><a href="https://sreake.com/category/blog/">ブログ</a></li>
+<li id="menu-item-13031" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13031"><a href="https://sreake.com/whitepaper/">ホワイトペーパー</a></li>
+<li id="menu-item-13032" class="c-header__btn no-current menu-item menu-item-type-post_type menu-item-object-page menu-item-13032"><a href="https://sreake.com/whitepaper/">資料ダウンロード</a></li>
+<li id="menu-item-13033" class="c-header__btn no-current menu-item menu-item-type-post_type menu-item-object-page menu-item-13033"><a href="https://sreake.com/contact/">お問い合わせ</a></li>
+</ul>				</div>
+			</div>
+		        <div class="c-header__spmenu">
+            <p class="c-header__trigger">
+                <a href="#" class="js-nav__trigger">
+                    <i class="p-icon-navi-2"></i>
+                    <i class="p-icon-close"></i>
+                </a>
+            </p>
+        </div>
+    </div>
+</header>
+<!-- /#header -->
+<ul class="c-breadcrumb"><li class="c-breadcrumb__item"><a href="https://sreake.com">HOME</a></li><li class="c-breadcrumb__item"><a href="">不明なページ</a></li></ul><div class="l-static">
+    <div class="l-section">
+        <div class="l-inner">
+            <h1 class="c-page-visual__ja c-text--h1 c-text--black">404</h1>
+			<p class="c-page-visual__en c-text--sub">Page Not Found</p>
+			<div id="wp-content" class="l-static__contents">
+				<p>ページが見つかりません。</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- /#contents -->
+
+
+<!-- #footer -->
+<footer id="footer" class="c-footer">
+    <div class="l-inner">
+        <div class="c-footer__box c-footer__box--top l-col">
+            <div>
+								<p class="c-footer__copy">インフラのプロフェッショナルパートナー</p>
+				                <p class="c-footer__logo">
+                    <a href="https://sreake.com/">
+						<svg class="c-svg--logo" viewBox="0 0 62 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Sreake</title>
+    <defs>
+        <path d="M53.087,2.692 L37.821,12.551 C36.655,13.29 35.108,13.803 33.969,13.803 L33.969,13.803 C33.456,13.803 32.891,13.603 32.368,13.247 L32.368,13.247 L16.232,2.822 L0,13.316 L30.482,33 L53.087,18.402 C58.721,14.751 61.104,10.49 61.104,5.343 L61.104,5.343 C61.104,3.404 60.182,2.1 59.173,1.449 L59.173,1.449 C58.678,1.135 58.165,0.979 57.721,0.979 L57.721,0.979 C56.165,0.979 54.496,1.805 53.087,2.692" id="path-1"></path>
+        <linearGradient x1="28.5149339%" y1="56.2293038%" x2="80.0171583%" y2="32.0146265%" id="linearGradient-3">
+            <stop stop-color="#F7D32D" offset="0%"></stop>
+            <stop stop-color="#EF7033" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo" transform="translate(0.000000, -1.000000)">
+            <g id="Group-22" transform="translate(0.000000, 1.000000)">
+                <g id="Group" transform="translate(0.000000, 0.000100)">
+                    <g id="Group-19" transform="translate(0.000000, 37.797700)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-18"></g>
+                        <path d="M53.087,2.692 L37.821,12.551 C36.655,13.29 35.108,13.803 33.969,13.803 L33.969,13.803 C33.456,13.803 32.891,13.603 32.368,13.247 L32.368,13.247 L16.232,2.822 L0,13.316 L30.482,33 L53.087,18.402 C58.721,14.751 61.104,10.49 61.104,5.343 L61.104,5.343 C61.104,3.404 60.182,2.1 59.173,1.449 L59.173,1.449 C58.678,1.135 58.165,0.979 57.721,0.979 L57.721,0.979 C56.165,0.979 54.496,1.805 53.087,2.692" id="Fill-17" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+                    </g>
+                    <path d="M60.973,19.684 L44.932,30.047 L28.683,19.562 C28.196,19.249 27.683,19.084 27.24,19.084 C25.683,19.084 24.005,19.919 22.605,20.797 L7.338,30.656 C6.173,31.395 4.625,31.908 3.478,31.908 C3.026,31.908 2.53,31.751 2.061,31.465 C0.965,30.795 -2.13162821e-14,29.395 -2.13162821e-14,27.561 C-2.13162821e-14,22.727 2.696,17.997 7.877,14.598 L30.482,0 L60.973,19.684 Z" id="Fill-14" fill="#094296"></path>
+                    <path d="M28.683,19.5619 C28.196,19.2489 27.683,19.0839 27.24,19.0839 C25.683,19.0839 24.005,19.9179 22.605,20.7969 L7.338,30.6559 C6.173,31.3949 4.625,31.9079 3.478,31.9079 C3.026,31.9079 2.53,31.7509 2.061,31.4649 L32.369,51.0439 C31.343,50.3319 30.482,48.9839 30.482,47.2529 C30.482,42.4189 33.177,37.6899 38.368,34.2909 L44.932,30.0469 L28.683,19.5619 Z" id="Fill-20" fill="#EF7133"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+		                <svg class="c-svg--name" viewBox="0 0 148 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Sreake</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="name" transform="translate(-81.000000, -17.000000)">
+            <g id="Group-22" transform="translate(0.000000, 1.000000)">
+                <g id="Group-16" transform="translate(81.000000, 15.797800)">
+                    <path d="M11.7394,2.629 C14.8844,2.629 18.0144,3.318 21.1284,4.696 L19.4214,9.076 C16.5014,7.848 13.8954,7.234 11.6044,7.234 C9.8674,7.234 8.5504,7.612 7.6514,8.369 C6.7534,9.125 6.3044,10.124 6.3044,11.367 C6.3044,12.22 6.4834,12.951 6.8434,13.556 C7.2024,14.164 7.7944,14.736 8.6174,15.275 C9.4404,15.814 10.9234,16.525 13.0644,17.409 C15.4764,18.412 17.2424,19.348 18.3654,20.216 C19.4884,21.085 20.3114,22.066 20.8364,23.159 C21.3604,24.251 21.6224,25.54 21.6224,27.022 C21.6224,29.942 20.5664,32.233 18.4554,33.895 C16.3444,35.557 13.4324,36.388 9.7184,36.388 C6.0044,36.388 2.9654,35.812 0.5994,34.659 L0.5994,29.583 C2.0964,30.287 3.6864,30.84 5.3724,31.245 C7.0564,31.649 8.6254,31.851 10.0774,31.851 C12.2034,31.851 13.7724,31.447 14.7824,30.638 C15.7944,29.83 16.2994,28.744 16.2994,27.381 C16.2994,26.154 15.8354,25.113 14.9064,24.259 C13.9774,23.406 12.0614,22.395 9.1564,21.227 C6.1614,20.014 4.0504,18.629 2.8224,17.072 C1.5954,15.514 0.9804,13.643 0.9804,11.457 C0.9804,8.716 1.9544,6.56 3.9004,4.988 C5.8474,3.416 8.4604,2.629 11.7394,2.629 Z M57.1332,10.648 C60.4122,10.648 63.0032,11.644 64.9042,13.635 C66.8062,15.626 67.7572,18.367 67.7572,21.856 L67.7572,24.709 L51.2032,24.709 C51.2792,27.12 51.9302,28.972 53.1572,30.267 C54.3852,31.563 56.1142,32.21 58.3462,32.21 C59.8142,32.21 61.1802,32.072 62.4452,31.794 C63.7102,31.518 65.0702,31.057 66.5222,30.414 L66.5222,34.704 C65.2342,35.318 63.9312,35.751 62.6132,36.006 C61.2962,36.261 59.7912,36.388 58.0992,36.388 C54.2362,36.388 51.2152,35.261 49.0352,33.007 C46.8582,30.754 45.7682,27.651 45.7682,23.698 C45.7682,19.64 46.7792,16.451 48.8002,14.129 C50.8212,11.808 53.5992,10.648 57.1332,10.648 Z M84.0693,10.6482 C87.2293,10.6482 89.6133,11.3362 91.2243,12.7142 C92.8333,14.0922 93.6383,16.2552 93.6383,19.2052 L93.6383,35.9392 L89.3993,35.9392 L88.8093,32.4802 L88.6293,32.4802 C87.4313,33.9922 86.2263,35.0222 85.0133,35.5682 C83.8003,36.1152 82.2423,36.3882 80.3413,36.3882 C77.9003,36.3882 75.9953,35.7292 74.6243,34.4112 C73.2553,33.0942 72.5693,31.2302 72.5693,28.8192 C72.5693,26.2582 73.5213,24.3262 75.4223,23.0242 C77.3233,21.7212 80.2213,21.0102 84.1143,20.8902 L88.4043,20.7552 L88.4043,19.4302 C88.4043,17.8432 88.0343,16.6562 87.2923,15.8702 C86.5523,15.0832 85.4023,14.6912 83.8453,14.6912 C81.1593,14.6912 77.3473,15.7682 75.3053,16.8312 L74.3093,12.6322 C76.7423,11.4772 80.7223,10.6482 84.0693,10.6482 Z M136.9066,10.648 C140.1856,10.648 142.7766,11.644 144.6776,13.635 C146.5796,15.626 147.5306,18.367 147.5306,21.856 L147.5306,24.709 L130.9766,24.709 C131.0526,27.12 131.7036,28.972 132.9306,30.267 C134.1586,31.563 135.8876,32.21 138.1196,32.21 C139.5876,32.21 140.9536,32.072 142.2186,31.794 C143.4836,31.518 144.8436,31.057 146.2956,30.414 L146.2956,34.704 C145.0076,35.318 143.7046,35.751 142.3866,36.006 C141.0696,36.261 139.5646,36.388 137.8726,36.388 C134.0096,36.388 130.9886,35.261 128.8086,33.007 C126.6316,30.754 125.5416,27.651 125.5416,23.698 C125.5416,19.64 126.5526,16.451 128.5736,14.129 C130.5946,11.808 133.3726,10.648 136.9066,10.648 Z M40.0179,10.648 C41.0809,10.648 41.9569,10.723 42.6459,10.873 L42.1289,15.792 C41.3799,15.612 40.6019,15.522 39.7929,15.522 C37.6819,15.522 35.9709,16.21 34.6619,17.588 C33.3509,18.966 32.6959,20.755 32.6959,22.957 L32.6959,35.939 L27.4169,35.939 L27.4169,11.097 L31.5499,11.097 L32.2469,15.477 L32.5159,15.477 C33.3389,13.995 34.4139,12.819 35.7399,11.951 C37.0639,11.083 38.4909,10.648 40.0179,10.648 Z M105.9557,0.9898 L105.9557,18.0378 L105.6857,22.8218 L105.8207,22.8218 L108.8077,19.0928 L116.3097,11.0968 L122.3967,11.0968 L112.4017,21.7658 L123.0257,35.9388 L116.8267,35.9388 L108.8527,25.0458 L105.9557,27.4258 L105.9557,35.9388 L100.7217,35.9388 L100.7217,0.9898 L105.9557,0.9898 Z M88.3593,24.0792 L85.1703,24.2142 C82.6853,24.3042 80.8763,24.7202 79.7453,25.4602 C78.6153,26.2022 78.0503,27.3362 78.0503,28.8642 C78.0503,29.9722 78.3793,30.8292 79.0383,31.4352 C79.6973,32.0422 80.6863,32.3452 82.0033,32.3452 C83.9203,32.3452 85.4583,31.8102 86.6183,30.7402 C87.7793,29.6682 88.3593,28.1672 88.3593,26.2362 L88.3593,24.0792 Z M57.1332,14.646 C55.4562,14.646 54.1122,15.177 53.1022,16.241 C52.0902,17.304 51.4872,18.854 51.2932,20.89 L62.5692,20.89 C62.5382,18.838 62.0442,17.285 61.0862,16.23 C60.1282,15.173 58.8102,14.646 57.1332,14.646 Z M136.9066,14.646 C135.2296,14.646 133.8856,15.177 132.8756,16.241 C131.8636,17.304 131.2606,18.854 131.0666,20.89 L142.3426,20.89 C142.3116,18.838 141.8176,17.285 140.8596,16.23 C139.9016,15.173 138.5836,14.646 136.9066,14.646 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+                    </a>
+                </p>
+            </div>
+            <div class="c-footer__menubox">
+                <div class="c-footer__menu">
+					<ul class="-min"><li id="menu-item-915" class="hidden menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-915"><a href="#">メニュー項目</a>
+<ul class="sub-menu">
+	<li id="menu-item-155" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-155"><a href="/">トップ</a></li>
+</ul>
+</li>
+</ul>					<ul><li id="menu-item-11281" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11281"><a href="#">SRE総合支援</a>
+<ul class="sub-menu">
+	<li id="menu-item-11287" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11287"><a href="https://sreake.com/devops/">インフラ・SRE / DevOps支援</a></li>
+	<li id="menu-item-11288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11288"><a href="https://sreake.com/k8s/">Kubernetes構築・運用支援</a></li>
+	<li id="menu-item-11282" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11282"><a href="https://sreake.com/security/">セキュリティ支援</a></li>
+	<li id="menu-item-13089" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13089"><a href="https://sreake.com/service-sre/googlecloudsupport/">Google Cloud 総合支援サービス</a></li>
+	<li id="menu-item-13090" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13090"><a href="https://sreake.com/service-sre/googlecloud/">Google Cloud支払い代行サービス</a></li>
+	<li id="menu-item-13088" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13088"><a href="https://sreake.com/service-sre/awssupport/">AWS総合支援サービス</a></li>
+</ul>
+</li>
+</ul>					<ul class="-noline"><li id="menu-item-11293" class="hidden menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11293"><a href="#">SRE総合支援2</a>
+<ul class="sub-menu">
+	<li id="menu-item-13053" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13053"><a href="https://sreake.com/service-sre/datadog/">Datadog導入支援</a></li>
+	<li id="menu-item-13057" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13057"><a href="https://sreake.com/service-sre/pagerduty/">Pagerduty</a></li>
+	<li id="menu-item-13092" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13092"><a href="https://sreake.com/app/">アプリケージョンモダナイゼーション支援</a></li>
+	<li id="menu-item-13091" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13091"><a href="https://sreake.com/ai/">AI活用推進支援</a></li>
+	<li id="menu-item-13094" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13094"><a href="https://sreake.com/data/">データ分析内製化支援</a></li>
+	<li id="menu-item-13093" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13093"><a href="https://sreake.com/db/">データベース移行・改善支援</a></li>
+</ul>
+</li>
+</ul>					<ul class="-min"><li id="menu-item-11304" class="hidden menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11304"><a href="#">メニュー項目</a>
+<ul class="sub-menu">
+	<li id="menu-item-13063" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13063"><a href="https://sreake.com/category/case/">活用事例</a></li>
+	<li id="menu-item-13066" class="menu-item menu-item-type-post_type_archive menu-item-object-event-seminar menu-item-13066"><a href="https://sreake.com/event-seminar/">イベント・セミナー</a></li>
+	<li id="menu-item-11307" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11307"><a href="https://sreake.com/category/news/">新着情報</a></li>
+	<li id="menu-item-13062" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13062"><a href="https://sreake.com/category/blog/">ブログ</a></li>
+	<li id="menu-item-13061" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13061"><a href="https://sreake.com/whitepaper/">ホワイトペーパー</a></li>
+	<li id="menu-item-13095" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13095"><a href="https://sreake.com/whitepaper/">資料ダウンロード</a></li>
+	<li id="menu-item-13059" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13059"><a href="https://sreake.com/contact/">お問い合わせ</a></li>
+</ul>
+</li>
+</ul>                </div>
+            </div>
+        </div>
+        <div class="c-footer__box l-col">
+            <div class="c-footer__block">
+                <div class="c-footer__info l-col l-col--center">
+						<p class="c-footer__company">
+												<a href="https://3-shake.com/" target="_blank"><img src="https://sreake.com/wp-content/themes/sreake/assets//images/common/3shake.png" alt="3-shake"></a>
+											</p>
+					<ul class="c-footer__submenu"><li id="menu-item-11313" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11313"><a target="_blank" href="https://3-shake.com/privacypolicy/">Privacy Policy</a></li>
+<li id="menu-item-12462" class="is-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-12462"><a target="_blank" href="https://twitter.com/SreakeJ"><i class="p-icon-twitter"></i></a></li>
+<li id="menu-item-12802" class="is-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-12802"><a target="_blank" href="https://www.facebook.com/Sreake-111320650577630"><i class="p-icon-facebook"></i></a></li>
+<li id="menu-item-12805" class="is-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-12805"><a target="_blank" href="https://www.wantedly.com/companies/3-shake"><i class="p-icon-wantedly"></i></a></li>
+<li id="menu-item-769" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-769"><a href="https://sreake.com/term/">利用規約</a></li>
+<li id="menu-item-12806" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12806"><a target="_blank" href="https://3-shake.com/about/">運営会社</a></li>
+<li id="menu-item-12472" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12472"><a target="_blank" href="https://3-shake.com/en/about/">Provider information</a></li>
+</ul>                </div>
+            </div>
+            <div class="c-footer__block">
+                <small class="c-footer__copyright">Copyrights©3-shake Inc. All Rights Reserved.</small>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- /#footer -->
+
+<!-- #spmenu -->
+<div id="spmenu" class="c-spmenu c-spmenu--2507">
+    <div class="l-inner">
+        <div class="c-spmenu__inner">
+            <ul class="c-spmenu__list"><li id="menu-item-11314" class="hidden menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11314"><a href="#">メニュー項目</a>
+<ul class="sub-menu">
+	<li id="menu-item-11315" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11315"><a href="/">トップ</a></li>
+</ul>
+</li>
+<li id="menu-item-11317" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11317"><a href="#">SRE総合支援</a>
+<ul class="sub-menu">
+	<li id="menu-item-11324" class="no-current menu-item menu-item-type-post_type menu-item-object-page menu-item-11324"><a href="https://sreake.com/devops/">インフラ・SRE / DevOps支援</a></li>
+	<li id="menu-item-11325" class="no-current menu-item menu-item-type-post_type menu-item-object-page menu-item-11325"><a href="https://sreake.com/k8s/">Kubernetes構築・運用支援</a></li>
+	<li id="menu-item-11318" class="no-current menu-item menu-item-type-post_type menu-item-object-page menu-item-11318"><a href="https://sreake.com/security/">セキュリティ支援</a></li>
+	<li id="menu-item-13039" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13039"><a href="https://sreake.com/service-sre/googlecloudsupport/">Google Cloud 総合支援サービス</a></li>
+	<li id="menu-item-13040" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13040"><a href="https://sreake.com/service-sre/googlecloud/">Google Cloud支払い代行サービス</a></li>
+	<li id="menu-item-13035" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13035"><a href="https://sreake.com/service-sre/awssupport/">AWS総合支援サービス</a></li>
+	<li id="menu-item-13037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13037"><a href="https://sreake.com/service-sre/datadog/">Datadog導入支援</a></li>
+	<li id="menu-item-13041" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13041"><a href="https://sreake.com/service-sre/pagerduty/">Pagerduty</a></li>
+	<li id="menu-item-11323" class="no-current menu-item menu-item-type-post_type menu-item-object-page menu-item-11323"><a href="https://sreake.com/app/">アプリケージョンモダナイゼーション支援</a></li>
+	<li id="menu-item-11322" class="no-current menu-item menu-item-type-post_type menu-item-object-page menu-item-11322"><a href="https://sreake.com/ai/">AI活用推進支援</a></li>
+	<li id="menu-item-11320" class="no-current menu-item menu-item-type-post_type menu-item-object-page menu-item-11320"><a href="https://sreake.com/data/">データ分析内製化支援</a></li>
+	<li id="menu-item-11319" class="no-current menu-item menu-item-type-post_type menu-item-object-page menu-item-11319"><a href="https://sreake.com/db/">データベース移行・改善支援</a></li>
+</ul>
+</li>
+<li id="menu-item-11340" class="hidden menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11340"><a href="#">メニュー項目</a>
+<ul class="sub-menu">
+	<li id="menu-item-13044" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13044"><a href="https://sreake.com/category/case/">活用事例</a></li>
+	<li id="menu-item-13050" class="menu-item menu-item-type-post_type_archive menu-item-object-event-seminar menu-item-13050"><a href="https://sreake.com/event-seminar/">イベント・セミナー</a></li>
+	<li id="menu-item-11343" class="no-current menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11343"><a href="https://sreake.com/category/news/">新着情報</a></li>
+	<li id="menu-item-13043" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13043"><a href="https://sreake.com/category/blog/">ブログ</a></li>
+	<li id="menu-item-13047" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13047"><a href="https://sreake.com/whitepaper/">ホワイトペーパー</a></li>
+	<li id="menu-item-13096" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13096"><a href="https://sreake.com/whitepaper/">資料ダウンロード</a></li>
+</ul>
+</li>
+<li id="menu-item-13049" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13049"><a href="https://sreake.com/contact/">お問い合わせ</a></li>
+</ul>        </div>
+    </div>
+    <div class="c-spmenu__language">
+        <div class="l-inner">
+            <ul class="bogo-language-switcher list-view"><li class="en-US en first"><span class="bogo-language-name"><a rel="alternate" hreflang="en-US" href="https://sreake.com/en/404.html" title="EN">EN</a></span></li>
+<li class="ja current last"><span class="bogo-language-name"><a rel="alternate" hreflang="ja" href="https://sreake.com/404.html" title="JP" class="current" aria-current="page">JP</a></span></li>
+</ul>        </div>
+    </div>
+</div>
+<!-- /#spmenu -->
+
+
+</div>
+<!-- /.l-app -->
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/sreake\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+
+<!-- GTM Container placement set to footer -->
+<!-- Google Tag Manager (noscript) -->
+				<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P22TGTB" height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><script type="text/javascript" src="https://sreake.com/wp-content/plugins/duracelltomi-google-tag-manager/dist/js/gtm4wp-form-move-tracker.js?ver=1.22.3" id="gtm4wp-form-move-tracker-js"></script>
+<script type="text/javascript" src="https://sreake.com/wp-content/plugins/katex/assets/katex-0.16.22/katex.min.js?ver=2.2.5" id="katex-js"></script>
+<script type="text/javascript" src="https://sreake.com/wp-content/plugins/katex/assets/render.js?ver=2.2.5" id="katex-render-js"></script>
+
+<script type="text/javascript" src="https://sreake.com/wp-content/themes/sreake/assets/js/app.js?v=53ef1100"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+(function($){
+    /* URLコピー機能を実装するDOM要素をCSSクラスで指定 */
+    var clipboard = new ClipboardJS('.share-url');
+    clipboard.on('success', function(e) {
+        /* URLコピー完了時のメッセージを対象のURLコピーボタン内に表示 */
+        $(e.trigger.nextElementSibling).fadeIn().delay(1000).fadeOut();
+    });
+})(jQuery);
+</script>
+<script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js-na2.hs-scripts.com/242032071.js?businessUnitId=45563284"></script>
+<!-- End of HubSpot Embed Code -->
+
+</body>
+</html>

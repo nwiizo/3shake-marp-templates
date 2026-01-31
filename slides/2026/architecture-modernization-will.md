@@ -148,6 +148,57 @@ _class: title dark
 
 ---
 
+## Sreakeのお仕事
+
+<div style="font-size: 0.68em;">
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+
+**クラウドネイティブなアプローチで、お客様の事業をより安全に、競争力のあるサービスへ**
+
+</div>
+
+### 提供サービス
+
+<div style="display: flex; gap: 8px; flex-wrap: wrap;">
+<div style="flex: 1; min-width: 180px; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
+
+**SRE/DevOps支援**
+
+- Kubernetes構築・運用
+- クラウドネイティブ化推進
+- Observability導入
+
+</div>
+<div style="flex: 1; min-width: 180px; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
+
+**アーキテクチャモダナイゼーション**
+
+- 現状分析・戦略策定
+- 段階的な移行支援
+- 内製化・伴走支援
+
+</div>
+<div style="flex: 1; min-width: 180px; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
+
+**データ活用支援**
+
+- データ基盤構築
+- BigQuery/Snowflake
+- 分析基盤最適化
+
+</div>
+</div>
+
+<div style="margin-top: 12px; padding: 12px; background-color: #e0e0e0; border-radius: 8px; text-align: center;">
+<span style="color: #e65100; font-weight: bold; font-size: 1.1em;">ご依頼・ご相談お待ちしております</span></br>
+<span style="font-size: 0.9em;">https://sreake.com/</span>
+</div>
+
+</div>
+
+---
+
 ## We are Hiring!!
 
 <div style="text-align: center; margin-top: 30px;">
