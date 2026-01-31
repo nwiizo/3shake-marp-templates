@@ -2269,7 +2269,7 @@ Alberto Brandoliniが考案した、ビジネスドメインを探索するた�
 
 イベントストーミングで発見した「自然な境界」を、**ドメイン駆動設計（DDD）の概念**で整理する。
 
-→ Bounded Context(境界づけられたコンテキスト)、コンテキストマッピング、そして型による境界の強制へ
+→ Bounded Context、コンテキストマッピング、そして型による境界の強制へ
 
 </div>
 
@@ -2305,7 +2305,7 @@ Alberto Brandoliniが考案した、ビジネスドメインを探索するた�
 
 ---
 
-## Bounded Context(境界づけられたコンテキスト)とは何か
+## Bounded Contextとは何か
 
 <div style="font-size: 0.75em;">
 
@@ -2317,7 +2317,7 @@ Alberto Brandoliniが考案した、ビジネスドメインを探索するた�
 
 <div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
-**Bounded Context(境界づけられたコンテキスト) = 同じ言葉が同じ意味を持つ範囲**
+**Bounded Context = 同じ言葉が同じ意味を持つ範囲**
 
 Eric Evansが「Domain-Driven Design」で提唱したDDDの中核概念。
 
@@ -2354,7 +2354,7 @@ Eric Evansが「Domain-Driven Design」で提唱したDDDの中核概念。
 
 ---
 
-## Bounded Context(境界づけられたコンテキスト)が解決する問題
+## Bounded Contextが解決する問題
 
 <div style="font-size: 0.75em;">
 
@@ -2368,7 +2368,7 @@ Eric Evansが「Domain-Driven Design」で提唱したDDDの中核概念。
 </div>
 <div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
-**Bounded Context(境界づけられたコンテキスト)のアプローチ**
+**Bounded Contextのアプローチ**
 
 各コンテキストは必要なモデルだけ持ち、変更が局所化される。「このコンテキストの責任者」が明確で、**チームが自律的に動ける**。
 
@@ -2376,7 +2376,7 @@ Eric Evansが「Domain-Driven Design」で提唱したDDDの中核概念。
 </div>
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">Bounded Context(境界づけられたコンテキスト)は「分断」ではなく「明確化」。境界を認めることで、かえって連携しやすくなる。</span>
+<span style="color: #e65100; font-weight: bold;">Bounded Contextは「分断」ではなく「明確化」。境界を認めることで、かえって連携しやすくなる。</span>
 </div>
 
 </div>
@@ -2392,9 +2392,9 @@ Eric Evansが「Domain-Driven Design」で提唱したDDDの中核概念。
 
 <div style="flex: 1; font-size: 0.7em;">
 
-**Bounded Context(境界づけられたコンテキスト)同士の連携パターン**を可視化する手法（Eric Evans, DDD）
+**Bounded Context同士の連携パターン**を可視化する手法（Eric Evans, DDD）
 
-Bounded Context(境界づけられたコンテキスト)は独立して存在するわけではない。他のコンテキストと**どう連携するか**を明示的に設計する必要がある。
+Bounded Contextは独立して存在するわけではない。他のコンテキストと**どう連携するか**を明示的に設計する必要がある。
 
 Team Topologiesのインタラクションモードと対応する概念であり、チーム間の関係性を技術的に表現したもの。
 
@@ -2469,7 +2469,7 @@ Team Topologiesのインタラクションモードと対応する概念であ�
 
 **「繋がり方」を設計しないと、最悪の形で繋がる**
 
-Bounded Context(境界づけられたコンテキスト)を発見しただけでは不十分。コンテキスト間の**関係性**を意図的に設計しなければ、暗黙の依存関係が蔓延する。
+Bounded Contextを発見しただけでは不十分。コンテキスト間の**関係性**を意図的に設計しなければ、暗黙の依存関係が蔓延する。
 
 </div>
 
@@ -2593,7 +2593,7 @@ DDDの概念（Aggregate、Entity、Value Object）を**型システム**で表�
 </div>
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">Bounded Context(境界づけられたコンテキスト)の境界を、型システムで物理的に強制する</span>
+<span style="color: #e65100; font-weight: bold;">Bounded Contextの境界を、型システムで物理的に強制する</span>
 </div>
 
 </div>
@@ -2633,7 +2633,7 @@ _class: transition
 **イベントストーミングで得られたもの**
 
 - ビジネスの全体像が可視化された
-- ドメイン境界の候補が見えた（Bounded Context(境界づけられたコンテキスト)）
+- ドメイン境界の候補が見えた（Bounded Context）
 - チーム間の暗黙知が共有された
 - 型で境界を守る方法も見えた（関数型ドメインモデリング）
 
@@ -2645,7 +2645,7 @@ _class: transition
 
 「境界に合わせてチームをどう設計するのか？」
 
-- Bounded Context(境界づけられたコンテキスト)とTeam Topologiesを対応させる
+- Bounded ContextとTeam Topologiesを対応させる
 - コンテキストマッピングとインタラクションモードを揃える
 
 → DDDとTeam Topologiesを**統合的に活用**する
@@ -2688,7 +2688,7 @@ DDDはソフトウェアの境界を定義し、Team Topologiesはチームの�
 
 | DDD概念 | Team Topologies対応 |
 |---------|---------------------|
-| **Bounded Context(境界づけられたコンテキスト)** | Stream-aligned Team の責任範囲 |
+| **Bounded Context** | Stream-aligned Team の責任範囲 |
 | **Core Domain** | 最も重要なStream-aligned Team |
 | **Supporting Subdomain** | Enabling Team / Complicated Subsystem Team |
 | **Generic Subdomain** | Platform Team / 外部調達 |
@@ -2930,7 +2930,7 @@ DDDで発見したサブドメインの境界と、Team Topologiesで設計す�
 </div>
 
 ```
-イベントストーミング ──→ Bounded Context(境界づけられたコンテキスト) の発見
+イベントストーミング ──→ Bounded Context の発見
                               ↓
                ┌──────────────┴──────────────┐
                ↓                              ↓
@@ -3318,7 +3318,7 @@ _class: transition
 |---------|------|-------------|
 | 現状理解 | リスニング/マッピングツアー | 痛み・願望・政治 |
 | 可視化 | イベントストーミング | ビジネスフロー、ホットスポット |
-| 境界定義 | DDD（Bounded Context(境界づけられたコンテキスト)） | 責任範囲、連携パターン |
+| 境界定義 | DDD（Bounded Context） | 責任範囲、連携パターン |
 | チーム設計 | Team Topologies | 自律的なチーム構造 |
 | 境界の強制 | 型システム（関数型DDD） | AIが破れない壁 |
 
