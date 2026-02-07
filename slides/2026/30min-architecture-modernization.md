@@ -741,7 +741,7 @@ Ch.1では**ソシオテクニカルなアプローチ**と**独立した価値�
 
 ## Building Microservicesも同じ結論に至っている
 
-<div style="font-size: 0.68em;">
+<div style="font-size: 0.72em;">
 
 <div style="display: flex; gap: 20px; align-items: center;">
 <div style="width: 20%;">
@@ -756,11 +756,30 @@ Sam Newmanの **Building Microservices, 2nd Edition** はマイクロサービ�
 
 | Part | テーマ | Newmanの主張 |
 | --- | --- | --- |
-| **I. Foundation** (Ch.1-4) | 境界の設計 | 情報隠蔽・凝集性・DDDでサービス境界を引く。**境界が間違っていれば分割しても意味がない** |
-| **II. Implementation** (Ch.5-13) | 実装と運用 | 通信・テスト・デプロイ・セキュリティ・レジリエンス。**マイクロサービスの運用コストは高い。それに見合う価値があるか先に問え** |
-| **III. People** (Ch.14-16) | 組織と人 | Conway's Law、Stream-alignedチーム、進化的アーキテクト。**最大のスケーリングコストは技術ではなく調整コスト** |
+| **I. Foundation** (Ch.1-4) | 境界の設計 | 情報隠蔽・凝集性・DDDで境界を引く。**境界が間違っていれば分割しても意味がない** |
+| **II. Implementation** (Ch.5-13) | 実装と運用 | 通信・テスト・デプロイ・セキュリティ。**運用コストに見合う価値があるか先に問え** |
+| **III. People** (Ch.14-16) | 組織と人 | Conway's Law、進化的アーキテクト。**最大のスケーリングコストは調整コスト** |
 
-### Architecture Modernizationとの交差点
+<div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>Newman: 「マイクロサービスはほとんどのスタートアップに向かない」。問うべきは「独立デプロイ可能性が必要か」。</strong>
+</div>
+
+</div>
+</div>
+
+</div>
+
+---
+
+## 2つの書籍が指す同じ方向
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+
+**マイクロサービスの著者とモダナイゼーションの著者が、異なる出発点から同じ結論に辿り着いている。**
+
+</div>
 
 | テーマ | Building Microservices | Architecture Modernization |
 | --- | --- | --- |
@@ -769,11 +788,10 @@ Sam Newmanの **Building Microservices, 2nd Edition** はマイクロサービ�
 | 移行戦略 | Strangler Fig、段階的な分割 | Strangler Fig、段階的な絞め殺し |
 | モノリスの扱い | モノリスは敵ではない。モジュラーモノリスも選択肢 | レガシーは否定しない。過去の上に未来を積む |
 
-<div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>Newman: 「マイクロサービスはほとんどのスタートアップに向かない」。問うべきは「独立デプロイ可能性が必要か」。</strong>
-</div>
+出発点は違う——Newmanは「マイクロサービスをどう作るか」から、Tuneは「レガシーをどう変えるか」から。しかし両者とも**「技術だけ変えても意味がない」「境界を正しく引け」「組織設計が先」**という同じ場所に着地している。
 
-</div>
+<div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>手段は違えど、原則は一つ。境界・組織・段階的進化。</strong>
 </div>
 
 </div>
