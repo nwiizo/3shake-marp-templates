@@ -49,6 +49,24 @@ npx @marp-team/marp-cli@latest slides/[file].md --html --allow-local-files --wat
 | `npm start` | ライブリロード付きローカルサーバー（ポート8080） |
 | `npm run preview` | プレビューモード |
 
+## ビルド後の確認
+
+ビルドが完了したら、出力ファイルの存在を確認してください。
+
+```bash
+ls -la slides/[file].html slides/[file].pdf
+```
+
+エラーが発生した場合の対処:
+- `--no-stdin` の付け忘れ → stdin待ちでハング（Ctrl+Cで中断し再実行）
+- `--allow-local-files` の付け忘れ → ローカル画像が表示されない
+- 画像パスのミス → 相対パス `../../assets/images/` を確認
+
+## プレビュー
+
+- ビルド後に毎回 `open` しない
+- 確認が必要な場合のみ、該当ページを指定して開く: `open slides/[file].html#5`
+
 ## 出力ファイルの使い分け
 
 | 形式 | 用途 |
