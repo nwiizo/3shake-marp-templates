@@ -225,7 +225,7 @@ _class: title dark
 </div>
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">書籍を読むための「地図」を手に入れる</span>
+<strong>書籍を読むための「地図」を手に入れる</strong>
 </div>
 
 </div>
@@ -269,6 +269,39 @@ _class: title dark
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
 <span style="color: #e65100; font-weight: bold;">今日の30分で「この本、読んでみよう」と思えるようになること</span>
 </div>
+
+</div>
+
+---
+
+## この発表の前提と限界
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+
+**30分で17章を扱う以上、割り切りがあります。** 先にお伝えしておきます。
+
+</div>
+
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**この発表でできること**
+
+各章の核心メッセージと書籍の構造を掴むこと。「何が書いてあるか」の地図。
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**この発表ではできないこと**
+
+各手法の実践的な適用方法。組織規模やドメインごとの使い分け。それは書籍本体と、実践の中でしか得られません。
+
+</div>
+</div>
+
+「うちは小さいから関係ない」「うちはSaaSだから違う」と思う場面もあるかもしれません。しかし書籍の原則——ソシオテクニカルな視点、段階的な変革、ドメイン戦略——は**組織規模やドメインを問わず適用できる**ものです。具体的な手法の取捨選択は、原則を理解した上で判断してください。
 
 </div>
 
@@ -376,7 +409,7 @@ EventStormingの「協調的な問題解決」は日本の合意形成文化そ�
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">モダナイゼーションは「やるかやらないか」ではなく「どうやるか」の問題</span>
+<span style="color: #e65100; font-weight: bold;">「やるべきか」で悩む段階はとっくに過ぎている。問いは「どうやるか」だけ。</span>
 </div>
 
 </div>
@@ -426,7 +459,7 @@ Ch.1-3
 - **独立した価値ストリーム** — ドメイン整合、チーム自律、成果志向、疎結合
 
 <div style="margin-top: 10px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">3-6ヶ月以内に価値を提供し始めることができる長期投資</span>
+<strong>3-6ヶ月以内に価値を提供し始めることができる長期投資</strong>
 </div>
 
 </div>
@@ -463,7 +496,7 @@ Ch.1-3
 | 最新フレームワーク | 学習時間を業務時間に組み込む         | 失敗から学ぶ文化へ         |
 
 <div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">技術・組織・文化を三位一体で変える</span>
+<strong>技術だけ変えても失敗する。「マイクロサービス化したのに遅くなった」は、ほぼこのパターン。</strong>
 </div>
 
 </div>
@@ -533,7 +566,7 @@ Ch.1-3
 </div>
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">独立した価値ストリームの数 = 組織の並列処理能力</span>
+<strong>独立した価値ストリームの数 = 組織の並列処理能力</strong>
 </div>
 
 </div>
@@ -620,7 +653,7 @@ Ch.1では**ソシオテクニカルなアプローチ**と**独立した価値�
 | 5    | 競合に市場を奪われる                   | 売上減少 → 投資減少 |
 
 <div style="margin-top: 6px; padding: 6px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">負のサイクルを断ち切るには、意図的な投資が必要</span>
+<span style="color: #e65100; font-weight: bold;">「時間がない」は原因ではなく症状。負のサイクルの中にいると、投資しない理由が自動生成される</span>
 </div>
 
 </div>
@@ -671,7 +704,76 @@ Ch.1では**ソシオテクニカルなアプローチ**と**独立した価値�
 </div>
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>罠を知ることが、罠を避ける第一歩</strong>
+<strong>厄介なのは、罠にはまっている側は「正しいことをしている」と思っていること</strong>
+</div>
+
+</div>
+
+---
+
+## 「マイクロサービスにすれば解決する」のか？
+
+<div style="font-size: 0.72em;">
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+
+**この反論はほぼ100%出ます。** 「銀の弾丸思考」の最も典型的な例なので、ここで正面から扱います。
+
+</div>
+
+### マイクロサービスが解決すること・しないこと
+
+| 解決すること | 解決しないこと |
+| --- | --- |
+| デプロイの独立性 | チーム間の責任の曖昧さ |
+| 技術選択の自由度 | ドメイン境界が間違っている問題 |
+| 障害の局所化 | 組織文化・承認フローの遅さ |
+
+マイクロサービスは**アーキテクチャパターンの1つ**であって、モダナイゼーションの目的ではない。ドメイン境界が間違ったまま分割すると、モノリスより悪い「分散モノリス」ができる。Ch.9でドメイン境界を正しく引く方法を扱うのは、この罠を避けるため。
+
+<div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>技術選定の前にドメイン戦略。順番を間違えると、新しい負債が生まれる。</strong>
+</div>
+
+</div>
+
+---
+
+## Building Microservicesも同じ結論に至っている
+
+<div style="font-size: 0.68em;">
+
+<div style="display: flex; gap: 20px; align-items: center;">
+<div style="width: 20%;">
+<img src="../../assets/images/2026/building-microservices-2nd-edition.jpeg" alt="Building Microservices, 2nd Edition" style="width: 100%; border-radius: 8px;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Sam Newman, O'Reilly, 2021</div>
+</div>
+<div style="flex: 1;">
+
+Sam Newmanの **Building Microservices, 2nd Edition** はマイクロサービスの実践ガイドとして最も広く読まれている書籍。その著者が第2版で強調したのは、**独立デプロイ可能性（Independent Deployability）こそがマイクロサービスの本質的な価値**であり、マイクロサービスという形態自体はゴールではないということ。
+
+### 書籍の3部構成と核心メッセージ
+
+| Part | テーマ | Newmanの主張 |
+| --- | --- | --- |
+| **I. Foundation** (Ch.1-4) | 境界の設計 | 情報隠蔽・凝集性・DDDでサービス境界を引く。**境界が間違っていれば分割しても意味がない** |
+| **II. Implementation** (Ch.5-13) | 実装と運用 | 通信・テスト・デプロイ・セキュリティ・レジリエンス。**マイクロサービスの運用コストは高い。それに見合う価値があるか先に問え** |
+| **III. People** (Ch.14-16) | 組織と人 | Conway's Law、Stream-alignedチーム、進化的アーキテクト。**最大のスケーリングコストは技術ではなく調整コスト** |
+
+### Architecture Modernizationとの交差点
+
+| テーマ | Building Microservices | Architecture Modernization |
+| --- | --- | --- |
+| 分割の前提 | DDDで境界を見つけてから分割 | イベントストーミングで境界を発見 |
+| 組織と技術 | Conway's Law — 組織がアーキテクチャを決める | 逆コンウェイ戦略 — 望むアーキテクチャに合わせて組織を設計 |
+| 移行戦略 | Strangler Fig、段階的な分割 | Strangler Fig、段階的な絞め殺し |
+| モノリスの扱い | モノリスは敵ではない。モジュラーモノリスも選択肢 | レガシーは否定しない。過去の上に未来を積む |
+
+<div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>Newman: 「マイクロサービスはほとんどのスタートアップに向かない」。問うべきは「独立デプロイ可能性が必要か」。</strong>
+</div>
+
+</div>
 </div>
 
 </div>
@@ -779,7 +881,7 @@ Ch.1では**ソシオテクニカルなアプローチ**と**独立した価値�
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">数字で語る。感情ではなく、データで説得する。</span>
+<strong>数字で語る。感情ではなく、データで説得する。</strong>
 </div>
 
 </div>
@@ -849,7 +951,7 @@ Ch.4-6
 </div>
 
 <div style="margin-top: 10px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">聴くことは、説得するための最初のステップ</span>
+<strong>聴くことは、説得するための最初のステップ</strong>
 </div>
 
 </div>
@@ -1237,7 +1339,7 @@ Ch.7-9
 **ビジネスの全体像を可視化した壁**（通常8m〜15mの長さになる）
 
 <div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">「混沌」から始めて「構造」を発見する</span>
+<strong>「混沌」から始めて「構造」を発見する</strong>
 </div>
 
 </div>
@@ -1766,10 +1868,38 @@ Ch.10-11
 **「チームが先、アーキテクチャは後」** — まずチームが自律的に動ける構造を作り、それに合わせてシステムを設計する。逆ではない。
 
 <div style="margin-top: 6px; padding: 6px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">Conway's Law: 組織構造 = システム構造</span>
+<strong>Conway's Law: 組織構造 = システム構造。これは選択ではなく物理法則。</strong>
 </div>
 
 </div>
+</div>
+
+</div>
+
+---
+
+## 「組織を変えずにアーキテクチャだけ変えたい」
+
+<div style="font-size: 0.72em;">
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+
+**よく聞く反論です。** 「組織変更は政治的に難しい。せめて技術だけでも先に変えたい」——気持ちは分かります。しかしConway's Lawは「法則」であって「提案」ではない。
+
+</div>
+
+### 技術だけ変えた場合に何が起きるか
+
+| やったこと | 期待した結果 | 実際の結果 |
+| --- | --- |--- |
+| マイクロサービス分割 | チームの自律性向上 | 同じ承認フローが残り、調整コスト増 |
+| API化 | 疎結合 | 組織の権限構造がAPIの設計を歪める |
+| クラウド移行 | デプロイ速度向上 | 変更管理委員会がボトルネックのまま |
+
+組織を変えずに技術だけ変えると、**新しいアーキテクチャが古い組織構造の形に引き戻される**。逆コンウェイ戦略——望ましいアーキテクチャに合わせて組織を設計する——が書籍の一貫した主張。
+
+<div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>組織を変える覚悟がないなら、アーキテクチャも変わらない。</strong>
 </div>
 
 </div>
@@ -1797,10 +1927,10 @@ Ch.10-11
 
 ### 対策
 
-**チームの担当範囲を「頭に入る」サイズに保つ** — 具体的には5〜9人のチームが「完全に理解できる」範囲のシステムを担当する。それ以上になったら分割。
+**チームの担当範囲を「頭に入る」サイズに保つ** — 具体的には5〜9人のチームが「完全に理解できる」範囲のシステムを担当する。それ以上になったら分割。チームを大きくするのではなく、担当範囲を小さくする。
 
 <div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">「理解できない」ものは「運用できない」</span>
+<span style="color: #e65100; font-weight: bold;">「理解できない」ものは「運用できない」。認知的負荷の限界が、チームの境界を決める。</span>
 </div>
 
 </div>
@@ -2108,7 +2238,7 @@ Ch.12-14
 社内のSlackチャンネルで「このツール使いにくい」という声が放置されていたら、それはプラットフォームチームとして機能していないサイン。
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">プラットフォームは「社内SaaS」として運営する</span>
+<strong>プラットフォームは「社内SaaS」として運営する</strong>
 </div>
 
 </div>
@@ -2218,7 +2348,7 @@ Ch.12-14
 </div>
 
 <div style="margin-top: 10px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">中央集権から連邦制へ。統制しつつ自律を促す。</span>
+<strong>中央集権から連邦制へ。統制しつつ自律を促す。</strong>
 </div>
 
 </div>
@@ -2387,10 +2517,10 @@ AMETは「代わりにやる」チームではない。チームが自走でき�
 | ❌ 永久に伴走し続けた     | 依存関係が生まれる         |
 | ❌ 一度に10チームに展開   | 支援が薄くなり全部中途半端 |
 
-失敗パターンの根っこは「代わりにやってしまう」か「広げすぎる」の2つ。AMETが優秀であるほど、つい手を出してしまう誘惑がある。しかし、チームの代わりに問題を解くことは、チームの学習機会を奪うことと同じ。
+失敗パターンの根っこは「代わりにやってしまう」か「広げすぎる」の2つ。AMETが優秀であるほど、つい手を出してしまう誘惑がある。しかし、チームの代わりに問題を解くことは、チームの学習機会を奪うことと同じ。**支援の質は、支援が不要になる速度で測る。**
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">「いなくなっても回る」状態を目指す</span>
+<span style="color: #e65100; font-weight: bold;">AMETの成功指標は「自分たちが不要になること」。依存を生む支援は、支援ではない。</span>
 </div>
 
 </div>
@@ -2431,12 +2561,10 @@ AMETという推進体制は整った。でも<strong>「3年計画で全シス�
 
 ### なぜ「小さく始める」が重要か
 
-- **リスク軽減**: 失敗しても影響が小さい
-- **学びの蓄積**: 何がうまくいくか分かってから拡大
-- **信頼獲得**: 成功実績で経営層の信頼を得る
+3年計画が失敗する理由は単純で、3年間も状況が変わらない前提が間違っている。予算カット、キーパーソン異動、市場変化——どれか1つは必ず起きる。だから**最初の3ヶ月で「やって良かった」を証明する**。小さな勝利が次の投資を引き出し、勝利の連鎖がモメンタムを生む。
 
 <div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">「3年計画」ではなく「3ヶ月で成果を出す」</span>
+<span style="color: #e65100; font-weight: bold;">「3年計画」は幻想。最初の3ヶ月の成果だけが、次の3ヶ月を保証する。</span>
 </div>
 
 </div>
@@ -2508,7 +2636,7 @@ AMETという推進体制は整った。でも<strong>「3年計画で全シス�
 | 経営層の関心が薄れる           | 定期的な報告、ビジネス言語で |
 | キーパーソンの離職             | 知識を分散、ドキュメント化   |
 
-モダナイゼーションは「始める」より「続ける」方がはるかに難しい。日常業務の優先度が上がるたびに、変革は後回しにされる。意識ではなく<strong>仕組み</strong>で守らなければ、モメンタムは静かに消える。
+モダナイゼーションは「始める」より「続ける」方がはるかに難しい。「今四半期は忙しいから来四半期に」——この判断が3回続けば、もう再開できない。意識ではなく<strong>仕組み</strong>で守らなければ、モメンタムは静かに消える。専任リソースの確保と3ヶ月ごとの成果可視化が、仕組みの最低ライン。
 
 </div>
 
@@ -2529,7 +2657,7 @@ AMETという推進体制は整った。でも<strong>「3年計画で全シス�
 Quick Winsが特に重要。最初の3ヶ月で「やって良かった」という実感を生めなければ、経営層も現場も離れていく。大きな成果でなくていい。「デプロイ時間が半分になった」「障害対応が30分短縮された」——数字で示せる小さな勝利が、次の投資を引き出す。
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">「続けること」自体が最大の成功要因</span>
+<strong>「続けること」自体が最大の成功要因</strong>
 </div>
 
 </div>
@@ -2708,7 +2836,7 @@ Lv.4→5の壁が最も高い。学習を<strong>個人やチームの善意</st
 </div>
 
 <div style="padding: 15px; background-color: #e0e0e0; border-radius: 8px; text-align: center; font-size: 1.1em;">
-<span style="color: #e65100; font-weight: bold;">モダナイゼーションは技術プロジェクトではなく、</br>ビジネス・組織・技術の総合的な変革である</span>
+<span style="color: #e65100; font-weight: bold;">技術だけ変えても元に戻る。組織だけ変えても形骸化する。</br>ビジネス・組織・技術を同時に動かせ。</span>
 </div>
 
 </div>
@@ -2771,15 +2899,15 @@ Team Topologies→ポートフォリオ→AMET
 
 **翻訳者として一番伝えたいこと**
 
-モダナイゼーションの本質は、完成形を目指すことではない。**変化し続ける能力を身につけること**。技術を一新しても、変化に対応し続ける組織がなければ、またレガシーに戻る。
+モダナイゼーションの本質は、完成形を目指すことではない。**変化し続ける能力を組織に埋め込むこと**。技術を一新しても、変化に対応し続ける組織文化がなければ、3年後にはまたレガシーに戻る。「完成したシステム」は存在しない。「進化し続けるシステム」だけがある。
 
 </div>
 
 <div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-**本を手に取るきっかけ**
+**「500ページ読む時間がない」への回答**
 
-全17章を通して読まなくてもいい。Ch.7（イベントストーミング）、Ch.11（Team Topologies）、Ch.12（疎結合）——この3章だけでも十分に実践に使える。
+全17章を通して読まなくてもいい。Ch.7（イベントストーミング）、Ch.11（Team Topologies）、Ch.12（疎結合）——この3章だけでも実践に使える。ただし、Why（Ch.1-3）を飛ばすと「なぜやるか」の合意が取れず、結局つまずく。**Ch.1 → Ch.7 → Ch.11** の3章で約60ページ。これなら読める。
 
 </div>
 
@@ -2800,6 +2928,8 @@ Team Topologies→ポートフォリオ→AMET
 - [Team Topologies](https://teamtopologies.com/) - Matthew Skelton, Manuel Pais（IT Revolution, 2019）
 - [Domain-Driven Design](https://www.domainlanguage.com/ddd/) - Eric Evans（Addison-Wesley, 2003）
 - [EventStorming](https://www.eventstorming.com/) - Alberto Brandolini
+- [Building Microservices, 2nd Edition](https://www.oreilly.com/library/view/building-microservices-2nd/9781492034018/) - Sam Newman（O'Reilly, 2021）
+- [Monolith to Microservices](https://samnewman.io/books/monolith-to-microservices/) - Sam Newman（O'Reilly, 2019）
 - [Sooner Safer Happier](https://www.soonersaferhappier.com/) - Jon Smart（IT Revolution, 2020）
 - [Data Mesh](https://www.oreilly.com/library/view/data-mesh/9781492092384/) - Zhamak Dehghani（O'Reilly, 2022）
 - [Wardley Maps](https://learnwardleymapping.com/) - Simon Wardley

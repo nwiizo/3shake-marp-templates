@@ -273,20 +273,20 @@ Mobility、FinTech、通信など大規模SREを存分に経験できます
 
 **文脈によって最適解は変わる**
 
-スタートアップかエンタープライズか、B2CかB2Bか、規制産業かどうか、組織の成熟度——これらによって正解は異なる。
+スタートアップかエンタープライズか、B2CかB2Bか、規制産業かどうか——これらによって正解は異なる。「うちには当てはまらない」と思う部分が必ずある。それは正しい反応。
 
 </div>
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-**この発表でやらないこと**
+**想定される反論に先に答えておく**
 
-「これが正解」と断言すること、特定の技術スタックを推奨すること、すべてのケースをカバーすること。
+「そんな余裕はない」→ 余裕がないからこそ構造を見直す価値がある。「うちは小さいから関係ない」→ 小さいうちに考えておく方が楽。「理想論だ」→ 理想を知った上で、現実とすり合わせるのが意志の実装。
 
 </div>
 </div>
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>正解は存在しない。あなたの現場で「意志を持って決める」道具を持ち帰ってほしい</strong>
+<strong>正解は存在しない。だが「考え方の型」は存在する。それを持ち帰ってほしい</strong>
 </div>
 
 </div>
@@ -360,7 +360,7 @@ _class: transition
 </div>
 
 <div style="margin-top: 20px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">AIが「作る」を奪った。残るのは「なぜ作るのか」を決める仕事だけ。</span>
+<strong>「書けるコード」の価値はゼロに近づく。「書くべきコード」を見極める力だけが残る。</strong>
 </div>
 
 </div>
@@ -476,7 +476,7 @@ _class: transition
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>プロンプトの巧さではなく、ドメインの深さがAIの出力を決める</strong>
+<strong>AIは鏡だ。あなたの理解が浅ければ、もっともらしく浅い答えが返る</strong>
 </div>
 
 </div>
@@ -550,7 +550,7 @@ _class: transition
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>「AIに任せる」と「AIに丸投げする」の間には、設計すべき境界がある</strong>
+<strong>新人に全権委任しないのと同じ。信頼は実績で積む。AIも例外ではない。</strong>
 </div>
 
 </div>
@@ -587,7 +587,7 @@ _class: transition
 だからこそ、ソシオテクニカルなアプローチの価値は**AIが発達するほど高まる**。技術側のコストが下がれば下がるほど、ボトルネックは「人間の調整コスト」に移動する。AIエージェントが100倍速くコードを書いても、チーム間の合意形成が3ヶ月かかるなら、全体のリードタイムは3ヶ月のまま。
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">AIは「How」を加速する。だが「What」と「Why」は加速しない。だから本日の話が必要。</span>
+<span style="color: #e65100; font-weight: bold;">AIは「How」を加速する。だが「What」と「Why」は加速しない。ここが今日の出発点。</span>
 </div>
 
 </div>
@@ -656,7 +656,7 @@ AIが「作る」コストを下げ、歴史が「運用は別物」だと教え
 </div>
 
 <div style="margin-top: 15px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">「作れる人」は余る。「何を作り、何を作らないか決められる人」が足りなくなる</span>
+<strong>「作れる人」は余る。「何を作り、何を作らないか決められる人」が足りなくなる</strong>
 </div>
 
 </div>
@@ -819,7 +819,7 @@ AIが「作る」コストを下げ、歴史が「運用は別物」だと教え
 </div>
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>必要な道具は存在する。あとは手に取る覚悟があるかどうか。</strong>
+<strong>私がこれから紹介するのは、その「面倒な本題」に向き合うための道具。</strong>
 </div>
 
 </div>
@@ -961,7 +961,7 @@ AIが「作る」コストを下げ、歴史が「運用は別物」だと教え
 </div>
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>「ゆっくり考え、すばやく動く」——複雑さを理解することが第一歩</strong>
+<span style="color: #e65100; font-weight: bold;">3つの変数に解析解はない。正解を計算するな。小さく動いて観測せよ。</span>
 </div>
 
 </div>
@@ -980,15 +980,15 @@ AIが「作る」コストを下げ、歴史が「運用は別物」だと教え
 
 <div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
 
-**"Do we have time to improve before a faster competitor overtakes us?"**
+**私がこの問いを突きつけられたのは、翻訳作業の途中だった。**
 
-私たちに改善の時間はあるのか？より速い競合に追い越される前に。
+今のシステムを維持し続けて、5年後も競争できるか？「改善したい」という意志はある。だが改善の速度が競合に追い越される速度に負けたら、意志は何の意味も持たない。
 
 </div>
 
 <div style="margin-top: 20px; padding: 15px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="font-size: 0.9em;">"Quality engineers are losing 42% of their time to technical debt"</span></br>
-<span style="color: #e65100; font-weight: bold; font-size: 1.1em;">優秀なエンジニアは時間の42%を技術的負債に奪われている</span>
+<span style="color: #e65100; font-weight: bold; font-size: 1.1em;">優秀なエンジニアは時間の42%を技術的負債に奪われている</span></br>
+<span style="font-size: 0.8em;">（Stripe調査, 2018）——この数字は6年経った今も改善していない</span>
 </div>
 
 </div>
@@ -1034,7 +1034,7 @@ AIが「作る」コストを下げ、歴史が「運用は別物」だと教え
 </div>
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>入り口はどこでもいい。重要なのは「全体像を見失わない」こと</strong>
+<strong>あなたの組織の痛みはどれか。まず自社の入り口に名前をつけることから始めよ</strong>
 </div>
 
 </div>
@@ -1087,8 +1087,7 @@ AIが「作る」コストを下げ、歴史が「運用は別物」だと教え
 </div>
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="font-size: 0.85em;">"The system will be legacy from the moment it's built if technical practices aren't invested in"</span></br>
-<span style="color: #e65100; font-weight: bold;">技術的プラクティスに投資しなければ、システムは作られた瞬間からレガシーになる</span>
+<strong>システムは作られた瞬間から老化が始まる。投資し続けなければ、新規開発すらレガシーになる。</strong>
 </div>
 
 </div>
@@ -1101,9 +1100,9 @@ AIが「作る」コストを下げ、歴史が「運用は別物」だと教え
 
 <div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
 
-**なぜ「銀の弾丸」を求めてしまうのか？**
+**「でも、マイクロサービスにすれば解決するのでは？」——この問いに正面から答えたい。**
 
-モダナイゼーションは成果が見えにくく、説明が難しい。「マイクロサービス」と言えば経営層にも伝わる。しかしそれは「ダイエットしたい→サプリを買う」と同じ構造。本当に必要なのは生活習慣の変革であり、それには時間がかかる。
+モダナイゼーションは成果が見えにくい。「マイクロサービス」と言えば経営層にも伝わるし、予算が通る。だがそれは「ダイエットしたい→サプリを買う」と同じ構造。本当に必要なのは生活習慣の変革であり、サプリは補助にすぎない。
 
 </div>
 
@@ -1125,7 +1124,7 @@ AIが「作る」コストを下げ、歴史が「運用は別物」だと教え
 </div>
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">説明しやすい嘘より、説明しにくい真実を選べるか。それがリーダーシップ。</span>
+<span style="color: #e65100; font-weight: bold;">説明しやすい嘘より、説明しにくい真実を選べるか。それがリーダーの仕事。</span>
 </div>
 
 </div>
@@ -1330,7 +1329,7 @@ _class: transition
 
 **時間軸の違い**
 
-技術変更は数週間〜数ヶ月、組織変更は数ヶ月〜数年。**同期が取れない**ため、どちらかが置いていかれる。
+技術変更は数週間〜数ヶ月、組織変更は数ヶ月〜数年。McKinsey（2023）の調査では、デジタル変革の70%が目標未達であり、最大の原因は「技術と組織の変革速度の不一致」と報告されている。**同期が取れない**ため、どちらかが置いていかれる。
 
 </div>
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
@@ -1410,7 +1409,7 @@ _class: transition
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>翻訳チームという小さな組織で、コンウェイの法則を肌で感じた</strong>
+<strong>5人のチームでも起きる。あなたのチームでも必ず起きている。見えていないだけだ</strong>
 </div>
 
 </div>
@@ -1441,7 +1440,7 @@ _class: transition
 - 「逆コンウェイ戦略」: 望むアーキテクチャに合わせてチームを編成する
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">コンウェイの法則は避けられない——味方につけるか、敵に回すか</span>
+<span style="color: #e65100; font-weight: bold;">組織の形がシステムの形になる。これは好むと好まざるとに関わらず起きる。ならば利用せよ。</span>
 </div>
 
 </div>
@@ -1455,7 +1454,7 @@ _class: transition
 
 <div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
 
-**なぜ組織構造がシステム構造に反映されるのか**
+**「組織を変えずにアーキテクチャだけ変えればいい」——これが最もよく聞く反論。だが、なぜそれが通用しないのか。**
 
 </div>
 
@@ -1601,7 +1600,7 @@ _class: transition
 顧客のビジネス成果、チームの自己評価、定性的なフィードバックなど<strong>数字の裏にある文脈</strong>を見る指標こそ重要。数字は「会話のきっかけ」であって「結論」ではない。
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">「速くなった」≠成功。「正しいものを、正しく速く」=成功</span>
+<strong>数字が目標になった瞬間、数字は信用できなくなる。指標は「会話の入口」であって「結論」ではない</strong>
 </div>
 
 </div>
@@ -1653,7 +1652,7 @@ _class: transition
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
 <span style="font-size: 0.85em;">"Teams aligned to domains become owners of their product's destiny"</span></br>
-<span style="color: #e65100; font-weight: bold;">ドメインに整合したチームは、プロダクトの運命の所有者になる</span>
+<strong>ドメインに整合したチームは、プロダクトの運命の所有者になる</strong>
 </div>
 
 </div>
@@ -1959,7 +1958,7 @@ _class: transition
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
 
-マップは「正解を見つける」ためではなく「会話を始める」ために作る
+<strong>完璧なマップは要らない。来週、ホワイトボードに依存関係を1つ描け。会話が始まる</strong>
 
 </div>
 
@@ -2100,7 +2099,7 @@ _class: transition
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">派手な技術選定より、地味な現状把握。それがモダナイゼーションの第一歩。</span>
+<strong>あなたの四半期レビューに「リスニングツアー実施」と書く覚悟はあるか。その覚悟が第一歩。</strong>
 </div>
 
 </div>
@@ -2137,7 +2136,7 @@ _class: transition
 </div>
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>地味な仕事を評価できる組織だけが、モダナイゼーションを成功させられる</strong>
+<strong>「リリース数」は誰でも数えられる。「避けた障害の数」を評価できるかが、組織の成熟度を決める</strong>
 </div>
 
 </div>
@@ -2164,8 +2163,8 @@ _class: transition
 4. **継続的な調整**: フィードバックに基づく改善
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="font-size: 0.85em;">"Modernization requires leadership to hand over power to teams"</span></br>
-<span style="color: #e65100; font-weight: bold;">権限なき責任は拷問。チームに責任を求めるなら、権限もセットで渡せ</span>
+<span style="color: #e65100; font-weight: bold;">権限なき責任は拷問。チームに責任を求めるなら、権限もセットで渡せ。</span></br>
+<span style="font-size: 0.8em;">責任だけ押し付けて権限を握り続けるリーダーは、無意識にモダナイゼーションを妨害している</span>
 </div>
 
 </div>
@@ -2184,9 +2183,7 @@ _class: transition
 
 <div style="background-color: #f5f5f5; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
 
-**逆コンウェイ戦略は強力だが、落とし穴がある**
-
-<span style="font-size: 0.85em; color: #666;">"Beware the 'structure and process fallacy'—changing org structure alone fixes nothing"</span>
+**逆コンウェイ戦略は強力だが、落とし穴がある。組織図を書き換えるだけでは何も変わらない。**
 
 </div>
 
@@ -2208,7 +2205,7 @@ _class: transition
 </div>
 
 <div style="margin-top: 10px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>構造を変えても、プロセスと意識が変わらなければ元に戻る</strong>
+<strong>箱を入れ替えても、中身が同じなら結果は同じ。形だけの変革は変革ではない</strong>
 </div>
 
 </div>
@@ -2241,7 +2238,7 @@ _class: transition
 | **表層化** | 場当たり的な対応しか取れない | 銀の弾丸への期待 |
 
 <div style="margin-top: 10px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>構造的無能化は成熟した組織が避け難い宿命。だからこそ意識的に対抗する</strong>
+<strong>成功した組織ほどこの罠にはまる。だからこそ、構造を意識的に壊し続ける必要がある</strong>
 </div>
 
 </div>
@@ -2461,7 +2458,7 @@ Alberto Brandoliniが考案した、ビジネスドメインを探索するた�
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>イベントストーミングは「1回のイベント」ではなく「継続的な実践」</strong>
+<strong>「忙しくてワークショップの時間がない」——その忙しさの原因が、暗黙知の不共有ではないか？</strong>
 
 </div>
 
@@ -2504,7 +2501,7 @@ Alberto Brandoliniが考案した、ビジネスドメインを探索するた�
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">翻訳で最も難しかったのは英語ではない。著者の思考を追体験することだった。</span>
+<strong>翻訳で最も難しかったのは英語ではない。著者の思考を追体験することだった。</strong>
 </div>
 
 </div>
@@ -2590,8 +2587,7 @@ Alberto Brandoliniが考案した、ビジネスドメインを探索するた�
 
 **「正しい」唯一の境界は存在しない。** 境界は組織の目標に奉仕するために存在する。
 
-<span style="font-size: 0.85em; color: #666; font-style: italic;">"Concepts that change together belong together"</span>
-（一緒に変更される概念は一緒にまとめる）
+**一緒に変わるものは、一緒に置く。** 変更の波及範囲が境界の外に漏れるなら、境界の引き方が間違っている。
 
 ### 依存関係のコスト評価
 
@@ -2679,7 +2675,7 @@ Eric Evansが2003年の「Domain-Driven Design」で提唱したDDDの中核概�
 </div>
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">Bounded Contextは「分断」ではなく「明確化」。境界を認めることで、かえって連携しやすくなる。</span>
+<strong>Bounded Contextは「分断」ではなく「明確化」。境界を認めることで、かえって連携しやすくなる。</strong>
 </div>
 
 </div>
@@ -3066,7 +3062,7 @@ DDDはソフトウェアの境界を定義し、Team Topologiesはチームの�
 | **Context Mapping** | Team Interaction Modes |
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>ドメイン境界＝チーム境界にすることで、自律性と疎結合を実現</strong>
+<strong>「きれいに分離できない」という反論が出る。完全な分離は幻想。依存の方向と強さを制御することが本質</strong>
 </div>
 
 </div>
@@ -3167,7 +3163,7 @@ Team Topologiesの核心は、Stream-alignedチームが価値を届けること
 | **認知負荷の限界内** | 担当範囲が大きすぎない | 持続可能なペース |
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>「この機能を届けるのに何チームの調整が必要か」——少ないほど良い</strong>
+<strong>来週、1つの機能リリースに必要な調整先を数えてみろ。その数があなたの組織の現在地だ</strong>
 </div>
 
 </div>
@@ -3266,7 +3262,7 @@ Collaboration  →  Facilitating   →  X-as-a-Service
 **Collaborationは持続不可能**——2チームが常に密に連携すると両方の速度が落ちる。**X-as-a-Serviceは最初から無理**——境界が不明確な段階でAPIを固定すると後で苦しむ。**Facilitatingは橋渡し**——知識を移転し、自律性を高める。
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>今の状態は「通過点」なのか「目的地」なのか。答えられなければ漂流している</strong>
+<strong>チーム間の関わり方に「卒業条件」を設定せよ。期限なきCollaborationは共依存になる</strong>
 </div>
 
 </div>
@@ -3319,7 +3315,7 @@ DDDで発見したサブドメインの境界と、Team Topologiesで設計す�
 ```
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">イベントストーミングで発見し、DDDで分析し、Team Topologiesで組織化する</span>
+<strong>イベントストーミングで発見し、DDDで分析し、Team Topologiesで組織化する</strong>
 </div>
 
 </div>
@@ -3365,7 +3361,7 @@ John Swellerが1988年に提唱した認知負荷理論に基づく概念。Team
 
 <div style="margin-top: 10px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
 <span style="font-size: 0.85em; font-style: italic;">"Cognitive load is the primary constraint"</span></br>
-<span style="color: #e65100; font-weight: bold;">認知負荷こそがチーム設計における最大の制約</span>
+<strong>認知負荷こそがチーム設計における最大の制約</strong>
 </div>
 
 </div>
@@ -3404,7 +3400,7 @@ John Swellerが1988年に提唱した認知負荷理論に基づく概念。Team
 </div>
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>チームが「本質的でない複雑さ」に殺されている。それを設計で解消する</strong>
+<strong>チームに「何が一番面倒？」と聞け。その答えがExtraneous Loadであり、最初に潰すべき標的だ</strong>
 </div>
 
 </div>
@@ -3443,7 +3439,7 @@ John Swellerが1988年に提唱した認知負荷理論に基づく概念。Team
 </div>
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="font-size: 0.85em;">"Fast flow is the measure of organizational health, not velocity metrics"</span></br>
+<span style="font-size: 0.85em;">Accelerate（Forsgren et al., 2018）の研究が示した事実：チームの自律性とデリバリー性能は強く相関する</span></br>
 <strong>高速フローは組織の健全性を測る物差し——ベロシティ指標ではなく</strong>
 </div>
 
@@ -3482,7 +3478,7 @@ John Swellerが1988年に提唱した認知負荷理論に基づく概念。Team
 </div>
 </div>
 
-チームをプロジェクトごとに解散・再編成するのではなく、製品に長期的に紐づける。
+チームをプロジェクトごとに解散・再編成するのではなく、製品に長期的に紐づける。DORA State of DevOps Report（2023）は、安定したチーム構成がデリバリー性能の予測因子であることを繰り返し報告している。
 
 </div>
 
@@ -3520,7 +3516,7 @@ John Swellerが1988年に提唱した認知負荷理論に基づく概念。Team
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">エンジニアを「交換可能なリソース」として扱うと、チームは育たない</span>
+<span style="color: #e65100; font-weight: bold;">人を「リソース」と呼ぶ組織は、チームを育てられない。名前で呼べ。</span>
 </div>
 
 </div>
@@ -3798,7 +3794,8 @@ _class: transition
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">モグラ叩きをやめろ。構造を変えない限り、問題は永遠に湧き出る。</span>
+<span style="color: #e65100; font-weight: bold;">モグラ叩きをやめろ。構造を変えない限り、問題は永遠に湧き出る。</span></br>
+<span style="font-size: 0.8em;">「構造を変える余裕がない」——それは構造を変えないことのコストを見えていないだけ</span>
 </div>
 
 </div>
@@ -3909,7 +3906,7 @@ _class: transition
 
 <div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
 
-**システムを一新しても、問題を生み出した構造がそのままだと、数年後にまた同じ問題にぶつかる。** 新しいシステムが、また新しいレガシーになる。私も何度かそういう現場を見てきました。
+**システムを一新しても、問題を生み出した構造がそのままだと、数年後にまた同じ問題にぶつかる。** 「今度こそ」と始めたリプレースが、また新しいレガシーになる。なぜか。コードは新しくなっても、意思決定の構造、チーム間の力学、承認フローが同じだから。
 
 </div>
 
@@ -3948,9 +3945,7 @@ _class: transition
 
 <div style="flex: 1; font-size: 0.7em;">
 
-<span style="font-size: 0.85em; color: #666;">"Modernization is not a project, it is parallel streams of work"</span>
-
-**モダナイゼーションはプロジェクトではない。並行するワークストリームである**
+**モダナイゼーションを「プロジェクト」と呼んだ瞬間、失敗が始まる。** プロジェクトには終わりがある。だが組織の進化に終わりはない。
 
 ### Portfolio-Driven Evolution
 
@@ -4027,7 +4022,44 @@ _class: transition
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">「作れる」から作るのではない。「作るべきか」を問い、作らない勇気を持つ</span>
+<strong>「作れる」から作るのではない。「作るべきか」を問い、作らない勇気を持つ</strong>
+</div>
+
+</div>
+
+---
+
+## Newmanが語る「進化的アーキテクト」
+
+<div style="font-size: 0.68em;">
+
+<div style="display: flex; gap: 20px; align-items: center;">
+<div style="width: 18%;">
+<img src="../../assets/images/2026/building-microservices-2nd-edition.jpeg" alt="Building Microservices, 2nd Edition" style="width: 100%; border-radius: 8px;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Sam Newman, O'Reilly, 2021</div>
+</div>
+<div style="flex: 1;">
+
+Sam Newmanは **Building Microservices** の最終章（Ch.16 "The Evolutionary Architect"）で、アーキテクトの役割を再定義している。
+
+<div style="background-color: #e0e0e0; padding: 10px; border-radius: 8px; margin-bottom: 8px; text-align: center; font-size: 1.1em;">
+<strong>アーキテクトは「完璧な設計図を描く人」ではなく「変化を可能にする構造を設計する人」</strong>
+</div>
+
+<div style="background-color: #f5f5f5; padding: 10px; border-radius: 8px; margin-bottom: 8px;">
+
+Newmanの主張は明快。**独立デプロイ可能性**こそがマイクロサービスの唯一の本質的価値であり、それが不要ならモノリスでいい。情報隠蔽と低結合を徹底し、「知りすぎない」境界を引くことが設計者の最も重要な仕事。そして最大のスケーリングコストは技術ではなく**チーム間の調整コスト**。
+
+</div>
+
+これは本書Architecture Modernizationの「意志を実装する」と同じ構図。Newman自身もConway's Lawを取り上げ、**組織がアーキテクチャを形作る**ことを前提にチーム設計を語っている。
+
+<div style="margin-top: 8px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center; font-size: 1.1em;">
+<span style="color: #e65100; font-weight: bold;">「進化的アーキテクト」とは「意志を持って構造を選ぶ人」のこと。</span>
+<div style="font-size: 0.75em; margin-top: 4px;"><strong>完璧な設計は存在しない。変化に耐える設計だけが生き残る。それを選ぶのがアーキテクトの意志。</strong></div>
+</div>
+
+</div>
 </div>
 
 </div>
@@ -4155,7 +4187,7 @@ _class: transition
 
 <div style="margin-top: 15px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
 <span style="font-size: 0.85em;">"If leaders are still looking for quick fixes, they don't understand the problem"</span></br>
-<span style="color: #e65100; font-weight: bold;">リーダーがまだ銀の弾丸を探しているなら、問題を理解していない</span>
+<strong>リーダーがまだ銀の弾丸を探しているなら、問題を理解していない</strong>
 </div>
 
 </div>
@@ -4205,7 +4237,7 @@ _class: transition
 </div>
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">道具は揃った。使わない理由はもうない。</span>
+<span style="color: #e65100; font-weight: bold;">道具は揃っている。足りないのは「この組織をどうしたいか」という意志だけ。</span>
 </div>
 
 </div>
@@ -4236,17 +4268,15 @@ _class: transition
 
 <div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
 
-5人で約1年かけてこの本を訳しました。翻訳を通じて著者Nick Tuneの視点を追体験し、自分たちの翻訳チーム自体がソシオテクニカルの実験場になりました。
-
-用語の統一はBounded Contextの実践だったし、暗黙知の共有はイベントストーミングそのものでした。
+この本を訳しながら、私はずっと考えていました。なぜ同じ失敗が繰り返されるのか。なぜ「正しいこと」を知っている人がたくさんいるのに、組織は変われないのか。
 
 </div>
 
 <div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px;">
 
-**モダナイゼーションの本質は、完成形を目指すことではない。変化し続ける能力を身につけること。**
+**私の結論はこうです。モダナイゼーションの本質は、完成形を目指すことではない。変化し続ける能力を組織に埋め込むこと。**
 
-この一文に、著者が17章かけて伝えたかったことが集約されています。技術を一新しても、変化に対応し続ける組織がなければ、またレガシーに戻る。逆に、変化し続ける文化と構造があれば、技術は後からついてくる。
+技術を一新しても、変化に対応し続ける文化がなければ、またレガシーに戻る。逆に、変化し続ける構造があれば、技術は後からついてくる。問題は技術ではなく、組織が変化を受け入れる仕組みを持っているかどうか。
 
 </div>
 
@@ -4261,22 +4291,22 @@ _class: transition
 <div style="display: flex; gap: 15px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-**学んだこと**
+**今日の話の核心**
 
-AIが「How」のコストを劇的に下げる時代に、ボトルネックは人間の調整に移る。ソフトウェアと組織を同時に設計し、イベントストーミングで協働的にドメインを発見。DDDとTeam Topologiesで境界を一致させる。
+AIがHowのコストを下げた結果、ボトルネックは人間の調整に移った。だからソフトウェアと組織を同時に設計する必要がある。イベントストーミングで協働的にドメインを発見し、DDDとTeam Topologiesで境界を一致させる。
 
 </div>
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **持ち帰ってほしいこと**
 
-モダナイゼーションは「負債を返す」作業じゃない。**「資産を再構築する」作業**。過去を否定するんじゃなくて、過去の上に未来を積む。そしてそれは一度の刷新ではなく、変化し続ける能力の獲得。
+モダナイゼーションは「負債を返す」作業ではない。**変化し続ける能力を組織に埋め込む**作業。技術を新しくしても、構造が同じなら同じ問題が再発する。変えるべきは技術だけでなく、意思決定の構造そのもの。
 
 </div>
 </div>
 
 <div style="margin-top: 12px; padding: 12px; background-color: #e0e0e0; border-radius: 8px; text-align: center; font-size: 1.1em;">
-<span style="color: #e65100; font-weight: bold;">道具は全部ある。足りないのは「やる」と決める覚悟だけ。</span>
+<span style="color: #e65100; font-weight: bold;">持ち帰るべきは手法ではない。「自分の組織をどうしたいか」という問いだ。</span>
 </div>
 
 </div>
@@ -4324,7 +4354,7 @@ AIが「How」のコストを劇的に下げる時代に、ボトルネックは
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>AIにはできないこと——ビジネスの文脈を理解し、組織を動かし、長期のビジョンを描く。これが意志の実装。</strong>
+<strong>この3つは互いに依存している。どれか1つだけ変えても、残りが引き戻す。だから同時に設計する必要がある。</strong>
 </div>
 
 </div>
@@ -4337,9 +4367,9 @@ AIが「How」のコストを劇的に下げる時代に、ボトルネックは
 
 <div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
 
-**AIエージェントは「実装力の民主化」をもたらす。それは諸刃の剣。**
+**「AIがいずれWhatやWhyも判断するのでは？」——最もよく受ける質問に答えたい。**
 
-誰でも高品質なコードを生成できるようになると、**コードの価値は下がり、設計判断の価値が上がる**。すると「意志を持つ」ことの重要度は、今の比ではなくなる。
+仮にそうなったとしても、その判断を**採用する責任**は人間にしかない。AIが「このドメインは外部に委託すべき」と提案しても、その結果として起きるレイオフの責任をAIは取らない。意志とは判断することではなく、**判断の結果を引き受ける覚悟**のこと。
 
 </div>
 
@@ -4361,7 +4391,7 @@ AIが「How」のコストを劇的に下げる時代に、ボトルネックは
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">速く走れるマシンほど、操縦者の判断が生死を分ける</span>
+<strong>速く走れるマシンほど、操縦者の判断が生死を分ける</strong>
 </div>
 
 </div>
@@ -4375,16 +4405,16 @@ AIが「How」のコストを劇的に下げる時代に、ボトルネックは
 <div style="display: flex; gap: 15px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-<strong>来週やること</strong>
+<strong>来週やること（30分で終わる）</strong>
 
-チームで「最も変更が怖いコード」を1つ挙げる。そのコードが怖い理由を言語化する。それが技術の問題か、組織の問題か、両方かを議論する。
+チームの定例で「最も変更が怖いコード」を1つ挙げる。怖い理由を付箋に書き出す。技術の問題（テストがない、依存が複雑）か、組織の問題（担当者が不明、承認が必要）かを仕分ける。**仕分け結果がモダナイゼーションの出発点になる。**
 
 </div>
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-<strong>来月やること</strong>
+<strong>来月やること（意思決定の棚卸し）</strong>
 
-「誰かが決めてくれるのを待っている」案件を1つ特定する。なぜ決まらないのかを書き出す。決める権限を持つ人を巻き込む。
+「誰かが決めてくれるのを待っている」案件を1つ特定する。「なぜ決まらないのか」を3つの観点で書き出す——権限がない、情報がない、合意できない。そのうち**自分で動かせるものから着手する**。全部は無理でも、1つ動かすだけで景色が変わる。
 
 </div>
 </div>
@@ -4399,14 +4429,14 @@ AIが「How」のコストを劇的に下げる時代に、ボトルネックは
 
 <div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
 
-AIエージェントに「設計判断」を1つ任せてみる。その出力を見て、自分ならどう判断するかを言語化する。差分が見えたら、それが<strong>あなたの文脈知</strong>。
+試しにAIエージェントに「このシステムをどうモダナイズすべきか」と聞いてみる。出力はもっともらしい。だが「うちの組織では無理だな」と思う箇所が必ずある。**その「無理だな」が、あなただけが持っている文脈知。**
 
 </div>
 
-AIは選択肢を高速に列挙できる。しかし「この組織で、この時期に、このチームで、どれを選ぶか」を決めるのは人間にしかできない。AIの出力と自分の判断の差分を観察することで、自分が持っている暗黙知——組織の政治、チームの疲弊度、技術的負債の温度感——が浮かび上がる。
+AIは選択肢を高速に列挙する。だが「この組織で、この時期に、このチームで、どれを選ぶか」は人間にしか決められない。AIの出力と自分の判断の差分を観察すると、自分が無意識に持っている暗黙知——組織の力学、チームの疲弊度、ステークホルダーの温度感——が言語化できる。それが意思決定の出発点になる。
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">「正解を探す」より「決めて動く」。それが意志の実装。</span>
+<span style="color: #e65100; font-weight: bold;">AIは100の選択肢を並べる。あなたは1つを選び、結果を引き受ける。それが意志の実装。</span>
 </div>
 
 </div>
@@ -4439,20 +4469,16 @@ https://3-shake.connpass.com/event/382086/
 
 <div style="font-size: 0.65em;">
 
-### 書籍
-
 - [Architecture Modernization](https://www.manning.com/books/architecture-modernization) - Nick Tune, Jean-Georges Perrin（Manning, 2024）
 - [アーキテクチャモダナイゼーション](https://www.oreilly.co.jp/) - 日本語版、株式会社スリーシェイク訳
 - [Team Topologies](https://teamtopologies.com/) - Matthew Skelton, Manuel Pais（IT Revolution, 2019）
 - [チームの力で組織を動かす](https://gihyo.jp/book/2025/978-4-297-15064-8) - 松本成幸（技術評論社, 2025）
 - [企業変革のジレンマ](https://bookplus.nikkei.com/atcl/catalog/24/06/14/01289/) - 宇田川元一（日経BP, 2024）
+- [Building Microservices, 2nd Edition](https://www.oreilly.com/library/view/building-microservices-2nd/9781492034018/) - Sam Newman（O'Reilly, 2021）
 - [Domain-Driven Design](https://www.domainlanguage.com/ddd/) - Eric Evans（Addison-Wesley, 2003）
 - [関数型ドメインモデリング](https://asciidwango.jp/post/769073029498839040/) - Scott Wlaschin（KADOKAWA, 2025）
 - [EventStorming](https://www.eventstorming.com/) - Alberto Brandolini
 - [Sooner Safer Happier](https://www.soonersaferhappier.com/) - Jon Smart（IT Revolution, 2020）
-
-### 関連記事
-
 - [現代システムの三体問題](https://syu-m-5151.hatenablog.com/entry/2025/01/21/124130) - Architecture Modernization 読書感想文
 - [関数型ドメインモデリング 読書感想文](https://syu-m-5151.hatenablog.com/entry/2026/01/22/094654)
 
