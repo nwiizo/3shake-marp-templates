@@ -84,6 +84,12 @@ style: |
     margin: 0;
     box-sizing: border-box;
   }
+  table {
+    font-size: 0.65em !important;
+  }
+  table th, table td {
+    padding: 4px 6px !important;
+  }
 ---
 
 <!--
@@ -114,6 +120,7 @@ _class: title dark
 <!-- _backgroundColor: white -->
 
 ![bg left:30% fit](../../assets/images/nwiizo_icon.jpg)
+
 ## nwiizo
 
 <div class="info-box">
@@ -145,7 +152,7 @@ _class: title dark
 
 ### 提供サービス
 
-<div style="display: flex; gap: 8px; flex-wrap: wrap;">
+<div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center;">
 <div style="flex: 1; min-width: 180px; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
 
 **SRE/DevOps支援**
@@ -176,10 +183,8 @@ _class: title dark
 </div>
 
 <div style="margin-top: 12px; padding: 12px; background-color: #e0e0e0; border-radius: 8px; text-align: center;">
-<span style="color: #e65100; font-weight: bold; font-size: 1.1em;">ご依頼・ご相談お待ちしております</span></br>
+<span style="font-weight: bold; font-size: 1.1em;">ご依頼・ご相談お待ちしております</span></br>
 <span style="font-size: 0.9em;">https://sreake.com/</span>
-</div>
-
 </div>
 
 </div>
@@ -198,7 +203,7 @@ _class: title dark
 
 </div>
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
 **やること**
@@ -227,9 +232,51 @@ _class: title dark
 
 ---
 
+## この発表で解決できること
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+
+**こんな悩みを持っていませんか？**
+
+</div>
+
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**500ページの本を読む時間がない**
+
+→ 17章の核心を30分で掴める地図を提供します
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**どこから手をつければいいか分からない**
+
+→ 読者のタイプ別に読書ルートを案内します
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**経営層への説明に使える概念がほしい**
+
+→ ビジネス言語で語れるフレームワークを紹介します
+
+</div>
+</div>
+
+<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">今日の30分で「この本、読んでみよう」と思えるようになること</span>
+</div>
+
+</div>
+
+---
+
 ## 書籍の概要
 
-<div style="display: flex; gap: 30px;">
+<div style="display: flex; gap: 30px; align-items: center;">
 <div style="width: 25%;">
 <img src="../../assets/images/2026/アーキテクチャモダナイゼーション.jpg" alt="アーキテクチャモダナイゼーション" style="width: 100%; height: fit-content;">
 </div>
@@ -251,21 +298,85 @@ _class: title dark
 
 ---
 
+## 本日の流れ
+
+<div style="font-size: 0.75em;">
+
+<div style="display: flex; gap: 20px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+
+1. **Part 1: Why（理解）** — なぜモダナイゼーションが必要か
+2. **Part 2: Discovery（発見）** — 現状をどう把握するか
+3. **Part 3: Design（設計）** — 何を作るべきか
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+
+4. **Part 4: Organization（組織）** — 誰がどう作るか
+5. **Part 5: Technical（技術）** — どう作るか
+6. **Part 6: Execute（実行）** — どう進めるか
+
+</div>
+</div>
+
+<div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>書籍の構成に沿って、各パートの核心を紹介します</strong>
+</div>
+
+</div>
+
+---
+
 ## 書籍は6つのパートで構成されている
 
 <div style="font-size: 0.75em;">
 
-| Part | テーマ | 章 | 問い |
-|------|-------|-----|------|
-| **1. Why** | 理解 | Ch.1-3 | なぜモダナイゼーションが必要か？ |
-| **2. Discovery** | 発見 | Ch.4-6 | 現状をどう把握するか？ |
-| **3. Design** | 設計 | Ch.7-9 | 何を作るべきか？ |
-| **4. Organization** | 組織 | Ch.10-11 | 誰がどう作るか？ |
-| **5. Technical** | 技術 | Ch.12-14 | どう作るか？ |
-| **6. Execute** | 実行 | Ch.15-17 | どう進めるか？ |
+| Part                | テーマ | 章       | 問い                             | 主要な概念・手法                                              |
+| ------------------- | ------ | -------- | -------------------------------- | ------------------------------------------------------------- |
+| **1. Why**          | 理解   | Ch.1-3   | なぜモダナイゼーションが必要か？ | BVSSH、独立した価値ストリーム、負のサイクル                   |
+| **2. Discovery**    | 発見   | Ch.4-6   | 現状をどう把握するか？           | リスニングツアー、Wardley Mapping、プロダクトタクソノミー     |
+| **3. Design**       | 設計   | Ch.7-9   | 何を作るべきか？                 | イベントストーミング、Bounded Context、コンテキストマッピング |
+| **4. Organization** | 組織   | Ch.10-11 | 誰がどう作るか？                 | コアドメインチャート、Team Topologies、認知的負荷             |
+| **5. Technical**    | 技術   | Ch.12-14 | どう作るか？                     | 疎結合アーキテクチャ、IDP、Data Mesh                          |
+| **6. Execute**      | 実行   | Ch.15-17 | どう進めるか？                   | AMET、アダプティブロードマップ、学習文化                      |
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">Why → Discovery → Design → Organization → Technical → Execute の流れ</span>
+<strong>Why → Discovery → Design → Organization → Technical → Execute の流れ</strong>
+</div>
+
+</div>
+
+---
+
+## 翻訳者として伝えたいこと
+
+<div style="font-size: 0.72em;">
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+
+**5人で翻訳しました。** 最初にこの本を読んだとき、戸惑いました。アーキテクチャの本なのに、組織論とかビジネス戦略の話がやたら多くて。でも訳を進めるうちに、これが著者Nick Tuneの視点——技術と組織を一体として設計する視点——なんだとわかったんです。
+
+</div>
+
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**訳しながら気づいたこと**
+
+モダナイゼーションって「負債を返す」作業じゃない。**「資産を再構築する」作業**。過去を否定するんじゃなくて、過去の上に未来を積む。この視点の違い、けっこう大きいと思うんです。
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**ヨーロッパと日本は近い**
+
+EventStormingの「協調的な問題解決」は日本の合意形成文化そのもの。「持続可能な開発」は「カイゼン」そのもの。日本企業はすでに文化的な土台を持っている——ソフトウェアに**翻訳**できていないだけ。
+
+</div>
+</div>
+
+<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">モダナイゼーションは「やるかやらないか」ではなく「どうやるか」の問題</span>
 </div>
 
 </div>
@@ -288,43 +399,71 @@ Ch.1-3
 
 </div>
 
+**最初の問い：「なぜモダナイゼーションが必要なのか？」**
+
 </div>
 
 ---
 
 ## Ch.1 アーキテクチャモダナイゼーションとは
 
-<div style="font-size: 0.75em;">
+<div style="font-size: 0.72em;">
 
-<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+<div style="display: flex; gap: 20px; align-items: center;">
+<div style="width: 40%;">
+<img src="../../assets/images/2026/figure-2-1-sociotechnical.png" alt="ソシオテクニカル" style="width: 100%; border-radius: 8px;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 2.1 Fast flow requires loosely coupled software architecture, which requires loosely coupled domains. より引用</div>
+</div>
+<div style="flex: 1;">
 
 **定義：時代遅れのアーキテクチャをビジネス競争優位性へ転換すること**
 
-単なる技術のアップグレードではない。ビジネス・組織・技術を同時に変革する**ソシオテクニカル**なアプローチ。
-
-</div>
+単なる技術のアップグレードではない。ビジネス・組織・技術を同時に変革する**ソシオテクニカル**なアプローチ。書籍はこの「同時に変革する」という視点を一貫して貫いている。
 
 ### 核心的な概念
 
-<div style="display: flex; gap: 15px;">
-<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+- **BVSSH** — Better Value Sooner Safer Happier（品質・価値・速度・安全・幸福の5軸）
+- **独立した価値ストリーム** — ドメイン整合、チーム自律、成果志向、疎結合
 
-**BVSSH**
-
-Better Value Sooner Safer Happier — 成果指標としての5つの軸
-
-</div>
-<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
-
-**独立した価値ストリーム**
-
-ドメイン整合、チーム自律、成果志向、疎結合
-
-</div>
-</div>
-
-<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<div style="margin-top: 10px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
 <span style="color: #e65100; font-weight: bold;">3-6ヶ月以内に価値を提供し始めることができる長期投資</span>
+</div>
+
+</div>
+</div>
+
+</div>
+
+---
+
+## ソシオテクニカルとは何か
+
+<div style="font-size: 0.68em;">
+
+<div style="background-color: #f5f5f5; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
+
+**ソシオテクニカル** = 社会的システム（人・組織・文化）と技術的システム（アーキテクチャ・ツール）を**一体として**設計すること
+
+</div>
+
+### 技術だけ変えても失敗する例
+
+| やったこと             | 結果                                     | 根本原因                                   |
+| ---------------------- | ---------------------------------------- | ------------------------------------------ |
+| マイクロサービス化     | チーム間調整が増えて逆に遅くなった       | チーム構造を変えずにアーキテクチャだけ変更 |
+| クラウド移行           | 同じ非効率なプロセスがクラウドで動くだけ | 承認フローや組織文化はそのまま             |
+| 最新フレームワーク導入 | 使いこなせる人がいなくて品質低下         | スキルアップの時間と予算を確保せず         |
+
+### ソシオテクニカルに変えると
+
+| 技術の変更         | 組織の変更                           | 文化の変更                 |
+| ------------------ | ------------------------------------ | -------------------------- |
+| マイクロサービス化 | チームを機能別から価値ストリーム別へ | 「自分たちで決める」文化へ |
+| クラウド移行       | 運用チームをプラットフォームチームへ | 実験と学習を奨励           |
+| 最新フレームワーク | 学習時間を業務時間に組み込む         | 失敗から学ぶ文化へ         |
+
+<div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">技術・組織・文化を三位一体で変える</span>
 </div>
 
 </div>
@@ -333,24 +472,24 @@ Better Value Sooner Safer Happier — 成果指標としての5つの軸
 
 ## BVSSHで成功を測る
 
-<div style="font-size: 0.72em;">
+<div style="font-size: 0.68em;">
 
-<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+<div style="background-color: #f5f5f5; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
 
-**Better Value Sooner Safer Happier** — 「もっと良い価値を、早く、安全に、幸福に」
+**なぜBVSSH？** — Jon Smartが提唱したフレームワーク。「速度」だけを追うと品質が下がり、「品質」だけを追うと遅くなる。**5つ同時に**改善することで、本当の成功が測れる。
 
 </div>
 
-| 軸 | 意味 | 測定例 |
-|---|------|--------|
-| **Better** | より良い価値 | 顧客満足度、品質指標 |
-| **Value** | ビジネス価値 | 収益貢献、市場シェア |
-| **Sooner** | より早く | リードタイム、デプロイ頻度 |
-| **Safer** | より安全に | 障害率、セキュリティ指標 |
-| **Happier** | より幸せに | 従業員エンゲージメント、離職率 |
+| 軸          | 問い                   | 目指す姿               | 測定指標例                 |
+| ----------- | ---------------------- | ---------------------- | -------------------------- |
+| **Better**  | 品質は上がったか？     | テスト自動化で品質担保 | バグ密度、顧客満足度       |
+| **Value**   | 顧客に価値を届けたか？ | 顧客の課題を解決       | 機能利用率、コンバージョン |
+| **Sooner**  | 早く届けられたか？     | 2週間でデプロイ        | リードタイム、デプロイ頻度 |
+| **Safer**   | リスクは下がったか？   | 障害時も即座に復旧     | MTTR、変更失敗率           |
+| **Happier** | チームは幸せか？       | 成長実感、やりがい     | eNPS、離職率               |
 
-<div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">5つすべてを同時に改善することが目標。トレードオフではない。</span>
+<div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>「速度 vs 品質」はトレードオフではない。両方追求できる。</strong>
 </div>
 
 </div>
@@ -361,15 +500,16 @@ Better Value Sooner Safer Happier — 成果指標としての5つの軸
 
 <div style="font-size: 0.72em;">
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="width: 40%;">
-<img src="../../assets/images/2026/architecture-modernization/fig1-1.png" alt="独立した価値ストリーム" style="width: 100%; border-radius: 8px;">
+<img src="../../assets/images/2026/ivs-four-characteristics.png" alt="独立した価値ストリーム" style="width: 100%; border-radius: 8px;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 1.5 The four key characteristics of an independent value stream より引用</div>
 </div>
 <div style="flex: 1;">
 
 ### 4つの特徴
 
-<div style="display: flex; gap: 8px; flex-wrap: wrap;">
+<div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center;">
 <div style="flex: 1; min-width: 150px; background-color: #f5f5f5; padding: 8px; border-radius: 8px; font-size: 0.9em;">
 
 **ドメイン整合** — ビジネスドメインと一致した境界
@@ -403,37 +543,87 @@ Better Value Sooner Safer Happier — 成果指標としての5つの軸
 
 ---
 
-## Ch.2 旅への準備
+## 目指す姿はわかった。では、どう始めるか？
 
 <div style="font-size: 0.75em;">
 
-<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
-**技術的な準備と同じくらい、組織と人的準備が重要**
+Ch.1では**ソシオテクニカルなアプローチ**と**独立した価値ストリーム**という目指す姿を見てきました。
+
+しかし「良い目標」があるだけでは始められない。Ch.2-3では、**旅に出る前の準備**——避けるべき罠、経営層への説明、ビジネスケースの作り方を扱います。
+
+</div>
+
+</div>
+
+---
+
+## Ch.2 旅への準備
+
+<div style="font-size: 0.72em;">
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+
+**技術的な準備と同じくらい、組織と人的準備が重要。** レガシーシステムには「負のサイクル」が潜んでいる——技術的負債の蓄積 → 開発速度の低下 → 優秀な人材の流出 → さらなる負債の蓄積。この悪循環を断ち切るための準備がCh.2のテーマ。
 
 </div>
 
 ### 準備すべきこと
 
-<div style="display: flex; gap: 15px;">
+<div style="display: flex; gap: 12px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **経営層の準備**
 
-本気のコミットメント、長期的視点、変革への覚悟
+本気のコミットメント、長期的視点。「3ヶ月で成果を見せつつ、3年かけて変える」覚悟。
 
 </div>
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **避けるべき罠**
 
-銀の弾丸思考、構造とプロセスの幻想、ボルトオン型モダナイゼーション
+銀の弾丸思考、構造とプロセスの幻想、ボルトオン型。次のスライドで詳しく解説。
 
 </div>
 </div>
 
-<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">モダナイゼーションは技術プロジェクトではなく、人と組織の変革である</span>
+<div style="margin-top: 10px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>モダナイゼーションは技術プロジェクトではなく、人と組織の変革である</strong>
+</div>
+
+</div>
+
+---
+
+## 負のサイクルとは
+
+<div style="font-size: 0.65em;">
+
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="width: 40%;">
+<img src="../../assets/images/2026/figure-1-3-negative-cycle.png" alt="負のサイクル" style="width: 100%; border-radius: 8px;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 1.3 Better Value Sooner Safer Happier. (Source: Smart et al., Sooner Safer Happier [IT Revolution, 2020]) より引用</div>
+</div>
+<div style="flex: 1;">
+
+**負のサイクル** = レガシーシステムが組織を蝕み、組織がさらにレガシーを生む悪循環
+
+### 具体的な症状
+
+| 段階 | 何が起きるか                           | 結果                |
+| ---- | -------------------------------------- | ------------------- |
+| 1    | 「時間がない」でリファクタリング先送り | 技術的負債が蓄積    |
+| 2    | 変更に時間がかかる                     | リリース頻度低下    |
+| 3    | 優秀なエンジニアが離職                 | さらに開発速度低下  |
+| 4    | 障害対応が主業務に                     | イノベーション停止  |
+| 5    | 競合に市場を奪われる                   | 売上減少 → 投資減少 |
+
+<div style="margin-top: 6px; padding: 6px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">負のサイクルを断ち切るには、意図的な投資が必要</span>
+</div>
+
+</div>
 </div>
 
 </div>
@@ -444,7 +634,7 @@ Better Value Sooner Safer Happier — 成果指標としての5つの軸
 
 <div style="font-size: 0.7em;">
 
-<div style="display: flex; gap: 12px;">
+<div style="display: flex; gap: 12px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 ### 1. 銀の弾丸思考
@@ -481,7 +671,21 @@ Better Value Sooner Safer Happier — 成果指標としての5つの軸
 </div>
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">罠を知ることが、罠を避ける第一歩</span>
+<strong>罠を知ることが、罠を避ける第一歩</strong>
+</div>
+
+</div>
+
+---
+
+## エンジニアだけが「やりたい」では始まらない
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+
+罠を知っているだけでは十分じゃない。**経営層が「やるべきだ」と判断しなければ**、モダナイゼーションには予算もチームもつかない。Ch.3では、技術者の言葉をビジネスの言葉に翻訳する方法を扱います。
+
 </div>
 
 </div>
@@ -490,27 +694,108 @@ Better Value Sooner Safer Happier — 成果指標としての5つの軸
 
 ## Ch.3 ビジネス目標
 
-<div style="font-size: 0.75em;">
+<div style="font-size: 0.68em;">
 
-<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+<div style="background-color: #f5f5f5; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
 
-**モダナイゼーションはビジネス戦略と明確に結びついていなければならない**
+**「技術的負債を返済したい」だけでは経営層は動かない。ビジネス言語で語る必要がある。**
 
 </div>
 
-### ビジネス上の正当な理由
+### 経営層が理解できるビジネス目標の例
 
-- 競争優位性の維持
-- 市場機会への対応速度
-- 運用効率化とコスト削減
-- 技術的負債の返済
+| 技術者の言葉             | ビジネスの言葉                     | 経営層へのアピールポイント                   |
+| ------------------------ | ---------------------------------- | -------------------------------------------- |
+| マイクロサービス化したい | 新機能のリリースを月1回から週1回に | 競合より先に市場投入、顧客フィードバック加速 |
+| 技術的負債を返済したい   | 障害対応コストを年間30%削減        | 運用コスト削減、エンジニアを新規開発に再配置 |
+| モダンな技術を使いたい   | 採用競争力を上げて優秀な人材を確保 | 人材獲得競争で優位、離職率低下               |
+| テスト自動化したい       | 本番障害を50%減らし顧客満足度向上  | 顧客離反防止、ブランド価値向上               |
 
-### 重要な問い
+### 経営層への説明テンプレート
 
-**「このモダナイゼーションは、どのビジネス成果に貢献するのか？」**
+「**[ビジネス課題]** を解決するために、**[技術的アプローチ]** を行い、**[期間]** で **[測定可能な成果]** を達成します」
+
+<div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>技術の言葉ではなく、ビジネスの言葉で語る</strong>
+</div>
+
+</div>
+
+---
+
+## ビジネスケースの構成要素
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+
+**ビジネスケース** = 経営層が「やるべき」と判断できる根拠。ROI、リスク、戦略的価値を含む
+
+</div>
+
+| 要素                   | 内容                       | 例                          |
+| ---------------------- | -------------------------- | --------------------------- |
+| **現状の問題**         | 今何が起きているか         | リリースに3ヶ月かかる       |
+| **ビジネスインパクト** | その問題が何を引き起こすか | 競合に機能で負けている      |
+| **目標**               | どうなりたいか             | リリースを2週間に           |
+| **アプローチ**         | どうやって達成するか       | ドメイン分割とチーム再編    |
+| **投資**               | 何が必要か                 | 6ヶ月、5人のチーム          |
+| **期待効果**           | 何が得られるか             | 開発速度6倍、顧客満足度向上 |
+
+「問題 → インパクト → 目標 → 手段 → コスト → 効果」の流れで、経営層が意思決定できるストーリーを作る。
+
+</div>
+
+---
+
+## 経営層が気にすること
+
+<div style="font-size: 0.75em;">
+
+ビジネスケースを持っていっても、経営層が見るポイントは決まっている。
+
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**💰 ROI**
+
+投資に見合うリターンがあるか。「技術的負債を返済する」ではなく「開発速度が6倍になり、年間○○万円のコスト削減」と数字で示す。
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**⏰ いつ効果が出るか**
+
+3年後ではなく、3ヶ月後に見える成果を示す。段階的なマイルストーンが信頼を生む。
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**🎯 リスク**
+
+失敗したらどうなるか、どう軽減するか。最悪のシナリオと撤退基準を事前に提示する。
+
+</div>
+</div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">投資の正当性はビジネス成果の向上にある</span>
+<span style="color: #e65100; font-weight: bold;">数字で語る。感情ではなく、データで説得する。</span>
+</div>
+
+</div>
+
+---
+
+## 翻訳者ノート — Part 1を終えて
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px;">
+
+訳していて一番衝撃だったのは、<strong>「負債を返す」ではなく「資産を再構築する」</strong>という視点でした。
+
+「レガシー」という言葉には後ろ向きな響きがある。でもNick Tuneは一貫して、過去のシステムを否定しない。それが生み出してきた価値を認めた上で、次のステージに進もうとしている。この視点の違いは、チームの士気に大きく影響します。
+
 </div>
 
 </div>
@@ -539,35 +824,35 @@ Ch.4-6
 
 ## Ch.4 リスニング＆マッピングツアー
 
-<div style="font-size: 0.75em;">
+<div style="font-size: 0.72em;">
 
-<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+<div style="display: flex; gap: 20px; align-items: center;">
+<div style="width: 45%;">
+<img src="../../assets/images/2026/figure-4-4-listening-tour.png" alt="リスニングツアー" style="width: 100%; border-radius: 8px;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 4.4 A visual summary from a listening tour より引用</div>
+</div>
+<div style="flex: 1;">
 
 **ビジョンを押し付けるのではなく、現場の課題を理解することが先決**
 
-</div>
-
 ### 実施内容
 
-<div style="display: flex; gap: 15px;">
-<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+<div style="background-color: #f5f5f5; padding: 10px; border-radius: 8px; margin-bottom: 8px;">
 
-**リスニングツアー**
-
-経営層からエンジニアまで、多様なステークホルダーの声を聴く
+**リスニングツアー** — 経営層からエンジニアまで、多様なステークホルダーの声を聴く
 
 </div>
-<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+<div style="background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
 
-**マッピングツアー**
-
-システム間の依存関係、チーム構造、責任範囲を可視化
+**マッピングツアー** — システム間の依存関係、チーム構造、責任範囲を可視化
 
 </div>
+
+<div style="margin-top: 10px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">聴くことは、説得するための最初のステップ</span>
 </div>
 
-<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">聴くことは、説得するための最初のステップである</span>
+</div>
 </div>
 
 </div>
@@ -586,7 +871,7 @@ Ch.4-6
 
 ### 聴くべき質問
 
-<div style="display: flex; gap: 12px;">
+<div style="display: flex; gap: 12px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
 
 **痛みを探る**
@@ -612,7 +897,99 @@ Ch.4-6
 経営層 → プロダクトマネージャー → 開発者 → 運用チーム → カスタマーサポート
 
 <div style="margin-top: 8px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">聴いた内容をそのまま伝えることで、共感の連鎖が生まれる</span>
+<strong>聴いた内容をそのまま伝えることで、共感の連鎖が生まれる</strong>
+</div>
+
+</div>
+
+---
+
+## マッピングツアーで現状を「地図」にする
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+
+**マッピングツアー** = システム・チーム・依存関係を可視化して、現状を「地図」にする
+
+</div>
+
+### システム地図と依存関係地図
+
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**システム地図**
+
+- どんなシステムがあるか
+- どのシステムが重要か
+- どれがレガシーか
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**依存関係地図**
+
+- 誰が誰に依存しているか
+- ボトルネックはどこか
+- 変更の影響範囲は
+
+</div>
+</div>
+
+まずシステムの全体像を把握し、次にシステム間の依存関係を明らかにする。**何があるか**と**どう繋がっているか**が最初の問い。
+
+</div>
+
+---
+
+## マッピングツアーでチームと痛みを可視化する
+
+<div style="font-size: 0.75em;">
+
+### チーム地図と痛みの地図
+
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**チーム地図**
+
+- 誰がどのシステムを担当
+- チーム間の境界は明確か
+- 責任の空白地帯はないか
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**痛みの地図**
+
+- どこで問題が起きているか
+- 頻繁に障害が起きる箇所
+- 変更が困難な箇所
+
+</div>
+</div>
+
+### 成果物の例
+
+「決済システムは在庫・配送・顧客管理の3システムに依存。変更のたびに4チームの調整が必要。」
+
+<div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>地図がなければ、どこに行くべきか分からない</strong>
+</div>
+
+</div>
+
+---
+
+## 現場の声が集まった。次は投資判断
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+
+リスニング＆マッピングツアーで「痛み」と「構造」が見えてきました。ただ、痛い場所をすべて直す余裕はない。**どこに集中投資すべきか？** Ch.5のWardley Mappingは、その判断を可視化するツールです。
+
 </div>
 
 </div>
@@ -631,9 +1008,9 @@ Ch.4-6
 
 ### Wardley Mapの軸
 
-| 軸 | 内容 |
-|---|------|
-| 縦軸 | ユーザーニーズからの距離（価値チェーン） |
+| 軸   | 内容                                               |
+| ---- | -------------------------------------------------- |
+| 縦軸 | ユーザーニーズからの距離（価値チェーン）           |
 | 横軸 | 進化段階（Genesis → Custom → Product → Commodity） |
 
 ### 戦略サイクル
@@ -641,41 +1018,89 @@ Ch.4-6
 Purpose（目的）→ Landscape（景観）→ Climate（気候）→ Doctrine（教義）→ Leadership
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">戦略を視覚化することで、組織全体が同じ方向を向く</span>
+<strong>戦略を視覚化することで、組織全体が同じ方向を向く</strong>
 </div>
 
 </div>
 
 ---
 
-## Wardley Mapの例
+## Wardley Mapで戦略を可視化する
 
-<div style="font-size: 0.7em;">
+<div style="font-size: 0.65em;">
 
-<div style="display: flex; gap: 15px;">
-<div style="width: 55%;">
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="width: 45%;">
 <img src="../../assets/images/2026/architecture-modernization/fig5-1.png" alt="Wardley Map" style="width: 100%; border-radius: 8px;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 5.1 The Strategy Cycle (Source: Simon Wardley) より引用</div>
 </div>
 <div style="flex: 1;">
 
-### 横軸は進化の4段階
+### 進化段階ごとの戦略
 
-| 段階 | 特徴 |
-|------|------|
-| **Genesis** | 発明されたばかり、不確実 |
-| **Custom** | 作り込み、差別化要因 |
-| **Product** | 複数ベンダーが存在 |
-| **Commodity** | 標準化、どこでも入手可能 |
+| 段階          | 特徴           | 戦略               | 例                 |
+| ------------- | -------------- | ------------------ | ------------------ |
+| **Genesis**   | 不確実         | 実験、失敗を許容   | 新しいAI機能       |
+| **Custom**    | 差別化要因     | 自社で作り込む     | 独自のレコメンド   |
+| **Product**   | 複数選択肢あり | 最適なものを選ぶ   | CRMツール          |
+| **Commodity** | 標準化済み     | 購入、クラウド利用 | メール、ストレージ |
 
-### 縦軸は可視性
+### よくある間違い
 
-ユーザーに近い（上）↔ インフラに近い（下）
+| 間違い                      | 正しいアプローチ           |
+| --------------------------- | -------------------------- |
+| Commodity（認証）を自社開発 | Auth0, Okta等のIDaaS活用   |
+| Genesis（新機能）を外部委託 | 内製で知識とノウハウを蓄積 |
 
-<div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center; font-size: 0.9em;">
-<span style="color: #e65100; font-weight: bold;">位置関係で投資優先度を判断</span>
+<div style="margin-top: 6px; padding: 6px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>「どこで勝負するか」を明確にして、メリハリをつける</strong>
 </div>
 
 </div>
+</div>
+
+</div>
+
+---
+
+## 「内製かSaaSか」で終わらない議論
+
+<div style="font-size: 0.68em;">
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+
+**「内製かSaaSか」は問いの立て方が間違っている。** 正しい問いは「このドメインは自社にとってCore・Supporting・Genericのどれか」。
+
+</div>
+
+### Core Domain Chartで判断する
+
+| 分類           | 判断基準                   | やるべきこと                       | やってはいけないこと               |
+| -------------- | -------------------------- | ---------------------------------- | ---------------------------------- |
+| **Core**       | 競合との差別化に直結       | 内製。ここに最高の人材を投入       | SaaSで代替して差別化を放棄         |
+| **Supporting** | 重要だが差別化要因ではない | 状況に応じて判断。効率を重視       | Core並みの投資をして消耗           |
+| **Generic**    | どの企業でも同じ           | SaaS/OSSを活用。車輪を再発明しない | 「自社要件が特殊」と言い張って内製 |
+
+### 議論が無限に続く本当の理由
+
+「内製かSaaSか」が決まらないのは、**何がCoreで何がGenericかの合意がない**から。Wardley Mapで進化段階を、Core Domain Chartで差別化価値を評価すれば、Build or Buyは議論ではなく**判断**になる。
+
+<div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">技術選定の前にドメイン戦略。「何がCoreか」を合意してから議論せよ</span>
+</div>
+
+</div>
+
+---
+
+## 戦略はできた。次は共通言語を揃える
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+
+Wardley Mapで「どこに投資するか」が見えた。CoreドメインとGenericドメインの区別もついた。しかし、経営層・PdM・エンジニアが**同じ粒度で議論する言語がない**と、会話がかみ合いません。Ch.6のプロダクトタクソノミーは、そのための共通語彙です。
+
 </div>
 
 </div>
@@ -684,13 +1109,16 @@ Purpose（目的）→ Landscape（景観）→ Climate（気候）→ Doctrine�
 
 ## Ch.6 プロダクトタクソノミー
 
-<div style="font-size: 0.75em;">
+<div style="font-size: 0.72em;">
 
-<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+<div style="display: flex; gap: 20px; align-items: center;">
+<div style="width: 40%;">
+<img src="../../assets/images/2026/figure-6-6-product-taxonomy.png" alt="プロダクトタクソノミー" style="width: 100%; border-radius: 8px;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 6.6 A product taxonomy より引用</div>
+</div>
+<div style="flex: 1;">
 
 **アーキテクチャを記述するための統一された構成要素の定義**
-
-</div>
 
 ### 階層構造
 
@@ -700,13 +1128,65 @@ Purpose（目的）→ Landscape（景観）→ Climate（気候）→ Doctrine�
         └── サブドメイン
               └── プロダクト
                     └── 機能（Feature）
-                          └── ケイパビリティ
 ```
 
 マクロ視点からミクロ視点まで一貫した言語で語れるようになる。
 
-<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">プロダクト分類体系はアーキテクチャと組織の橋渡し</span>
+<div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>アーキテクチャと組織の橋渡し</strong>
+</div>
+
+</div>
+</div>
+
+</div>
+
+---
+
+## プロダクトタクソノミーの具体例
+
+<div style="font-size: 0.68em;">
+
+<div style="background-color: #f5f5f5; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
+
+**ECサイトの例** — 抽象から具体へ分解する
+
+</div>
+
+### 階層の具体例
+
+| レベル             | 例                        | 説明                             | 責任者                  |
+| ------------------ | ------------------------- | -------------------------------- | ----------------------- |
+| **価値ストリーム** | 購買体験                  | 顧客が商品を見つけて購入するまで | 事業部長、VP of Product |
+| **ドメイン**       | 検索、カート、決済、配送  | ビジネス的に意味のあるまとまり   | ドメインオーナー、PdM   |
+| **サブドメイン**   | 決済→請求、返金、ポイント | ドメイン内の細分化               | チームリード            |
+| **プロダクト**     | 請求→請求書発行サービス   | 具体的なシステム/アプリ          | テックリード            |
+| **機能**           | 請求書PDF生成、メール送信 | 最小の機能単位                   | 開発者                  |
+
+### この階層が役に立つ場面
+
+- **投資判断**: 「検索ドメインに集中投資」
+- **チーム編成**: 「決済ドメインに1チーム」
+- **優先順位**: 「まず決済ドメインからモダナイゼーション」
+
+<div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>共通言語があれば、経営層からエンジニアまで同じ話ができる</strong>
+</div>
+
+</div>
+
+---
+
+## 翻訳者ノート — Part 2を終えて
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px;">
+
+リスニングツアーは地味ですが、翻訳でいう**「行間を読む」**と同じ原理です。
+
+原著の文字だけ追っても良い翻訳にはならない。著者が何を伝えたかったのか、読者がどう受け取るか、言葉にされていない前提は何か——聴かなければ始まらない。リスニングツアーも同じで、「聴く」という行為自体が変化の始まりになります。
+
 </div>
 
 </div>
@@ -735,30 +1215,29 @@ Ch.7-9
 
 ## Ch.7 ビッグピクチャーイベントストーミング
 
-<div style="font-size: 0.72em;">
+<div style="font-size: 0.68em;">
 
-<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+<div style="background-color: #f5f5f5; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
 
-**ドメイン境界は「思いつき」で決めるべきではない。多様なステークホルダーの知見を統合する。**
+**なぜやるのか？** — エンジニアだけで設計すると、ビジネスの現実と乖離する。ビジネス担当者だけで語ると、技術的制約が見えない。**全員で一緒に**ビジネスを可視化することで、共通理解が生まれる。
 
 </div>
 
-### イベントストーミングとは
+### 具体的な進め方
 
-Alberto Brandolini考案のワークショップ手法。ビジネスで発生する出来事（ドメインイベント）を時系列で可視化し、複雑なビジネスプロセスを全員で理解する。
-
-### 参加者
-
-ドメイン専門家、ソフトウェア開発者、プロダクト担当者、UXスペシャリストなど多職種
+| ステップ                  | やること                                               | 所要時間目安 |
+| ------------------------- | ------------------------------------------------------ | ------------ |
+| **1. 嵐を起こす**         | オレンジの付箋にイベントを書きまくる。順番は気にしない | 30分         |
+| **2. タイムラインを作る** | イベントを時系列に並べる                               | 30分         |
+| **3. 問題を見つける**     | 赤い付箋で「ここがおかしい」「ここが分からない」を貼る | 20分         |
+| **4. 境界を引く**         | 自然なまとまりを見つけて線を引く                       | 20分         |
 
 ### 成果物
 
-- ビジネスプロセスの可視化
-- ホットスポット（複雑性が高い領域）の特定
-- ドメイン境界の候補
+**ビジネスの全体像を可視化した壁**（通常8m〜15mの長さになる）
 
-<div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">複雑な現実を、誰もが理解できるかたちで可視化する</span>
+<div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">「混沌」から始めて「構造」を発見する</span>
 </div>
 
 </div>
@@ -769,21 +1248,22 @@ Alberto Brandolini考案のワークショップ手法。ビジネスで発生�
 
 <div style="font-size: 0.68em;">
 
-<div style="display: flex; gap: 15px;">
+<div style="display: flex; gap: 15px; align-items: center;">
 <div style="width: 55%;">
 <img src="../../assets/images/2026/architecture-modernization/fig7-1.png" alt="イベントストーミング" style="width: 100%; border-radius: 8px;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 7.1 Big Picture EventStorming より引用</div>
 </div>
 <div style="flex: 1;">
 
 ### 付箋の色
 
-| 色 | 要素 |
-|---|------|
-| 🟧 オレンジ | **ドメインイベント**（〜された） |
-| 🟦 青 | **コマンド**（〜する） |
-| 🟨 黄色 | **アクター**（誰が） |
-| 🟪 紫 | **ポリシー**（自動処理） |
-| 🟥 赤/ピンク | **ホットスポット**（問題点） |
+| 色           | 要素                             |
+| ------------ | -------------------------------- |
+| 🟧 オレンジ  | **ドメインイベント**（〜された） |
+| 🟦 青        | **コマンド**（〜する）           |
+| 🟨 黄色      | **アクター**（誰が）             |
+| 🟪 紫        | **ポリシー**（自動処理）         |
+| 🟥 赤/ピンク | **ホットスポット**（問題点）     |
 
 ### フロー
 
@@ -796,27 +1276,86 @@ Alberto Brandolini考案のワークショップ手法。ビジネスで発生�
 
 ---
 
-## Ch.8 プロダクトとドメインのモダナイゼーション
+## ホットスポットの種類と対処法
 
 <div style="font-size: 0.75em;">
 
-<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
 
-**古いシステムの欠陥をそのまま新システムに持ち込む失敗を避ける**
+<strong>ホットスポット</strong> = 赤い付箋で示された「問題点」「疑問点」「意見の相違」
+
+</div>
+
+| 種類                        | 例                             | 対処法                         |
+| --------------------------- | ------------------------------ | ------------------------------ |
+| <strong>知識の欠如</strong> | 「このプロセス、誰が詳しい？」 | 詳しい人を呼ぶ、後で調査       |
+| <strong>意見の相違</strong> | 「いや、この順番は違う」       | 両方の付箋を貼って、後で議論   |
+| <strong>問題の発見</strong> | 「ここ、いつもトラブル」       | 改善候補としてマーク           |
+| <strong>曖昧さ</strong>     | 「承認って誰がやるの？」       | 明確化が必要な箇所としてマーク |
+
+ホットスポットを「解決すべき問題」ではなく「発見すべきシグナル」として扱う。この段階では解決策を出さず、ひたすら集める。
+
+</div>
+
+---
+
+## ホットスポットは宝の山
+
+<div style="font-size: 0.75em;">
+
+ホットスポットが多い場所こそ、モダナイゼーションの優先候補になる。
+
+| ホットスポットが集中する場所 | 意味                     |
+| ---------------------------- | ------------------------ |
+| 部門の境界                   | チーム間の連携に問題     |
+| 特定のプロセス               | ボトルネック、複雑すぎる |
+| 特定のシステム               | レガシー、技術的負債     |
+
+集中している箇所を俯瞰すると、組織の構造的な問題が浮かび上がる。個別のホットスポットではなく、<strong>パターン</strong>を読み取ることが重要。
+
+<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>ホットスポット = モダナイゼーションの優先候補</strong>
+</div>
+
+</div>
+
+---
+
+## 実はここが最も失敗しやすいポイント
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+
+ホットスポットが見つかると、つい「技術を新しくすれば解決する」と思いがちです。**でもそれが一番よくある失敗パターン。** 古い業務フローや使いにくいUIをそのまま新技術に載せ替えると、「新しくて使いにくいシステム」ができるだけ。Ch.8ではこの落とし穴を扱います。
+
+</div>
+
+</div>
+
+---
+
+## Ch.8 プロダクトとドメインのモダナイゼーション
+
+<div style="font-size: 0.68em;">
+
+<div style="background-color: #f5f5f5; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
+
+**問題**: 技術を新しくしても、業務の複雑さや使いにくいUIをそのまま引き継ぐと、**新しくて使いにくいシステム**ができるだけ。
 
 </div>
 
 ### フルスタックモダナイゼーション
 
-| レイヤー | 内容 |
-|---------|------|
-| UX | ユーザー体験の改善 |
-| 技術 | 技術スタックの刷新 |
-| ドメインモデル | ビジネスモデルの洗練 |
-| ビジネスプロセス | 業務フローの最適化 |
+| レイヤー             | 古いシステムの問題例    | モダナイゼーションで改善             |
+| -------------------- | ----------------------- | ------------------------------------ |
+| **UX**               | 10画面遷移で注文完了    | 3クリックで注文完了                  |
+| **技術**             | オンプレ・モノリス      | クラウドネイティブ・マイクロサービス |
+| **ドメインモデル**   | 「商品」に100以上の属性 | 文脈ごとに必要な属性だけ             |
+| **ビジネスプロセス** | 5部署の承認が必要       | 自動化＋1承認                        |
 
-<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">モダナイゼーションは、本質から再設計する機会である</span>
+<div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>技術だけでなく、業務・UX・ドメインも同時に再設計する</strong>
 </div>
 
 </div>
@@ -835,7 +1374,7 @@ Alberto Brandolini考案のワークショップ手法。ビジネスで発生�
 
 ### 4つのアンチパターン
 
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+<div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
 <div style="flex: 1; min-width: 220px; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
 
 **Lift and Shift**
@@ -867,7 +1406,67 @@ Alberto Brandolini考案のワークショップ手法。ビジネスで発生�
 </div>
 
 <div style="margin-top: 10px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">新しい技術は、新しい設計と一緒に導入する</span>
+<strong>新しい技術は、新しい設計と一緒に導入する</strong>
+</div>
+
+</div>
+
+---
+
+## Strangler Figパターン
+
+<div style="font-size: 0.68em;">
+
+<div style="background-color: #f5f5f5; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
+
+**Strangler Fig** = 熱帯の絞め殺しの木に由来する名前。Martin Fowlerが2004年のブログ記事で紹介。レガシーシステムを段階的に新システムに置き換えるパターンで、Big Bang Rewriteのリスクを回避する。
+
+</div>
+
+### 仕組み
+
+```
+       ┌─────────────────────────────────┐
+ユーザー │ →  ルーター（振り分け）            │
+       └──────┬──────────────┬───────────┘
+              ↓              ↓
+         新システム      レガシー
+         （新機能）     （既存機能）
+```
+
+### 段階的な移行
+
+| フェーズ | やること                       | リスク |
+| -------- | ------------------------------ | ------ |
+| 1        | ルーター導入、トラフィック分岐 | 低     |
+| 2        | 1機能を新システムに移行        | 低     |
+| 3        | 成功を確認、次の機能を移行     | 低     |
+| 4        | 全機能移行完了、レガシー廃止   | 低     |
+
+### Big Bang Rewriteとの比較
+
+|                  | Big Bang         | Strangler Fig   |
+| ---------------- | ---------------- | --------------- |
+| **リスク**       | 高（全機能同時） | 低（1機能ずつ） |
+| **価値提供**     | 完成まで0        | 段階的に提供    |
+| **ロールバック** | 困難             | 機能単位で可能  |
+
+<div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">少しずつ絞め殺す。一気に殺さない。</span>
+</div>
+
+</div>
+
+---
+
+## 移行戦略は決まった。次は「どこで切るか」
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+
+Strangler Figパターンで段階的に移行できることがわかりました。しかし「段階的に」移行するには、**どこで区切るか**——つまりドメインの境界を正しく引く必要があります。Ch.9ではDDDのBounded Contextを使って、その境界線を見つける方法を扱います。
+
 </div>
 
 </div>
@@ -876,42 +1475,48 @@ Alberto Brandolini考案のワークショップ手法。ビジネスで発生�
 
 ## Ch.9 ドメインとサブドメインの識別
 
-<div style="font-size: 0.72em;">
+<div style="font-size: 0.68em;">
 
-<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
-
-**よいドメイン境界は、組織とソフトウェアの両者で依存関係を減らし、チームの自律性を高める**
-
+<div style="display: flex; gap: 20px; align-items: center;">
+<div style="width: 45%;">
+<img src="../../assets/images/2026/figure-9-2-bounded-context.png" alt="Bounded Context" style="width: 100%; border-radius: 8px;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 9.2 Bounded Context and its relationships より引用</div>
 </div>
+<div style="flex: 1;">
+
+**よいドメイン境界は、依存関係を減らし、チームの自律性を高める**
 
 ### ドメイン境界を見つけるヒューリスティック
 
-<div style="display: flex; gap: 15px;">
-<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+<div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center;">
+<div style="flex: 1; min-width: 120px; background-color: #f5f5f5; padding: 8px; border-radius: 8px;">
 
-**一緒に変わる概念をまとめる**
+**変更頻度**
 
-変更頻度が似ているものを同じ境界に
+一緒に変わる概念をまとめる
 
 </div>
-<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+<div style="flex: 1; min-width: 120px; background-color: #f5f5f5; padding: 8px; border-radius: 8px;">
 
-**凝集性の高いものを整理**
+**凝集性**
 
 関連するビジネス概念をグループ化
 
 </div>
-<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+<div style="flex: 1; min-width: 120px; background-color: #f5f5f5; padding: 8px; border-radius: 8px;">
 
-**チーム境界との適合性**
+**チーム境界**
 
 1チームが担当できる範囲に
 
 </div>
 </div>
 
-<div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">ドメイン特定は科学ではなく、アート＋経験則の組み合わせ</span>
+<div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>科学ではなく、アート＋経験則</strong>
+</div>
+
+</div>
 </div>
 
 </div>
@@ -922,7 +1527,7 @@ Alberto Brandolini考案のワークショップ手法。ビジネスで発生�
 
 <div style="font-size: 0.65em;">
 
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+<div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
 <div style="flex: 1; min-width: 280px; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
 
 **1. ユビキタス言語の境界**
@@ -971,7 +1576,61 @@ Conway's Law — 組織とアーキテクチャは相似形
 </div>
 
 <div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">複数のヒューリスティックを組み合わせて総合的に判断する</span>
+<strong>複数のヒューリスティックを組み合わせて総合的に判断する</strong>
+</div>
+
+</div>
+
+---
+
+## コンテキストマッピング
+
+<div style="font-size: 0.68em;">
+
+<div style="background-color: #f5f5f5; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
+
+**コンテキストマッピング** = Eric EvansのDDDで定義された、Bounded Context間の関係性を可視化する手法。誰が誰に依存し、その力関係はどうなっているかを明示する。
+
+</div>
+
+### 実務でよく使う3パターン
+
+| パターン                  | 関係性          | 例                                |
+| ------------------------- | --------------- | --------------------------------- |
+| **Customer-Supplier**     | 上流-下流の依存 | 決済チーム(上流)→注文チーム(下流) |
+| **Anti-Corruption Layer** | 翻訳層を設ける  | レガシーとの間に変換層            |
+| **Open Host Service**     | 公開API         | 誰でも使えるAPIを提供             |
+
+他にもPartnership、Shared Kernel、Conformistなどのパターンがある。書籍Ch.9で詳述。
+
+### コンテキストマップの例
+
+```
+ 決済コンテキスト ───[Customer-Supplier]───> 注文コンテキスト
+        │                                         │
+        └───────[Open Host Service]───────────────┘
+                         ↓
+               外部パートナー（Conformist）
+```
+
+<div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>関係性を明確にすることで、チーム間の期待値を合わせる</strong>
+</div>
+
+</div>
+
+---
+
+## 翻訳者ノート — Part 3を終えて
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px;">
+
+5人の翻訳者で同じ用語を違う日本語に訳していました。**Bounded Contextの必要性を身をもって体験した**瞬間です。
+
+「Bounded Context」を「境界づけられたコンテキスト」と訳すのか、英語表記のままにするのか。19の中核用語について「この表記、この意味」を明文化した用語集——これは翻訳チーム自身のBounded Contextの実践でした。
+
 </div>
 
 </div>
@@ -1000,26 +1659,30 @@ Ch.10-11
 
 ## Ch.10 戦略的ITポートフォリオ
 
-<div style="font-size: 0.7em;">
+<div style="font-size: 0.65em;">
 
-<div style="display: flex; gap: 15px;">
-<div style="width: 50%;">
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="width: 45%;">
 <img src="../../assets/images/2026/architecture-modernization/fig10-5.png" alt="コアドメインチャート" style="width: 100%; border-radius: 8px;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 10.5 The Core Domain Chart より引用</div>
 </div>
 <div style="flex: 1;">
 
-### コアドメインチャート
+### ECサイトの例
 
-| 分類 | 差別化 | 投資戦略 |
-|------|-------|---------|
-| **コアドメイン** | 高 | 自社開発、最先端技術 |
-| **支援ドメイン** | 中 | バランス型 |
-| **汎用ドメイン** | 低 | 購買、外部委託 |
+| ドメイン       | 分類 | 投資戦略         | 理由                       |
+| -------------- | ---- | ---------------- | -------------------------- |
+| **レコメンド** | コア | 自社開発・AI投資 | 競合との差別化ポイント     |
+| **在庫管理**   | 支援 | バランス型       | 重要だが差別化要因ではない |
+| **認証**       | 汎用 | SaaS購入         | 自社で作る意味がない       |
 
-すべてのサブドメインに等しく投資してはならない。
+### 間違った投資の例
 
-<div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center; font-size: 0.9em;">
-<span style="color: #e65100; font-weight: bold;">ポートフォリオ視点で投資を最適化</span>
+- ❌ 認証を自社開発 → セキュリティリスク増、本業から逸脱
+- ❌ レコメンドを外部委託 → 差別化要因を手放す
+
+<div style="margin-top: 6px; padding: 6px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>「どこで勝負するか」を明確にして投資を集中する</strong>
 </div>
 
 </div>
@@ -1029,33 +1692,81 @@ Ch.10-11
 
 ---
 
+## 投資優先順位は2x2マトリクスで決める
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+
+**2x2マトリクス** = ビジネス価値と技術的負債の2軸で、投資すべき対象を判断する
+
+</div>
+
+### ビジネス価値 × 技術的負債
+
+|                      | 技術的負債：低 | 技術的負債：高      |
+| -------------------- | -------------- | ------------------- |
+| **ビジネス価値：高** | 🟢 維持・拡張  | 🔴 **最優先で改善** |
+| **ビジネス価値：低** | 🟡 現状維持    | 🟠 廃止を検討       |
+
+右上の「高価値・高負債」がモダナイゼーションの最優先ターゲット。ビジネスに重要なのに問題だらけの領域。逆に左下の「低価値・低負債」は放置でいい。
+
+❌ 「技術的に面白い」で優先度を決めるのはNG → ビジネス価値と技術的負債の**両方**で判断
+
+</div>
+
+---
+
+## 優先順位の考え方と判断基準
+
+<div style="font-size: 0.75em;">
+
+### 優先度の順序
+
+| 優先度 | 対象           | 理由                           |
+| ------ | -------------- | ------------------------------ |
+| **1**  | 高価値・高負債 | ビジネスに重要なのに問題だらけ |
+| **2**  | 高価値・低負債 | 競争優位を維持・強化           |
+| **3**  | 低価値・高負債 | 廃止してリソースを解放         |
+
+低価値・低負債は優先度リストに入らない。触る理由がないものに時間を使わない。
+
+ただし「低価値」は現時点の評価であり、将来の戦略的価値は別途判断が必要。**ポートフォリオ全体を見て、限られたリソースをどこに集中させるか**が本質的な問い。
+
+<div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">「全部やる」は「何もやらない」と同じ</span>
+</div>
+
+</div>
+
+---
+
 ## Ch.11 Team Topologies
 
-<div style="font-size: 0.68em;">
+<div style="font-size: 0.65em;">
 
-<div style="display: flex; gap: 15px;">
-<div style="width: 45%;">
-<img src="../../assets/images/2026/architecture-modernization/fig11-1.png" alt="Team Topologies" style="width: 100%; border-radius: 8px;">
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="width: 42%;">
+<img src="../../assets/images/2026/team-topologies-four-types.png" alt="Team Topologies" style="width: 100%; border-radius: 8px;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 11.3 The four team types in Team Topologies より引用</div>
 </div>
 <div style="flex: 1;">
 
 ### 4つのチームタイプ
 
-| チーム | 役割 |
-|-------|------|
-| **Stream-aligned** | 価値ストリームに沿ってEnd-to-End |
-| **Platform** | 共通基盤を提供 |
-| **Enabling** | 他チームの能力向上を支援 |
-| **Complicated-subsystem** | 専門知識が必要な複雑なサブシステム |
+| チーム                    | 何をする？                 | 例                          |
+| ------------------------- | -------------------------- | --------------------------- |
+| **Stream-aligned**        | 顧客価値を直接届ける       | 決済チーム、検索チーム      |
+| **Platform**              | 他チームの仕事を楽にする   | インフラチーム、CI/CDチーム |
+| **Enabling**              | 新しい技術・手法を教える   | SREコーチ、アジャイルコーチ |
+| **Complicated-subsystem** | 専門知識が必要な部分を担当 | ML基盤、暗号化エンジン      |
 
-### 5つの原則（抜粋）
+### 核心的な考え方
 
-- You build it, you run it
-- 認知的負荷の最小化
-- チームファーストの考え方
+**「チームが先、アーキテクチャは後」** — まずチームが自律的に動ける構造を作り、それに合わせてシステムを設計する。逆ではない。
 
-<div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center; font-size: 0.9em;">
-<span style="color: #e65100; font-weight: bold;">チーム構造がアーキテクチャを決定する</span>
+<div style="margin-top: 6px; padding: 6px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">Conway's Law: 組織構造 = システム構造</span>
 </div>
 
 </div>
@@ -1067,28 +1778,90 @@ Ch.10-11
 
 ## 認知的負荷がチーム設計を制約する
 
-<div style="font-size: 0.7em;">
+<div style="font-size: 0.68em;">
 
-<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+<div style="background-color: #f5f5f5; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
 
-**認知的負荷** = チームが担当範囲を理解・管理するために必要な精神的労力
+**問題**: 優秀なエンジニアでも、担当範囲が広すぎると「全部を頭に入れておく」ことができなくなる。これが認知的負荷。
 
 </div>
 
-### 3つの認知的負荷
+### 認知的負荷が高いとどうなる？
 
-| タイプ | 説明 | 対策 |
-|-------|------|------|
-| **内在的** | ドメイン固有の複雑さ | 最小化できない、受け入れる |
-| **外在的** | 環境・ツール由来の複雑さ | プラットフォームで軽減 |
-| **状況的** | 一時的な学習コスト | ドキュメント、ペアリングで軽減 |
+| 症状                                 | 結果                       |
+| ------------------------------------ | -------------------------- |
+| 「あのシステム、誰か分かる人いる？」 | 属人化、バス係数1          |
+| 「変更の影響範囲が分からない」       | 恐怖でリリースできない     |
+| 「新メンバーが戦力化するのに半年」   | オンボーディングコスト増大 |
+| 「障害対応で深夜に叩き起こされる」   | 燃え尽き、離職             |
 
-### チームサイズの目安
+### 対策
 
-**5〜9人**が認知的負荷と協調のバランスが取れる規模。これを超えると、サブドメインを分割してチームを分ける。
+**チームの担当範囲を「頭に入る」サイズに保つ** — 具体的には5〜9人のチームが「完全に理解できる」範囲のシステムを担当する。それ以上になったら分割。
 
 <div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">認知的負荷が主な制約要因である</span>
+<span style="color: #e65100; font-weight: bold;">「理解できない」ものは「運用できない」</span>
+</div>
+
+</div>
+
+---
+
+## チーム間の3つのインタラクションモード
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+
+<strong>インタラクションモード</strong> = チーム間でどう協力するかの3つのパターン
+
+</div>
+
+| モード                          | 説明             | いつ使う           | 例                   |
+| ------------------------------- | ---------------- | ------------------ | -------------------- |
+| <strong>Collaboration</strong>  | 密に協力         | 新しい境界を探索中 | 新サービス立ち上げ時 |
+| <strong>X-as-a-Service</strong> | APIで疎結合      | 境界が明確         | プラットフォーム利用 |
+| <strong>Facilitating</strong>   | 支援・コーチング | 能力移転           | イネーブリングチーム |
+
+モードは固定ではない。<strong>Collaboration → X-as-a-Service</strong>へ、境界が明確になったら疎結合に移行する。
+
+</div>
+
+---
+
+## インタラクションモードの具体例
+
+<div style="font-size: 0.75em;">
+
+```
+【Collaboration】
+決済チーム ←──密に協力──→ 注文チーム（新しい決済フローを一緒に設計）
+【X-as-a-Service】
+決済チーム ──[API]──→ 検索チーム（決済APIを使うだけ）
+【Facilitating】
+SREチーム ──[支援]──→ 新規チーム（Kubernetesの使い方を教える）
+```
+
+最初はCollaborationで密に探索し、境界が固まったらX-as-a-Serviceで疎結合に切り替える。Facilitatingは一時的な関係で、能力移転が完了したら終了する。
+
+<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>状況に応じてインタラクションモードを選ぶ</strong>
+</div>
+
+</div>
+
+---
+
+## 翻訳者ノート — Part 4を終えて
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px;">
+
+翻訳チーム5人の編成自体が、Team Topologiesの実践でした。
+
+用語の統一担当（Enabling的役割）、章ごとの翻訳担当（Stream-aligned的役割）、レビュー担当——それぞれの責任範囲を明確にし、認知的負荷を管理しながら進めました。**組織論の本を翻訳しながら、翻訳チーム自体が組織設計を体験する**。これは偶然ではなく、この書籍が持つ力だと思います。
+
 </div>
 
 </div>
@@ -1117,27 +1890,30 @@ Ch.12-14
 
 ## Ch.12 疎結合なソフトウェアアーキテクチャ
 
-<div style="font-size: 0.68em;">
+<div style="font-size: 0.65em;">
 
-<div style="display: flex; gap: 15px;">
-<div style="width: 50%;">
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="width: 45%;">
 <img src="../../assets/images/2026/architecture-modernization/fig12-1.png" alt="疎結合アーキテクチャ" style="width: 100%; border-radius: 8px;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 12.1 Loosely coupled software architecture より引用</div>
 </div>
 <div style="flex: 1;">
 
-### 結合の4つのタイプ（弱い順）
+### なぜ疎結合が重要か？
 
-| タイプ | 目指すべき？ |
-|-------|------------|
-| **契約的結合** | ✅ 理想 |
-| **モデル的結合** | △ 許容 |
-| **機能的結合** | ⚠️ 注意 |
-| **侵入的結合** | ❌ 避ける |
+**密結合だと**: Aを変更するとBも変更が必要 → Bを変更するとCも変更が必要 → 調整会議が増える → リリースが遅くなる
 
-独立した価値ストリームを実現するには、疎結合が必須。
+### 結合の4つのタイプ
 
-<div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center; font-size: 0.9em;">
-<span style="color: #e65100; font-weight: bold;">疎結合 = チームの独立性</span>
+| タイプ       | 何を知っている？ | 例               |
+| ------------ | ---------------- | ---------------- |
+| **契約的**   | APIの形式だけ    | REST API         |
+| **モデル的** | ドメインの概念   | 「注文」の意味   |
+| **機能的**   | ビジネスルール   | 割引の計算方法   |
+| **侵入的**   | 実装の詳細       | DBのテーブル構造 |
+
+<div style="margin-top: 6px; padding: 6px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>契約的結合を目指す。知りすぎは密結合。</strong>
 </div>
 
 </div>
@@ -1147,37 +1923,91 @@ Ch.12-14
 
 ---
 
-## Ch.13 Internal Developer Platform
+## 密結合から疎結合への移行
+
+<div style="font-size: 0.68em;">
+
+<div style="background-color: #f5f5f5; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
+
+**密結合の兆候** = 「1箇所変えたら10箇所壊れた」「リリースのたびに調整会議」
+
+</div>
+
+### 密結合の具体例と解決策
+
+| 密結合パターン         | 問題                             | 解決策                 |
+| ---------------------- | -------------------------------- | ---------------------- |
+| **共有DB**             | 1テーブル変更で全システム影響    | API経由でアクセス      |
+| **同期呼び出し**       | 1サービス落ちると連鎖障害        | イベント駆動に変更     |
+| **共有ライブラリ**     | バージョン合わせが地獄           | 契約テストで独立       |
+| **ドメイン知識の漏洩** | 他システムがビジネスロジック実装 | ドメインサービスに集約 |
+
+### 疎結合への道
+
+```
+【Before: 密結合】
+注文 ──[DB参照]──→ 在庫テーブル
+      ──[同期呼出]──→ 決済サービス
+
+【After: 疎結合】
+注文 ──[イベント発行]──→ メッセージキュー
+                              ↓
+                    在庫サービス / 決済サービス
+```
+
+<div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>「何を知っているか」を最小限にする</strong>
+</div>
+
+</div>
+
+---
+
+## 設計はできた。実践するための基盤は？
 
 <div style="font-size: 0.75em;">
 
-<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
-**高速なフロー実現には、優れた開発者体験（DX）が必須**
+疎結合なアーキテクチャの設計方針が決まりました。しかし、新サービスを立ち上げるたびにインフラ構築で2週間かかっていたら、設計は絵に描いた餅です。Ch.13のInternal Developer Platformは、**チームが自律的に動くための「舗装された道」**を提供します。
+
+</div>
 
 </div>
 
-### IDPの3つの側面
+---
 
-<div style="display: flex; gap: 15px;">
-<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+## Ch.13 Internal Developer Platform
 
-**プラットフォーム機能**
+<div style="font-size: 0.68em;">
 
-テンプレート、CI/CD、インフラ管理をセルフサービスで提供
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="width: 40%;">
+<img src="../../assets/images/2026/idp-paved-road.png" alt="IDP" style="width: 100%; border-radius: 8px;">
+</div>
+<div style="flex: 1;">
+
+### IDPがない場合の問題
+
+| 問題                                 | 結果                             |
+| ------------------------------------ | -------------------------------- |
+| 新規サービス立ち上げに2週間          | 「とりあえず既存サービスに追加」 |
+| 環境構築の手順書が100ページ          | 新人が戦力化しない               |
+| デプロイのたびにインフラチームに依頼 | ボトルネック化                   |
+
+### IDPがある場合
+
+| Before                          | After                              |
+| ------------------------------- | ---------------------------------- |
+| 2週間かかる新規サービス立ち上げ | 「Create New Service」ボタンで10分 |
+| 100ページの手順書               | テンプレートから自動生成           |
+| インフラチームに依頼            | セルフサービスでデプロイ           |
+
+<div style="margin-top: 6px; padding: 6px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">「正しいやり方」が「一番楽なやり方」になる</span>
+</div>
 
 </div>
-<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
-
-**プロダクトマインド**
-
-IDPは「ツール集」ではなく「プロダクト」として運営
-
-</div>
-</div>
-
-<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">IDPは、チームが高速にイノベーションできる基盤</span>
 </div>
 
 </div>
@@ -1196,7 +2026,7 @@ IDPは「ツール集」ではなく「プロダクト」として運営
 
 ### 主要なケイパビリティ
 
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+<div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
 <div style="flex: 1; min-width: 200px; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
 
 **インフラストラクチャ**
@@ -1227,7 +2057,72 @@ IDPは「ツール集」ではなく「プロダクト」として運営
 </div>
 
 <div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">開発者が「本来の仕事」に集中できる環境を作る</span>
+<strong>開発者が「本来の仕事」に集中できる環境を作る</strong>
+</div>
+
+</div>
+
+---
+
+## プラットフォームチームのマインドセット
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+
+<strong>プラットフォームチーム</strong> = 「ツールを作るチーム」ではなく「プロダクトを提供するチーム」
+
+</div>
+
+### 従来のインフラチームとの違い
+
+| 従来のインフラチーム   | プラットフォームチーム     |
+| ---------------------- | -------------------------- |
+| チケットで依頼を受ける | セルフサービスで使える     |
+| 「作って終わり」       | 継続的に改善               |
+| 使い方は各自で調べて   | ドキュメント・サポート充実 |
+| 強制的に使わせる       | 使いたくなるものを作る     |
+
+名前を「プラットフォームチーム」に変えただけでは何も変わらない。開発者を<strong>ユーザー</strong>として扱い、彼らが「使いたい」と思えるプロダクトを提供する姿勢が必要。
+
+</div>
+
+---
+
+## プラットフォームチームの成功と失敗
+
+<div style="font-size: 0.75em;">
+
+### 成功のポイント
+
+| ポイント                                    | 説明                                       |
+| ------------------------------------------- | ------------------------------------------ |
+| <strong>開発者をユーザーとして扱う</strong> | フィードバックを集め、改善を続ける         |
+| <strong>強制ではなく誘導</strong>           | 「これを使うと楽」という状態を作る         |
+| <strong>薄いプラットフォーム</strong>       | 必要最小限、オーバーエンジニアリングしない |
+
+### よくある失敗パターン
+
+名前だけ変えて中身は旧来のインフラチーム。あるいは機能を詰め込みすぎて、使いこなせないプラットフォームを作ってしまう。いずれも<strong>開発者の声を聞いていない</strong>ことが根本原因。
+
+社内のSlackチャンネルで「このツール使いにくい」という声が放置されていたら、それはプラットフォームチームとして機能していないサイン。
+
+<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">プラットフォームは「社内SaaS」として運営する</span>
+</div>
+
+</div>
+
+---
+
+## アプリケーションは分散できた。データはどうする？
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+
+サービスを疎結合に分割し、IDPで各チームが自律的にデプロイできるようになりました。ただ、**データが中央集権のまま**だと、結局そこがボトルネックになります。Ch.14のData Meshは、「データのモダナイゼーション」を扱う最後のピースです。
+
 </div>
 
 </div>
@@ -1236,30 +2131,110 @@ IDPは「ツール集」ではなく「プロダクト」として運営
 
 ## Ch.14 Data Mesh
 
-<div style="font-size: 0.68em;">
+<div style="font-size: 0.65em;">
 
-<div style="display: flex; gap: 15px;">
-<div style="width: 50%;">
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="width: 45%;">
 <img src="../../assets/images/2026/architecture-modernization/fig14-1.png" alt="Data Mesh" style="width: 100%; border-radius: 8px;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 14.1 Data Mesh architecture より引用</div>
 </div>
 <div style="flex: 1;">
 
-### 4つの原則
+### 従来のデータ管理の問題
 
-| 原則 | 内容 |
-|------|------|
-| **ドメイン駆動** | 各ドメインがデータを所有・管理 |
-| **データをプロダクトとして** | 使用されるまでの責任を持つ |
-| **セルフサービス基盤** | 品質管理、ガバナンスを提供 |
-| **分散ガバナンス** | 相互運用性を確保 |
+| 問題                             | 結果                         |
+| -------------------------------- | ---------------------------- |
+| データチーム（中央）がすべて管理 | ボトルネック化、待ち時間増加 |
+| ドメイン知識がない人がデータ整備 | 品質問題、誤解釈             |
+| 「データの沼」にデータが溜まる   | 使われない、信頼されない     |
 
-データアーキテクチャもモダナイゼーションの対象。
+### Data Meshの解決策
 
-<div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center; font-size: 0.9em;">
-<span style="color: #e65100; font-weight: bold;">チーム権限委譲がデータの価値を解き放つ</span>
+**Zhamak Dehghaniが提唱。データを「プロダクト」として扱い、ドメインチームが責任を持つ**
+
+- 決済チームが決済データの品質・提供を担当
+- 在庫チームが在庫データの品質・提供を担当
+
+<div style="margin-top: 6px; padding: 6px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>データを知っている人が、データを管理する</strong>
 </div>
 
 </div>
+</div>
+
+</div>
+
+---
+
+## Data Meshの4つの原則
+
+<div style="font-size: 0.68em;">
+
+<div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
+<div style="flex: 1; min-width: 220px; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
+
+### 1. ドメイン所有権
+
+**誰が**: 各ドメインチーム
+
+**何を**: 自分たちのデータを所有・管理
+
+**例**: 決済チームが決済データの品質・アクセス制御を担当
+
+</div>
+<div style="flex: 1; min-width: 220px; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
+
+### 2. データをプロダクトとして
+
+**考え方**: データは「副産物」ではなく「プロダクト」
+
+**責任**: 使いやすさ、ドキュメント、品質保証
+
+**例**: 「決済履歴API」をプロダクトとして提供
+
+</div>
+<div style="flex: 1; min-width: 220px; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
+
+### 3. セルフサービス基盤
+
+**提供**: データインフラをセルフサービスで
+
+**内容**: ストレージ、パイプライン、カタログ
+
+**例**: 「新しいデータセット作成」がボタン一つ
+
+</div>
+<div style="flex: 1; min-width: 220px; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
+
+### 4. 分散ガバナンス
+
+**バランス**: 自律性と相互運用性の両立
+
+**標準化**: フォーマット、命名規則、品質基準
+
+**例**: 「顧客ID」の形式は全社で統一
+
+</div>
+</div>
+
+<div style="margin-top: 10px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">中央集権から連邦制へ。統制しつつ自律を促す。</span>
+</div>
+
+</div>
+
+---
+
+## 翻訳者ノート — Part 5を終えて
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px;">
+
+IDPの「正しいやり方が一番楽なやり方になる」は、翻訳でいう**用語集と同じ原理**です。
+
+翻訳チームでも、用語集がなかった初期は毎回「この言葉どう訳す？」で時間を取られていた。用語集（=ゴールデンパス）ができた途端、迷わず正しい訳語にたどり着ける。強制ではなく、「これを使うと楽」という設計思想は、SREのプラットフォームエンジニアリングそのものです。
+
 </div>
 
 </div>
@@ -1288,27 +2263,36 @@ Ch.15-17
 
 ## Ch.15 AMET（イネーブリングチーム）
 
-<div style="font-size: 0.75em;">
+<div style="font-size: 0.65em;">
 
-<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="width: 42%;">
+<img src="../../assets/images/2026/figure-15-1-amet.png" alt="AMET" style="width: 100%; border-radius: 8px;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 15.1 Architecture Modernization Enabling Team より引用</div>
+</div>
+<div style="flex: 1;">
 
-**モダナイゼーションの勢いを維持するには、専門の支援チームが必要**
+### なぜAMETが必要か
 
+| よくある問題                   | AMETがいると               |
+| ------------------------------ | -------------------------- |
+| 「やり方が分からない」で止まる | ワークショップを設計・進行 |
+| 「通常業務が忙しい」で後回し   | 専任が勢いを維持           |
+| 「前のやり方に戻る」           | 継続的なコーチングで定着   |
+
+### AMETがやること・やらないこと
+
+| やること                           | やらないこと         |
+| ---------------------------------- | -------------------- |
+| ワークショップのファシリテーション | 代わりにコードを書く |
+| 設計のレビューとフィードバック     | 決定を下す           |
+| 学習コンテンツの提供               | 永久に伴走する       |
+
+<div style="margin-top: 6px; padding: 6px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>「魚を与える」ではなく「釣り方を教える」</strong>
 </div>
 
-### AMETの役割
-
-| 課題 | AMETの対応 |
-|------|-----------|
-| 取り組み始動の困難 | 取り組み始動を支援 |
-| 他業務との競合 | 高い勢いを維持 |
-| 設計知識の不足 | よりよいアーキテクチャ設計を支援 |
-| 従来のやり方への逆戻り | 長期的で持続可能な変化を促進 |
-
-**重要**: AMETは実装チームではなく、イネーブリング・ファシリテーション役
-
-<div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">AMETは、変化を定着させるための触媒</span>
+</div>
 </div>
 
 </div>
@@ -1321,13 +2305,13 @@ Ch.15-17
 
 <div style="background-color: #f5f5f5; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
 
-**AMET** = Architecture Modernization Enabling Team（アーキテクチャモダナイゼーションイネーブリングチーム）
+**AMET** = Architecture Modernization Enabling Team。Team Topologiesの「Enabling Team」をモダナイゼーションに特化させたチーム。モダナイゼーションの推進役として、他チームの能力を引き上げる。
 
 </div>
 
 ### 主要な活動
 
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+<div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
 <div style="flex: 1; min-width: 200px; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
 
 **ファシリテーション**
@@ -1362,7 +2346,65 @@ Ch.15-17
 AMETは「代わりにやる」チームではない。チームが自走できるよう能力を引き上げる。
 
 <div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">支援は一時的、能力向上は永続的</span>
+<strong>支援は一時的、能力向上は永続的</strong>
+</div>
+
+</div>
+
+---
+
+## AMETの成功パターン
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+
+<strong>AMETは「触媒」</strong> — 自分では反応しないが、反応を加速させる
+
+</div>
+
+| やったこと                                 | 結果                                       |
+| ------------------------------------------ | ------------------------------------------ |
+| 最初のイベントストーミングをファシリテート | チームが「これ、自分たちでもできる」と自信 |
+| 設計レビューでフィードバック               | チームの設計力が向上                       |
+| 読書会を立ち上げ、軌道に乗ったら離脱       | 自走する学習文化が定着                     |
+| 3ヶ月で1チーム、半年で3チームに展開        | 段階的にスケール                           |
+
+共通しているのは<strong>「最初は手を添えるが、チームが自走し始めたら手を離す」</strong>という姿勢。AMETの成功は、AMETが不要になったときに測られる。
+
+</div>
+
+---
+
+## AMETの失敗パターン
+
+<div style="font-size: 0.75em;">
+
+| やったこと                | 結果                       |
+| ------------------------- | -------------------------- |
+| ❌ コードを代わりに書いた | チームの能力が上がらない   |
+| ❌ 設計を決めてしまった   | チームが考えなくなる       |
+| ❌ 永久に伴走し続けた     | 依存関係が生まれる         |
+| ❌ 一度に10チームに展開   | 支援が薄くなり全部中途半端 |
+
+失敗パターンの根っこは「代わりにやってしまう」か「広げすぎる」の2つ。AMETが優秀であるほど、つい手を出してしまう誘惑がある。しかし、チームの代わりに問題を解くことは、チームの学習機会を奪うことと同じ。
+
+<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">「いなくなっても回る」状態を目指す</span>
+</div>
+
+</div>
+
+---
+
+## ただ、「3年計画」を作ると大体失敗する
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+
+AMETという推進体制は整った。でも<strong>「3年計画で全システムを刷新します」と宣言した瞬間、失敗フラグが立つ</strong>。1年後に予算カット、キーパーソンの異動、市場の変化——計画通りにいくことはまずない。Ch.16では、変化に適応する「アダプティブ・ロードマップ」を扱います。
+
 </div>
 
 </div>
@@ -1371,44 +2413,30 @@ AMETは「代わりにやる」チームではない。チームが自走でき�
 
 ## Ch.16 戦略とロードマップ
 
-<div style="font-size: 0.75em;">
+<div style="font-size: 0.68em;">
 
-<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+<div style="background-color: #f5f5f5; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
 
-**説得力のあるビジョンがなければ、モダナイゼーションは始まらない**
-
-</div>
-
-### 3つのステップ
-
-<div style="display: flex; gap: 15px;">
-<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px; text-align: center;">
-
-**Think Big**
-
-説得力のあるビジョン構築
+**失敗パターン**: 「3年計画で全システムを刷新」→ 1年後に予算カット → 中途半端な状態で終了
 
 </div>
-<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px; text-align: center;">
 
-**Start Small**
+### 成功パターン: Think Big, Start Small, Scale It
 
-3〜6ヶ月以内に価値提供
+| フェーズ        | やること              | 具体例                    |
+| --------------- | --------------------- | ------------------------- |
+| **Think Big**   | 3年後のビジョンを描く | 「リリースを週1回にする」 |
+| **Start Small** | 1つのチームで成功体験 | 決済チームで3ヶ月POC      |
+| **Scale It**    | 成功パターンを横展開  | 他チームへ段階的に拡大    |
 
-</div>
-<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px; text-align: center;">
+### なぜ「小さく始める」が重要か
 
-**Scale It**
+- **リスク軽減**: 失敗しても影響が小さい
+- **学びの蓄積**: 何がうまくいくか分かってから拡大
+- **信頼獲得**: 成功実績で経営層の信頼を得る
 
-組織全体への展開
-
-</div>
-</div>
-
-**Nail it then scale it**: 小規模でアイデア検証 → 価値と学びを示す → 組織全体へ展開
-
-<div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">小さな成功の積み重ねが、組織を旅に導く</span>
+<div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">「3年計画」ではなく「3ヶ月で成果を出す」</span>
 </div>
 
 </div>
@@ -1427,15 +2455,15 @@ AMETは「代わりにやる」チームではない。チームが自走でき�
 
 ### フェーズ構成
 
-| フェーズ | 期間目安 | 目的 |
-|---------|---------|------|
-| **Discover** | 2-4週間 | 現状理解、課題特定、ステークホルダー合意 |
-| **Design** | 4-8週間 | ターゲットアーキテクチャ設計、優先順位付け |
-| **Deliver** | 継続的 | 段階的な実装、価値提供、フィードバック |
+| フェーズ     | 期間目安 | 目的                                       |
+| ------------ | -------- | ------------------------------------------ |
+| **Discover** | 2-4週間  | 現状理解、課題特定、ステークホルダー合意   |
+| **Design**   | 4-8週間  | ターゲットアーキテクチャ設計、優先順位付け |
+| **Deliver**  | 継続的   | 段階的な実装、価値提供、フィードバック     |
 
 ### 成功の鍵
 
-<div style="display: flex; gap: 10px;">
+<div style="display: flex; gap: 10px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
 
 **早期に価値を示す**
@@ -1463,44 +2491,94 @@ AMETは「代わりにやる」チームではない。チームが自走でき�
 
 ---
 
-## Ch.17 学習とスキルアップ
+## モメンタムが失われる原因
 
 <div style="font-size: 0.75em;">
 
-<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
 
-**モダナイゼーション成功の最も重要な投資は、人的な学習とスキルアップ**
+<strong>モメンタム</strong> = 変革の勢い。一度止まると再開には最初以上のエネルギーが必要になる。
+
+</div>
+
+| 原因                           | 対策                         |
+| ------------------------------ | ---------------------------- |
+| 「今四半期は通常業務が忙しい」 | 専任リソースを確保           |
+| 成果が見えない                 | 3ヶ月ごとに可視化できる成果  |
+| 経営層の関心が薄れる           | 定期的な報告、ビジネス言語で |
+| キーパーソンの離職             | 知識を分散、ドキュメント化   |
+
+モダナイゼーションは「始める」より「続ける」方がはるかに難しい。日常業務の優先度が上がるたびに、変革は後回しにされる。意識ではなく<strong>仕組み</strong>で守らなければ、モメンタムは静かに消える。
 
 </div>
 
-### 学習文化の醸成
+---
 
-<div style="display: flex; gap: 15px;">
-<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+## モメンタムを維持するテクニック
 
-**Seeding**
+<div style="font-size: 0.75em;">
 
-小さな読書会やCoP（実践共同体）から始める
+| テクニック                          | 説明                                 |
+| ----------------------------------- | ------------------------------------ |
+| <strong>Quick Wins</strong>         | 3ヶ月以内に見える成果を出す          |
+| <strong>ショーケース</strong>       | 成功事例を社内で共有                 |
+| <strong>経営層への定期報告</strong> | 月次で進捗とビジネス価値を報告       |
+| <strong>コミュニティ形成</strong>   | 興味を持つ人を巻き込む               |
+| <strong>外部発表</strong>           | カンファレンス登壇で社内外にアピール |
 
-</div>
-<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
-
-**Nurturing**
-
-継続的な学習イベント、メンタリング
-
-</div>
-<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
-
-**Cultivating**
-
-組織全体への浸透
-
-</div>
-</div>
+Quick Winsが特に重要。最初の3ヶ月で「やって良かった」という実感を生めなければ、経営層も現場も離れていく。大きな成果でなくていい。「デプロイ時間が半分になった」「障害対応が30分短縮された」——数字で示せる小さな勝利が、次の投資を引き出す。
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">人への投資なしにアーキテクチャは進化しない</span>
+<span style="color: #e65100; font-weight: bold;">「続けること」自体が最大の成功要因</span>
+</div>
+
+</div>
+
+---
+
+## 最後の、そして最も見落とされるピース
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+
+ロードマップもモメンタムもある。でも**新しいアーキテクチャを設計・実装できる人がいなければ？** 外部コンサルが去った後に元に戻った経験、ありませんか。Ch.17は書籍の最終章として、変革を持続させる**学習文化**を扱います。
+
+</div>
+
+</div>
+
+---
+
+## Ch.17 学習とスキルアップ
+
+<div style="font-size: 0.68em;">
+
+<div style="background-color: #f5f5f5; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
+
+**問題**: 新しいアーキテクチャを設計しても、作れる人がいなければ絵に描いた餅
+
+</div>
+
+### よくある失敗と成功のパターン
+
+| アプローチ                  | 結果                     |
+| --------------------------- | ------------------------ |
+| ❌ 外部コンサルに丸投げ     | 去った後に元に戻る       |
+| ❌ 研修を1回やって終わり    | 2週間で忘れる            |
+| ✅ 読書会を継続的に開催     | 知識が定着、実践に活きる |
+| ✅ 実際のプロジェクトで伴走 | 経験として身につく       |
+
+### 具体的なアクション
+
+| 期間       | やること                  | 効果             |
+| ---------- | ------------------------- | ---------------- |
+| 週1回30分  | DDD/Team Topologies読書会 | 共通言語ができる |
+| 月1回3時間 | イベントストーミング実践  | 手法が身につく   |
+| 四半期ごと | 振り返りと改善            | 組織に定着       |
+
+<div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>「教わる」より「一緒にやる」が最強の学習</strong>
 </div>
 
 </div>
@@ -1513,13 +2591,13 @@ AMETは「代わりにやる」チームではない。チームが自走でき�
 
 <div style="background-color: #f5f5f5; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
 
-**Community of Practice (CoP)** = 実践共同体。同じ関心を持つ人々が集まり、知識を共有・深化させる場
+**Community of Practice (CoP)** = Etienne Wengerが提唱した実践共同体。同じ関心を持つ人々が自発的に集まり、知識を共有・深化させる場
 
 </div>
 
 ### 効果的な学習形式
 
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+<div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
 <div style="flex: 1; min-width: 200px; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
 
 **読書会**
@@ -1557,7 +2635,54 @@ AMETは「代わりにやる」チームではない。チームが自走でき�
 DDD / Team Topologies / イベントストーミング / Wardley Mapping / 疎結合設計
 
 <div style="margin-top: 8px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">学ぶことは、変わることの始まり</span>
+<strong>学ぶことは、変わることの始まり</strong>
+</div>
+
+</div>
+
+---
+
+## 組織の学習成熟度レベル
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+
+<strong>学習成熟度</strong> = 組織としてどれだけ学習が定着しているか。自組織が今どのレベルにいるかを把握することが出発点。
+
+</div>
+
+| レベル                       | 状態                         | 特徴                             |
+| ---------------------------- | ---------------------------- | -------------------------------- |
+| <strong>Lv.1 無意識</strong> | 学習の必要性を感じていない   | 「今のやり方で問題ない」         |
+| <strong>Lv.2 認識</strong>   | 必要性は感じているが行動なし | 「勉強したいけど時間がない」     |
+| <strong>Lv.3 個人</strong>   | 個人レベルで学習             | 自費で本を買う、個人で勉強会参加 |
+| <strong>Lv.4 チーム</strong> | チームで学習                 | 週1読書会、モブプログラミング    |
+| <strong>Lv.5 組織</strong>   | 組織として学習を支援         | 学習時間を業務時間に、予算確保   |
+
+多くの組織はLv.2〜3に留まっている。個人の熱意に依存している状態は、その人が辞めたら終わる。
+
+</div>
+
+---
+
+## 学習成熟度を引き上げるアクション
+
+<div style="font-size: 0.75em;">
+
+| From → To   | アクション                         |
+| ----------- | ---------------------------------- |
+| Lv.1 → Lv.2 | 外部事例を見せる、危機感を共有     |
+| Lv.2 → Lv.3 | 本を配る、カンファレンス参加を奨励 |
+| Lv.3 → Lv.4 | 読書会を始める、学習時間を確保     |
+| Lv.4 → Lv.5 | 経営層を巻き込む、予算を確保       |
+
+一段ずつ上げていくのがポイント。Lv.1の組織にいきなり「週1読書会をやりましょう」と言っても響かない。まず「他社はこうやっている」という外部事例で必要性を認識させることから始める。
+
+Lv.4→5の壁が最も高い。学習を<strong>個人やチームの善意</strong>から<strong>組織の投資</strong>に変えるには、経営層が「学習は業務の一部である」と明言する必要がある。
+
+<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>学習は個人から始まり、組織に広がる</strong>
 </div>
 
 </div>
@@ -1572,11 +2697,11 @@ DDD / Team Topologies / イベントストーミング / Wardley Mapping / 疎�
 
 ### 3つの統合
 
-| 軸 | 内容 |
-|---|------|
+| 軸           | 内容                               |
+| ------------ | ---------------------------------- |
 | **ビジネス** | なぜ変えるのか、どこに投資するのか |
-| **組織** | 誰がどうやって変えるのか |
-| **技術** | 何をどう作るのか |
+| **組織**     | 誰がどうやって変えるのか           |
+| **技術**     | 何をどう作るのか                   |
 
 この3つを**同時に**設計・変革する必要がある。
 
@@ -1592,12 +2717,16 @@ DDD / Team Topologies / イベントストーミング / Wardley Mapping / 疎�
 
 ## どこから読むか
 
-<div style="font-size: 0.72em;">
+<div style="font-size: 0.75em;">
 
-<div style="display: flex; gap: 15px;">
+本音を言えば、Ch.1からCh.17まで順番に読んでほしい。著者も翻訳者も、その順番で読んだときに最も学びが深くなるよう設計している。それが本を作る側の願いです。
+
+ただ、500ページ超の本を最初から読み通す時間がない、というのも現実。であれば、目的に応じて以下のルートから入ってください。
+
+<div style="display: flex; gap: 15px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-**全体像を掴みたい**
+<strong>全体像を掴みたい</strong>
 
 Ch.1 → Ch.2 → Ch.16
 
@@ -1606,7 +2735,7 @@ Ch.1 → Ch.2 → Ch.16
 </div>
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-**設計手法を学びたい**
+<strong>設計手法を学びたい</strong>
 
 Ch.7 → Ch.9 → Ch.12
 
@@ -1615,7 +2744,7 @@ Ch.7 → Ch.9 → Ch.12
 </div>
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-**組織設計を学びたい**
+<strong>組織設計を学びたい</strong>
 
 Ch.11 → Ch.10 → Ch.15
 
@@ -1624,47 +2753,38 @@ Team Topologies→ポートフォリオ→AMET
 </div>
 </div>
 
-<div style="margin-top: 15px; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
-
-### 特におすすめの章
-
-- **Ch.7 イベントストーミング** — 実践ですぐ使える
-- **Ch.11 Team Topologies** — 組織設計の基盤
-- **Ch.12 疎結合アーキテクチャ** — 技術設計の核心
-
-</div>
-
 </div>
 
 ---
 
 ## 本日のまとめ
 
-<div style="font-size: 0.75em;">
+<div style="font-size: 0.72em;">
 
-<div style="display: flex; gap: 20px;">
-<div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
 
-**書籍の構成**
-
-Why → Discovery → Design → Organization → Technical → Execute の6パート・17章
+**書籍の全体像**: Why → Discovery → Design → Organization → Technical → Execute の6パート・17章。技術だけでなく、ビジネス・組織・文化を同時に変革するソシオテクニカルなアプローチ。
 
 </div>
-<div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
-**核心メッセージ**
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
 
-技術だけでなく、ビジネス・組織・文化を同時に変革するソシオテクニカルなアプローチ
+**翻訳者として一番伝えたいこと**
+
+モダナイゼーションの本質は、完成形を目指すことではない。**変化し続ける能力を身につけること**。技術を一新しても、変化に対応し続ける組織がなければ、またレガシーに戻る。
 
 </div>
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**本を手に取るきっかけ**
+
+全17章を通して読まなくてもいい。Ch.7（イベントストーミング）、Ch.11（Team Topologies）、Ch.12（疎結合）——この3章だけでも十分に実践に使える。
+
 </div>
 
-<div style="margin-top: 15px; padding: 15px; background-color: #e0e0e0; border-radius: 8px; text-align: center;">
-
-**書籍を読むための「地図」は手に入りましたか？**
-
-詳細は書籍で。今日の発表が読書のきっかけになれば幸いです。
-
+<div style="margin-top: 12px; padding: 12px; background-color: #e0e0e0; border-radius: 8px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">モダナイゼーションに「遅すぎる」はない。始めた瞬間から組織は変わり始める。</span>
 </div>
 
 </div>
@@ -1673,17 +2793,16 @@ Why → Discovery → Design → Organization → Technical → Execute の6パ�
 
 ## 参考資料
 
-<div style="font-size: 0.7em;">
+<div style="font-size: 0.65em;">
 
-### 書籍
-
-- [Architecture Modernization](https://www.manning.com/books/architecture-modernization) - Nick Tune, Jean-Georges Perrin
-- [Team Topologies](https://teamtopologies.com/) - Matthew Skelton, Manuel Pais
-- [Domain-Driven Design](https://www.domainlanguage.com/ddd/) - Eric Evans
+- [Architecture Modernization](https://www.manning.com/books/architecture-modernization) - Nick Tune, Jean-Georges Perrin（Manning, 2024）
+- [アーキテクチャモダナイゼーション](https://www.oreilly.co.jp/) - 日本語版、株式会社スリーシェイク訳
+- [Team Topologies](https://teamtopologies.com/) - Matthew Skelton, Manuel Pais（IT Revolution, 2019）
+- [Domain-Driven Design](https://www.domainlanguage.com/ddd/) - Eric Evans（Addison-Wesley, 2003）
 - [EventStorming](https://www.eventstorming.com/) - Alberto Brandolini
-
-### 関連記事
-
+- [Sooner Safer Happier](https://www.soonersaferhappier.com/) - Jon Smart（IT Revolution, 2020）
+- [Data Mesh](https://www.oreilly.com/library/view/data-mesh/9781492092384/) - Zhamak Dehghani（O'Reilly, 2022）
+- [Wardley Maps](https://learnwardleymapping.com/) - Simon Wardley
 - [現代システムの三体問題](https://syu-m-5151.hatenablog.com/entry/2025/01/21/124130) - Architecture Modernization 読書感想文
 
 </div>
@@ -1709,4 +2828,5 @@ _class: title dark
 ### ご質問・ご相談はお気軽にお問い合わせください
 
 @nwiizo | https://3-shake.com
+
 </div>

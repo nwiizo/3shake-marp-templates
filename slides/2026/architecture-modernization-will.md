@@ -99,6 +99,12 @@ style: |
     width: 30%;
     margin-left: 70%;
   }
+  table {
+    font-size: 0.65em !important;
+  }
+  table th, table td {
+    padding: 4px 6px !important;
+  }
 ---
 
 <!--
@@ -160,7 +166,7 @@ _class: title dark
 
 ### 提供サービス
 
-<div style="display: flex; gap: 8px; flex-wrap: wrap;">
+<div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center;">
 <div style="flex: 1; min-width: 180px; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
 
 **SRE/DevOps支援**
@@ -216,7 +222,7 @@ Mobility、FinTech、通信など大規模SREを存分に経験できます
 
 1. AI時代に私たちの仕事はどう変わるのか
 2. ソフトウェアと組織を同時に設計する
-3. イベントストーミングで協働的に設計する
+3. ビジネスを可視化する協働的手法
 4. ドメイン駆動設計とチーム設計の統合
 5. レガシーを競争優位性へ転換する
 6. 意志を実装するということ
@@ -227,7 +233,7 @@ Mobility、FinTech、通信など大規模SREを存分に経験できます
 
 <div style="font-size: 0.75em;">
 
-<div style="display: flex; gap: 20px; margin-top: 15px;">
+<div style="display: flex; gap: 20px; margin-top: 15px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
 **こんな悩みを持っていませんか？**
@@ -245,7 +251,7 @@ Mobility、FinTech、通信など大規模SREを存分に経験できます
 </div>
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">目標：「どんな未来を描くか」を考えるための武器を持ち帰る</span>
+<strong>目標：「どんな未来を描くか」を考えるための武器を持ち帰る</strong>
 </div>
 
 </div>
@@ -262,7 +268,7 @@ Mobility、FinTech、通信など大規模SREを存分に経験できます
 
 </div>
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **文脈によって最適解は変わる**
@@ -280,7 +286,7 @@ Mobility、FinTech、通信など大規模SREを存分に経験できます
 </div>
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">正解は存在しない。あなたの現場で「意志を持って決める」道具を持ち帰ってほしい</span>
+<strong>正解は存在しない。あなたの現場で「意志を持って決める」道具を持ち帰ってほしい</strong>
 </div>
 
 </div>
@@ -336,7 +342,7 @@ _class: transition
 
 <div style="font-size: 0.75em;">
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
 **AIにできること**
@@ -354,7 +360,7 @@ _class: transition
 </div>
 
 <div style="margin-top: 20px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">「なぜそれを作るのか」「どんな価値を生むのか」を決めるのは人間の仕事</span>
+<span style="color: #e65100; font-weight: bold;">AIが「作る」を奪った。残るのは「なぜ作るのか」を決める仕事だけ。</span>
 </div>
 
 </div>
@@ -371,7 +377,7 @@ _class: transition
 
 </div>
 
-<div style="display: flex; gap: 15px;">
+<div style="display: flex; gap: 15px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **組織構造の問題**
@@ -396,7 +402,7 @@ _class: transition
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">AIがコードを書いても、この構造的問題は解決しない。むしろ露わになる。</span>
+<strong>AIがコードを書いても、この構造的問題は解決しない。むしろ露わになる。</strong>
 </div>
 
 </div>
@@ -415,7 +421,7 @@ _class: transition
 
 </div>
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **AIができること**
@@ -433,7 +439,189 @@ _class: transition
 </div>
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">意思決定の「責任」を負えるのは人間だけ</span>
+<strong>AIは答えを出せる。だが責任は取れない。</strong>
+</div>
+
+</div>
+
+---
+
+## 生成AIとの付き合い方
+
+<div style="font-size: 0.7em;">
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+
+<strong>生成AIは「鏡」であり「拡声器」である</strong>
+
+あなたの理解が深ければ、AIは優れた出力を返す。理解が浅ければ、もっともらしいが間違った出力を返す。AIは理解の深さを増幅する装置であって、理解を代替する装置ではない。
+
+</div>
+
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**うまくいくパターン**
+
+ドメイン知識を持つ人間が、AIに具体的な文脈を与えて壁打ちする。「注文処理のBounded Contextで、在庫引当のイベントが先か決済確認が先か」——**問いの解像度が高いとき**、AIは強力な思考パートナーになる。
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**危険なパターン**
+
+理解が曖昧なまま「いい感じにして」と丸投げする。出力はそれっぽく見えるが、ドメインの文脈を欠いている。**もっともらしさと正しさは別物**。レビューできる知識がなければ、間違いに気づけない。
+
+</div>
+</div>
+
+<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>プロンプトの巧さではなく、ドメインの深さがAIの出力を決める</strong>
+</div>
+
+</div>
+
+---
+
+## AIエージェントという新しい存在
+
+<div style="font-size: 0.7em;">
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+
+<strong>AIは「対話相手」から「自律的な実行者」へ変わりつつある</strong>
+
+コード生成、テスト実行、デプロイ、障害対応——AIエージェントが自律的にタスクを遂行する時代が来ている。ただ、これは新しい話ではない。CI/CDパイプラインも、自動スケーリングも、広い意味では「自律的な実行者」だった。
+
+</div>
+
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**AIエージェントが変えること**
+
+タスクの粒度が変わる。「関数を書いて」から「この機能を実装して」へ。**委任の単位が大きくなる**ほど、委任する側に求められる判断力も高くなる。
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**AIエージェントが変えないこと**
+
+「何を作るべきか」の判断、組織間の合意形成、ビジネスの文脈理解、そして**失敗したときに顧客の前に立つ覚悟**。これらは依然として人間の領域。
+
+</div>
+</div>
+
+<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>エージェントが賢くなるほど、委任する側の判断力が問われる</strong>
+</div>
+
+</div>
+
+---
+
+## AIエージェントとの信頼関係を設計する
+
+<div style="font-size: 0.7em;">
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+
+<strong>AIエージェントは「わかったふりをする優秀な新人」に似ている</strong>
+
+新人に「全権委任」はしない。小さなタスクから任せ、成果を確認し、徐々に委任範囲を広げる。AIエージェントも同じ。自信満々で間違えるから、確認の仕組みが余計に重要になる。
+
+</div>
+
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**委ねてよいもの**
+
+定型的なコード生成、テストの実行と結果の解析、ドキュメントの下書き、既知パターンの適用。**正解が検証可能な領域**。
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**委ねてはいけないもの**
+
+ドメイン境界の決定、チーム構造の設計、技術的負債をどこまで許容するかの判断、ステークホルダーへの説明。**正解が文脈に依存する領域**。
+
+</div>
+</div>
+
+<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>「AIに任せる」と「AIに丸投げする」の間には、設計すべき境界がある</strong>
+</div>
+
+</div>
+
+---
+
+## AIが変えるもの、変えないもの
+
+<div style="font-size: 0.7em;">
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+
+**ここで一歩引いて考えたい。AIの進化で、本当に変わるものは何か。**
+
+</div>
+
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**変わるもの**
+
+実装の速度、コード生成のコスト、情報収集の効率、プロトタイピングの手軽さ。要するに**「How」のコストが劇的に下がる**。
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**変わらないもの**
+
+コンウェイの法則、認知負荷の限界、組織の慣性、人間の感情、信頼の構築に時間がかかること。要するに**「人間の性質」は変わらない**。
+
+</div>
+</div>
+
+だからこそ、ソシオテクニカルなアプローチの価値は**AIが発達するほど高まる**。技術側のコストが下がれば下がるほど、ボトルネックは「人間の調整コスト」に移動する。AIエージェントが100倍速くコードを書いても、チーム間の合意形成が3ヶ月かかるなら、全体のリードタイムは3ヶ月のまま。
+
+<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">AIは「How」を加速する。だが「What」と「Why」は加速しない。だから本日の話が必要。</span>
+</div>
+
+</div>
+
+---
+
+## 歴史は繰り返す——「作れる」と「運用できる」
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+
+<strong>新しい技術が出るたびに、同じサイクルが回る</strong>
+
+「魔法のような技術」に触れる → 「これなら自分たちで作れる」 → 内製する → 運用が回らなくなる → 結局外部に移行する。クラウド黎明期にもコンテナブームでも、そして今のAIでも、同じことが起きている。
+
+</div>
+
+技術の進歩は「作る」コストを劇的に下げる。AIが書いたコードは動く。だが、そのコードを3年間運用し、法改正に追従し、セキュリティパッチを当て続け、担当者が退職しても回し続けるコストは下がらない。<strong>ソフトウェアの価値の大部分は初期構築ではなく、変化への継続的適応にある。</strong>
+
+</div>
+
+---
+
+## なぜ同じ罠に繰り返しはまるのか
+
+<div style="font-size: 0.75em;">
+
+歴史的教訓を持たない世代が、新技術に触れるたびに同じ興奮を覚える。それ自体は健全な反応だが、「作れた」の興奮と「運用し続けられる」の地味な現実との落差に、多くのプロジェクトが沈む。
+
+組織・法制度・業務フローは常に変化するため、<strong>システムは「完成」しない。作った瞬間から陳腐化が始まる。</strong>
+
+<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>「作れること」と「運用できること」の間には、技術では埋まらない溝がある</strong>
 </div>
 
 </div>
@@ -442,9 +630,15 @@ _class: transition
 
 ## エンジニアの仕事の質的シフト
 
-<div style="font-size: 0.8em;">
+<div style="font-size: 0.75em;">
 
-<div style="display: flex; gap: 30px; margin-top: 20px;">
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 15px; font-size: 0.9em;">
+
+AIが「作る」コストを下げ、歴史が「運用は別物」だと教えている。ならばエンジニアの仕事はどこへ向かうのか。
+
+</div>
+
+<div style="display: flex; gap: 30px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 20px; border-radius: 8px;">
 
 **以前**
@@ -459,6 +653,10 @@ _class: transition
 設計を決め、価値を定義し、未来を描き、システムを進化させる。**意思決定と方向性の定義**が仕事になる。
 
 </div>
+</div>
+
+<div style="margin-top: 15px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">「作れる人」は余る。「何を作り、何を作らないか決められる人」が足りなくなる</span>
 </div>
 
 </div>
@@ -477,7 +675,7 @@ _class: transition
 
 ### 具体的に何を「意志」と呼ぶのか
 
-<div style="display: flex; gap: 15px;">
+<div style="display: flex; gap: 15px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **ビジネスへの意志**
@@ -521,7 +719,7 @@ _class: transition
 
 </div>
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **以前は隠れていた**
@@ -539,7 +737,7 @@ _class: transition
 </div>
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">技術的な言い訳がなくなると、本当のボトルネックと向き合わざるを得ない</span>
+<strong>コードが楽に書ける時代、言い訳はもう使えない。本当のボトルネックと向き合え。</strong>
 </div>
 
 </div>
@@ -560,7 +758,7 @@ _class: transition
 
 ### 向き合うべき「人間の問題」
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 - 何を作るべきかの合意形成
@@ -599,7 +797,7 @@ _class: transition
 
 </div>
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **必要なもの**
@@ -621,7 +819,7 @@ _class: transition
 </div>
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">これらの手法をまとめた書籍を紹介する。本日の発表の核心はここにある。</span>
+<strong>必要な道具は存在する。あとは手に取る覚悟があるかどうか。</strong>
 </div>
 
 </div>
@@ -630,7 +828,7 @@ _class: transition
 
 ## 「Architecture Modernization」という書籍
 
-<div style="display: flex; gap: 40px;">
+<div style="display: flex; gap: 40px; align-items: center;">
 <div style="width: 35%;">
 <img src="../../assets/images/2025/forkwell-library-pek/book_architecture_modernization.png" alt="Architecture Modernization" style="width: 80%; height: fit-content;">
 </div>
@@ -656,7 +854,7 @@ _class: transition
 
 ## 日本語版が出ました
 
-<div style="display: flex; gap: 40px;">
+<div style="display: flex; gap: 40px; align-items: center;">
 <div style="width: 30%;">
 <img src="../../assets/images/2026/アーキテクチャモダナイゼーション.jpg" alt="アーキテクチャモダナイゼーション" style="width: 100%; height: fit-content;">
 </div>
@@ -683,33 +881,11 @@ _class: transition
 
 ---
 
-## 本日、夕方からイベントがあります
-
-<div style="display: flex; gap: 40px;">
-<div style="width: 40%;">
-<img src="../../assets/images/2026/event_アーキテクチャモダナイゼーション.png" alt="イベント" style="width: 100%; height: fit-content;">
-</div>
-
-<div style="flex: 1; font-size: 0.7em;">
-
-### 3-shake SRE Tech Talk 特別回
-
-**アーキテクチャモダナイゼーション**
-
-レガシーシステムを競争優位性に転換するための包括的ガイド。ソシオテクニカルな視点、イベントストーミング、DDD、Team Topologiesなど、本セッションで紹介した内容をより深く学べます。
-
-https://3-shake.connpass.com/event/382086/
-
-</div>
-</div>
-
----
-
 ## 書籍の構成（17章）
 
 <div style="font-size: 0.7em;">
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **Part 1: Why（理解）**
@@ -757,7 +933,7 @@ https://3-shake.connpass.com/event/382086/
 
 </div>
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px; text-align: center;">
 
 **技術**
@@ -785,7 +961,7 @@ https://3-shake.connpass.com/event/382086/
 </div>
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">「ゆっくり考え、すばやく動く」——複雑さを理解することが第一歩</span>
+<strong>「ゆっくり考え、すばやく動く」——複雑さを理解することが第一歩</strong>
 </div>
 
 </div>
@@ -823,7 +999,7 @@ https://3-shake.connpass.com/event/382086/
 
 <div style="font-size: 0.75em;">
 
-<div style="display: flex; gap: 15px; flex-wrap: wrap;">
+<div style="display: flex; gap: 15px; flex-wrap: wrap; align-items: center;">
 <div style="flex: 1; min-width: 45%; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
 **競争力の維持**
@@ -840,7 +1016,7 @@ https://3-shake.connpass.com/event/382086/
 </div>
 </div>
 
-<div style="display: flex; gap: 15px; flex-wrap: wrap; margin-top: 15px;">
+<div style="display: flex; gap: 15px; flex-wrap: wrap; margin-top: 15px; align-items: center;">
 <div style="flex: 1; min-width: 45%; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
 **開発者体験の向上**
@@ -858,7 +1034,7 @@ https://3-shake.connpass.com/event/382086/
 </div>
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">入り口はどこでもいい。重要なのは「全体像を見失わない」こと</span>
+<strong>入り口はどこでもいい。重要なのは「全体像を見失わない」こと</strong>
 </div>
 
 </div>
@@ -871,19 +1047,19 @@ https://3-shake.connpass.com/event/382086/
 
 <div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
 
-**Ward Cunninghamが提唱した概念**
+**Ward Cunninghamが1992年に提唱した比喩**
 
-将来の変更を困難にする、過去の技術的決定の蓄積。金融の負債と同様に「利子」がつく。
+将来の変更を困難にする、過去の技術的決定の蓄積。金融の負債と同様に「利子」がつく。ただし金融の負債と違い、技術的負債は意図せず発生し、残高が不明確なことが多い。
 
 </div>
 
 ### 技術的負債の種類
 
-| 種類 | 説明 | 例 |
-|-----|------|-----|
-| 意図的 | 短期目標のため意識的に受け入れる | MVP優先、後でリファクタ |
-| 無意識 | 知識不足から生じる | 設計ミス、ベストプラクティス無視 |
-| 環境的 | 外部要因から生じる | フレームワークの陳腐化 |
+| 種類 | 説明 | 例 | 対処法 |
+|-----|------|-----|-------|
+| 意図的 | 短期目標のため意識的に受け入れる | MVP優先、後でリファクタ | 返済計画を立てて追跡 |
+| 無意識 | 知識不足から生じる | 設計ミス、ベストプラクティス無視 | コードレビュー、学習投資 |
+| 環境的 | 外部要因から生じる | フレームワークの陳腐化 | 定期的な依存関係更新 |
 
 </div>
 
@@ -893,19 +1069,19 @@ https://3-shake.connpass.com/event/382086/
 
 <div style="font-size: 0.75em;">
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
 **負債が増える理由**
 
-「後で直す」が永遠に来ず、負債の上に負債を重ねる。ドキュメントは陳腐化し、知識を持つ人は離職する。**負債は複利で増える。**
+「後で直す」が永遠に来ず、負債の上に負債を重ねる。ドキュメントは陳腐化し、知識を持つ人は離職する。**負債は複利で増える。** しかも組織・法制度・業務フローは常に変化するため、何もしなくても負債は増え続ける。
 
 </div>
 <div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
 **負債の影響**
 
-新機能開発が遅延し、バグ修正が困難になり、オンボーディングコストが増加し、モチベーションが低下する。**全てが悪循環に入る。**
+新機能開発が遅延し、バグ修正が困難になり、オンボーディングコストが増加し、モチベーションが低下する。**全てが悪循環に入る。** AIで新規コードを高速に書いても、既存の負債が消えるわけではない——むしろ負債の上に新しいコードが積み上がり、問題を深くする。
 
 </div>
 </div>
@@ -931,19 +1107,19 @@ https://3-shake.connpass.com/event/382086/
 
 </div>
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
 **失敗パターン**
 
-「マイクロサービスにすれば解決」「クラウドに移行すれば解決」「新技術を導入すれば解決」——**手段が目的化**している。
+「マイクロサービスにすれば解決」「クラウドに移行すれば解決」「AIで全部自動化」——**手段が目的化**している。そもそも「レガシー」「モダン」という主語が大きすぎる。決済システムのレガシーと社内ツールのレガシーでは、対処法がまったく違う。
 
 </div>
 <div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
 **成功のアプローチ**
 
-ビジネス目標との整合、段階的な改善、組織と技術の同時変革。**目的から逆算する**姿勢が必要。
+ビジネス目標との整合、段階的な改善、組織と技術の同時変革。**目的から逆算する**姿勢が必要。バズワード的な二項対立（「〇〇 is Dead」「内製 vs 外注」）は、多様な領域を一括りにすることで**議論の粒度を下げ、本質を見失わせる**。
 
 </div>
 </div>
@@ -985,7 +1161,44 @@ https://3-shake.connpass.com/event/382086/
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">「半年後に失敗するプロジェクト」より「半年かけて基盤を作る」を選べるか</span>
+<strong>「半年後に失敗するプロジェクト」より「半年かけて基盤を作る」を選べるか</strong>
+</div>
+
+</div>
+
+---
+
+## 見えないコストを見る力
+
+<div style="font-size: 0.7em;">
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+
+**人は「何ができるか」に注目し、「何を防いでいるか」を軽視する**
+
+機能的価値（新機能、画面、API）は目に見える。非機能要件（セキュリティ、コンプライアンス、可用性、属人化リスク）は目に見えない。だが、システムの長期的な存続を決めるのは後者のほう。
+
+</div>
+
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**外部ベンダーへの支払いの正体**
+
+「自分たちで作れるのに、なぜ外部に払うのか？」という問いが出たとき、見落とされているものがある。外部への支払いには機能だけでなく、**リスクと責任の移転**という対価が含まれている。セキュリティアップデート、法令対応、24/365の運用——これらを自前で持つコストは、ライセンス費の何倍にもなりうる。
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**属人化という静かな爆弾**
+
+内製システム最大のリスクは属人化。「あの人がいないと動かない」状態は、人の流動性がある組織では時限爆弾になる。ドキュメントを書いても読まれない。知識が1人の頭に閉じている限り、その人の退職はシステム障害と同義。**持続可能性の観点を欠いた内製は、最も高コストな選択**になりうる。
+
+</div>
+</div>
+
+<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>「いくらかかるか」ではなく「何のリスクを誰が引き受けるか」で判断する</strong>
 </div>
 
 </div>
@@ -1018,7 +1231,7 @@ _class: transition
 
 ---
 
-## ここまでの問いと、次への問い
+## では、判断はどんな情報に基づくべきか？
 
 <div style="font-size: 0.75em;">
 
@@ -1032,13 +1245,11 @@ AI時代には「何を作るか」「なぜ作るか」を決める力が重要
 
 <div style="background-color: #e0e0e0; padding: 15px; border-radius: 8px;">
 
-**では、問いが生まれる**
+**だが、問いが残る**
 
-「技術を改善すれば、人間の問題も解決するのか？」
+「判断する」と言っても、判断には情報が要る。技術だけ見ていても全体像は見えない。組織を無視して技術を変えても、組織が引き戻す。
 
-答えは No。技術と組織は表裏一体だから。別々に扱っても解決しない。
-
-→ 次のセクションで「ソシオテクニカル」という視点を紹介する
+答えは「技術と組織を同時に見ること」。次のセクションでは、その視点——**ソシオテクニカル**——を紹介する。
 
 </div>
 
@@ -1072,11 +1283,11 @@ _class: transition
 
 **Socio（社会的・組織的）+ Technical（技術的）= ソシオテクニカル**
 
-ソフトウェアアーキテクチャと組織構造は切り離せない。どちらか片方だけを変えても、真のモダナイゼーションは実現できない。
+1960年代にタビストック研究所で生まれた概念。ソフトウェアアーキテクチャと組織構造は切り離せない。どちらか片方だけを変えても、真のモダナイゼーションは実現できない。
 
 </div>
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **技術だけ変えても**
@@ -1107,7 +1318,7 @@ _class: transition
 
 </div>
 
-<div style="display: flex; gap: 15px;">
+<div style="display: flex; gap: 15px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **縦割りの壁**
@@ -1132,7 +1343,7 @@ _class: transition
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">この壁を越える権限がないなら、その権限を獲りに行け</span>
+<strong>この壁を越える権限がないなら、その権限を獲りに行け</strong>
 </div>
 
 </div>
@@ -1157,7 +1368,49 @@ _class: transition
 | **逆コンウェイ戦略** | 望ましいアーキテクチャに合わせて組織を設計する |
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">技術だけ変えても組織が追いつかない。組織だけ変えても技術が足を引っ張る</span>
+<strong>技術だけ変えても組織が追いつかない。組織だけ変えても技術が足を引っ張る</strong>
+</div>
+
+</div>
+
+---
+
+## 翻訳で体験したソシオテクニカル
+
+<div style="font-size: 0.7em;">
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+
+**この本を5人で翻訳した経験は、まさにソシオテクニカルの実験場だった。**
+
+</div>
+
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**技術的な課題**
+
+翻訳ツール、用語集の管理、Gitでの原稿管理。200以上のコミットを重ねて品質を磨いた。
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**組織的な課題**
+
+5人の「解釈」の違い。同じ英語を違う日本語に訳す。章をまたぐと整合性が崩れる。**暗黙の前提が異なっていた。**
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**結果として起きたこと**
+
+ツールだけ揃えても訳文は揃わない。「同じ言葉を同じ意味で使う」という組織的合意——まさにユビキタス言語——が必要だった。
+
+</div>
+</div>
+
+<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>翻訳チームという小さな組織で、コンウェイの法則を肌で感じた</strong>
 </div>
 
 </div>
@@ -1166,16 +1419,19 @@ _class: transition
 
 ## コンウェイの法則
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="width: 45%;">
 <img src="../../assets/images/2026/figure-2-1-conway-law.png" alt="Conway's Law" style="width: 100%; height: fit-content;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 2.1 Conway's Law より引用</div>
 </div>
 
 <div style="flex: 1; font-size: 0.68em;">
 
 <div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px; font-style: italic;">
 
-"システムを設計する組織は、その組織のコミュニケーション構造をコピーした設計を生み出す" — Melvin Conway (1968)
+"Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations" — Melvin Conway (1968)
+
+システムを設計する組織は、その組織のコミュニケーション構造をコピーした設計を生み出すことを余儀なくされる。
 
 </div>
 
@@ -1203,7 +1459,7 @@ _class: transition
 
 </div>
 
-<div style="display: flex; gap: 15px;">
+<div style="display: flex; gap: 15px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **コミュニケーションコスト**
@@ -1228,7 +1484,29 @@ _class: transition
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">コンウェイの法則は「選択肢」ではなく「物理法則」。抗うより利用せよ</span>
+<strong>コンウェイの法則は「選択肢」ではなく「物理法則」。抗うより利用せよ</strong>
+</div>
+
+</div>
+
+---
+
+## コンウェイの法則を味方にした先に何がある？
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+
+**組織とアーキテクチャを揃えたとして、その成功をどう測るか？**
+
+「デプロイ頻度が上がった」だけで満足していいのか。速度だけを追うと、品質・安全性・チームの持続可能性が犠牲になりかねない。モダナイゼーションの成果には、**多面的な物差し**が必要。
+
+</div>
+
+<div style="background-color: #e0e0e0; padding: 15px; border-radius: 8px;">
+
+→ Jon Smartが提唱した **BVSSH（Better Value Sooner Safer Happier）** フレームワークで、モダナイゼーションの「本当の成功」を測る
+
 </div>
 
 </div>
@@ -1237,16 +1515,17 @@ _class: transition
 
 ## BVSSH: モダナイゼーションの成果指標
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="width: 40%;">
 <img src="../../assets/images/2026/architecture-modernization-bvssh.png" alt="Better Value Sooner Safer Happier" style="width: 100%; height: fit-content;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 1.3 Better Value Sooner Safer Happier (Source: Smart et al., Sooner Safer Happier [IT Revolution, 2020]) より引用</div>
 </div>
 
 <div style="flex: 1; font-size: 0.7em;">
 
 **Jon Smartが提唱したBVSSHフレームワーク**
 
-<div style="display: flex; gap: 10px; margin-top: 10px;">
+<div style="display: flex; gap: 10px; margin-top: 10px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
 
 **Better** — 品質向上、手戻り削減
@@ -1259,7 +1538,7 @@ _class: transition
 </div>
 </div>
 
-<div style="display: flex; gap: 10px; margin-top: 8px;">
+<div style="display: flex; gap: 10px; margin-top: 8px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
 
 **Sooner** — 時間短縮
@@ -1283,107 +1562,70 @@ _class: transition
 
 ---
 
-## BVSSHを指標として使う
+## BVSSHの5つの指標
 
-<div style="font-size: 0.68em;">
+<div style="font-size: 0.75em;">
 
-<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
 
-**「速くなった」だけでは不十分。** 「デプロイ頻度が上がった」だけで測ると本質を見失う。
+<strong>「速くなった」だけでは不十分。</strong> Soonerだけ伸ばした結果、品質低下・インシデント3倍・離職率上昇という事例がある。
 
 </div>
 
-### 各指標の測定例と危険な兆候
+| 指標 | 危険な兆候 |
+|-----|----------|
+| <strong>Better</strong> | 速くなったが品質が下がった |
+| <strong>Value</strong> | 機能は増えたが使われない |
+| <strong>Sooner</strong> | 頻度は上がったがバグも増えた |
+| <strong>Safer</strong> | 速度優先でセキュリティ軽視 |
+| <strong>Happier</strong> | 速くなったが燃え尽きた |
 
-| 指標 | 測定方法 | 危険な兆候 |
-|-----|---------|----------|
-| **Better** | 欠陥率、手戻り率、MTTR | 速くなったが品質が下がった |
-| **Value** | 顧客NPS、機能利用率、収益貢献 | 機能は増えたが使われない |
-| **Sooner** | リードタイム、デプロイ頻度、PR滞留時間 | 頻度は上がったがバグも増えた |
-| **Safer** | インシデント数、脆弱性対応時間、コンプライアンス | 速度優先でセキュリティ軽視 |
-| **Happier** | eNPS、離職率、残業時間 | 速くなったが燃え尽きた |
+5つの指標は互いにトレードオフの関係になり得る。1つだけ伸ばしても、他が崩れれば全体としては後退する。
 
-<div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">5つの指標のバランスを取る。1つだけ伸ばしても持続しない。</span>
+</div>
+
+---
+
+## Goodhartの法則に注意する
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+
+「測定指標が目標になると、良い測定指標でなくなる」
+
+</div>
+
+デプロイ頻度は空デプロイで、欠陥数は報告しないことで、数字だけ改善できてしまう。指標をKPIにした瞬間、人は指標を最適化し始める。
+
+顧客のビジネス成果、チームの自己評価、定性的なフィードバックなど<strong>数字の裏にある文脈</strong>を見る指標こそ重要。数字は「会話のきっかけ」であって「結論」ではない。
+
+<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">「速くなった」≠成功。「正しいものを、正しく速く」=成功</span>
 </div>
 
 </div>
 
 ---
 
-## BVSSHの落とし穴
+## 正しく測る先にあるもの
 
-<div style="font-size: 0.7em;">
+<div style="font-size: 0.75em;">
 
-<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
 
-**指標を追うと、指標をゲームする**
+**BVSSHで「何を測るか」はわかった。では「正しい値を出せる組織の形」とは？**
 
-Goodhartの法則：「測定指標が目標になると、良い測定指標でなくなる」
-
-</div>
-
-<div style="display: flex; gap: 15px;">
-<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
-
-**ゲームされやすい指標**
-
-デプロイ頻度は空デプロイで、欠陥数は報告しないことで、リードタイムは小さく切り刻むことで**数字だけ改善できてしまう**。
-
-</div>
-<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
-
-**ゲームされにくい指標**
-
-顧客のビジネス成果、チームの自己評価、定性的なフィードバック。**数字の裏にある文脈**を見る指標。
-
-</div>
-</div>
-
-<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">数値は嘘をつかないが、文脈は教えてくれない。「なぜ」を問い続けよ</span>
-</div>
+5つの指標すべてを健全に保つには、チームが自律的にデリバリーできる構造が必要。1つの変更に5チームの承認が要る状態では、どの指標も改善しない。
 
 </div>
 
----
+<div style="background-color: #e0e0e0; padding: 15px; border-radius: 8px;">
 
-## BVSSHの失敗事例
+**答え：Independent Value Streams（独立した価値ストリーム）**
 
-<div style="font-size: 0.7em;">
+ドメインに整合し、自律的に動け、成果で測られ、疎結合な組織単位。BVSSHのすべての指標を持続的に改善できるのは、この構造を持つチームだけ。
 
-<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
-
-**「Soonerだけ伸ばした」結果**
-
-</div>
-
-<div style="display: flex; gap: 15px;">
-<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
-
-**何が起きたか**
-
-デプロイ頻度を週1→日10回、リードタイムを2週間→2日に改善。経営層への報告は**「成功」**だった。
-
-</div>
-<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
-
-**見えなかった問題**
-
-顧客満足度は横ばい（Value）、インシデント数が3倍（Safer）、エンジニアの離職率が上昇（Happier）。**他の指標は悪化**。
-
-</div>
-<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
-
-**根本原因**
-
-速度優先で品質検証を省略し、「動くこと」自体が目的化。**社内KPIが顧客価値より優先**された。
-
-</div>
-</div>
-
-<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">「速くなった」≠成功。「正しいものを速く」=成功</span>
 </div>
 
 </div>
@@ -1392,9 +1634,10 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 
 ## 独立した価値ストリーム (IVS)
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="width: 40%;">
 <img src="../../assets/images/2026/ivs-four-characteristics.png" alt="IVS Four Characteristics" style="width: 100%; height: fit-content;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 1.5 The four key characteristics of an independent value stream より引用</div>
 </div>
 
 <div style="flex: 1; font-size: 0.7em;">
@@ -1422,7 +1665,7 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 
 <div style="font-size: 0.75em;">
 
-<div style="display: flex; gap: 15px;">
+<div style="display: flex; gap: 15px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **ドメイン整合**
@@ -1443,7 +1686,7 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 </div>
 </div>
 
-<div style="display: flex; gap: 15px; margin-top: 15px;">
+<div style="display: flex; gap: 15px; margin-top: 15px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **成果志向**
@@ -1482,15 +1725,15 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 
 ### 前提条件のチェックリスト
 
-| 特性 | 前提条件 | よくある障害 |
-|-----|---------|------------|
-| ドメイン整合 | ドメイン境界が明確 | 曖昧な責任分担 |
-| チーム自律 | 権限委譲の文化 | マイクロマネジメント |
-| 成果志向 | ビジネス指標の可視化 | 技術指標だけで評価 |
-| 疎結合 | APIファースト、CI/CD | 共有DB、モノリス |
+| 特性 | 前提条件 | よくある障害 | 対処法 |
+|-----|---------|------------|-------|
+| ドメイン整合 | ドメイン境界が明確 | 曖昧な責任分担 | イベントストーミングで可視化 |
+| チーム自律 | 権限委譲の文化 | マイクロマネジメント | 段階的に権限を委譲、成功体験を積む |
+| 成果志向 | ビジネス指標の可視化 | 技術指標だけで評価 | OKRでビジネス成果に紐付け |
+| 疎結合 | APIファースト、CI/CD | 共有DB、モノリス | Strangler Figで段階的に分離 |
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">「IVSにしたい」の前に「IVSにできる状態か」を確認する</span>
+<strong>「IVSにしたい」の前に「IVSにできる状態か」を確認する</strong>
 </div>
 
 </div>
@@ -1499,9 +1742,10 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 
 ## リスニングツアー
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="width: 40%;">
 <img src="../../assets/images/2026/figure-4-4-listening-tour.png" alt="Listening Tour" style="width: 100%; height: fit-content;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 4.4 A visual summary from a listening tour より引用</div>
 </div>
 
 <div style="flex: 1; font-size: 0.68em;">
@@ -1518,7 +1762,7 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 ### 効果
 
 - 問題の全体像を把握
-- 組織全体の買い入れを獲得
+- 組織全体のバイイン（賛同）を獲得
 - 優先順位付けの材料を収集
 
 </div>
@@ -1530,7 +1774,7 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 
 <div style="font-size: 0.7em;">
 
-<div style="display: flex; gap: 15px;">
+<div style="display: flex; gap: 15px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **開発者への質問**
@@ -1551,7 +1795,7 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 </div>
 </div>
 
-<div style="display: flex; gap: 15px; margin-top: 10px;">
+<div style="display: flex; gap: 15px; margin-top: 10px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **ビジネス側への質問**
@@ -1584,7 +1828,7 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 
 **「聞くこと」自体が変化の始まり**
 
-リスニングツアーは情報収集だけでなく、「経営層が現場の声を聞いている」というメッセージになる。これがモダナイゼーションへの買い入れを生む。
+リスニングツアーは情報収集だけでなく、「経営層が現場の声を聞いている」というメッセージになる。これがモダナイゼーションへのバイイン（賛同）を生む。
 
 </div>
 
@@ -1621,7 +1865,7 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 
 ### マッピングの対象
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **技術的マッピング**
@@ -1691,7 +1935,7 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 
 </div>
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **よくあるギャップ**
@@ -1725,9 +1969,10 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 
 ## プロダクトタクソノミー
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="width: 40%;">
 <img src="../../assets/images/2026/figure-6-6-product-taxonomy.png" alt="Product Taxonomy" style="width: 100%; height: fit-content;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 6.6 A product taxonomy より引用</div>
 </div>
 
 <div style="flex: 1; font-size: 0.68em;">
@@ -1825,33 +2070,31 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 
 ---
 
-## キャッチーじゃないけど大事なこと
+## 地味な仕事こそモダナイゼーションの土台
 
-<div style="font-size: 0.68em;">
+<div style="font-size: 0.75em;">
 
-<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
 
-**リスニングツアー、マッピングツアー、プロダクトタクソノミー**
+<strong>リスニングツアー、マッピングツアー、プロダクトタクソノミー</strong>
 
-これらはSNSでバズらない。カンファレンスのトレンドにもならない。「うちもやってます」とは言いにくい地味な作業。**そして四半期の評価に書きにくい。**
-
-</div>
-
-### でも、現場の人は知っている
-
-<div style="display: flex; gap: 15px;">
-<div style="flex: 1; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
-
-**派手な施策**
-
-「マイクロサービス導入」「Kubernetes移行」「新フレームワーク採用」——**発表しやすい、評価されやすい**。
+これらはSNSでバズらない。カンファレンスのトレンドにもならない。「うちもやってます」とは言いにくい地味な作業。<strong>そして四半期の評価に書きにくい。</strong>
 
 </div>
-<div style="flex: 1; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
 
-**地味だけど重要な作業**
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-現場の声を丁寧に聞く、依存関係を可視化する、製品を整理・分類する——**発表しにくいが、土台になる**。
+<strong>派手な施策</strong>
+
+「マイクロサービス導入」「Kubernetes移行」「新フレームワーク採用」——<strong>発表しやすい、評価されやすい</strong>。
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+<strong>地味だけど重要な作業</strong>
+
+現場の声を丁寧に聞く、依存関係を可視化する、製品を整理・分類する——<strong>発表しにくいが、土台になる</strong>。
 
 </div>
 </div>
@@ -1864,7 +2107,7 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 
 ---
 
-## 縁の下の力持ちを評価できるか
+## 見えない仕事をどう評価するか
 
 <div style="font-size: 0.75em;">
 
@@ -1876,7 +2119,7 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 
 </div>
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **評価されにくい理由**
@@ -1894,7 +2137,7 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 </div>
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">地味な仕事を評価できる組織だけが、モダナイゼーションを成功させられる</span>
+<strong>地味な仕事を評価できる組織だけが、モダナイゼーションを成功させられる</strong>
 </div>
 
 </div>
@@ -1931,7 +2174,7 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 
 ## 構造とプロセスの誤謬
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="width: 22%;">
 <img src="../../assets/images/2026/企業変革のジレンマ.jpg" alt="企業変革のジレンマ" style="width: 100%; height: fit-content;">
 <span style="font-size: 0.5em; color: #666;">出典: 日経BP 日本経済新聞出版</span>
@@ -1947,7 +2190,7 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 
 </div>
 
-<div style="display: flex; gap: 15px;">
+<div style="display: flex; gap: 15px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
 
 **よくある失敗**
@@ -1965,7 +2208,7 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 </div>
 
 <div style="margin-top: 10px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">構造を変えても、プロセスと意識が変わらなければ元に戻る</span>
+<strong>構造を変えても、プロセスと意識が変わらなければ元に戻る</strong>
 </div>
 
 </div>
@@ -1975,7 +2218,7 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 
 ## なぜ「構造を変えるだけ」では失敗するのか
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="width: 22%;">
 <img src="../../assets/images/2026/企業変革のジレンマ.jpg" alt="企業変革のジレンマ" style="width: 100%; height: fit-content;">
 <span style="font-size: 0.5em; color: #666;">宇田川元一著（2024）</span>
@@ -1985,7 +2228,7 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 
 <div style="background-color: #f5f5f5; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
 
-**「構造的無能化」** — 組織の断片化が進み、思考の幅と質が制約され、目先の問題解決を繰り返して疲弊していく現象。
+**「構造的無能化」（宇田川元一）** — 組織の断片化が進み、思考の幅と質が制約され、目先の問題解決を繰り返して疲弊していく現象。成功した大企業ほど陥りやすい。
 
 </div>
 
@@ -1998,7 +2241,7 @@ Goodhartの法則：「測定指標が目標になると、良い測定指標で
 | **表層化** | 場当たり的な対応しか取れない | 銀の弾丸への期待 |
 
 <div style="margin-top: 10px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">構造的無能化は成熟した組織が避け難い宿命。だからこそ意識的に対抗する</span>
+<strong>構造的無能化は成熟した組織が避け難い宿命。だからこそ意識的に対抗する</strong>
 </div>
 
 </div>
@@ -2030,29 +2273,25 @@ _class: transition
 
 ---
 
-## ソシオテクニカルはわかった。では…
+## 同時設計をどう実現するか？
 
 <div style="font-size: 0.75em;">
 
 <div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
 
-**ここまでの話**
+**ここまでの話でわかったこと**
 
-- 組織とアーキテクチャは同時に設計すべき
-- コンウェイの法則を逆手に取る
-- 独立した価値ストリーム（IVS）が理想形
+組織とアーキテクチャは同時に設計しなければ、片方が足を引っ張る。コンウェイの法則は物理法則のように避けられず、独立した価値ストリーム（IVS）が目指すべき姿である。
 
 </div>
 
 <div style="background-color: #e0e0e0; padding: 15px; border-radius: 8px;">
 
-**次の問い**
+**だが、暗黙の前提が邪魔をする**
 
-「では、どうやってドメイン境界を発見するのか？」
+組織の中には「言語化されていない前提」が無数にある。アーキテクトが一人で設計書を書いても、現場の暗黙知は反映されない。ビジネス側に聞いても技術的制約が見えない。
 
-アーキテクトが一人で考えるのでは不十分。
-
-→ **協働的な発見手法**が必要。それがイベントストーミング。
+この暗黙知を可視化する手法がある。それが**イベントストーミング**。
 
 </div>
 
@@ -2080,9 +2319,10 @@ _class: transition
 
 ## イベントストーミングとは
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="width: 45%;">
 <img src="../../assets/images/2026/event-storming-timeline.png" alt="Event Storming Timeline" style="width: 100%; height: fit-content;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 7.1 EventStorming timeline より引用</div>
 </div>
 
 <div style="flex: 1; font-size: 0.7em;">
@@ -2106,9 +2346,10 @@ Alberto Brandoliniが考案した、ビジネスドメインを探索するた�
 
 ## イベントストーミングの記法
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="width: 50%;">
 <img src="../../assets/images/2026/event-storming-notation.png" alt="Event Storming Notation" style="width: 100%; height: fit-content;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 7.3 People, systems and hotspots より引用</div>
 </div>
 
 <div style="flex: 1; font-size: 0.7em;">
@@ -2133,7 +2374,7 @@ Alberto Brandoliniが考案した、ビジネスドメインを探索するた�
 
 <div style="font-size: 0.75em;">
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
 **Phase 1: カオス**
@@ -2152,7 +2393,7 @@ Alberto Brandoliniが考案した、ビジネスドメインを探索するた�
 </div>
 </div>
 
-<div style="display: flex; gap: 20px; margin-top: 15px;">
+<div style="display: flex; gap: 20px; margin-top: 15px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
 **Phase 3: 問題の発見**
@@ -2202,7 +2443,7 @@ Alberto Brandoliniが考案した、ビジネスドメインを探索するた�
 
 <div style="font-size: 0.7em;">
 
-<div style="display: flex; gap: 15px;">
+<div style="display: flex; gap: 15px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **失敗パターン**
@@ -2220,7 +2461,7 @@ Alberto Brandoliniが考案した、ビジネスドメインを探索するた�
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">イベントストーミングは「1回のイベント」ではなく「継続的な実践」</span>
+<strong>イベントストーミングは「1回のイベント」ではなく「継続的な実践」</strong>
 
 </div>
 
@@ -2228,72 +2469,77 @@ Alberto Brandoliniが考案した、ビジネスドメインを探索するた�
 
 ---
 
-## 翻訳作業で学んだこと
+## 翻訳チームで起きたイベントストーミング
 
 <div style="font-size: 0.7em;">
 
 <div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
 
-**5人で翻訳したら、5人の「解釈」があった**
+**翻訳チームで起きた問題は、イベントストーミングで解決される典型的パターンだった。**
 
 </div>
 
-<div style="display: flex; gap: 15px;">
+<div style="display: flex; gap: 15px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-**起きた問題**
+**暗黙の前提がズレていた**
 
-同じ用語を違う日本語に訳していた、「これはこういう意味だと思っていた」のズレ、章をまたぐと整合性が崩れる。**暗黙の前提**が違った。
-
-</div>
-<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
-
-**やったこと**
-
-用語集を作って定義を揃え、各章担当者が集まって認識合わせ、「この章でのこの用語の意味」を明示。**明示的な境界**を作った。
+5人が同じ英語を違う日本語に訳す。「これはこういう意味だと思っていた」——その前提が**暗黙のまま**放置されていた。
 
 </div>
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-**これって…**
+**可視化で解決した**
 
-まさにBounded Context(境界づけられたコンテキスト)の実践。「全体で統一」より「境界内で一貫」、イベントストーミング的な協働。
+用語集を作り、各章担当者が集まって認識合わせ。「この文脈でのこの用語の意味」を**全員で可視化**した。イベントストーミングと同じ原理。
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**これはBounded Contextの実践**
+
+「全体で統一」ではなく「境界内で一貫」。章ごとに文脈が違うことを認め、境界を明示した。次のDDDセクションで詳しく説明する。
 
 </div>
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">翻訳で最も難しかったのは言語ではなく、文化的文脈の違いだった</span>
+<span style="color: #e65100; font-weight: bold;">翻訳で最も難しかったのは英語ではない。著者の思考を追体験することだった。</span>
 </div>
 
 </div>
 
 ---
 
-## 翻訳で気づいた「暗黙知」
+## 「行間」を翻訳する——暗黙知の発見
 
 <div style="font-size: 0.7em;">
 
 <div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
 
-**ドキュメントに書いてあることと、著者が言いたいことは違う**
+<strong>ドキュメントに書いてあることと、著者が言いたいことは違う。</strong> 原著の「行間」を読む必要があった。文脈を知らないと誤訳する。<strong>「なぜこの章がこの順番なのか」</strong>を理解して初めて訳せた。
 
 </div>
 
-### 翻訳者として感じたこと
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-- 原著の「行間」を読む必要があった
-- 文脈を知らないと誤訳する
-- **「なぜこの章がこの順番なのか」** を理解して初めて訳せる
+**翻訳の現場**
 
-### これはソフトウェア開発でも同じ
+著者Nick Tuneが「なぜBounded Contextの章をイベントストーミングの後に置いたのか」——その意図を理解しないと、章の繋ぎが訳せない。
 
-- 仕様書に書いてあることと、顧客が欲しいものは違う
-- 既存コードを読むだけでは意図がわからない
-- **設計の「なぜ」を共有できているか** が品質を決める
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**ソフトウェア開発の現場**
+
+仕様書に書いてあることと、顧客が欲しいものは違う。既存コードを読むだけでは設計意図がわからない。**「なぜ」が共有できているか**が品質を決める。
+
+</div>
+</div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">暗黙知の可視化——それがイベントストーミングの本質的価値</span>
+<strong>暗黙知を可視化する——翻訳でもソフトウェアでも、イベントストーミングの原理は同じ</strong>
 </div>
 
 </div>
@@ -2332,9 +2578,10 @@ Alberto Brandoliniが考案した、ビジネスドメインを探索するた�
 
 ## ドメイン境界を発見する
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="width: 40%;">
 <img src="../../assets/images/2026/domain-boundaries.png" alt="Well-designed domain boundaries" style="width: 100%; height: fit-content;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 9.1 Well-designed domain boundaries reduce dependencies より引用</div>
 </div>
 
 <div style="flex: 1; font-size: 0.7em;">
@@ -2375,9 +2622,9 @@ Alberto Brandoliniが考案した、ビジネスドメインを探索するた�
 
 **Bounded Context = 同じ言葉が同じ意味を持つ範囲**
 
-Eric Evansが「Domain-Driven Design」で提唱したDDDの中核概念。
+Eric Evansが2003年の「Domain-Driven Design」で提唱したDDDの中核概念。
 
-「境界づけられたコンテキスト」と訳されるが、要するに**この範囲内では、この言葉はこの意味**という明確な境界線のこと。
+「境界づけられたコンテキスト」と訳されるが、要するに**この範囲内では、この言葉はこの意味**という明確な境界線のこと。モデルの適用範囲を限定することで、矛盾なくドメインを表現できる。
 
 なぜ重要か？ → 同じ言葉でも、文脈によって意味が異なるから。
 
@@ -2414,7 +2661,7 @@ Eric Evansが「Domain-Driven Design」で提唱したDDDの中核概念。
 
 <div style="font-size: 0.75em;">
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
 **統一モデルの問題**
@@ -2439,11 +2686,47 @@ Eric Evansが「Domain-Driven Design」で提唱したDDDの中核概念。
 
 ---
 
+## 翻訳で証明されたBounded Context
+
+<div style="font-size: 0.7em;">
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+
+**翻訳チームで起きた用語論争は、Bounded Contextの必要性を身をもって証明した。**
+
+</div>
+
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**例：「Bounded Context」の訳語**
+
+「境界づけられたコンテキスト」で統一するか、初出のみ日本語を添えてあとは英語表記にするか。5人の翻訳者で議論が割れた。
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**解決策：用語集で「境界」を引いた**
+
+19の中核用語について「この表記、この意味」を明文化した。まさに**翻訳チーム自体がBounded Contextを実践**していた。
+
+</div>
+</div>
+
+<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>Bounded Contextは理論ではない。翻訳者5人の現場で必然的に生まれた解決策だった。</strong>
+</div>
+
+</div>
+
+---
+
 ## コンテキストマッピング
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="width: 40%;">
 <img src="../../assets/images/2026/figure-9-12-context-map.png" alt="Context Mapping" style="width: 100%; height: fit-content;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 9.12 A context map より引用</div>
 </div>
 
 <div style="flex: 1; font-size: 0.7em;">
@@ -2488,7 +2771,7 @@ Team Topologiesのインタラクションモードと対応する概念であ�
 </div>
 </div>
 
-<div style="display: flex; gap: 10px; margin-top: 8px;">
+<div style="display: flex; gap: 10px; margin-top: 8px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 8px; border-radius: 8px;">
 
 **順応者（Conformist）**
@@ -2549,7 +2832,7 @@ Bounded Contextを発見しただけでは不十分。コンテキスト間の**
 
 <div style="font-size: 0.75em;">
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
 **失敗パターン1: 順応者パターンの濫用**
@@ -2571,7 +2854,7 @@ Bounded Contextを発見しただけでは不十分。コンテキスト間の**
 </div>
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">コンテキストマップは「描いて終わり」ではなく、チーム間の「契約書」として運用する</span>
+<strong>コンテキストマップは「描いて終わり」ではなく、チーム間の「契約書」として運用する</strong>
 </div>
 
 </div>
@@ -2606,7 +2889,7 @@ Bounded Contextを発見しただけでは不十分。コンテキスト間の**
 
 ## 関数型ドメインモデリング
 
-<div style="display: flex; gap: 30px;">
+<div style="display: flex; gap: 30px; align-items: center;">
 <div style="width: 25%;">
 <img src="../../assets/images/2026/functional-domain-modeling.webp" alt="関数型ドメインモデリング" style="width: 100%; height: fit-content;">
 </div>
@@ -2615,13 +2898,13 @@ Bounded Contextを発見しただけでは不十分。コンテキスト間の**
 
 ### DDDを「型」で実装する
 
-**著者**: Scott Wlaschin（日本語版 2025年発売）
+**著者**: Scott Wlaschin（日本語版 2025年発売、KADOKAWA）
 
-DDDの概念（Aggregate、Entity、Value Object）を**型システム**で表現する実践書。「経験則」を「型による保証」に昇華させる。
+DDDの概念（Aggregate、Entity、Value Object）を**型システム**で表現する実践書。F#を使い、「経験則」を「コンパイラが検証可能な制約」に昇華させる。
 
 ### 核心的なアイデア
 
-<div style="display: flex; gap: 15px;">
+<div style="display: flex; gap: 15px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
 
 **Make Illegal States Unrepresentable**
@@ -2643,22 +2926,22 @@ DDDの概念（Aggregate、Entity、Value Object）を**型システム**で表�
 
 ---
 
-## 型で境界を守る（こういう方法もある）
+## 型で境界を守るという選択肢
 
 <div style="font-size: 0.75em;">
 
-<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
 
-**「状態は例外的な存在であり、ほとんどの処理は状態を使うことなく記述できる」**
+<strong>「状態は例外的な存在であり、ほとんどの処理は状態を使うことなく記述できる」</strong>
 
-ビジネスロジックの大半は「入力を受け取り、変換し、出力を返す」純粋な関数として設計できる。これは一つのアプローチであり、すべてのプロジェクトに適用すべきとは限らない。
+ビジネスロジックの大半は「入力を受け取り、変換し、出力を返す」純粋な関数として設計できる。すべてのプロジェクトに適用すべきとは限らないが、知っておくと武器になる。
 
 </div>
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-**型による制約の例**
+<strong>型による制約の例</strong>
 
 - `NonEmptyList<OrderLine>` → 空の注文を表現不可能に
 - `VerifiedEmailAddress` → 未検証メールの操作を不可能に
@@ -2667,15 +2950,27 @@ DDDの概念（Aggregate、Entity、Value Object）を**型システム**で表�
 </div>
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-**知っておくと便利な理由**
+<strong>なぜ型なのか</strong>
 
-型で定義された制約は「コンパイラが守る壁」として機能する。コメントより信頼性が高く、ドキュメントより正確。
+コメントは嘘をつく。ドキュメントは古くなる。テストは書き忘れる。だが型制約は<strong>コンパイラが強制する壁</strong>。人間の注意力に依存しない。
 
 </div>
 </div>
+
+</div>
+
+---
+
+## 型がもたらす設計上の恩恵
+
+<div style="font-size: 0.75em;">
+
+「不正な状態を表現できない」設計は、バグを減らすだけではない。<strong>チーム間のコミュニケーションコスト</strong>を劇的に下げる。
+
+型定義がそのままAPIの仕様書になり、コンパイルが通る＝仕様を満たしている、という状態を作れる。Bounded Contextの境界を人間の約束ではなく、機械が検証可能な制約として実装できる。
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">Bounded Contextの境界を、型システムで物理的に強制する</span>
+<strong>境界は「約束」で守るな。「型」で守れ。</strong>
 </div>
 
 </div>
@@ -2706,31 +3001,25 @@ _class: transition
 
 ---
 
-## 境界は見えた。次は何を？
+## 境界をシステムとチームに実装する
 
 <div style="font-size: 0.75em;">
 
 <div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
 
-**イベントストーミングで得られたもの**
+**境界が見えた。だが見えただけでは意味がない。**
 
-- ビジネスの全体像が可視化された
-- ドメイン境界の候補が見えた（Bounded Context）
-- チーム間の暗黙知が共有された
-- 型で境界を守る選択肢も知った（関数型ドメインモデリング）
+イベントストーミングで得られたもの——ビジネスの全体像、ドメイン境界の候補（Bounded Context）、チーム間の暗黙知、型で境界を守る選択肢。
 
 </div>
 
 <div style="background-color: #e0e0e0; padding: 15px; border-radius: 8px;">
 
-**次の問い**
+**問いが変わる**
 
 「境界に合わせてチームをどう設計するのか？」
 
-- Bounded ContextとTeam Topologiesを対応させる
-- コンテキストマッピングとインタラクションモードを揃える
-
-→ DDDとTeam Topologiesを**統合的に活用**する
+Bounded ContextとTeam Topologiesを対応させ、コンテキストマッピングとインタラクションモードを揃える。DDDとTeam Topologiesを**統合的に活用**する。
 
 </div>
 
@@ -2777,7 +3066,7 @@ DDDはソフトウェアの境界を定義し、Team Topologiesはチームの�
 | **Context Mapping** | Team Interaction Modes |
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">ドメイン境界＝チーム境界にすることで、自律性と疎結合を実現</span>
+<strong>ドメイン境界＝チーム境界にすることで、自律性と疎結合を実現</strong>
 </div>
 
 </div>
@@ -2786,9 +3075,10 @@ DDDはソフトウェアの境界を定義し、Team Topologiesはチームの�
 
 ## Core Domain Chart
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="width: 35%;">
 <img src="../../assets/images/2026/core-domain-chart.png" alt="Core Domain Chart" style="width: 100%; height: fit-content;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 10.5 The Core Domain Chart より引用</div>
 </div>
 
 <div style="flex: 1; font-size: 0.7em;">
@@ -2812,9 +3102,10 @@ X軸: ビジネス差別化、Y軸: モデル複雑度
 
 ## Team Topologies とは
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="width: 35%;">
 <img src="../../assets/images/2026/team-topologies-four-types.png" alt="The four team types" style="width: 100%; height: fit-content;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 11.3 The four team types in Team Topologies より引用</div>
 </div>
 
 <div style="flex: 1; font-size: 0.7em;">
@@ -2823,7 +3114,7 @@ Matthew SkeltonとManuel Paisが提唱。「高速なフローを持続可能に
 
 ### 4つのチームタイプ
 
-<div style="display: flex; gap: 10px; margin-top: 10px;">
+<div style="display: flex; gap: 10px; margin-top: 10px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
 
 **Stream-aligned** — 価値ストリームをEnd-to-Endで担当
@@ -2836,7 +3127,7 @@ Matthew SkeltonとManuel Paisが提唱。「高速なフローを持続可能に
 </div>
 </div>
 
-<div style="display: flex; gap: 10px; margin-top: 10px;">
+<div style="display: flex; gap: 10px; margin-top: 10px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
 
 **Complicated Subsystem**
@@ -2876,7 +3167,7 @@ Team Topologiesの核心は、Stream-alignedチームが価値を届けること
 | **認知負荷の限界内** | 担当範囲が大きすぎない | 持続可能なペース |
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">「この機能を届けるのに何チームの調整が必要か」——少ないほど良い</span>
+<strong>「この機能を届けるのに何チームの調整が必要か」——少ないほど良い</strong>
 </div>
 
 </div>
@@ -2885,16 +3176,17 @@ Team Topologiesの核心は、Stream-alignedチームが価値を届けること
 
 ## 3つのインタラクションモード
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="width: 40%;">
 <img src="../../assets/images/2026/figure-11-10-team-interactions.png" alt="Team Interactions" style="width: 100%; height: fit-content;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 11.5 The three interaction modes in Team Topologies より引用</div>
 </div>
 
 <div style="flex: 1; font-size: 0.68em;">
 
 チーム間の関わり方を明確に定義する
 
-<div style="display: flex; gap: 10px; margin-top: 10px;">
+<div style="display: flex; gap: 10px; margin-top: 10px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
 
 **Collaboration**
@@ -2945,7 +3237,7 @@ Team Topologiesの核心は、Stream-alignedチームが価値を届けること
 | **新技術の導入期** | Facilitating | スキル移転が目的 |
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">Collaborationは「高コスト・高リターン」。常態化させず、必要な期間に限定する</span>
+<strong>Collaborationは「高コスト・高リターン」。常態化させず、必要な期間に限定する</strong>
 </div>
 
 </div>
@@ -2974,7 +3266,7 @@ Collaboration  →  Facilitating   →  X-as-a-Service
 **Collaborationは持続不可能**——2チームが常に密に連携すると両方の速度が落ちる。**X-as-a-Serviceは最初から無理**——境界が不明確な段階でAPIを固定すると後で苦しむ。**Facilitatingは橋渡し**——知識を移転し、自律性を高める。
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">今の状態は「通過点」なのか「目的地」なのか。答えられなければ漂流している</span>
+<strong>今の状態は「通過点」なのか「目的地」なのか。答えられなければ漂流している</strong>
 </div>
 
 </div>
@@ -3069,7 +3361,7 @@ DDDで発見したサブドメインの境界と、Team Topologiesで設計す�
 
 **人間の脳が同時に処理できる情報量には限界がある**
 
-John Swellerの認知負荷理論に基づく概念。Team Topologiesでは、チームが担当する範囲を「認知負荷の限界内」に収めることを重視する。
+John Swellerが1988年に提唱した認知負荷理論に基づく概念。Team Topologiesでは、チームが担当する範囲を「認知負荷の限界内」に収めることを重視する。人間のワーキングメモリには限界があり、それを超えるとパフォーマンスが急激に低下する。
 
 <div style="margin-top: 10px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
 <span style="font-size: 0.85em; font-style: italic;">"Cognitive load is the primary constraint"</span></br>
@@ -3094,7 +3386,7 @@ John Swellerの認知負荷理論に基づく概念。Team Topologiesでは、�
 
 <div style="font-size: 0.75em;">
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
 **プラットフォームチームの役割**
@@ -3112,7 +3404,7 @@ John Swellerの認知負荷理論に基づく概念。Team Topologiesでは、�
 </div>
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">チームが「本質的でない複雑さ」に殺されている。それを設計で解消する</span>
+<strong>チームが「本質的でない複雑さ」に殺されている。それを設計で解消する</strong>
 </div>
 
 </div>
@@ -3133,7 +3425,7 @@ John Swellerの認知負荷理論に基づく概念。Team Topologiesでは、�
 
 ### 高速フローを阻害するもの
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **組織的な障壁**
@@ -3152,7 +3444,7 @@ John Swellerの認知負荷理論に基づく概念。Team Topologiesでは、�
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
 <span style="font-size: 0.85em;">"Fast flow is the measure of organizational health, not velocity metrics"</span></br>
-<span style="color: #e65100; font-weight: bold;">高速フローは組織の健全性を測る物差し——ベロシティ指標ではなく</span>
+<strong>高速フローは組織の健全性を測る物差し——ベロシティ指標ではなく</strong>
 </div>
 
 </div>
@@ -3173,7 +3465,7 @@ John Swellerの認知負荷理論に基づく概念。Team Topologiesでは、�
 
 ### なぜ小さく長寿命か
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **小さいチームの利点**
@@ -3210,7 +3502,7 @@ John Swellerの認知負荷理論に基づく概念。Team Topologiesでは、�
 
 ### 従来のアプローチの問題
 
-<div style="display: flex; gap: 15px;">
+<div style="display: flex; gap: 15px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **リソース思考**
@@ -3249,7 +3541,7 @@ John Swellerの認知負荷理論に基づく概念。Team Topologiesでは、�
 
 ### 具体的なアプローチ
 
-<div style="display: flex; gap: 15px;">
+<div style="display: flex; gap: 15px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **設計時の考慮**
@@ -3276,7 +3568,7 @@ John Swellerの認知負荷理論に基づく概念。Team Topologiesでは、�
 
 ## 「チームの力で組織を動かす」
 
-<div style="display: flex; gap: 30px;">
+<div style="display: flex; gap: 30px; align-items: center;">
 <div style="width: 22%;">
 <img src="../../assets/images/2026/team-power-organization.jpg" alt="チームの力で組織を動かす" style="width: 100%; height: fit-content;">
 </div>
@@ -3298,7 +3590,7 @@ Team Topologiesを日本の現場に落とし込んだ実践書。**16のアン�
 </div>
 
 <div style="margin-top: 10px; padding: 8px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">10人のスターを集めても機能しないチームがある。5人の凡人でも機能するチームがある</span>
+<strong>10人のスターを集めても機能しないチームがある。5人の凡人でも機能するチームがある</strong>
 </div>
 
 </div>
@@ -3334,18 +3626,19 @@ Stream-alignedチームが価値を届けることに集中するには、認知
 
 ## Internal Developer Platform (IDP)
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="width: 45%;">
 <img src="../../assets/images/2026/idp-paved-road.png" alt="IDP Paved Road" style="width: 100%; height: fit-content;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 13.1 Golden paths (paved roads) より引用</div>
 </div>
 
 <div style="flex: 1; font-size: 0.65em;">
 
 **問い：各チームがインフラ、CI/CD、監視を個別に作るべきか？**
 
-**答え：No。共通基盤として「舗装された道」を提供する。**
+**答え：No。共通基盤として「舗装された道（Paved Road）」を提供する。** Netflixが提唱した概念で、強制ではなく「この道を通ると楽」という設計思想。
 
-<div style="display: flex; gap: 10px; margin-top: 10px;">
+<div style="display: flex; gap: 10px; margin-top: 10px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
 
 **セルフサービス機能**
@@ -3393,13 +3686,13 @@ _class: transition
 
 ---
 
-## 設計手法はわかった。実行はどうする？
+## 現実のレガシーとどう向き合うか
 
 <div style="font-size: 0.72em;">
 
 <div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 15px;">
 
-**ここまでの道具箱 — 「意志を設計に落とす」ための手法**
+**設計手法は揃った。しかし現実のレガシーシステムは理論通りにはいかない。**
 
 | フェーズ | 手法 | 得られるもの |
 |---------|------|-------------|
@@ -3415,7 +3708,7 @@ _class: transition
 
 **残る問い**
 
-「現実のレガシーシステムをどうやって移行するのか？」
+道具は揃った。だが目の前には、10年以上動き続けてきたレガシーシステムがある。これを理論通りにきれいに移行できるのか？
 
 → **段階的・継続的な進化**のアプローチへ
 
@@ -3475,13 +3768,13 @@ _class: transition
 
 **「古いから問題」ではない。「変化に対応できないから問題」**
 
-レガシーシステム自体は悪ではない。問題は、ビジネスが求める速度で変化できないこと。
+レガシーシステム自体は悪ではない。問題は、ビジネスが求める速度で変化できないこと。ソフトウェアの価値は初期構築にではなく、変化への継続的適応にある。だからシステムは「完成」しない——作った瞬間から適応の旅が始まる。
 
 </div>
 
 ### あなたの現場で、こんなことが起きていないか？
 
-<div style="display: flex; gap: 15px;">
+<div style="display: flex; gap: 15px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **開発者が感じる痛み**
@@ -3505,7 +3798,7 @@ _class: transition
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">個別の問題を潰しても、また別の場所で湧き出る。構造を変えないと終わらない</span>
+<span style="color: #e65100; font-weight: bold;">モグラ叩きをやめろ。構造を変えない限り、問題は永遠に湧き出る。</span>
 </div>
 
 </div>
@@ -3514,9 +3807,10 @@ _class: transition
 
 ## レガシーの本当の問題は負のサイクルにある
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="width: 40%;">
 <img src="../../assets/images/2026/figure-1-3-negative-cycle.png" alt="Negative Cycle" style="width: 100%; height: fit-content;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 1.1 The negative cycle of declining architecture health より引用</div>
 </div>
 
 <div style="flex: 1; font-size: 0.68em;">
@@ -3536,7 +3830,7 @@ _class: transition
 このサイクルは**自己強化**する。放置すればするほど、抜け出すのが難しくなる。
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">サイクルを断ち切るには、どこかに「くさび」を打つ必要がある</span>
+<strong>サイクルを断ち切るには、どこかに「くさび」を打つ必要がある</strong>
 </div>
 
 </div>
@@ -3571,7 +3865,7 @@ _class: transition
 </div>
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">「全部やる」より「1つを確実に」——最初の成功が次の投資を呼ぶ</span>
+<span style="color: #e65100; font-weight: bold;">最初の1勝が、組織を動かす。小さく勝て。</span>
 </div>
 
 </div>
@@ -3602,7 +3896,42 @@ _class: transition
 3. **再現可能な方法**: 一度きりの英雄的行為ではなく、プロセスとして
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">最初の成功は「証明」のため。2回目以降は「拡大」のため。</span>
+<strong>最初の成功は「証明」のため。2回目以降は「拡大」のため。</strong>
+</div>
+
+</div>
+
+---
+
+## 翻訳者が見てきた「繰り返される失敗」
+
+<div style="font-size: 0.7em;">
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+
+**システムを一新しても、問題を生み出した構造がそのままだと、数年後にまた同じ問題にぶつかる。** 新しいシステムが、また新しいレガシーになる。私も何度かそういう現場を見てきました。
+
+</div>
+
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**よくあるパターン**
+
+「技術を一新すれば解決する」と信じてフルリプレース。2年かけて新システムを構築。だが組織構造もプロセスも同じまま。3年後、新システムも同じ問題を抱え始める。
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**なぜ繰り返すのか**
+
+問題を生み出した**構造**——組織のサイロ、承認フロー、責任の曖昧さ——が変わっていないから。技術は箱を取り替えただけ。中身を詰める人間と仕組みが同じなら、同じ結果になる。
+
+</div>
+</div>
+
+<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">技術の刷新は必要条件であって十分条件ではない。構造を変えなければ、歴史は繰り返す。</span>
 </div>
 
 </div>
@@ -3611,9 +3940,10 @@ _class: transition
 
 ## 段階的な進化のアプローチ
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="width: 45%;">
 <img src="../../assets/images/2026/architecture-modernization-parallel-streams.png" alt="Parallel Streams of Work" style="width: 100%; height: fit-content;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 16.2 Parallel streams of work より引用</div>
 </div>
 
 <div style="flex: 1; font-size: 0.7em;">
@@ -3660,7 +3990,105 @@ _class: transition
 | **Learning** | 振り返り、メトリクス分析 | 次のイテレーションへの入力 |
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">「設計が終わってから実装」ではない。学びながら設計し、設計しながら実装する。</span>
+<strong>「設計が終わってから実装」ではない。学びながら設計し、設計しながら実装する。</strong>
+</div>
+
+</div>
+
+---
+
+## 車輪を再発明しない勇気
+
+<div style="font-size: 0.7em;">
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+
+**すべてを自分たちで作る必要はない——「巨人の肩に乗る」原則**
+
+多くの業務には業界横断的なベストプラクティスが既に存在する。認証、決済処理、ログ集約、監視——これらを個別に再発明することは、エンジニアリングリソースの浪費であるだけでなく、セキュリティやコンプライアンスのリスクを自ら抱え込むことでもある。
+
+</div>
+
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**競争優位を生まない領域**
+
+認証基盤、メール配信、ログ管理、CI/CDインフラ——これらは差別化の源泉ではない。ここに投資しても顧客は1円も多く払わない。**標準に乗って、浮いたリソースを差別化領域に振り向ける**のが合理的な判断。
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**差別化すべき領域**
+
+自社のドメイン知識が詰まったロジック、顧客にしか見えない独自の業務フロー、競合が真似できない判断エンジン。**Core Domainに全力を注ぐために、Generic Subdomainは外部に任せる**。これはCore Domain Chartの実践そのもの。
+
+</div>
+</div>
+
+<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">「作れる」から作るのではない。「作るべきか」を問い、作らない勇気を持つ</span>
+</div>
+
+</div>
+
+---
+
+## 「作らない」の先に何を作るか
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+
+車輪の再発明をやめてリソースが浮いた。そのリソースをどこに向けるか？
+
+**「現状維持でよい」は選択肢にない。** 効率化には理論的上限があり、効率化だけを価値とするプロダクトは、より安い代替に置き換えられる運命にある。次の問いは「何に進化させるか」。
+
+</div>
+
+<div style="background-color: #e0e0e0; padding: 15px; border-radius: 8px;">
+
+→ **記録するだけの仕組み**を、**洞察を生む仕組み**に進化させること。それがモダナイゼーションの真の目的地。
+
+</div>
+
+</div>
+
+---
+
+## 記録のシステムから洞察のシステムへ
+
+<div style="font-size: 0.7em;">
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+
+**「代替されない」ことは「現状維持でよい」ことを意味しない**
+
+効率化には理論的上限がある。入力を受けて記録するだけの System of Record（記録のシステム）は、いずれコモディティ化する。効率化だけを価値とするプロダクトは、より安いプロダクトに置き換えられる運命にある。
+
+</div>
+
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**System of Record**
+
+データを正確に記録・管理する。ERPや基幹システムの多くがここに位置する。**必要不可欠だが、差別化にはならない。**
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**System of Insight**
+
+蓄積されたデータから未来を予測し、意思決定を支援する。「何が起きたか」ではなく「**次に何をすべきか**」を提示する。ここに事業の持続的成長がある。
+
+</div>
+</div>
+
+モダナイゼーションの真の目的地は、単にレガシーを新しくすることではない。記録するだけのシステムを、**洞察を生むシステムに進化**させること。それは技術の入れ替えでは達成できず、ドメイン理解の深さによって決まる。
+
+<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>事業の持続的成長は技術要素ではなく、提供価値の深さによって決まる</strong>
 </div>
 
 </div>
@@ -3679,7 +4107,7 @@ _class: transition
 
 </div>
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **誰かに決めてもらうことの危険**
@@ -3691,13 +4119,13 @@ _class: transition
 
 **意志を持つとは**
 
-自社の強み・弱みを理解した上で選び、トレードオフを引き受ける覚悟を持ち、選択の結果に責任を持つ。**文脈を理解した者だけが正しく選べる**。
+自社の強み・弱みを理解した上で選び、トレードオフを引き受ける覚悟を持ち、選択の結果に責任を持つ。**文脈を理解した者だけが正しく選べる**。そして「今のままで十分」は意志ではない。現状維持は緩やかな後退に過ぎない。
 
 </div>
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">「何を作るか」は、AIには代替できない。それがエンジニアの本質的な仕事。</span>
+<strong>「今のままでいい」は意志ではない。緩やかな後退に過ぎない。</strong>
 </div>
 
 </div>
@@ -3708,7 +4136,7 @@ _class: transition
 
 <div style="font-size: 0.7em;">
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **失敗パターン**
@@ -3768,7 +4196,7 @@ _class: transition
 
 | ステップ | 内容 | 意志との関係 |
 |---------|------|-------------|
-| 1. AI時代 | 「何を作るか」を決める力が価値 | **意志の必要性**を理解 |
+| 1. AI時代 | AIが「How」を加速、人間は「What」「Why」へ | **意志の必要性**を理解 |
 | 2. ソシオテクニカル | 技術と組織を同時に設計 | **意志の対象**を理解 |
 | 3. イベントストーミング | 協働でドメインを発見 | **意志を言語化**する |
 | 4. DDD × TT | 境界を揃えて自律的チームへ | **意志を構造化**する |
@@ -3777,7 +4205,7 @@ _class: transition
 </div>
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<span style="color: #e65100; font-weight: bold;">道具は揃った。あとは「使う意志」があるかどうか</span>
+<span style="color: #e65100; font-weight: bold;">道具は揃った。使わない理由はもうない。</span>
 </div>
 
 </div>
@@ -3802,29 +4230,53 @@ _class: transition
 
 ---
 
+## 翻訳者として伝えたいこと
+
+<div style="font-size: 0.72em;">
+
+<div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+
+5人で約1年かけてこの本を訳しました。翻訳を通じて著者Nick Tuneの視点を追体験し、自分たちの翻訳チーム自体がソシオテクニカルの実験場になりました。
+
+用語の統一はBounded Contextの実践だったし、暗黙知の共有はイベントストーミングそのものでした。
+
+</div>
+
+<div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px;">
+
+**モダナイゼーションの本質は、完成形を目指すことではない。変化し続ける能力を身につけること。**
+
+この一文に、著者が17章かけて伝えたかったことが集約されています。技術を一新しても、変化に対応し続ける組織がなければ、またレガシーに戻る。逆に、変化し続ける文化と構造があれば、技術は後からついてくる。
+
+</div>
+
+</div>
+
+---
+
 ## 本日のまとめ
 
-<div style="font-size: 0.75em;">
+<div style="font-size: 0.72em;">
 
-<div style="display: flex; gap: 20px;">
-<div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **学んだこと**
 
-技術が楽になると人間の問題がボトルネックになる。ソフトウェアと組織を同時に設計し、イベントストーミングで協働的にドメインを発見。DDDとTeam Topologiesで境界を一致させる。
+AIが「How」のコストを劇的に下げる時代に、ボトルネックは人間の調整に移る。ソフトウェアと組織を同時に設計し、イベントストーミングで協働的にドメインを発見。DDDとTeam Topologiesで境界を一致させる。
 
 </div>
-<div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
 **持ち帰ってほしいこと**
 
-人間の問題は「面倒な雑務」ではなく「本題」。組織・チーム・文化の変革も必要で、一人でやらず協働的に、ビッグバンではなく継続的に進化させる。
+モダナイゼーションは「負債を返す」作業じゃない。**「資産を再構築する」作業**。過去を否定するんじゃなくて、過去の上に未来を積む。そしてそれは一度の刷新ではなく、変化し続ける能力の獲得。
 
 </div>
 </div>
 
-<div style="margin-top: 15px; padding: 15px; background-color: #e0e0e0; border-radius: 8px; text-align: center; font-size: 1.1em;">
-<span style="color: #e65100; font-weight: bold;">AIがコードを書く時代だからこそ、</br>人間と組織の問題に正面から向き合う価値がある。</span>
+<div style="margin-top: 12px; padding: 12px; background-color: #e0e0e0; border-radius: 8px; text-align: center; font-size: 1.1em;">
+<span style="color: #e65100; font-weight: bold;">道具は全部ある。足りないのは「やる」と決める覚悟だけ。</span>
 </div>
 
 </div>
@@ -3833,24 +4285,83 @@ _class: transition
 
 ## 「意志を実装する」とは
 
-<div style="font-size: 0.75em;">
+<div style="font-size: 0.7em;">
 
-<div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px;">
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
 
-### 単にコードを書くことではない
-
-**どんな未来を描くか**を決め、その実現に向けて**技術と組織の両面**から設計し、**チームと協働**して継続的に進化させること。
-
-### AIにはできないこと、私たちの仕事
-
-ビジネスの文脈を理解し価値を定義する、ステークホルダーと合意形成を図る、組織の文化を変え人を動かす、長期的なビジョンを描きそこへ導く。**これらは人間にしかできない**。
+冒頭で「3つの意志」を定義した。旅を終えた今、それぞれに何が見えたか。
 
 </div>
 
-<div style="text-align: center; margin-top: 15px; font-size: 1.1em;">
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-**モダナイゼーションの旅は、技術の旅であると同時に、人と組織の旅でもある。**
+**ビジネスへの意志**
 
+「何を作り、何を作らないか」を決める。Core Domainに集中し、Generic Subdomainは外部に任せる。System of Recordを超え、System of Insightへ進化させる。
+
+→ イベントストーミング、Core Domain Chart
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**アーキテクチャへの意志**
+
+どこに境界を引き、どう疎結合を実現するか。Bounded Contextで境界を定義し、コンテキストマッピングで関係を設計する。
+
+→ DDD、Strangler Fig、IDP
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**組織への意志**
+
+チームをどう分け、責任をどう渡すか。逆コンウェイ戦略でドメイン境界＝チーム境界にし、認知負荷の限界内で設計する。
+
+→ Team Topologies、IVS
+
+</div>
+</div>
+
+<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>AIにはできないこと——ビジネスの文脈を理解し、組織を動かし、長期のビジョンを描く。これが意志の実装。</strong>
+</div>
+
+</div>
+
+---
+
+## AI時代に「意志」はどう変わるか
+
+<div style="font-size: 0.7em;">
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+
+**AIエージェントは「実装力の民主化」をもたらす。それは諸刃の剣。**
+
+誰でも高品質なコードを生成できるようになると、**コードの価値は下がり、設計判断の価値が上がる**。すると「意志を持つ」ことの重要度は、今の比ではなくなる。
+
+</div>
+
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**AIエージェントがいる世界の落とし穴**
+
+「作れるから作る」が加速する。コストが低いから、考えずに試す。結果、**方向性なき大量生産**に陥る。技術的負債も倍速で溜まる。
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+**だからこそ「意志」が要る**
+
+何を作らないかを決める力、どこに境界を引くかの判断、組織の方向性を定める覚悟。**AIが速く走れるからこそ、人間がハンドルを握る意味がある。**
+
+</div>
+</div>
+
+<div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">速く走れるマシンほど、操縦者の判断が生死を分ける</span>
 </div>
 
 </div>
@@ -3859,34 +4370,40 @@ _class: transition
 
 ## 今日から始められること
 
-<div style="font-size: 0.7em;">
+<div style="font-size: 0.75em;">
 
-<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
-
-**「意志を実装する」ための最初の一歩**
-
-</div>
-
-<div style="display: flex; gap: 15px;">
+<div style="display: flex; gap: 15px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-**来週やること**
+<strong>来週やること</strong>
 
 チームで「最も変更が怖いコード」を1つ挙げる。そのコードが怖い理由を言語化する。それが技術の問題か、組織の問題か、両方かを議論する。
 
-→ 三体問題の入口が見える
-
 </div>
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-**来月やること**
+<strong>来月やること</strong>
 
 「誰かが決めてくれるのを待っている」案件を1つ特定する。なぜ決まらないのかを書き出す。決める権限を持つ人を巻き込む。
 
-→ 構造的無能化への抵抗
+</div>
+</div>
 
 </div>
+
+---
+
+## AIと一緒にやること
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+
+AIエージェントに「設計判断」を1つ任せてみる。その出力を見て、自分ならどう判断するかを言語化する。差分が見えたら、それが<strong>あなたの文脈知</strong>。
+
 </div>
+
+AIは選択肢を高速に列挙できる。しかし「この組織で、この時期に、このチームで、どれを選ぶか」を決めるのは人間にしかできない。AIの出力と自分の判断の差分を観察することで、自分が持っている暗黙知——組織の政治、チームの疲弊度、技術的負債の温度感——が浮かび上がる。
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
 <span style="color: #e65100; font-weight: bold;">「正解を探す」より「決めて動く」。それが意志の実装。</span>
@@ -3896,17 +4413,43 @@ _class: transition
 
 ---
 
+## 本日、夕方からイベントがあります
+
+<div style="display: flex; gap: 40px; align-items: center;">
+<div style="width: 40%;">
+<img src="../../assets/images/2026/event_アーキテクチャモダナイゼーション.png" alt="イベント" style="width: 100%; height: fit-content;">
+</div>
+
+<div style="flex: 1; font-size: 0.7em;">
+
+### 3-shake SRE Tech Talk 特別回
+
+**アーキテクチャモダナイゼーション**
+
+レガシーシステムを競争優位性に転換するための包括的ガイド。ソシオテクニカルな視点、イベントストーミング、DDD、Team Topologiesなど、本セッションで紹介した内容をより深く学べます。
+
+https://3-shake.connpass.com/event/382086/
+
+</div>
+</div>
+
+---
+
 ## 参考資料
 
-<div style="font-size: 0.7em;">
+<div style="font-size: 0.65em;">
 
-- [Architecture Modernization](https://www.manning.com/books/architecture-modernization) - Nick Tune, Jean-Georges Perrin
-- [Team Topologies](https://teamtopologies.com/) - Matthew Skelton, Manuel Pais
-- [チームの力で組織を動かす](https://gihyo.jp/book/2025/978-4-297-15064-8) - 松本成幸
-- [企業変革のジレンマ](https://bookplus.nikkei.com/atcl/catalog/24/06/14/01289/) - 宇田川元一
-- [Domain-Driven Design](https://www.domainlanguage.com/ddd/) - Eric Evans
-- [関数型ドメインモデリング](https://asciidwango.jp/post/769073029498839040/) - Scott Wlaschin
+### 書籍
+
+- [Architecture Modernization](https://www.manning.com/books/architecture-modernization) - Nick Tune, Jean-Georges Perrin（Manning, 2024）
+- [アーキテクチャモダナイゼーション](https://www.oreilly.co.jp/) - 日本語版、株式会社スリーシェイク訳
+- [Team Topologies](https://teamtopologies.com/) - Matthew Skelton, Manuel Pais（IT Revolution, 2019）
+- [チームの力で組織を動かす](https://gihyo.jp/book/2025/978-4-297-15064-8) - 松本成幸（技術評論社, 2025）
+- [企業変革のジレンマ](https://bookplus.nikkei.com/atcl/catalog/24/06/14/01289/) - 宇田川元一（日経BP, 2024）
+- [Domain-Driven Design](https://www.domainlanguage.com/ddd/) - Eric Evans（Addison-Wesley, 2003）
+- [関数型ドメインモデリング](https://asciidwango.jp/post/769073029498839040/) - Scott Wlaschin（KADOKAWA, 2025）
 - [EventStorming](https://www.eventstorming.com/) - Alberto Brandolini
+- [Sooner Safer Happier](https://www.soonersaferhappier.com/) - Jon Smart（IT Revolution, 2020）
 
 ### 関連記事
 
