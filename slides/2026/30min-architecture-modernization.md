@@ -750,15 +750,15 @@ Ch.1では**ソシオテクニカルなアプローチ**と**独立した価値�
 </div>
 <div style="flex: 1;">
 
-Sam Newmanの **Building Microservices, 2nd Edition** はマイクロサービスの実践ガイドとして最も広く読まれている書籍。その著者が第2版で強調したのは、**独立デプロイ可能性（Independent Deployability）こそがマイクロサービスの本質的な価値**であり、マイクロサービスという形態自体はゴールではないということ。
+Sam Newmanの <strong>Building Microservices, 2nd Edition</strong> はマイクロサービスの実践ガイドとして最も広く読まれている書籍。その著者が第2版で強調したのは、<strong>独立デプロイ可能性（Independent Deployability）こそがマイクロサービスの本質的な価値</strong>であり、マイクロサービスという形態自体はゴールではないということ。
 
 ### 書籍の3部構成と核心メッセージ
 
 | Part | テーマ | Newmanの主張 |
 | --- | --- | --- |
-| **I. Foundation** (Ch.1-4) | 境界の設計 | 情報隠蔽・凝集性・DDDで境界を引く。**境界が間違っていれば分割しても意味がない** |
-| **II. Implementation** (Ch.5-13) | 実装と運用 | 通信・テスト・デプロイ・セキュリティ。**運用コストに見合う価値があるか先に問え** |
-| **III. People** (Ch.14-16) | 組織と人 | Conway's Law、進化的アーキテクト。**最大のスケーリングコストは調整コスト** |
+| <strong>I. Foundation</strong> (Ch.1-4) | 境界の設計 | 情報隠蔽・凝集性・DDDで境界を引く。<strong>境界が間違っていれば分割しても意味がない</strong> |
+| <strong>II. Implementation</strong> (Ch.5-13) | 実装と運用 | 通信・テスト・デプロイ・セキュリティ。<strong>運用コストに見合う価値があるか先に問え</strong> |
+| <strong>III. People</strong> (Ch.14-16) | 組織と人 | Conway's Law、進化的アーキテクト。<strong>最大のスケーリングコストは調整コスト</strong> |
 
 <div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
 <strong>Newman: 「マイクロサービスはほとんどのスタートアップに向かない」。問うべきは「独立デプロイ可能性が必要か」。</strong>
@@ -777,7 +777,7 @@ Sam Newmanの **Building Microservices, 2nd Edition** はマイクロサービ�
 
 <div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
 
-**マイクロサービスの著者とモダナイゼーションの著者が、異なる出発点から同じ結論に辿り着いている。**
+<strong>マイクロサービスの著者とモダナイゼーションの著者が、異なる出発点から同じ結論に辿り着いている。</strong>
 
 </div>
 
@@ -788,10 +788,10 @@ Sam Newmanの **Building Microservices, 2nd Edition** はマイクロサービ�
 | 移行戦略 | Strangler Fig、段階的な分割 | Strangler Fig、段階的な絞め殺し |
 | モノリスの扱い | モノリスは敵ではない。モジュラーモノリスも選択肢 | レガシーは否定しない。過去の上に未来を積む |
 
-出発点は違う——Newmanは「マイクロサービスをどう作るか」から、Tuneは「レガシーをどう変えるか」から。しかし両者とも**「技術だけ変えても意味がない」「境界を正しく引け」「組織設計が先」**という同じ場所に着地している。
+出発点は違う——Newmanは「マイクロサービスをどう作るか」から、Tuneは「レガシーをどう変えるか」から。しかし両者とも同じ場所に着地している。
 
-<div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>手段は違えど、原則は一つ。境界・組織・段階的進化。</strong>
+<div style="margin-top: 10px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center; font-size: 1.1em;">
+<strong>「技術だけ変えても意味がない」「境界を正しく引け」「組織設計が先」</strong>
 </div>
 
 </div>
