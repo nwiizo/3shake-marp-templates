@@ -359,11 +359,15 @@ _class: transition
 </div>
 </div>
 
-<div style="margin-top: 20px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>「書けるコード」の価値はゼロに近づく。「書くべきコード」を見極める力だけが残る。</strong>
+Claude Codeの登場から1年。コード生成の精度は上がり続けており、この流れは不可逆で加速する一方だ。
+
+<div style="margin-top: 12px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<strong>実装力はコモディティ化した。差がつくのは「何を作るか」の判断力と、組織を動かす合意形成力だけだ。</strong>
 </div>
 
 </div>
+
+> 参考: [Anthropic Claude Code Birthday](https://cerebralvalley.ai/e/anthropic-claude-code-bday)
 
 ---
 
@@ -409,7 +413,7 @@ _class: transition
 
 ---
 
-## AIは責任を取ることができない
+## AIは責任を取ることができない（まだ）
 
 <div style="font-size: 0.75em;">
 
@@ -417,7 +421,7 @@ _class: transition
 
 **AIは問いを立てることもできる。答えを出すこともできる。**
 
-でも、その結果に**責任を取ることはできない**。
+でも、その結果に**責任を取ることはできない**。少なくとも今は。
 
 </div>
 
@@ -426,20 +430,20 @@ _class: transition
 
 **AIができること**
 
-選択肢を提示し、トレードオフを分析し、過去の事例を参照する。**判断材料を揃えること**はできる。
+選択肢を提示し、トレードオフを分析し、過去の事例を参照する。**判断材料を揃えること**はできる。この能力は日々向上している。
 
 </div>
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-**人間にしかできないこと**
+**人間にしかできないこと（まだ）**
 
-「これでいく」と決め、結果を引き受け、ステークホルダーに説明する。**最終的な責任を負うこと**は人間だけの仕事。
+「これでいく」と決め、結果を引き受け、ステークホルダーに説明する。**最終的な責任を負うこと**は今のところ人間だけの仕事。
 
 </div>
 </div>
 
 <div style="margin-top: 15px; padding: 12px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>AIは答えを出せる。だが責任は取れない。</strong>
+<strong>AIは答えを出せる。だが責任は取れない——まだ。</strong>
 </div>
 
 </div>
@@ -535,22 +539,59 @@ _class: transition
 <div style="display: flex; gap: 15px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-**委ねてよいもの**
+**すぐに委ねてよいもの**
 
 定型的なコード生成、テストの実行と結果の解析、ドキュメントの下書き、既知パターンの適用。**正解が検証可能な領域**。
 
 </div>
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-**委ねてはいけないもの**
+**いきなり委ねてはいけないもの**
 
-ドメイン境界の決定、チーム構造の設計、技術的負債をどこまで許容するかの判断、ステークホルダーへの説明。**正解が文脈に依存する領域**。
+ドメイン境界の決定、チーム構造の設計、技術的負債の許容判断、ステークホルダーへの説明。**正解が文脈に依存する領域**。ただし「永遠に委ねられない」ではない。
+
+</div>
+</div>
+
+<div style="margin-top: 12px; padding: 10px; background-color: #f5f5f5; border-radius: 5px;">
+
+CLAUDE.mdやrulesファイルは「暗黙知の形式知化」だ。チームの判断基準、コードの慣習、ドメインの制約——人間同士なら空気で伝わるものを、AIに伝わる言葉に翻訳する作業。これを日々育てることで、委任できる範囲が徐々に広がる。**信頼とは、共有された文脈の量で決まる。**
+
+</div>
+
+</div>
+
+---
+
+## 信頼は「コミットメントの履行」で成り立つ
+
+<div style="font-size: 0.7em;">
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
+
+哲学者キャサリン・ホーリーは『信頼と不信の哲学入門』で、信頼を<strong>「相手がコミットメントを果たすとあてにすること」</strong>と定義した。信頼の判断には<strong>意図</strong>（果たす気があるか）と<strong>能力</strong>（果たす力があるか）の二つが必要になる。
+
+</div>
+
+<div style="display: flex; gap: 15px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+<strong>AIに当てはめると</strong>
+
+AIエージェントには「意図」がない。だが「能力」は日々向上している。CLAUDE.mdやrulesは、人間が意図を言語化し、AIの能力を正しい方向に束ねる装置だ。つまり<strong>コミットメントを人間が定義し、AIが履行する</strong>という構造になる。
+
+</div>
+<div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+<strong>不信にも価値がある</strong>
+
+ホーリーは「信頼に値する相手には信頼を、不信に値する相手には不信を」と説く。AIの出力を無条件に信頼するのは危険だが、過剰な不信は生産性を殺す。<strong>適切な不信の設計</strong>——レビュー、テスト、段階的な権限委譲——こそが鍵になる。
 
 </div>
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>新人に全権委任しないのと同じ。信頼は実績で積む。AIも例外ではない。</strong>
+<strong>信頼とは感情ではなく設計。コミットメントを明文化し、履行を検証する仕組みを作ることが大切。</strong>
 </div>
 
 </div>
@@ -563,28 +604,28 @@ _class: transition
 
 <div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 12px;">
 
-**ここで一歩引いて考えたい。AIの進化で、本当に変わるものは何か。**
+<strong>信頼の構造がわかったところで、一歩引いて考えたい。AIの進化で、本当に変わるものは何か。</strong>
 
 </div>
 
 <div style="display: flex; gap: 15px; align-items: center;">
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-**変わるもの**
+<strong>変わるもの</strong>
 
-実装の速度、コード生成のコスト、情報収集の効率、プロトタイピングの手軽さ。要するに**「How」のコストが劇的に下がる**。
+実装の速度、コード生成のコスト、情報収集の効率、プロトタイピングの手軽さ。要するに<strong>「How」のコストが劇的に下がる</strong>。
 
 </div>
 <div style="flex: 1; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-**変わらないもの**
+<strong>変わらないもの</strong>
 
-コンウェイの法則、認知負荷の限界、組織の慣性、人間の感情、信頼の構築に時間がかかること。要するに**「人間の性質」は変わらない**。
+コンウェイの法則、認知負荷の限界、組織の慣性、人間の感情。そして信頼の構築には時間がかかるという事実。コミットメントの積み重ねに近道はない。要するに<strong>「人間の性質」は変わらない</strong>。
 
 </div>
 </div>
 
-だからこそ、ソシオテクニカルなアプローチの価値は**AIが発達するほど高まる**。技術側のコストが下がれば下がるほど、ボトルネックは「人間の調整コスト」に移動する。AIエージェントが100倍速くコードを書いても、チーム間の合意形成が3ヶ月かかるなら、全体のリードタイムは3ヶ月のまま。
+だからこそ、ソシオテクニカルなアプローチの価値は<strong>AIが発達するほど高まる</strong>。技術側のコストが下がれば下がるほど、ボトルネックは「人間の調整コスト」に移動する。AIエージェントが100倍速くコードを書いても、チーム間の合意形成が3ヶ月かかるなら、全体のリードタイムは3ヶ月のまま。信頼の醸成も、組織の慣性の突破も、AIには代替できない。
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
 <span style="color: #e65100; font-weight: bold;">AIは「How」を加速する。だが「What」と「Why」は加速しない。ここが今日の出発点。</span>
@@ -606,7 +647,7 @@ _class: transition
 
 </div>
 
-技術の進歩は「作る」コストを劇的に下げる。AIが書いたコードは動く。だが、そのコードを3年間運用し、法改正に追従し、セキュリティパッチを当て続け、担当者が退職しても回し続けるコストは下がらない。<strong>ソフトウェアの価値の大部分は初期構築ではなく、変化への継続的適応にある。</strong>
+技術の進歩は「作る」コストを劇的に下げる。AIが書いたコードは動く。だが、そのコードを3年間運用し、法改正に追従し、セキュリティパッチを当て続け、担当者が退職しても回し続けるコストは下がらない。運用とは、システムへのコミットメントを果たし続けることだ。<strong>ソフトウェアの価値の大部分は初期構築ではなく、変化への継続的適応にある。</strong>
 
 </div>
 
@@ -650,7 +691,7 @@ AIが「作る」コストを下げ、歴史が「運用は別物」だと教え
 
 **これから**
 
-設計を決め、価値を定義し、未来を描き、システムを進化させる。**意思決定と方向性の定義**が仕事になる。
+設計を決め、価値を定義し、未来を描き、システムを進化させる。AIとの信頼関係を設計し、委任範囲を育てる。**意思決定と方向性の定義**が仕事になる。
 
 </div>
 </div>
@@ -988,7 +1029,7 @@ AIが「作る」コストを下げ、歴史が「運用は別物」だと教え
 
 <div style="margin-top: 20px; padding: 15px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
 <span style="color: #e65100; font-weight: bold; font-size: 1.1em;">優秀なエンジニアは時間の42%を技術的負債に奪われている</span></br>
-<span style="font-size: 0.8em;">（Stripe調査, 2018）——この数字は6年経った今も改善していない</span>
+<span style="font-size: 0.8em;">（Stripe調査, 2018）——この数字は8年経った今も改善していない</span>
 </div>
 
 </div>
@@ -1660,7 +1701,7 @@ _class: transition
 
 ---
 
-## IVSの4つの特性を深堀り
+## IVSの4つの特性を深掘り
 
 <div style="font-size: 0.75em;">
 
@@ -2099,7 +2140,7 @@ _class: transition
 </div>
 
 <div style="margin-top: 12px; padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
-<strong>あなたの四半期レビューに「リスニングツアー実施」と書く覚悟はあるか。その覚悟が第一歩。</strong>
+<strong>派手な技術選定より、地味な現状把握。それがモダナイゼーションの第一歩。</strong>
 </div>
 
 </div>
@@ -3806,7 +3847,7 @@ _class: transition
 
 <div style="display: flex; gap: 20px; align-items: center;">
 <div style="width: 40%;">
-<img src="../../assets/images/2026/figure-1-3-negative-cycle.png" alt="Negative Cycle" style="width: 100%; height: fit-content;">
+<img src="../../assets/images/2026/architecture-modernization/fig1-1.png" alt="Negative Cycle" style="width: 100%; height: fit-content;">
 <div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 1.1 The negative cycle of declining architecture health より引用</div>
 </div>
 
@@ -4481,6 +4522,7 @@ https://3-shake.connpass.com/event/382086/
 - [Sooner Safer Happier](https://www.soonersaferhappier.com/) - Jon Smart（IT Revolution, 2020）
 - [現代システムの三体問題](https://syu-m-5151.hatenablog.com/entry/2025/01/21/124130) - Architecture Modernization 読書感想文
 - [関数型ドメインモデリング 読書感想文](https://syu-m-5151.hatenablog.com/entry/2026/01/22/094654)
+- [信頼と不信の哲学入門](https://www.iwanami.co.jp/book/b654989.html) - キャサリン・ホーリー（岩波新書, 2024）
 
 </div>
 

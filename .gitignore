@@ -36,3 +36,6 @@ yarn-error.log
 
 # Slides directories (uncomment if needed)
 # slides/
+
+# Private Claude commands (not shared)
+.claude/commands/unshare-*.md

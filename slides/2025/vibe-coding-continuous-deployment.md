@@ -510,14 +510,39 @@ AIへの過度な依存はプラットフォームロックイン、認知負荷
 
 ## 継続的インテグレーション (CI) の知性化
 
-### テストの自動化から知性化へ
+### 理想: テストの自動化から知性化へ
 
 <div style="display: flex; gap: 30px; align-items: flex-start;">
 <div style="flex: 1;">
 
 Test-Driven Development (TDD) はテストを先に書くという逆転の発想で、「動く」から「正しい」へとパラダイムシフトを起こした。テストピラミッドは基盤に大量のユニットテスト、中層に統合テスト、頂点に手動テストを配置する。
 
-AI-Native のテスト知性化は変更に関連するテストのみを実行し、テスト依存関係を自動理解する。意図ベースのテストでは「商品を購入する」と記述すれば、AIがステップを生成する。
+<strong>AI-Native のテスト知性化</strong>は変更に関連するテストのみを実行し、テスト依存関係を自動理解する。意図ベースのテストでは「商品を購入する」と記述すれば、AIがステップを生成する。<strong>開発者はテストケースを書く必要がなくなる</strong>。
+
+</div>
+<div style="width: 35%;">
+<img src="../../assets/images/2025/vibe-coding-continuous-deployment/figure3-2.png" alt="AI-Native Test Intelligence" style="width: 100%; height: auto;">
+<div style="font-size: 0.45em; text-align: center; margin-top: 5px; line-height: 1.3;">
+出典: AI-Native Software Delivery<br>
+https://learning.oreilly.com/library/view/ai-native-software-delivery/9781098171988/
+</div>
+</div>
+</div>
+
+---
+
+## 継続的インテグレーション (CI) の知性化
+
+### 現実: テストの限界と品質の幻想
+
+<div style="display: flex; gap: 30px; align-items: flex-start;">
+<div style="flex: 1;">
+
+AIが生成したテストは、<strong>AIが生成したコードをテストする</strong>。しかし、<strong>誰がテストの正しさを保証するのか？</strong>
+
+機能が爆発的に増えると、すべてのテストケースを実行することは時間的に不可能になる。変更に関連するテストのみを実行する知性化は、<strong>関連性の判断ミス</strong>というリスクを生む。
+
+<strong>テストは品質を保証しない。品質の欠如を検出するだけである</strong>。AI時代においても、この本質は変わらない。
 
 </div>
 <div style="width: 35%;">
