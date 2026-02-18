@@ -1,0 +1,461 @@
+/* @theme 3shake-2026-presentation */
+/* 3-SHAKE 2026年プレゼンテーション共通テーマ */
+/* 構成: default → 3shake-theme相当 → 2025インラインCSS相当 → 2026固有 */
+@import 'default';
+
+/* ========================================
+   カラー変数定義
+   ======================================== */
+:root {
+  --3shake-blue: #4AADDD;
+  --3shake-blue-dark: #0a1929;
+  --3shake-blue-light: #e6f0ff;
+  --3shake-blue-pale: rgba(74, 173, 221, 0.1);
+  --3shake-yellow: #ECBE30;
+  --3shake-green: #5FB878;
+  --3shake-gray: #80868b;
+  --3shake-gray-light: #dadce0;
+  --text-dark: #333333;
+  --text-light: #ffffff;
+  --header-height: 70px;
+  --footer-height: 50px;
+  --side-padding: 50px;
+  --logo-url: url("../assets/images/3shake-cover.png");
+  --mini-font-size: 20px;
+  --header-footer-height: 50px;
+  --black: #333;
+}
+
+/* ========================================
+   全スライド共通（3shake-theme.css準拠）
+   ======================================== */
+section {
+  font-family: 'Noto Sans JP', 'Helvetica Neue', Arial, sans-serif;
+  color: var(--text-dark);
+  background-color: white;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ========================================
+   ロゴ（2025インラインCSS準拠: 60px, left:15px, bottom:15px）
+   ======================================== */
+section:not(.title)::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  width: 60px !important;
+  height: 60px !important;
+  background-image: var(--logo-url);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.9;
+  z-index: 100;
+}
+
+section[data-background-color="dark"]::before {
+  filter: brightness(0) invert(1);
+}
+
+/* ========================================
+   タイトルスライド
+   ======================================== */
+section.title {
+  background-color: var(--3shake-blue-dark);
+  color: var(--text-light);
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0;
+}
+
+section.title::after {
+  display: none;
+}
+
+/* ========================================
+   トランジションスライド（セクション間の繋ぎ）
+   ======================================== */
+section.transition {
+  justify-content: center;
+  align-items: center;
+}
+
+section.transition::before {
+  display: none;
+}
+
+section.transition::after {
+  display: none;
+}
+
+.title-logo {
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  width: 240px !important;
+  height: auto;
+  z-index: 9999;
+}
+
+img[src*="3shake-logo.png"] {
+  max-width: 240px !important;
+  width: 240px !important;
+}
+
+/* タイトルスライドの h1/h3
+   Marpテーマでは .title h1 → section.title h1 にスコープされるが
+   HTML構造は section.title > div.title > h1 なので section .title h1 を使う */
+section .title h1 {
+  font-size: 2.4em !important;
+  margin-bottom: 0.1em !important;
+  color: var(--text-light) !important;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 0 !important;
+  border: none !important;
+}
+
+section .title h3 {
+  font-size: 1.1em !important;
+  margin-top: 0.1em !important;
+  color: var(--text-light) !important;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+/* ========================================
+   著者情報（2025インラインCSS準拠）
+   ======================================== */
+.author-info {
+  position: absolute !important;
+  bottom: 40px !important;
+  left: 100px !important;
+  padding-left: 0 !important;
+  text-indent: 0 !important;
+  font-size: 0.9em !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+
+/* ========================================
+   見出し（2025インラインCSS準拠 + 2026: border-bottom）
+   ======================================== */
+section h2 {
+  font-size: 1.5em !important;
+  margin-top: -25px !important;
+  padding-top: 0 !important;
+  margin-bottom: 10px !important;
+  padding-bottom: 0.3em !important;
+  padding-left: var(--side-padding) !important;
+  padding-right: var(--side-padding) !important;
+  color: black !important;
+  border-bottom: 2px solid var(--3shake-gray-light) !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+section h3 {
+  font-size: 1.1em !important;
+  margin-top: 0 !important;
+  margin-bottom: 8px !important;
+  color: #666 !important;
+}
+
+/* ========================================
+   コンテンツエリア（3shake-theme.css準拠）
+   h2以外の直接子要素にside-paddingを適用
+   ======================================== */
+section:not(.transition):not(.title) > *:not(h2):not(header):not(footer):not(blockquote) {
+  margin-left: var(--side-padding);
+  margin-right: var(--side-padding);
+  margin-top: 1.2em !important;
+}
+
+/* ========================================
+   .highlight-red（2025インラインCSS準拠）
+   ======================================== */
+.highlight-red {
+  color: rgb(224, 64, 64);
+}
+
+/* ========================================
+   blockquote（右下に小さく配置）
+   ======================================== */
+section > blockquote {
+  font-size: 0.55em !important;
+  color: var(--3shake-gray) !important;
+  font-style: normal !important;
+  position: absolute !important;
+  bottom: 18px !important;
+  right: 80px !important;
+  left: auto !important;
+  width: auto !important;
+  max-width: 60% !important;
+  text-align: right !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  background: none !important;
+}
+
+/* ========================================
+   .reference-right（2025インラインCSS準拠）
+   ======================================== */
+.reference-right {
+  font-size: 0.4em;
+  text-align: right;
+  margin-right: 20px;
+  margin-top: -15px;
+  display: block;
+  width: 30%;
+  margin-left: 70%;
+}
+
+/* ========================================
+   テーブル（2026固有: font-size:0.65em, padding:4px 6px）
+   ======================================== */
+section table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5em 0;
+  font-size: 0.65em;
+  border-radius: 0;
+}
+
+section th {
+  background-color: var(--3shake-blue);
+  color: var(--text-light);
+  padding: 6px 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+section td {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--3shake-gray-light);
+}
+
+section tr:last-child td {
+  border-bottom: 1px solid var(--3shake-gray-light);
+}
+
+section tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+/* ========================================
+   リスト（3shake-theme.css準拠）
+   ======================================== */
+section ul,
+section ol {
+  padding-left: 1.2em;
+  margin-bottom: 1em;
+}
+
+section ul li,
+section ol li {
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+}
+
+section ul ul,
+section ol ol {
+  margin-top: 0.3em;
+}
+
+/* ========================================
+   コードブロック（3shake-theme.css準拠）
+   ======================================== */
+section pre {
+  background: var(--3shake-blue-dark);
+  border-radius: 6px;
+  padding: 1em;
+  color: var(--3shake-blue-light);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+  font-family: 'Fira Code', 'Source Code Pro', monospace;
+  font-size: 0.9em;
+}
+
+section code {
+  font-family: 'Fira Code', 'Source Code Pro', monospace;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+/* ========================================
+   フッター（2026固有: ページ番号のみ）
+   ======================================== */
+section::after {
+  content: attr(data-marpit-pagination);
+  font-size: 0.8em;
+  font-weight: bold;
+  color: var(--3shake-gray);
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+
+/* ========================================
+   カラーハイライト（3shake-theme.css準拠）
+   ======================================== */
+.highlight-yellow {
+  color: var(--3shake-yellow);
+  font-weight: bold;
+}
+
+.highlight-green {
+  color: var(--3shake-green);
+  font-weight: bold;
+}
+
+.highlight-blue {
+  color: var(--3shake-blue);
+  font-weight: bold;
+}
+
+/* ========================================
+   情報ボックス（3shake-theme.css準拠）
+   ======================================== */
+.info-box {
+  background-color: var(--3shake-blue-pale);
+  border-left: 4px solid var(--3shake-blue);
+  padding: 1em;
+  margin: 1.5em 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* ========================================
+   Mermaid（3shake-theme.css準拠）
+   ======================================== */
+mermaid {
+  display: block;
+  margin: 0 auto;
+}
+
+.mermaid {
+  display: flex !important;
+  justify-content: center !important;
+  margin: 2em auto !important;
+  background: transparent !important;
+}
+
+.mermaid svg {
+  height: auto !important;
+  max-width: 100% !important;
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.1));
+}
+
+.mermaid-auto-xxxs svg { max-width: 10% !important; }
+.mermaid-auto-xxs svg { max-width: 15% !important; }
+.mermaid-auto-xs svg { max-width: 20% !important; }
+.mermaid-auto-s svg { max-width: 25% !important; }
+.mermaid-auto-sm svg { max-width: 35% !important; }
+.mermaid-auto-md svg { max-width: 50% !important; }
+.mermaid-auto-lg svg { max-width: 65% !important; }
+.mermaid-auto-xl svg { max-width: 80% !important; }
+
+@media (max-width: 1280px) {
+  .mermaid-auto-xxxs svg { max-width: 15% !important; }
+  .mermaid-auto-xxs svg { max-width: 20% !important; }
+  .mermaid-auto-xs svg { max-width: 25% !important; }
+  .mermaid-auto-s svg { max-width: 30% !important; }
+  .mermaid-auto-sm svg { max-width: 40% !important; }
+  .mermaid-auto-md svg { max-width: 60% !important; }
+  .mermaid-auto-lg svg, .mermaid-auto-xl svg { max-width: 90% !important; }
+}
+
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node ellipse,
+.mermaid .node polygon,
+.mermaid .node path {
+  stroke-width: 2px;
+}
+
+.mermaid .node.default > rect,
+.mermaid .node.default > circle,
+.mermaid .node.default > ellipse,
+.mermaid .node.default > polygon {
+  fill: #f4f4f4;
+  stroke: #999;
+}
+
+.mermaid .edgeLabel {
+  background-color: white;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.mermaid .flowchart-link {
+  stroke-width: 2px;
+}
+
+/* ========================================
+   2カラムレイアウト（3shake-theme.css準拠）
+   ======================================== */
+.columns {
+  display: flex;
+  gap: 2em;
+  margin: 1em 0;
+}
+
+.columns > * {
+  flex: 1;
+}
+
+/* ========================================
+   アニメーション（3shake-theme.css準拠）
+   ======================================== */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* ========================================
+   画像（3shake-theme.css準拠）
+   ======================================== */
+section img:not([class]) {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+section[data-background-image] {
+  background-size: cover;
+  background-position: center;
+}
+
+/* ========================================
+   背景色付きスライド（3shake-theme.css準拠）
+   ======================================== */
+section[data-background-color="dark"] {
+  background-color: var(--3shake-blue-dark);
+  color: var(--text-light);
+}
+
+section[data-background-color="dark"] h2 {
+  color: var(--text-light) !important;
+  border-bottom-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+section[data-background-color="dark"] code {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+section[data-background-color="dark"] .info-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-left-color: var(--3shake-blue);
+}
