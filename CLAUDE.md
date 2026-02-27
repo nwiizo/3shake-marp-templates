@@ -23,10 +23,6 @@ examples/        # サンプルスライド
 | `/review-slide` | 総合レビュー |
 | `/check-structure` | 構成チェック |
 | `/fact-check` | ファクトチェック |
-| `/depth-check` | 主張の深さチェック |
-| `/logical-flow-check` | 論理の流れチェック |
-| `/narrative-empathy-review` | 物語・共感設計 |
-| `/redundancy-check` | 冗長性チェック |
 
 ## 自動適用ルール
 
