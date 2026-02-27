@@ -20,7 +20,7 @@
   --header-height: 70px;
   --footer-height: 50px;
   --side-padding: 50px;
-  --logo-url: url("../assets/images/3shake-cover.png");
+  --logo-url: url("../../assets/images/3shake-cover.png");
   --mini-font-size: 20px;
   --header-footer-height: 50px;
   --black: #333;
@@ -71,10 +71,19 @@ section.title {
   justify-content: center;
   align-items: flex-start;
   padding: 0;
+  overflow: visible;
+}
+
+section.title::before {
+  display: none;
 }
 
 section.title::after {
   display: none;
+}
+
+section.title img {
+  max-width: none;
 }
 
 /* ========================================
@@ -111,12 +120,13 @@ img[src*="3shake-logo.png"] {
    Marpテーマでは .title h1 → section.title h1 にスコープされるが
    HTML構造は section.title > div.title > h1 なので section .title h1 を使う */
 section .title h1 {
-  font-size: 2.4em !important;
+  font-size: 1.6em !important;
   margin-bottom: 0.1em !important;
   color: var(--text-light) !important;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   padding: 0 !important;
   border: none !important;
+  border-bottom: none !important;
 }
 
 section .title h3 {
@@ -144,17 +154,18 @@ section .title h3 {
    見出し（2025インラインCSS準拠 + 2026: border-bottom）
    ======================================== */
 section h2 {
-  font-size: 1.5em !important;
+  font-size: 1.6em !important;
   margin-top: -25px !important;
+  margin-bottom: 12px !important;
+  margin-left: var(--side-padding) !important;
+  margin-right: var(--side-padding) !important;
   padding-top: 0 !important;
-  margin-bottom: 10px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   padding-bottom: 0.3em !important;
-  padding-left: var(--side-padding) !important;
-  padding-right: var(--side-padding) !important;
   color: black !important;
-  border-bottom: 2px solid var(--3shake-gray-light) !important;
-  width: 100% !important;
-  box-sizing: border-box !important;
+  border-bottom: 1px solid var(--3shake-gray-light) !important;
+  width: auto !important;
 }
 
 section h3 {
@@ -189,11 +200,11 @@ section > blockquote {
   color: var(--3shake-gray) !important;
   font-style: normal !important;
   position: absolute !important;
-  bottom: 18px !important;
-  right: 80px !important;
+  bottom: 24px !important;
+  right: 110px !important;
   left: auto !important;
   width: auto !important;
-  max-width: 60% !important;
+  max-width: 45% !important;
   text-align: right !important;
   padding: 0 !important;
   margin: 0 !important;
@@ -396,6 +407,14 @@ mermaid {
 
 .mermaid .flowchart-link {
   stroke-width: 2px;
+}
+
+/* ========================================
+   Flexbox内ボックスの高さ揃え
+   背景色付きのflex子要素を同じ高さにする
+   ======================================== */
+section div[style*="display: flex"] > div[style*="background-color"] {
+  align-self: stretch !important;
 }
 
 /* ========================================
