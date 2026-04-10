@@ -1391,53 +1391,64 @@ _class: transition
 
 ---
 
-## 4つのチームタイプと3つのインタラクションモード
+## チームトポロジーという考え方
 
 <div style="font-size: 0.75em;">
 
 <div style="display: flex; gap: 20px; align-items: center;">
-<div style="width: 35%;">
-<img src="../../assets/images/2026/figure-11-10-team-interactions.png" alt="Team Interactions" style="width: 100%; height: fit-content;">
-<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 11.10 Team interaction modes より引用</div>
+<div style="width: 25%;">
+<img src="../../assets/images/2026/team-topologies-japanese.jpg" alt="チームトポロジー" style="width: 100%;">
 </div>
 
 <div style="flex: 1;">
 
 <div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 10px;">
 
-認知負荷を管理するために、Team Topologiesは<strong>4つのチームタイプ</strong>を定義している。
+Matthew SkeltonとManuel Paisの「チームトポロジー」は、<strong>組織設計とソフトウェア設計を一体として考える</strong>フレームワーク。コンウェイの法則を「利用する」ための具体的な型を提供する。
 
 </div>
 
-<div style="display: flex; gap: 8px; align-items: stretch; margin-top: 10px;">
-<div style="flex: 1; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 10px;">
 
-<strong>ストリームアラインド</strong>
-
-ビジネスの価値の流れに沿ったチーム。<strong>大多数のチームがこれ</strong>。
+核心は2つ。<strong>チームの種類を4つに絞ること</strong>（複雑な組織図ではなくシンプルな型）と、<strong>チーム間の関わり方を3つに限定すること</strong>（無限の調整パターンではなく明確なモード）。シンプルだからこそ、組織全体で共通の言葉として機能する。
 
 </div>
-<div style="flex: 1; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
 
-<strong>プラットフォーム</strong>
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
 
-共通基盤をセルフサービスで提供。<strong>他チームの認知負荷を減らす</strong>。
-
-</div>
-<div style="flex: 1; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
-
-<strong>イネイブリング</strong>
-
-他チームの能力を支援。<strong>役割を果たしたら離れる</strong>。
+この本が提供するのは「正解のチーム構造」ではなく、<strong>チーム構造を継続的に見直すための共通言語</strong>。
 
 </div>
-<div style="flex: 1; background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
-
-<strong>コンプリケイテッド・サブシステム</strong>
-
-高度な専門知識が必要な領域。
 
 </div>
+</div>
+
+</div>
+
+---
+
+## 4つのチームタイプ
+
+<div style="font-size: 0.75em;">
+
+<div style="display: flex; gap: 20px; align-items: center;">
+<div style="width: 30%;">
+<img src="../../assets/images/2026/epe-3-1-team-topologies.png" alt="Team Topologies" style="width: 100%; height: fit-content;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 3.1 Team topologies（Effective Platform Engineering）より引用</div>
+</div>
+
+<div style="flex: 1;">
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 10px;">
+
+認知負荷を管理するために、Team Topologiesは4つのチームタイプを定義している。<strong>ストリームアラインドチーム</strong>（価値の流れに沿い、大多数がこれ）、<strong>プラットフォームチーム</strong>（共通基盤をセルフサービスで提供）、<strong>イネイブリングチーム</strong>（他チームの能力を支援し、役割を果たしたら離れる）、<strong>コンプリケイテッド・サブシステムチーム</strong>（高度な専門知識が必要な領域を担当）。
+
+</div>
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+図のように、<strong>ストリームアラインドチーム</strong>が主軸で、その上下にプラットフォームとイネイブリングが配置される。全チームがストリームアラインドである必要はない。重要なのは<strong>ほとんどのチームが価値の流れに沿っていること</strong>と、それを支えるチームが明確であること。
+
 </div>
 
 </div>
