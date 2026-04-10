@@ -1397,7 +1397,7 @@ _class: transition
 
 <div style="display: flex; gap: 20px; align-items: center;">
 <div style="width: 25%;">
-<img src="../../assets/images/2026/team-topologies-japanese.jpg" alt="チームトポロジー" style="width: 100%;">
+<img src="../../assets/images/2026/team-topologies-four-types.png" alt="Team Topologies Four Types" style="width: 100%;">
 </div>
 
 <div style="flex: 1;">
@@ -1789,28 +1789,38 @@ Nick Tuneはこれを<strong>「Nail it then scale it（まず小さく成功さ
 
 <div style="flex: 1;">
 
-<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 10px;">
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
 
 モダナイゼーションのゴールは「完成したアーキテクチャ」ではない。<strong>変化し続ける力そのもの</strong>。境界設計を学べばチーム設計が必要になり、チーム設計を学べば進化段階の理解が必要になる。すべてが繋がっている。だからこそ、同時に動かす必要がある。
 
 </div>
 
-<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
-目指すべきは元に戻る力（レジリエンス）ではなく、壊れるたびに強くなる組織。小さく壊れ、そこから学び、前より強い設計を手に入れる。学び続ける組織であることが、モダナイゼーションの前提であり、同時にその成果でもある。
+目指すべきは元に戻る力（レジリエンス）ではなく、<strong>壊れるたびに強くなる組織</strong>。小さく壊れ、そこから学び、前より強い設計を手に入れる。
 
+</div>
+
+</div>
 </div>
 
 </div>
+
+---
+
+## まだ途中だからこそ、今日から始められる
+
+<div style="font-size: 0.85em;">
+
+<div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px; margin-bottom: 15px; text-align: center;">
+
+ここまで偉そうに話してきたが、自分のチームがこれを全部できているかと聞かれたら、答えは<strong>「まだ途中」</strong>。
+
 </div>
 
-<div style="margin-top: 8px; font-size: 0.8em; color: #666; text-align: center;">
-ここまで偉そうに話してきたが、自分のチームがこれを全部できているかと聞かれたら、答えは「まだ途中」。
-</div>
-
-<div style="margin-top: 10px; padding: 15px; background-color: #e0e0e0; border-radius: 8px; text-align: center;">
-<span style="color: #e65100; font-weight: bold; font-size: 1.1em;">モダナイゼーションの成果物はアーキテクチャではない。診断する習慣そのもの。</span>
-<div style="margin-top: 8px; font-size: 0.85em; color: #333;">3つを同時に語れる言葉はまだない。でも、3つを同時に見直す習慣なら、今日から始められる。</br>レガシーを光栄に思える設計を残すには、3軸で診断し続けるしかない。</div>
+<div style="padding: 20px; background-color: #e0e0e0; border-radius: 8px; text-align: center;">
+<span style="color: #e65100; font-weight: bold; font-size: 1.2em;">モダナイゼーションの成果物はアーキテクチャではない。</br>診断する習慣そのもの。</span>
+<div style="margin-top: 12px; font-size: 0.9em; color: #333;">3つを同時に語れる言葉はまだない。</br>でも、3つを同時に見直す習慣なら、今日から始められる。</br>レガシーを光栄に思える設計を残すには、3軸で診断し続けるしかない。</div>
 </div>
 
 </div>
