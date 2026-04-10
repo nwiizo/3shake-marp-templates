@@ -5,18 +5,18 @@
 ## 基本レビュー（必須）
 
 ```
-1. /check-structure    → 構成の骨格を固める
-2. /logical-flow-check → スライド間の繋がりを確認
-3. /review-slide       → 総合的な品質チェック
-4. /fact-check         → 事実関係の最終確認
+1. /check-structure              → 構成の骨格を固める
+2. /unshare-logical-flow-check  → スライド間の繋がりを確認
+3. /review-slide                → 総合的な品質チェック
+4. /fact-check                  → 事実関係の最終確認
 ```
 
 ## 深掘りレビュー（任意）
 
 ```
-5. /depth-check              → パンチラインの鋭さを磨く
-6. /narrative-empathy-review → 物語と共感の設計を確認
-7. /redundancy-check         → 無駄を削ぎ落とす
+5. /unshare-depth-check              → パンチラインの鋭さを磨く
+6. /unshare-narrative-empathy-review → 物語と共感の設計を確認
+7. /unshare-redundancy-check         → 無駄を削ぎ落とす
 ```
 
 ## 順序の理由
