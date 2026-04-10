@@ -282,11 +282,24 @@ _class: title dark
 </div>
 </div>
 
-<div style="margin-top: 10px; text-align: center; font-size: 0.85em; color: #666;">
-技術への情熱は大事。では、その情熱をどこに向けるか？ → 次は事業の軸で考える。
+
 </div>
 
 </div>
+
+---
+
+<!--
+_backgroundColor: #0a1929
+_color: white
+_class: transition
+-->
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%; flex-direction: column; color: white;">
+
+<span style="font-size: 1.3em; font-weight: bold; color: white;">技術への情熱は大事。</span>
+
+<span style="font-size: 1.1em; color: white; margin-top: 20px;"><strong>では、その情熱をどこに向けるか？</strong></span>
 
 </div>
 
@@ -332,9 +345,22 @@ _class: title dark
 <span style="color: #e65100; font-weight: bold;">診断を省略した目標設定は、速いのではない。雑なだけ。</span>
 </div>
 
-<div style="margin-top: 10px; text-align: center; font-size: 0.8em; color: #666;">
-事業の問題も技術と同じ構造だった。では、組織はどうか？
+
 </div>
+
+---
+
+<!--
+_backgroundColor: #0a1929
+_color: white
+_class: transition
+-->
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%; flex-direction: column; color: white;">
+
+<span style="font-size: 1.3em; font-weight: bold; color: white;">事業の問題も技術と同じ構造だった。</span>
+
+<span style="font-size: 1.1em; color: white; margin-top: 20px;"><strong>では、組織はどうか？</strong></span>
 
 </div>
 
