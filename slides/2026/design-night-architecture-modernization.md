@@ -252,8 +252,26 @@ _class: title dark
 <span style="color: #e65100; font-weight: bold;">技術の名前が出た瞬間に「なぜ」が消えるなら、それは選定ではなく信仰。</span>
 </div>
 
-<div style="margin-top: 10px; text-align: center; font-size: 0.8em; color: #666;">
-技術の問題は見えた。では、事業ではどうか？
+</div>
+
+---
+
+## ただし、信仰が常に間違うわけではない
+
+<div style="font-size: 0.85em;">
+
+<div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+
+技術への情熱がなければ、そもそも設計は前に進まない。新しい技術に心が躍ること、「これを使えばもっと良くなる」と信じること。その熱量が、困難なモダナイゼーションを支える力になる。
+
+</div>
+
+<div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px;">
+
+問題は<strong>信仰そのものではなく、信仰が「なぜ」を省略する口実になること</strong>。「なぜこの技術が必要か」を問い続ける限り、情熱は正しい方向に向かう。問うことをやめた瞬間に、情熱は盲信に変わる。
+
+</div>
+
 </div>
 
 </div>
@@ -457,10 +475,16 @@ _class: transition
 
 </div>
 
-<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+<div style="display: flex; gap: 20px; align-items: center;">
+<div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
-技術セクションでは、結合を3つの次元で見る方法（Balanced Coupling モデル）を紹介し、境界の引き方、そしてボトルネックの見つけ方を順に追っていく。ただし忘れてはいけないのは、技術の正解を知ることは「信仰」の否定ではなく、<strong>信仰を根拠のある判断に変えること</strong>。技術への情熱は力になる。その力を正しい方向に向けるための地図が必要なだけ。
+技術の正解を知ることは「信仰」の否定ではなく、<strong>信仰を根拠のある判断に変えること</strong>。アーキテクチャモダナイゼーションには<strong>BVSSH</strong>というフレームワークがある。価値・速度・安全性だけでなく<strong>幸福（Happier）</strong>も含まれている。技術への情熱は、モダナイゼーションを持続させる燃料でもある。
 
+</div>
+<div style="width: 35%;">
+<img src="../../assets/images/2026/architecture-modernization-bvssh.png" alt="BVSSH" style="width: 100%; height: fit-content;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">BVSSH（Architecture Modernization）より引用</div>
+</div>
 </div>
 
 </div>
