@@ -1,3 +1,8 @@
+---
+name: build
+description: スライドビルド - Marpスライドを `--no-stdin` 付きで HTML/PDF 出力する
+---
+
 # スライドビルド
 
 Marpスライドのビルドとプレビューを行います。
