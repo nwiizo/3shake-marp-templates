@@ -258,18 +258,32 @@ _class: title dark
 
 ## ただし、信仰が常に間違うわけではない
 
-<div style="font-size: 0.85em;">
+<div style="font-size: 0.75em;">
 
-<div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+<div style="display: flex; gap: 20px; align-items: center;">
+<div style="flex: 1;">
 
-技術への情熱がなければ、そもそも設計は前に進まない。新しい技術に心が躍ること、「これを使えばもっと良くなる」と信じること。その熱量が、困難なモダナイゼーションを支える力になる。
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+
+技術への情熱がなければ、そもそも設計は前に進まない。新しい技術に心が躍ること、「これを使えばもっと良くなる」と信じること。その熱量こそが、困難なモダナイゼーションを支える力になる。
 
 </div>
 
-<div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px;">
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
-問題は<strong>信仰そのものではなく、信仰が「なぜ」を省略する口実になること</strong>。「なぜこの技術が必要か」を問い続ける限り、情熱は正しい方向に向かう。問うことをやめた瞬間に、情熱は盲信に変わる。
+アーキテクチャモダナイゼーションには<strong>BVSSH</strong>というフレームワークがある。Better（品質）、Value（価値）、Sooner（速度）、Safer（安全性）、そして<strong>Happier（幸福）</strong>。技術への情熱——つまり幸福——はモダナイゼーションの5軸のひとつ。問題は<strong>信仰そのものではなく、信仰が「なぜ」を省略する口実になること</strong>。
 
+</div>
+
+</div>
+<div style="width: 30%;">
+<img src="../../assets/images/2026/architecture-modernization-bvssh.png" alt="BVSSH" style="width: 100%; height: fit-content;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 1.2 BVSSH（Architecture Modernization）より引用</div>
+</div>
+</div>
+
+<div style="margin-top: 10px; text-align: center; font-size: 0.85em; color: #666;">
+技術への情熱は大事。では、その情熱をどこに向けるか？ → 次は事業の軸で考える。
 </div>
 
 </div>
@@ -475,16 +489,10 @@ _class: transition
 
 </div>
 
-<div style="display: flex; gap: 20px; align-items: center;">
-<div style="flex: 1; background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px;">
 
-技術の正解を知ることは「信仰」の否定ではなく、<strong>信仰を根拠のある判断に変えること</strong>。アーキテクチャモダナイゼーションには<strong>BVSSH</strong>というフレームワークがある。価値・速度・安全性だけでなく<strong>幸福（Happier）</strong>も含まれている。技術への情熱は、モダナイゼーションを持続させる燃料でもある。
+技術セクションでは、結合を3つの次元で見る方法（Balanced Coupling モデル）を紹介し、境界の引き方、そしてボトルネックの見つけ方を順に追っていく。
 
-</div>
-<div style="width: 35%;">
-<img src="../../assets/images/2026/architecture-modernization-bvssh.png" alt="BVSSH" style="width: 100%; height: fit-content;">
-<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">BVSSH（Architecture Modernization）より引用</div>
-</div>
 </div>
 
 </div>
