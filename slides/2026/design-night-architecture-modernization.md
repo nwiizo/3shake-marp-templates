@@ -927,6 +927,30 @@ _class: transition
 
 ---
 
+## Wardley Mapを使うと何が見えるのか
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+
+Wardley Mapは単なる可視化ツールではない。<strong>3つの問いに同時に答える装置</strong>。「この要素は今どの進化段階にあるか？」（現在地）、「競争によってどこに移動するか？」（方向）、「移動に合わせて何を変えるべきか？」（行動）。地図を描くこと自体が、チームの認識を揃える行為になる。
+
+</div>
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+
+すべてのものは進化する。<strong>今日のCore Domainは明日のCommodityかもしれない</strong>。クラウドコンピューティングはかつて最先端の差別化要因だったが、今や汎用インフラ。この「すべては過渡的」という認識が、定期的に地図を描き直す理由になる。一度描いて終わりではない。<strong>描き続けることが戦略の本体</strong>。
+
+</div>
+
+<div style="padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">地図のない組織は、直感で航海している。嵐が来るまではそれでも進める。</span>
+</div>
+
+</div>
+
+---
+
 ## 進化段階が変われば方法論も変わる
 
 <div style="font-size: 0.75em;">
@@ -1202,6 +1226,30 @@ _class: transition
 
 ---
 
+## 認知負荷は測れないが、聞くことはできる
+
+<div style="font-size: 0.75em;">
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+
+認知負荷には厳密な測定公式がない。しかし<strong>チームに聞くことはできる</strong>。「今の担当範囲は頭に入りきっているか？」「新しいメンバーが来たとき、何ヶ月で独り立ちできるか？」「最近、知らないうちに壊れていたことはあるか？」。答えが「もう限界」「半年かかる」「しょっちゅう」なら、それは認知負荷が高すぎるサイン。
+
+</div>
+
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 12px;">
+
+重要なのは<strong>定期的に確認すること</strong>。チームの責任範囲は、機能追加や組織変更のたびに少しずつ広がる。昨日はちょうど良かった負荷が、今日は限界を超えているかもしれない。<strong>認知負荷の管理は一度きりの設計ではなく、継続的な観察</strong>。
+
+</div>
+
+<div style="padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
+<span style="color: #e65100; font-weight: bold;">「チームの頭に入りきっているか？」——この問いを定期的に聞くことが、認知負荷の管理の第一歩。</span>
+</div>
+
+</div>
+
+---
+
 ## 課題外在性負荷を減らすのがチーム設計の仕事
 
 <div style="font-size: 0.75em;">
@@ -1286,6 +1334,37 @@ _class: transition
 
 <div style="padding: 10px; background-color: #e0e0e0; border-radius: 5px; text-align: center;">
 <span style="color: #e65100; font-weight: bold;">再編が「大事件」になる組織は、本当に再編が必要なときに動けない。</span>
+</div>
+
+</div>
+
+---
+
+## 作ったチームが運用まで責任を持つ
+
+<div style="font-size: 0.75em;">
+
+<div style="display: flex; gap: 20px; align-items: center;">
+<div style="width: 40%;">
+<img src="../../assets/images/2026/aff-7-7-team-topology-overview.jpg" alt="Team Topology Overview" style="width: 100%; height: fit-content;">
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">Figure 7.7 Team topology overview（Architecture for Flow）より引用</div>
+</div>
+
+<div style="flex: 1;">
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px; margin-bottom: 10px;">
+
+<strong>「You build it, you run it」</strong>——作ったチームが本番運用まで責任を持つ。開発と運用を別の組織にすると、開発チームは「壊れても直すのは別の人」と考えるようになる。自分が運用するとわかっていれば、<strong>設計の段階から運用のことを考える</strong>。
+
+</div>
+
+<div style="background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+
+図はその全体像。ストリームアラインドチームが価値の流れを担い、プラットフォームチームがX-as-a-Serviceでインフラを提供し、イネイブリングチームがファシリテーションで支援する。<strong>チーム間の関係性が明示されているから、調整コストが設計可能になる</strong>。
+
+</div>
+
+</div>
 </div>
 
 </div>
@@ -1558,7 +1637,7 @@ Nick Tuneはこれを<strong>「Nail it then scale it（まず小さく成功さ
 
 <div style="margin-top: 10px; padding: 15px; background-color: #e0e0e0; border-radius: 8px; text-align: center;">
 <span style="color: #e65100; font-weight: bold; font-size: 1.1em;">モダナイゼーションの成果物はアーキテクチャではない。診断する習慣そのもの。</span>
-<div style="margin-top: 8px; font-size: 0.85em; color: #333;">3つを同時に語れる言葉はまだない。でも、3つを同時に見直す習慣なら、今日から始められる。</div>
+<div style="margin-top: 8px; font-size: 0.85em; color: #333;">3つを同時に語れる言葉はまだない。でも、3つを同時に見直す習慣なら、今日から始められる。</br>レガシーを光栄に思える設計を残すには、3軸で診断し続けるしかない。</div>
 </div>
 
 </div>
