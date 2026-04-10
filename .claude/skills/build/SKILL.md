@@ -13,7 +13,9 @@ Marpスライドのビルドとプレビューを行います。
 
 ## ビルドワークフロー
 
-**重要**: `--no-stdin` を付けないとstdin待ちでハングします。必ず付与してください。
+**重要**:
+- `--no-stdin` を付けないとstdin待ちでハングします。必ず付与してください。
+- **ビルド前に既存の出力ファイル（HTML/PDF）を削除してからビルドする。** キャッシュによる古い出力を防ぐため。
 
 ### 1. ファイルパスの確認
 
@@ -25,18 +27,21 @@ ls slides/**/*.md
 ### 2. HTML出力（プレビュー用）
 
 ```bash
+rm -f slides/[file].html
 npx @marp-team/marp-cli@latest slides/[file].md --html --allow-local-files -o slides/[file].html --no-stdin
 ```
 
 ### 3. PDF出力（配布用）
 
 ```bash
+rm -f slides/[file].pdf
 npx @marp-team/marp-cli@latest slides/[file].md --pdf --allow-local-files -o slides/[file].pdf --no-stdin
 ```
 
 ### 4. HTMLとPDFを連続生成
 
 ```bash
+rm -f slides/[file].html slides/[file].pdf
 npx @marp-team/marp-cli@latest slides/[file].md --html --allow-local-files -o slides/[file].html --no-stdin && \
 npx @marp-team/marp-cli@latest slides/[file].md --pdf --allow-local-files -o slides/[file].pdf --no-stdin
 ```
