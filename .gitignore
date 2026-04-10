@@ -1,10 +1,10 @@
-# macOS system files
+# macOS
 .DS_Store
 .AppleDouble
 .LSOverride
 ._*
 
-# Node.js dependencies
+# Node.js
 node_modules/
 npm-debug.log
 yarn-debug.log
@@ -15,27 +15,19 @@ yarn-error.log
 *.pdf
 *.pptx
 *.ppt
-!*.md
 
-# Editor directories and files
+# Editors
 .idea/
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
 *.sw?
 
-# Cache files
+# Cache
 .cache/
 .marp-cache/
 
-# Slides directories (uncomment if needed)
-# slides/
-
-# Private Claude commands (not shared)
-.claude/commands/unshare-*.md
+# Private Claude skills (not shared)
+.claude/skills/unshare-*/

@@ -284,7 +284,7 @@ section pre {
   background: var(--3shake-blue-dark);
   border-radius: 6px;
   padding: 1em;
-  color: var(--3shake-blue-light);
+  color: #f5f5f5;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
   overflow: auto;
   font-family: 'Fira Code', 'Source Code Pro', monospace;
@@ -297,6 +297,55 @@ section code {
   padding: 0.2em 0.4em;
   border-radius: 3px;
   font-size: 0.9em;
+}
+
+section pre code {
+  background: transparent;
+  color: #f5f5f5;
+  padding: 0;
+  font-size: inherit;
+}
+
+/* シンタックスハイライトの色を暗背景向けに上書き */
+section pre code .hljs-comment,
+section pre code .hljs-quote {
+  color: #9ca3af;
+}
+
+section pre code .hljs-keyword,
+section pre code .hljs-selector-tag,
+section pre code .hljs-type,
+section pre code .hljs-built_in {
+  color: #ff9a5c;
+}
+
+section pre code .hljs-string,
+section pre code .hljs-attr,
+section pre code .hljs-symbol,
+section pre code .hljs-bullet,
+section pre code .hljs-addition {
+  color: #a5d6a7;
+}
+
+section pre code .hljs-number,
+section pre code .hljs-literal {
+  color: #f5c86e;
+}
+
+section pre code .hljs-title,
+section pre code .hljs-section,
+section pre code .hljs-name {
+  color: #82b1ff;
+}
+
+section pre code .hljs-variable,
+section pre code .hljs-template-variable,
+section pre code .hljs-deletion {
+  color: #ef9a9a;
+}
+
+section pre code span {
+  color: inherit;
 }
 
 /* ========================================
