@@ -29,11 +29,20 @@ _class: title dark
 
 ---
 
-<h2 id="nwiizo">nwiizo</h2>
+<!-- _backgroundColor: white -->
+
+![bg left:30% fit](../../assets/images/nwiizo_icon.jpg)
+
+## nwiizo
+
 <div style="font-size: 0.75em;">
-<p>株式会社スリーシェイクでプロのソフトウェアエンジニアをやっているものです。SREやクラウドネイティブ技術を専門にしています。</p>
-<p>趣味は読書、格闘技、グラビアです。</p>
-<p>インターネット上では <strong>nwiizo</strong> を名乗り、ブログ「<strong>じゃあ、おうちで学べる</strong>」を運営しています。X / GitHub もこのIDでやっています。</p>
+
+株式会社スリーシェイクでプロのソフトウェアエンジニアをやっているものです。SREやクラウドネイティブ技術を専門にしています。
+
+趣味は読書、格闘技、グラビアです。
+
+インターネット上では **nwiizo** を名乗り、ブログ「**じゃあ、おうちで学べる**」を運営しています。X / GitHub もこのIDでやっています。
+
 </div>
 
 ---
@@ -111,9 +120,18 @@ _class: title dark
 
 ---
 
+<!--
+_backgroundColor: #0a1929
+_color: white
+_class: transition
+-->
+
 <div style="display: flex; justify-content: center; align-items: center; height: 100%; flex-direction: column; color: white;">
-<h2 id="span-stylecolor-white%E9%9D%9E%E6%A9%9F%E8%83%BD%E8%A6%81%E4%BB%B6%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8Bspan"><span style="color: white;">非機能要件とは何か</span></h2>
-<p><span style="color: white; font-weight: bold;">「動く」は当たり前。問題は「どう動くか」</span></p>
+
+## <span style="color: white;">非機能要件とは何か</span>
+
+<span style="color: white; font-weight: bold;">「動く」は当たり前。問題は「どう動くか」</span>
+
 </div>
 
 ---
@@ -181,6 +199,28 @@ _class: title dark
 </div>
 <div style="margin-top: 15px; font-size: 0.74em;">
 <p>ここで大事なのは、これらを<strong>バラバラの単語として覚えないこと</strong>です。実際のシステムでは「速くしたい」「止めたくない」「ズレたくない」が同時に出てきて、そこで設計の悩みが始まります。</p>
+</div>
+
+---
+
+<h2 id="同じデータでも使い方が違えば欲しい性質も変わる">同じデータでも使い方が違えば欲しい性質も変わる</h2>
+<div style="font-size: 0.72em;">
+<div style="display: flex; gap: 24px; align-items: center;">
+<div style="width: 42%;">
+<img src="../../assets/images/2026/ddia2-ch01-etl-into-warehouse.png" alt="業務システムから分析基盤へデータを流すETLの概略図" style="width: 100%;" />
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">出典: Designing Data-Intensive Applications, 2nd Edition, Figure 1-1 を引用</div>
+</div>
+<div style="flex: 1;">
+<p>同じデータを扱っていても、<strong>日々の業務を回すシステム</strong>と<strong>あとから分析するシステム</strong>では、重視するものが違います。</p>
+<div style="margin-top: 12px; background-color: #f5f5f5; padding: 12px; border-radius: 8px; font-size: 0.95em;">
+<ul>
+<li>業務システム: すぐ返ること、止まらないこと、更新が正しいこと</li>
+<li>分析システム: 大量データをまとめて読めること、履歴を持てること</li>
+</ul>
+</div>
+<p>私はここでも、<strong>正解が1つあるのではなく、誰のためのシステムかで求める性質が変わる</strong>と考えています。だから設計では、まず「このシステムは何を優先するのか」を言葉にする必要があります。</p>
+</div>
+</div>
 </div>
 
 ---
@@ -267,7 +307,7 @@ _class: title dark
 </div>
 <div style="flex: 1;">
 <p>私は、ソフトウェアの解決策は<strong>ドメイン要件</strong>と<strong>アーキテクチャ特性</strong>の両方でできていると考えています。</p>
-<div style="margin-top: 12px; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+<div style="margin-top: 12px; background-color: #f5f5f5; padding: 12px; border-radius: 8px; font-size: 0.95em;">
 <ul>
 <li>ドメイン要件: 商品を検索する、送金する、予約する</li>
 <li>アーキテクチャ特性: 速い、止まらない、変更しやすい、守られている</li>
@@ -276,6 +316,48 @@ _class: title dark
 <p>機能だけ見ると「一応動くもの」は作れます。でも本番で遅い、よく落ちる、直しにくい、となりがちです。逆に品質の話だけしても、何を作りたいのかがぼやけます。<strong>やりたいことと、そのやり方の両方を見るのが設計</strong>です。</p>
 <p>ここに、エンジニアリングの面白さがあります。コードを書く前に、どんな世界を作るかを考えているからです。</p>
 </div>
+</div>
+</div>
+
+---
+
+<h2 id="設計では構造だけでなく判断理由も大事">設計では構造だけでなく判断理由も大事</h2>
+<div style="font-size: 0.73em;">
+<p>私は、アーキテクチャは図だけでは完成しないと考えています。<strong>なぜその構造にしたのか</strong>が抜けると、あとから見た人は意図を読み取れません。</p>
+<div style="margin-top: 12px; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+<ul>
+<li>なぜ同期通信を選んだのか</li>
+<li>なぜここだけ強い一貫性が必要なのか</li>
+<li>なぜ今は分散しないのか</li>
+</ul>
+</div>
+<p>ここが曖昧だと、あとから入った人には「なんとなくそうなっている設計」に見えます。だから設計は、形を決める仕事であると同時に、<strong>判断の理由を残す仕事</strong>でもあります。</p>
+</div>
+
+---
+
+<h2 id="その判断を残すならADRがちょうどいい">その判断を残すなら ADR がちょうどいい</h2>
+<div style="font-size: 0.71em;">
+<div style="display: flex; gap: 24px; align-items: center;">
+<div style="width: 36%;">
+<img src="../../assets/images/2026/fosa2-ch01-architecture-decisions.png" alt="アーキテクチャ決定はシステム構築のルールになることを示す図" style="width: 100%;" />
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">図の出典: Fundamentals of Software Architecture, 2nd Edition, Figure 1-5 を引用</div>
+</div>
+<div style="flex: 1;">
+<p>ここで私が相性がいいと思うのが、<strong>ADR（Architectural Decision Records）</strong>です。大げさな設計書ではなく、<strong>重要な設計判断とその背景を残すための短い記録</strong>です。</p>
+<div style="margin-top: 12px; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+<ul>
+<li>どんな文脈で</li>
+<li>どんな選択肢を見て</li>
+<li>何を選び、何を見送ったか</li>
+</ul>
+</div>
+<p><em>Facilitating Software Architecture</em> では、ADR は advice process を支え、意思決定を開いた形で残す方法として扱われています。私はこの考え方をとても実務的だと思っています。あとから見返したときに「なぜその決定に至ったのか」が追えるからです。</p>
+</div>
+</div>
+<div style="margin-top: 12px; font-size: 0.64em; color: #999;">
+本文の出典: Andrew Harmel-Law, <em>Facilitating Software Architecture</em>, Chapter 6 / <a href="https://facilitatingsoftwarearchitecture.com/supportingmaterial/">supporting material</a><br>
+参考: <a href="https://syu-m-5151.hatenablog.com/entry/2024/12/31/232546">アーキテクチャ設計の民主化とADRによる意思決定の未来</a>
 </div>
 </div>
 
@@ -375,9 +457,18 @@ _class: title dark
 
 ---
 
+<!--
+_backgroundColor: #0a1929
+_color: white
+_class: transition
+-->
+
 <div style="display: flex; justify-content: center; align-items: center; height: 100%; flex-direction: column; color: white;">
-<h2 id="span-stylecolor-white%E5%88%86%E6%95%A3%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%A8%E3%81%84%E3%81%86%E9%81%B8%E6%8A%9E%E8%82%A2span"><span style="color: white;">分散システムという選択肢</span></h2>
-<p><span style="color: white; font-weight: bold;">非機能要件を満たすために、システムを「分ける」</span></p>
+
+## <span style="color: white;">分散システムという選択肢</span>
+
+<span style="color: white; font-weight: bold;">非機能要件を満たすために、システムを「分ける」</span>
+
 </div>
 
 ---
@@ -519,6 +610,29 @@ _class: title dark
 
 ---
 
+<h2 id="複数ノードでは途中まで成功が起こりうる">複数ノードでは「途中まで成功」が起こりうる</h2>
+<div style="font-size: 0.71em;">
+<div style="display: flex; gap: 24px; align-items: center;">
+<div style="width: 46%;">
+<img src="../../assets/images/2026/ddia2-ch08-partial-commit-across-nodes.png" alt="複数ノードにまたがる処理の一部だけが成功する例" style="width: 100%;" />
+<div style="font-size: 0.55em; color: #999; text-align: center; margin-top: 5px;">出典: Designing Data-Intensive Applications, 2nd Edition, Figure 8-12 を引用</div>
+</div>
+<div style="flex: 1;">
+<p>1台の中で終わる処理なら、成功か失敗かを比較的はっきり扱えます。ところが複数ノードにまたがると、<strong>片方では成功し、もう片方では失敗する</strong>ことが起こります。</p>
+<div style="margin-top: 12px; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+<ul>
+<li>あるDBには書けた</li>
+<li>別のDBには書けなかった</li>
+<li>利用者から見ると「どこまで成功したのかわからない」</li>
+</ul>
+</div>
+<p>ここが分散システムの難しさです。私は、分散とは「複数台に分けること」以上に、<strong>中途半端な成功や中途半端な失敗と向き合うこと</strong>だと思っています。</p>
+</div>
+</div>
+</div>
+
+---
+
 <h2 id="%E5%88%86%E6%95%A3%E3%83%AD%E3%83%83%E3%82%AF%E3%81%AF%E6%83%B3%E5%83%8F%E3%82%88%E3%82%8A%E5%8D%B1%E3%81%AA%E3%81%84">分散ロックは想像より危ない</h2>
 <div style="font-size: 0.7em;">
 <div style="display: flex; gap: 24px; align-items: center;">
@@ -595,6 +709,20 @@ _class: title dark
 
 ---
 
+<h2 id="境界は技術名よりも責務で切ったほうが強い">境界は技術名よりも責務で切ったほうが強い</h2>
+<div style="font-size: 0.73em;">
+<p>私は、サービスやモジュールの境界を「API担当」「DB担当」のような<strong>技術名</strong>で切るより、<strong>何の責任を持つか</strong>で切るほうが長持ちすると考えています。</p>
+<div style="margin-top: 12px; background-color: #f5f5f5; padding: 12px; border-radius: 8px;">
+<ul>
+<li>技術で切る: 画面、API、DB が別々に増えて調整が増えやすい</li>
+<li>責務で切る: 注文、決済、配送のように変更理由をそろえやすい</li>
+</ul>
+</div>
+<p>分散システムが難しいのは、台数が増えるからだけではありません。<strong>境界の置き方がチームの会話や変更のしやすさまで決めてしまう</strong>からです。</p>
+</div>
+
+---
+
 <h2 id="%E9%9D%9E%E5%90%8C%E6%9C%9F%E3%81%AB%E3%81%99%E3%82%8C%E3%81%B0%E8%87%AA%E5%8B%95%E3%81%A7%E7%96%8E%E7%B5%90%E5%90%88%E3%81%AB%E3%81%AA%E3%82%8B%E3%82%8F%E3%81%91%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84">非同期にすれば自動で疎結合になるわけではない</h2>
 <div style="font-size: 0.73em;">
 <p>イベント駆動やメッセージングは、確かに実行中の結びつき（runtime coupling）を下げます。送信側が一時停止しても、受信側はすぐには止まりません。</p>
@@ -625,10 +753,19 @@ _class: title dark
 
 ---
 
+<!--
+_backgroundColor: #0a1929
+_color: white
+_class: transition
+-->
+
 <div style="display: flex; justify-content: center; align-items: center; height: 100%; flex-direction: column; color: white;">
-<h2 id="span-stylecolor-white%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AF%E3%83%88%E3%83%AC%E3%83%BC%E3%83%89%E3%82%AA%E3%83%95span"><span style="color: white;">すべてはトレードオフ</span></h2>
-<p><span style="color: white; font-weight: bold;">"There are no solutions. There are only trade-offs."</span><br>
-<span style="color: white;">— Thomas Sowell</span></p>
+
+## <span style="color: white;">すべてはトレードオフ</span>
+
+<span style="color: white; font-weight: bold;">"There are no solutions. There are only trade-offs."</span>
+<span style="color: white;">— Thomas Sowell</span>
+
 </div>
 
 ---
@@ -980,11 +1117,20 @@ _class: title dark
 
 ---
 
+<!--
+_backgroundColor: #0a1929
+_color: white
+_class: transition
+-->
+
 <div style="position: absolute !important; top: 5px !important; left: 5px !important; z-index: 9999 !important; margin: 0 !important; padding: 0 !important;">
   <img src="../../assets/images/3shake-logo.png" style="width: 240px !important; height: auto !important; display: block !important;" />
 </div>
 <div style="text-align: center; margin-top: 200px;">
-<h1 id="%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86span-classhighlight-yellow%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%97%E3%81%9Fspan">ありがとう<span class="highlight-yellow">ございました</span></h1>
-<h3 id="%E3%81%94%E8%B3%AA%E5%95%8F%E3%83%BB%E3%81%94%E7%9B%B8%E8%AB%87%E3%81%AF%E3%81%8A%E6%B0%97%E8%BB%BD%E3%81%AB%E3%81%A9%E3%81%86%E3%81%9E">ご質問・ご相談はお気軽にどうぞ</h3>
-<p>@nwiizo | <a href="https://3-shake.com">https://3-shake.com</a></p>
+
+# ありがとう<span class="highlight-yellow">ございました</span>
+
+### ご質問・ご相談はお気軽にどうぞ
+
+@nwiizo | https://3-shake.com
 </div>
