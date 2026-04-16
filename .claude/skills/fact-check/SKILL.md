@@ -1,6 +1,8 @@
 ---
 name: fact-check
 description: ファクトチェック - スライド内の数値・引用・技術仕様・人名・年号の事実関係をWebSearch/WebFetchで検証
+argument-hint: <slide-file.md>
+allowed-tools: Read Grep Glob WebSearch WebFetch
 ---
 
 # ファクトチェック

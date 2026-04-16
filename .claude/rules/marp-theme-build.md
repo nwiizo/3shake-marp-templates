@@ -1,5 +1,7 @@
 ---
-paths: themes/*.css, .marprc.yml
+paths:
+  - "themes/*.css"
+  - ".marprc.yml"
 ---
 
 # Marp テーマ・ビルド規約

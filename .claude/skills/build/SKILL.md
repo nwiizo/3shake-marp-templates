@@ -1,6 +1,8 @@
 ---
 name: build
 description: スライドビルド - Marpスライドを `--no-stdin` 付きで HTML/PDF 出力する
+argument-hint: <slide-file.md>
+allowed-tools: Bash(npx *) Bash(rm *) Bash(ls *) Read Glob
 ---
 
 # スライドビルド

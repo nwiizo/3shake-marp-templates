@@ -1,6 +1,8 @@
 ---
 name: check-structure
 description: 構成チェック - プレゼンテーションの骨格（全体構成・目次整合・Why→What→How順序・繋ぎスライド）を評価する
+argument-hint: <slide-file.md>
+allowed-tools: Read Grep Glob
 ---
 
 # 構成チェック

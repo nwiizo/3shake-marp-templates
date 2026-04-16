@@ -1,5 +1,6 @@
 ---
-paths: slides/**/*.md
+paths:
+  - "slides/**/*.md"
 ---
 
 # スライド作成ルール
