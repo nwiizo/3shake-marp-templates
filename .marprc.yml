@@ -1,20 +1,5 @@
 allowLocalFiles: true
 html: true
 themeSet: themes/
-mermaid: true
 bespoke:
   progress: true
-options:
-  engine: '@marp-team/marp-core'
-mermaidOptions:
-  theme: default
-  fontSize: 14
-  flowchart:
-    curve: basis
-  sequence:
-    mirrorActors: false
-    actorMargin: 100
-  gantt:
-    fontSize: 14
-  er:
-    layoutDirection: TB

@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: ./themes/3shake-standard-theme.css
+theme: 3shake-standard-theme
 paginate: true
 style: |
   :root {

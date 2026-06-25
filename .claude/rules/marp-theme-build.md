@@ -16,12 +16,13 @@ paths:
 
 ## ビルド手順
 
-- 2026年スライドはフロントマターに `theme: 3shake-2026-presentation` を必ず記載する（CSSパス指定は不要）
+- 2026年スライドはフロントマターに `theme: 3shake-2026-presentation` を必ず記載する
+- 2025年以前の互換資料も `theme: 3shake-theme` のようにテーマ名を使い、CSSファイルパスをフロントマターへ書かない
 - `.marprc.yml` に `themeSet: themes/` が必須。これがないとテーマCSSが読み込まれない
 - ビルドはリポジトリ直下で `npx marp slides/2026/<file>.md --html --allow-local-files -o slides/2026/<file>.html`
 - PDF出力: 上記に `--pdf` を追加して `-o slides/2026/<file>.pdf`
 - `--allow-local-files` を付けないと表紙画像など相対パスのアセットが読み込めず崩れるので必須
-- `slides/` 配下で実行する場合は `--theme ../themes/3shake-2026-presentation.css` のように正しい相対パスを渡す
+- ビルドは設定探索と相対画像パスを安定させるため、常にリポジトリ直下から実行する
 
 ## PDF出力とタイトルスライドの注意
 

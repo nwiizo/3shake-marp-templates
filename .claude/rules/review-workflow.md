@@ -6,19 +6,25 @@
 
 ```
 1. /check-structure              → 構成の骨格を固める
-2. /unshare-logical-flow-check  → スライド間の繋がりを確認
-3. /review-slide                → 総合的な品質チェック
-4. /fact-check                  → 事実関係の最終確認
+2. /review-slide                → 聴衆起点で総合品質を確認
+3. /fact-check                  → 内容が固まってから事実関係を確認
+4. /build                       → HTML/PDFでテーマと画像を確認
 ```
 
 ## 深掘りレビュー（任意）
 
 ```
-5. /unshare-depth-check              → パンチラインの鋭さを磨く
-6. /unshare-narrative-empathy-review → 物語と共感の設計を確認
-7. /unshare-redundancy-check         → 無駄を削ぎ落とす
+`nwiizo/slides` では `$review-slide-suite` を入口に、必要な専門スキルだけを使います。
+
+```
+$review-slide-flow       → 論理、前提、約束の回収
+$deepen-slide-claims     → 機構、根拠、境界条件、判断への含意
+$review-slide-narrative  → 聴衆の状態変化、転換、余韻
+$trim-slide-redundancy   → 間を守りながら時間価値を最適化
+$review-slide-wit        → 機知、話者の声、切り抜き安全性
+```
 ```
 
 ## 順序の理由
 
-構成が崩れていると他のレビューが無駄になるため、構成チェックを最初に行います。ファクトチェックは内容が固まってから実施します。深掘り系は基本レビュー完了後に必要に応じて実施してください。
+構成が崩れていると局所レビューが無駄になるため、構成チェックを最初に行います。専門レビューは構造→主張→物語→冗長性→機知の順を既定とし、必要な観点だけを選びます。ファクトチェックは内容が固まってから、ビルドは公開前に実施します。

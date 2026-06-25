@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: ./themes/title-theme.css
+theme: title-theme
 paginate: true
 ---
 

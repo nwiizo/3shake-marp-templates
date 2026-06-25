@@ -2,137 +2,113 @@
 
 ## 目的
 
-講演資料をテンプレート実装から分離し、公開リポジトリ `nwiizo/slides` で管理する。`nwiizo/3shake-marp-templates` は3-SHAKE向けMarpテンプレートとして維持し、`nwiizo/slides` から交換可能な依存先として参照する。
-
-この分離により、講演資料と講演固有画像の履歴を個人の制作物として管理しつつ、転職などで利用テンプレートが変わった場合にも依存先を明示的に差し替えられるようにする。
-
-## 採用方式
-
-`nwiizo/slides` から `nwiizo/3shake-marp-templates` をGit submoduleとして参照する。
-
-GitHub Template repositoryから生成する方式は採用しない。Template repositoryは作成時のコピーには適するが、作成後の更新を継続的に取り込む依存関係を表現しないためである。Git subtreeとnpmパッケージ化も採用しない。subtreeはテンプレート資産を子側へ複製し、npmパッケージ化はMarpのCSS・ローカル画像パスに対して運用が過剰になる。
+公開講演資料を `nwiizo/slides` で管理し、`nwiizo/3shake-marp-templates` は再利用可能なMarpテンプレートへ特化する。転職などでブランドが変わっても、過去資料の見た目とPDFを再現できる構造にする。
 
 ## リポジトリ境界
 
-### `nwiizo/slides`
-
-個人の講演制作物を所有する。
-
-```text
-nwiizo/slides
-├── slides/
-│   ├── 2025/
-│   └── 2026/
-├── assets/
-│   └── images/
-│       └── 2026/
-├── vendor/
-│   └── 3shake-marp-templates/  # Git submodule
-├── .marprc.yml
-├── package.json
-├── README.md
-└── AGENTS.md
-```
-
-- `slides/` 配下の全Markdownと補助スクリプトを移す。
-- `assets/images/2026/` の講演固有画像を移す。
-- スライドの作成、レビュー、ビルドに必要な設定と説明を持つ。
-- submoduleは検証済みのテンプレートコミットへ固定する。
-
 ### `nwiizo/3shake-marp-templates`
 
-再利用可能なテンプレート資産を所有する。
+テンプレートとして再利用するものだけを所有する。
 
-- `templates/`、`themes/`、`examples/` を残す。
-- `assets/images/` 直下のロゴ、背景、会社紹介、発表者アイコンなどの共通画像を残す。
-- `.claude/`、`CLAUDE.md`、`AGENTS.md` にテンプレート利用者向けの執筆、レビュー、ビルドルールを残す。
-- `slides/` と年度別の講演固有画像は持たない。
-- READMEの利用例は、利用者側リポジトリからsubmoduleとして参照する構成に合わせる。
+```text
+templates/       # 唯一の標準スターター
+themes/          # Marpテーマ
+assets/images/   # テンプレート共通のブランド画像
+examples/        # 目的別の短い例
+.claude/rules/   # 執筆・ビルド・レビュー規約
+.claude/skills/  # 基本ワークフロー
+```
 
-## 依存関係とパス
+- 講演Markdown、年度別画像、公開PDFを持たない。
+- 標準スターターは `templates/3shake-presentation.md` に一本化する。
+- MarkdownはCSSパスではなく、`.marprc.yml` に登録されたテーマ名を使う。
+- GitHubのTemplate repositoryとして公開する。
 
-`nwiizo/slides` は `vendor/3shake-marp-templates` にsubmoduleを配置する。
+### `nwiizo/slides`
 
-- 2026年スライドはテーマ名 `3shake-2026-presentation` を維持する。
-- `nwiizo/slides/.marprc.yml` の `themeSet` はsubmodule内の `themes/` を指す。
-- 2025年スライドのCSSファイル参照はsubmodule内のテーマへ変更する。
-- 共通ロゴや背景画像の参照は `vendor/3shake-marp-templates/assets/images/` へ変更する。
-- 講演固有画像は `nwiizo/slides/assets/images/{year}/` を参照する。
-- ビルドは常に `nwiizo/slides` のルートから `--allow-local-files` 付きで実行する。
+公開講演を再現するために必要なものを所有する。
 
-既存スライドの内容やページ構成は変更せず、移行に必要なテーマ・画像パスだけを機械的に変更する。
+```text
+slides/{year}/                 # Marp Markdownと公開PDF
+assets/images/{year}/          # 講演固有画像
+assets/shared/                 # 発表者共通画像
+brands/3shake/themes/          # 過去資料用テーマの固定実体
+brands/3shake/assets/images/   # 過去資料用ブランド画像の固定実体
+.claude/skills/                # 公開レビュースキル
+vendor/3shake-marp-templates/  # 上流参照用submodule
+```
+
+- HTMLはローカル検証物として追跡しない。
+- PDFは公開物としてMarkdownと同じディレクトリで追跡する。
+- スライド本文は `vendor/` を参照しない。
+- `brands/3shake/` は上流のキャッシュではなく、過去資料を再現する固定資産としてslides側が所有する。
+
+## 親子関係
+
+`nwiizo/slides` は `vendor/3shake-marp-templates` にGit submoduleを置き、利用した上流revisionを明示する。ただしsubmoduleはMarpの実行時依存にしない。
+
+上流更新は自動同期しない。差分を確認し、必要なテーマ・画像だけをブランドパックへ選択的に取り込む。これにより、テンプレート更新が公開済みPDFの再現性を暗黙に壊すことを防ぐ。
+
+将来のブランドは `brands/{brand}/` に追加し、`brands/3shake/` を上書きしない。
+
+## Marpの参照規約
+
+- 2026年資料: `theme: 3shake-2026-presentation`
+- 2025年互換資料: `theme: 3shake-theme`
+- `.marprc.yml`: `themeSet: brands/3shake/themes/`
+- 3-SHAKE画像: `../../brands/3shake/assets/images/...`
+- 発表者共通画像: `../../assets/shared/...`
+- 講演固有画像: `../../assets/images/{year}/...`
+- ビルド: リポジトリ直下から `--allow-local-files --no-stdin` 付きで実行
+
+## 公開レビュースキル
+
+個人講演の内容に依存する高度なレビューはslides側へ置く。
+
+- `review-slide-flow`
+- `deepen-slide-claims`
+- `review-slide-narrative`
+- `trim-slide-redundancy`
+- `review-slide-wit`
+- `review-slide-suite`
+- `prepare-slide-release`
+
+スキルは架空ペルソナや根拠のない平均スコアに頼らず、証拠、聴衆への影響、最小修正、コスト、保持すべき強みを示す。
+
+## 補助ツールの原則
+
+構造、安定したパス、Marp CLI、VCS差分で解決する。自動同期や包括チェックスクリプトは置かない。
+
+専用ツールを継続的に保守する必要が生じた場合だけRust CLIとして設計する。Marp CLIのような公式ツールは公式実装を利用する。
 
 ## 移行手順
 
-1. 現在の作業ツリーにある未コミットのスライド、講演固有画像、README、CLAUDEの変更を一覧化する。
-2. コミット済み履歴から `slides/` と年度別の講演固有画像に関係する履歴を抽出し、新しいローカルリポジトリの基礎にする。
-3. 未コミットのスライドと講演固有画像を新しいローカルリポジトリへ重ね、現状の内容を保全する。
-4. `nwiizo/3shake-marp-templates` から `slides/` と年度別画像を削除し、ドキュメントをテンプレート専用構成へ更新する。
-5. テンプレート側の変更をローカルで確定する。まだGitHubへはpushしない。
-6. `nwiizo/slides` にテンプレートリポジトリをsubmoduleとして追加する。.gitmodulesには公開GitHub URLを記録し、ローカルでは手順5のコミットに固定する。
-7. `nwiizo/slides` のMarp設定、パス、README、AGENTSを更新し、ローカルでビルドを検証する。
-8. ローカル検証に成功したテンプレート側コミットをGitHubへpushする。
-9. GitHubにPublicリポジトリ `nwiizo/slides` を作成してpushする。
-10. 一時ディレクトリへのクリーンcloneでsubmodule取得と代表スライドのビルドを検証する。
+1. Git履歴から `slides/` と年度別画像の履歴を抽出する。
+2. 未コミットのMarkdown、画像、PDFを新しいローカルslidesリポジトリへ重ねる。
+3. ブランド画像、テーマ、発表者画像を所有境界へ配置し、参照パスを変更する。
+4. 高度なレビュースキルを公開名で再設計してslides側へ移す。
+5. テンプレート側から講演資料、年度別画像、個人講演由来の巨大例、重複テンプレートを除く。
+6. テンプレート側を検証・公開し、そのrevisionをslides側submoduleに固定する。
+7. 2025年・2026年・新規資料をHTMLへビルドし、公開対象はPDFも再生成する。
+8. `nwiizo/slides` をPublicリポジトリとして作成・pushする。
+9. clean cloneで、未初期化のsubmoduleに依存せず代表資料を再ビルドする。
 
-子側へのコピーとビルド確認が終わるまで、親側の元ファイルは確定・pushしない。移行途中に失敗した場合は、Jujutsuの操作履歴と新規リポジトリ側のコピーから復旧できる状態を保つ。
+## 既知のlegacy資料
 
-## 履歴の扱い
+次の資料は、元リポジトリに参照画像が一度もコミットされていない。
 
-新しいリポジトリには、スライドと年度別画像に関係する既存コミット履歴を可能な範囲で引き継ぐ。テンプレート、テーマ、共通画像だけを変更したコミットは含めない。
+- `slides/2025/career-change-to-aws-mcp-server.md`
+- `slides/2025/getting-started-rust-observability.md`
 
-現在の未コミット変更は、既存履歴の抽出後に移行コミットとして追加する。READMEとCLAUDEの既存未コミット変更はユーザー変更として保全し、テンプレート側の構成更新と衝突する箇所だけ内容を統合する。
-
-## エラー処理と安全策
-
-- `nwiizo/slides` が既に存在する場合は作成を中止し、既存内容を上書きしない。
-- submoduleの追加または取得に失敗した場合は、親側の資料削除をpushしない。
-- パス変更後に画像またはテーマが解決できないスライドがあれば、移行完了としない。
-- 履歴抽出ツールが利用できない場合は、作業を止めず、対象履歴を保持できる別のGit手順を選ぶ。ただし、テンプレートリポジトリの全履歴を無条件に子へ複製しない。
-- 既存の未コミット変更を破棄するGit/Jujutsu操作は行わない。
-- GitHubへのpush前に、対象リポジトリ、revision、bookmarkを明示的に確認する。
-
-## 検証
-
-### 構造検証
-
-- テンプレート側に `slides/` と年度別講演画像が残っていない。
-- スライド側に `slides/`、講演固有画像、submodule、Marp設定が存在する。
-- submodule URLが公開リポジトリ `https://github.com/nwiizo/3shake-marp-templates` を指す。
-- スライド側にテンプレート共通画像の不要な複製がない。
-
-### ビルド検証
-
-少なくとも以下をHTMLへビルドする。
-
-- 2025年の既存スライド1件。
-- 2026年の既存スライド1件。
-- 現在未コミットの新規2026年スライド。
-- 講演固有画像を多く参照する新規2026年スライド。
-
-すべて `--allow-local-files` を付け、終了コードだけでなく、テーマ未検出やローカル画像未解決の警告がないことを確認する。
-
-### クリーンclone検証
-
-一時ディレクトリへ次の条件でcloneし、代表スライドを再ビルドする。
-
-- `git clone --recurse-submodules` でsubmoduleが取得できる。
-- 依存関係をREADMEの手順どおり導入できる。
-- ローカルの元リポジトリを参照せずにビルドできる。
+履歴とMarkdownは保持するが、元画像の回収または自作図への置換が終わるまで新しい公開PDFを生成しない。欠落を別画像で黙って置き換えない。
 
 ## 完了条件
 
-- `nwiizo/slides` がPublicリポジトリとしてGitHubに存在する。
-- 全スライドと講演固有画像が新リポジトリに存在し、現在の未コミット変更も含まれる。
-- テンプレートリポジトリから講演制作物が除かれている。
-- submodule経由で2025年・2026年の代表スライドをビルドできる。
-- クリーンcloneから同じビルドを再現できる。
-- 両リポジトリのREADMEにclone、submodule更新、ビルド、将来のテンプレート差し替え方法が記載されている。
-
-## 対象外
-
-- スライド本文、構成、デザインの改善。
-- 3-SHAKE以外の新しいテーマ作成。
-- テンプレートのnpmパッケージ化。
-- submodule更新の自動化。
-- GitHub PagesやReleaseへの生成物公開。
+- テンプレート側に講演Markdown、年度画像、公開PDF、重複スターターがない。
+- slides側に24件のMarkdown、年度画像、ブランドパック、発表者画像、既存公開PDFがある。
+- 3-SHAKE画像とCSSが `vendor/` なしで解決する。
+- 2025年・2026年・新規資料の代表HTMLがビルドできる。
+- 公開対象PDFがREADMEから参照できる。
+- 7スキルが構造検証と独立実行評価を通る。
+- 両リポジトリのAGENTS、CLAUDE、READMEが同じ所有境界を説明する。
+- Publicな `nwiizo/slides` とTemplate repository設定済みの `nwiizo/3shake-marp-templates` がGitHubに存在する。

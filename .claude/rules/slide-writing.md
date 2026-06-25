@@ -21,12 +21,12 @@ paginate: true
 ---
 ```
 
-**2025年以前**は相対パスで指定:
+**2025年以前の互換テーマ**もテーマ名で指定:
 
 ```markdown
 ---
 marp: true
-theme: ../../themes/3shake-theme.css
+theme: 3shake-theme
 paginate: true
 ---
 
